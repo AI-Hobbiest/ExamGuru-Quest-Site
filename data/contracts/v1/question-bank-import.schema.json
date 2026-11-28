@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-hobbiest.github.io/ExamGuru-Quest/data/contracts/v1/question-bank-import.schema.json",
+  "title": "C10 Playground Legacy Question Bank Import",
+  "description": "Compatibility schema for existing JSON banks. New banks should use question-bank.schema.json.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "chapter_no",
+      "title",
+      "questions"
+    ],
+    "properties": {
+      "chapter_no": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "key": {
+        "type": "string"
+      },
+      "section": {
+        "type": "string"
+      },
+      "questions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "question",
+            "options",
+            "answer",
+            "explanation"
+          ],
+          "properties": {
+            "id": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "question": {
+              "type": "string",
+              "minLength": 1
+            },
+            "options": {
+              "type": "array",
+              "minItems": 2,
+              "items": {
+                "type": "string"
+              }
+            },
+            "answer": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "explanation": {
+              "type": "string",
+              "minLength": 1
+            },
+            "difficulty": {
+              "type": "string"
+            },
+            "images": {
+              "type": "array",
+              "description": "Optional question diagrams or figures. Use relative image asset paths for curated banks, or PNG/JPEG/WebP/GIF base64 data URIs for bundled/imported questions.",
+              "items": {
+                "type": "object",
+                "required": [
+                  "src",
+                  "alt"
+                ],
+                "properties": {
+                  "src": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Relative asset path or raster image data URI."
+                  },
+                  "alt": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Accessible description of the diagram."
+                  },
+                  "caption": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "competency": {
+              "type": "string",
+              "enum": [
+                "knowledge-understanding",
+                "application",
+                "analysis-evaluation-creation"
+              ]
+            },
+            "competencyTagStatus": {
+              "type": "string",
+              "enum": [
+                "author-confirmed",
+                "inferred",
+                "needs-review"
+              ]
+            },
+            "competencyTagReason": {
+              "type": "string",
+              "minLength": 1
+            },
+            "competencyTaggerVersion": {
+              "type": "string"
+            },
+            "source": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "reference": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "string",
+                  "pattern": "^20[0-9]{2}$"
+                },
+                "examType": {
+                  "type": "string"
+                },
+                "paperId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "questionNumber": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "subjectCode": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": true
+        }
+      }
+    },
+    "additionalProperties": true
+  }
+}

@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ece8fa">
+<meta name="description" content="Manage your C10 Playground learner profile and local test history.">
+<title>My Profile & Test History | C10 Playground</title>
+<link rel="stylesheet" href="./css/branding.css?v=controls1">
+<link rel="stylesheet" href="./css/app-shell.css?v=20261109-clat-navigation-v1">
+<style>
+.profile-wrap{max-width:1040px;margin:25px auto;padding:0 18px 48px}
+.profile-grid{display:grid;grid-template-columns:minmax(0, .9fr) minmax(0,1.1fr);gap:18px;align-items:start}
+.profile-card{background:#fff;border:1px solid var(--c10-line);border-radius:20px;padding:clamp(18px,3vw,26px);box-shadow:0 12px 34px rgba(48,35,111,.065)}
+.profile-card h2{margin:0 0 7px;font-size:1.2rem}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.field{display:flex;flex-direction:column;gap:6px;min-width:0}
+.field.full{grid-column:1/-1}
+.field label{font-weight:750;font-size:.86rem}
+.field input,.field select{width:100%;border:1px solid #d8d3ee;border-radius:11px;padding:12px 13px;font:inherit;color:#211d3b;background:#fff;min-width:0}
+.field input[readonly]{background:#f2f0ff;color:#5140b7;font-weight:800;letter-spacing:.045em}
+.microcopy{font-size:.78rem;color:var(--c10-muted);line-height:1.45}
+.notice{border:1px solid #ded8ff;background:#f7f5ff;color:#514a79;border-radius:12px;padding:12px 14px;font-size:.84rem;line-height:1.5;margin:16px 0}
+.profile-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}
+.summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px}
+.summary-tile{border:1px solid var(--c10-line);border-radius:14px;background:#fff;padding:13px}
+.summary-tile strong{display:block;font-size:1.35rem;color:#5140b7;overflow-wrap:anywhere}
+.summary-tile span{font-size:.78rem;color:var(--c10-muted)}
+.history-list{display:grid;gap:10px;margin-top:14px}
+.history-row{border:1px solid var(--c10-line);border-radius:14px;padding:13px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center}
+.history-title{font-weight:800;line-height:1.35}
+.history-meta{font-size:.78rem;color:var(--c10-muted);line-height:1.5;margin-top:4px}
+.history-score{text-align:right;white-space:nowrap}
+.history-score strong{font-size:1.1rem;color:#5140b7;display:block}
+.status{font-size:.85rem;color:var(--c10-muted);line-height:1.5}
+.section-head{display:flex;justify-content:space-between;gap:10px;align-items:start}
+.small-pill{border-radius:999px;background:#efedff;color:#5140b7;font-weight:750;font-size:.74rem;padding:5px 9px}
+hr.soft{border:0;border-top:1px solid var(--c10-line);margin:20px 0}
+#backupFile{display:none}
+@media(max-width:760px){.profile-grid{grid-template-columns:1fr}.summary-grid{gap:7px}.summary-tile{padding:10px}.summary-tile strong{font-size:1.16rem}}
+@media(max-width:430px){.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.history-row{grid-template-columns:minmax(0,1fr) auto}.summary-tile span{font-size:.72rem}}
+
+/* Profile simplification and disabled future features. */
+#studentAccountPanel{display:none!important}
+button:disabled,.btn:disabled{opacity:.46!important;cursor:not-allowed!important;filter:grayscale(.3);transform:none!important;box-shadow:none!important}
+.profile-wrap{max-width:1040px}
+
+/* Profile forms and history use the same high-contrast ExamGuru surfaces. */
+.profile-card{background:#fff!important;border-color:#e0e4ef!important;box-shadow:0 10px 28px rgba(37,43,82,.055)!important}
+.field input,.field select{border-color:#d8deeb!important;color:#252b46!important}.field input[readonly]{background:#efecfa!important;color:#403b8c!important}
+.notice{border-color:#eadcae!important;background:#fff7df!important;color:#69531d!important}
+.summary-tile:nth-child(1){background:#f0ecfb!important}.summary-tile:nth-child(2){background:#eaf6ee!important}.summary-tile:nth-child(3){background:#fff6dd!important}
+.summary-tile strong,.history-score strong{color:#403b8c!important}.small-pill{background:#ece8fa!important;color:#403b8c!important}.history-row{background:#fff!important;border-color:#e0e4ef!important}
+</style>
+<link rel="stylesheet" href="./css/theme-roles-v2.css?v=quest3">
+</head>
+<body class="c10-theme-quest">
+<header>
+  <a href="./" style="color:#e9e5ff;text-decoration:none;font-weight:750;display:inline-block;margin-bottom:13px">← All subjects</a>
+  <div class="eyebrow">C10 Playground · Learner space</div>
+  <h1>My profile &amp; test history</h1>
+  <p>Manage your learner profile and review your practice history.</p>
+  <div class="brand-signature">Conceptualised by <strong>JP Ganathe</strong></div>
+</header>
+<main class="profile-wrap">
+  <section class="profile-card eg-surface" id="studentAccountPanel" style="margin-bottom:18px">
+    <h2>Student account</h2>
+    <p class="status">Use the username and password provided by the portal administrator. This starter version checks a public repository account file; it does not protect quiz content or sync history across devices.</p>
+    <div id="studentAccountStatus" class="notice" role="status" aria-live="polite">Loading student account file… Progress and test history remain in this browser.</div>
+    <form id="studentLoginForm" class="form-grid" novalidate>
+      <div class="field"><label for="studentLoginUsername">Username</label><input id="studentLoginUsername" autocomplete="username" autocapitalize="none" placeholder="Your username" maxlength="32" required></div>
+      <div class="field"><label for="studentLoginPassword">Password</label><input id="studentLoginPassword" type="password" autocomplete="current-password" required></div>
+      <div class="field full"><button class="btn" id="studentLoginBtn" type="submit">Sign in</button> <button class="btn secondary" id="studentLogoutBtn" type="button" hidden>Sign out</button></div>
+    </form>
+    <form id="studentChangePasswordForm" class="form-grid" hidden novalidate>
+      <div class="field full"><h3 id="changePasswordTitle">Password reset</h3><p class="microcopy">For this starter version, ask the administrator to reset the password and publish the updated account file.</p></div>
+      <div class="field"><label for="currentStudentPassword">Current password</label><input id="currentStudentPassword" type="password" autocomplete="current-password" required></div>
+      <div class="field"><label for="newStudentPassword">New password</label><input id="newStudentPassword" type="password" autocomplete="new-password" minlength="12" required></div>
+      <div class="field full"><label for="confirmStudentPassword">Confirm new password</label><input id="confirmStudentPassword" type="password" autocomplete="new-password" minlength="12" required></div>
+      <div class="field full"><button class="btn" type="submit">Change password</button></div>
+    </form>
+  </section>
+  <div id="pageStatus" class="status" role="status" aria-live="polite"></div>
+  <div class="profile-grid">
+    <section id="profile" class="profile-card c10-page-anchor eg-surface">
+      <h2>Student profile</h2>
+      <p class="status">Use a nickname if you prefer. The Student ID is generated automatically and cannot be edited.</p>
+      <form id="profileForm" novalidate>
+        <div class="form-grid">
+          <div class="field full">
+            <label for="studentId">Student ID</label>
+            <input id="studentId" name="studentId" readonly>
+            <span class="microcopy">Generated locally; not a school-issued ID.</span>
+          </div>
+          <div class="field full">
+            <label for="displayName">Display name / nickname</label>
+            <input id="displayName" name="displayName" maxlength="40" autocomplete="nickname" required placeholder="e.g. Learner 01">
+          </div>
+          <div class="field full">
+            <label for="school">School</label>
+            <input id="school" name="school" maxlength="120" autocomplete="organization" required placeholder="Enter school name">
+          </div>
+          <div class="field">
+            <label for="classLevel">Class</label>
+            <select id="classLevel" name="classLevel" required>
+              <option value="6">Class 6</option><option value="7">Class 7</option><option value="8">Class 8</option>
+              <option value="9">Class 9</option><option value="10">Class 10</option><option value="11">Class 11</option><option value="12">Class 12</option>
+            </select>
+            <span class="microcopy">When signed in, this is assigned by the administrator and cannot be changed here.</span>
+          </div>
+          <div class="field">
+            <label for="city">City</label>
+            <input id="city" name="city" maxlength="80" autocomplete="address-level2" required placeholder="Enter city">
+          </div>
+          <div class="field full">
+            <label for="state">State / Union Territory</label>
+            <select id="state" name="state" required>
+              <option value="">Choose an Indian state or Union Territory</option>
+            </select>
+          </div>
+        </div>
+        <div class="notice">No email address, phone number, date of birth or section is collected. School and location are stored locally with your learning records; avoid using a real name in your nickname if you want to minimise identification.</div>
+        <div class="profile-actions">
+          <button class="btn" type="submit">Save profile</button>
+          <button class="btn secondary" type="button" disabled aria-disabled="true" title="Available in a future update">Password reset · Coming soon</button>
+          <a class="btn secondary" href="./dashboard.html">Back to dashboard</a>
+        </div>
+      </form>
+    </section>
+    <section id="history" class="profile-card c10-page-anchor eg-surface">
+      <div class="section-head">
+        <div>
+          <h2>Learning history</h2>
+          <p class="status">Completed sessions saved on this browser across supported practice subjects.</p>
+        </div>
+        <span class="small-pill" id="historyBadge">Local only</span>
+      </div>
+      <div class="profile-actions" style="margin:14px 0 4px">
+        <button class="btn" id="overallPdfBtn" type="button">Download overall report · PDF</button>
+        <button class="btn secondary" id="overallExcelBtn" type="button">Download overall report · Excel</button>
+      </div>
+      <div class="summary-grid">
+        <div class="summary-tile eg-surface"><strong id="attemptCount">0</strong><span>Completed tests</span></div>
+        <div class="summary-tile eg-surface"><strong id="averageScore">—</strong><span>Average score</span></div>
+        <div class="summary-tile eg-surface"><strong id="totalTime">00:00</strong><span>Total time</span></div>
+      </div>
+      <div id="historyList" class="history-list"><p class="status">No completed tests saved yet. Finish a practice session and it will appear here.</p></div>
+    </section>
+    <section id="backup" class="profile-card c10-page-anchor eg-surface">
+      <h2>Backup &amp; restore</h2>
+      <p class="status">Your JSON backup includes your profile, completed test history, Mistake Book and personal bookmarks. Backups remain private on your own device.</p>
+      <div class="profile-actions">
+        <button class="btn" id="exportBtn" type="button">Export JSON backup</button>
+        <button class="btn secondary" id="importBtn" type="button">Import JSON backup</button>
+        <input id="backupFile" type="file" accept="application/json,.json">
+      </div>
+      <p class="microcopy">Importing a backup replaces the saved profile and learning records for the selected class on this browser. Export your current backup before restoring another one.</p>    </section>
+  </div>
+</main>
+<footer class="brand-signature site-credit">Conceptualised by <strong>JP Ganathe</strong></footer>
+<script src="./js/storage.js"></script>
+<script src="./js/profile-model.js"></script>
+<script src="./js/learning-model.js"></script>
+<script src="./js/learning-model.js"></script>
+<script src="./js/student-auth.js"></script>
+<script src="./js/page-access.js"></script>
+<script src="./js/report-print.js?v=20261106-report-print-v1"></script>
+<script src="./js/profile-manager.js"></script>
+<script src="./js/app-shell.js?v=20261127-demo-env-v2"></script>
+</body>
+</html>

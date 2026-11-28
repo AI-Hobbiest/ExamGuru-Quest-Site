@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#211b48">
+<title>Practice | ExamGuru Quest</title>
+<style>
+:root{--ink:#172f45;--muted:#5b7285;--bg:#f4f8fb;--card:#fff;--teal:#167e86;--line:#dce7ee;--gold:#f2c879}*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:var(--ink)}header{background:linear-gradient(125deg,#122c44,#1b6277);color:#fff;padding:26px max(18px,calc((100vw - 1100px)/2)) 23px}header a{color:#eaf7fa;text-decoration:none;font-weight:700;display:inline-block;margin-bottom:15px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;font-weight:700;opacity:.8}h1{font-size:clamp(1.8rem,5vw,3rem);margin:8px 0;line-height:1.1}header p{max-width:730px;line-height:1.6;color:#d6eaf2;margin:8px 0 0}.wrap{max-width:1100px;margin:24px auto;padding:0 18px}.topstats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.stat{background:#fff;border:1px solid var(--line);padding:15px;border-radius:15px}.stat strong{font-size:1.35rem;display:block}.stat span{color:var(--muted);font-size:.84rem}.layout{display:grid;grid-template-columns:280px 1fr;gap:16px;margin-top:18px}.panel,.quiz{background:#fff;border:1px solid var(--line);border-radius:17px;box-shadow:0 8px 28px #143c570a}.panel{padding:17px;align-self:start}.panel h2,.quiz h2{margin:0 0 12px;font-size:1.05rem}.label{display:block;font-size:.83rem;font-weight:750;margin:14px 0 7px}select{width:100%;padding:11px 12px;border:1px solid #cbd9e2;border-radius:10px;background:white;color:var(--ink);font:inherit}
+/* Friendly chapter picker: touch-first cards instead of a desktop-style multi-select list box. */
+.chapter-picker{position:relative}
+.chapter-picker-trigger{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left;padding:12px 13px;border:1px solid #d8d3ee;border-radius:14px;background:linear-gradient(135deg,#fff,#f7f5ff);color:var(--ink);cursor:pointer;font:inherit;box-shadow:0 4px 12px rgba(48,35,111,.04)}
+.chapter-picker-trigger:hover,.chapter-picker-trigger[aria-expanded="true"]{border-color:#a79af8;box-shadow:0 0 0 3px rgba(98,80,232,.09)}
+.chapter-picker-trigger-copy{display:grid;gap:4px;min-width:0}
+.chapter-picker-trigger strong{font-size:.92rem;line-height:1.3}
+.chapter-picker-trigger small{font-size:.76rem;color:var(--muted);font-weight:500}
+.chapter-picker-chevron{font-size:1.4rem;color:#5140b7;transition:transform .16s ease}
+.chapter-picker-trigger[aria-expanded="true"] .chapter-picker-chevron{transform:rotate(180deg)}
+.chapter-picker-panel{margin-top:8px;padding:10px;border:1px solid #e4e0f3;border-radius:15px;background:#fff;box-shadow:0 14px 30px rgba(48,35,111,.1)}
+.chapter-picker-panel[hidden]{display:none}
+.chapter-picker-actions{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:2px 2px 9px;color:var(--muted);font-size:.75rem}
+.chapter-picker-actions div{display:flex;gap:6px}
+.chapter-picker-actions button{border:1px solid #e4e0f3;border-radius:8px;background:#f7f5ff;color:#5140b7;padding:6px 8px;font:inherit;font-size:.74rem;font-weight:750;cursor:pointer}
+.chapter-options{display:grid;gap:7px;max-height:300px;overflow:auto;padding:1px 2px 2px}
+.chapter-option{display:flex;align-items:center;gap:10px;padding:10px;border:1px solid #e9e5f5;border-radius:11px;background:#fff;cursor:pointer;transition:border-color .14s ease,background .14s ease}
+.chapter-option:has(input:checked){border-color:#a79af8;background:#f4f1ff}
+.chapter-option input{width:18px;height:18px;accent-color:#6250e8;flex:none;margin:0}
+.chapter-option-copy{display:grid;gap:3px;min-width:0}
+.chapter-option-title{font-size:.81rem;font-weight:750;line-height:1.35;overflow-wrap:anywhere}
+.chapter-option-meta{font-size:.71rem;color:var(--muted)}
+.chapter-native-select{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important;opacity:0!important;pointer-events:none!important}
+@media(prefers-reduced-motion:reduce){.chapter-picker-chevron,.chapter-option{transition:none}}
+.mode{display:grid;grid-template-columns:1fr 1fr;gap:8px}.mode button{padding:10px 6px;background:white;border:1px solid var(--line);color:var(--ink);border-radius:10px;cursor:pointer;font:inherit;font-size:.9rem}.mode button.active{background:#e2f5f6;border-color:#8bd0d0;color:#12646b;font-weight:750}.btn{border:0;border-radius:10px;padding:11px 14px;background:var(--teal);color:white;font:inherit;font-size:.94rem;font-weight:750;cursor:pointer}.secondary{background:#e7eef4;color:#244459}.btn:disabled{opacity:.45;cursor:not-allowed}.btnrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.muted{color:var(--muted);font-size:.87rem;line-height:1.55}.hint{padding:11px 12px;background:#f5f8fb;border-radius:11px;border:1px solid #e4edf2;margin-top:13px;font-size:.82rem;color:#526b7e}.quiz{padding:clamp(18px,3vw,28px);min-height:450px}.quiztop{display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}.pill{font-size:.76rem;font-weight:750;background:#edf3f8;color:#426079;padding:6px 9px;border-radius:999px}.progress{height:7px;border-radius:10px;background:#e8eff3;overflow:hidden;margin:15px 0 22px}.progress i{display:block;height:100%;background:linear-gradient(90deg,#207b88,#56beb3);width:0%}.qtext{font-size:clamp(1.08rem,2.2vw,1.38rem);line-height:1.5;font-weight:750;margin:0 0 17px}.answers{display:grid;gap:10px}.opt{width:100%;text-align:left;border:1.5px solid #d9e5ec;border-radius:12px;padding:12px 13px;background:#fff;color:#243e52;cursor:pointer;display:flex;gap:11px;align-items:flex-start;line-height:1.45;font:inherit}.letter{background:#edf3f7;border-radius:8px;min-width:28px;height:28px;display:grid;place-items:center;font-weight:800;font-size:.85rem}.opt.selected{border-color:#418b9b;background:#eef9fa}.opt.correct{border-color:#56aa83;background:#effaf4}.opt.wrong{border-color:#dc8585;background:#fff4f3}.feedback{border-radius:12px;padding:13px 15px;margin-top:15px;line-height:1.55}.good{background:#eafaef;color:#17633d}.bad{background:#fff1ef;color:#9a2828}.foot{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:20px}.hide{display:none!important}.topicgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:15px}.topic{border:1px solid var(--line);padding:12px;border-radius:10px}.topic strong{display:block;font-size:.9rem}.topic span{font-size:.8rem;color:var(--muted)}.result{text-align:center;padding:25px 8px}.score{width:130px;height:130px;border-radius:50%;border:10px solid #dff0ef;display:grid;place-content:center;margin:22px auto}.score strong{font-size:2.1rem}.score span{font-size:.78rem;color:var(--muted)}#reviewList .topic{margin:12px 0}footer{text-align:center;padding:28px 15px;color:var(--muted);font-size:.82rem}@media(max-width:760px){.layout{grid-template-columns:1fr}.topstats{grid-template-columns:repeat(3,1fr);gap:7px}.stat{padding:12px 9px}.stat strong{font-size:1.1rem}.stat span{font-size:.75rem}.topicgrid{grid-template-columns:1fr}.layout.quiz-active{grid-template-columns:1fr}.layout.quiz-active>.panel{display:none}.layout.quiz-active>.quiz{grid-column:1/-1;scroll-margin-top:82px}}
+
+/* Accessible answer editing and a more visible modern timer. */
+#timerPill,#questionTimerPill{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 17px;border-radius:14px;background:linear-gradient(135deg,#211b48,#5140b7);color:#fff;font-size:1rem;font-weight:900;letter-spacing:.045em;font-variant-numeric:tabular-nums;box-shadow:0 7px 20px rgba(48,35,111,.22);border:1px solid rgba(255,255,255,.22)}
+#timerPill:not(.hide),#questionTimerPill:not(.hide){position:sticky;top:10px;z-index:5}
+#timerPill.timer-warning,#questionTimerPill.timer-warning{background:linear-gradient(135deg,#8a4b08,#e79a28);animation:timerPulse 1.8s ease-in-out infinite}
+#timerPill.timer-danger,#questionTimerPill.timer-danger{background:linear-gradient(135deg,#8c203b,#e34c69);animation:timerPulse .75s ease-in-out infinite}
+.opt[aria-pressed="true"]{border-color:#5140b7;background:#f1efff;box-shadow:0 0 0 2px rgba(81,64,183,.12)}#timingField[hidden]{display:none!important}
+@keyframes timerPulse{50%{transform:scale(1.025);box-shadow:0 8px 24px rgba(174,45,69,.25)}}
+@media(prefers-reduced-motion:reduce){#timerPill.timer-warning,#timerPill.timer-danger,#questionTimerPill.timer-warning,#questionTimerPill.timer-danger{animation:none}}
+
+/* Configurable overall and per-question timer controls. */
+.time-controls{margin-top:14px;border:1px solid var(--line);border-radius:12px;background:#fbfcff;padding:11px 12px}
+.time-controls summary{cursor:pointer;font-weight:800;font-size:.88rem;color:var(--ink)}
+.time-control-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:9px}
+.time-control-grid>div{min-width:0}
+.time-controls input{width:100%;padding:10px 11px;border:1px solid #cbd9e2;border-radius:10px;font:inherit;background:#fff}
+.time-controls [hidden]{display:none!important}
+.question-tools{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.question-tools .qtext{flex:1}
+.mark-review-btn{white-space:nowrap;flex:none}
+.mark-review-btn[aria-pressed="true"]{background:#fff5dd;color:#875c08;border:1px solid #e5c36e}
+.nav-inline-trigger{margin-left:auto}
+.question-nav-dock{display:none}
+.question-nav-overlay{position:fixed;inset:0;z-index:1200;display:flex;align-items:flex-end;justify-content:center}
+.question-nav-overlay.hide{display:none!important}
+.question-nav-backdrop{position:absolute;inset:0;border:0;background:rgba(19,17,42,.52);cursor:pointer}
+.question-nav-sheet{position:relative;z-index:1;width:min(680px,100%);max-height:min(78vh,760px);overflow:auto;background:#fff;color:var(--ink);border-radius:22px 22px 0 0;padding:12px 18px max(18px,env(safe-area-inset-bottom));box-shadow:0 -14px 48px rgba(19,17,42,.22)}
+.question-nav-handle{width:44px;height:5px;border-radius:99px;background:#d6dce3;margin:0 auto 14px}
+.question-nav-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:13px}
+.question-nav-heading h2{margin:0 0 4px;font-size:1.08rem}
+.question-nav-heading .muted{margin:0}
+.question-nav-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}
+.question-nav-item{min-height:46px;border:1px solid #dce4eb;border-radius:11px;background:#fff;color:var(--ink);font:inherit;font-weight:800;cursor:pointer;position:relative}
+.question-nav-item.answered{background:#eaf7ef;border-color:#9acdad;color:#216544}
+.question-nav-item.skipped{background:#fff7e7;border-color:#e7c77e;color:#91640d}
+.question-nav-item.current{outline:2px solid #6250e8;outline-offset:1px;background:#efedff;color:#5140bd}
+.question-nav-item.marked:after{content:"⚑";position:absolute;right:4px;top:1px;font-size:.65rem;color:#96680e}
+.question-nav-item.locked{background:#f1f2f4;border-color:#c9cdd2;color:#777}
+.question-nav-legend{display:flex;flex-wrap:wrap;gap:10px 15px;margin:15px 0;color:var(--muted);font-size:.75rem}
+.question-nav-legend span{display:inline-flex;align-items:center;gap:5px}
+.question-nav-legend i{width:10px;height:10px;border-radius:3px;background:#e3e7eb;display:inline-block}
+.question-nav-legend i.answered{background:#9acdad}.question-nav-legend i.skipped{background:#e7c77e}.question-nav-legend i.current{background:#6250e8}.question-nav-legend i.marked{background:#e9bd62}.question-nav-legend i.locked{background:#aeb4ba}
+.question-nav-actions{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+@media(max-width:760px){
+  .time-control-grid{grid-template-columns:1fr}
+  .question-tools{display:block}
+  .mark-review-btn{margin:-4px 0 12px}
+  .nav-inline-trigger{display:none}
+  .question-nav-dock:not(.hide){position:fixed;display:grid;grid-template-columns:1fr 1.1fr 1fr;gap:8px;left:0;right:0;bottom:0;z-index:1100;padding:9px 12px max(9px,env(safe-area-inset-bottom));background:rgba(255,255,255,.97);border-top:1px solid #dce5ed;box-shadow:0 -6px 24px rgba(16,41,61,.12)}
+  .question-nav-dock .btn{min-height:45px;padding:9px 8px;font-size:.84rem}
+  .foot .btnrow #submitBtn,.foot .btnrow #nextBtn{display:none}
+  #session{padding-bottom:76px}
+  .question-nav-sheet{max-height:78vh;padding-left:15px;padding-right:15px}
+  .question-nav-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+  .question-nav-item{min-height:44px}
+}
+@media(min-width:761px){
+  .question-nav-sheet{border-radius:22px;margin:0 18px 24px}
+}
+
+
+/* ExamGuru Quest — unified green, lavender and yellow theme with indigo typography. */
+.eg-quiz-page{--eg-ink:#252b46;--eg-indigo:#403b8c;--eg-indigo-deep:#25285a;--eg-lavender:#ece8fa;--eg-green:#e4f4e9;--eg-yellow:#fff1c9;--eg-muted:#66708a;--eg-line:#e0e4ef;color:var(--eg-ink)!important;background:radial-gradient(ellipse at 0 0,rgba(221,242,228,.6),transparent 28rem),radial-gradient(ellipse at 100% 0,rgba(232,226,248,.62),transparent 31rem),#f6f8fc!important}
+.eg-quiz-page header{background:linear-gradient(112deg,#eeebfa 0%,#fbfbfe 54%,#edf6ef 100%)!important;color:var(--eg-ink)!important;border-bottom:1px solid #e2e4ef}
+.eg-quiz-page header h1,.eg-quiz-page .panel h2,.eg-quiz-page .quiz h2,.eg-quiz-page .qtext{color:var(--eg-indigo-deep)!important}.eg-quiz-page header p,.eg-quiz-page .muted,.eg-quiz-page .hint,.eg-quiz-page .label{color:#626b84!important}.eg-quiz-page header a,.eg-quiz-page header .eyebrow{color:#51498c!important}
+.eg-quiz-page .wrap{max-width:1160px}
+.eg-quiz-page .topstats .stat{background:#fff!important;border:1px solid var(--eg-line)!important;border-radius:17px!important;box-shadow:0 7px 20px rgba(31,43,83,.045)!important}
+.eg-quiz-page .topstats .stat:nth-child(1){background:linear-gradient(145deg,#f0ecfb,#fff)!important;border-top:3px solid #9b8bd2!important}.eg-quiz-page .topstats .stat:nth-child(2){background:linear-gradient(145deg,#e8f5ec,#fff)!important;border-top:3px solid #80bd96!important}.eg-quiz-page .topstats .stat:nth-child(3){background:linear-gradient(145deg,#fff6dc,#fff)!important;border-top:3px solid #e2bd5e!important}.eg-quiz-page .topstats .stat strong{color:var(--eg-indigo-deep)!important}
+.eg-quiz-page .panel,.eg-quiz-page .quiz{background:#fff!important;border:1px solid var(--eg-line)!important;border-radius:19px!important;box-shadow:0 10px 28px rgba(31,43,83,.055)!important}.eg-quiz-page .panel{background:linear-gradient(155deg,#fff,#f4f7f4)!important}.eg-quiz-page .quiz{background:linear-gradient(150deg,#fff 0%,#fdfcff 68%,#f6faf7 100%)!important}
+.eg-quiz-page .hint{background:#fff7df!important;border:1px solid #eee0b5!important;color:#69531d!important;border-radius:12px}.eg-quiz-page .time-controls{background:#f6f4fb!important;border:1px solid #e2deef!important;border-radius:13px}
+.eg-quiz-page .mode button{background:#fff!important;border:1px solid #dfe3ef!important;color:#3d4663!important;border-radius:11px}.eg-quiz-page .mode button.active{background:#ece8fa!important;border-color:#bdb1e0!important;color:#403b8c!important}
+.eg-quiz-page select,.eg-quiz-page input{background:#fff!important;border-color:#d8deeb!important;color:#29304d!important}.eg-quiz-page .quiztop .pill{background:#efecfa!important;border:1px solid #dfd9f0!important;color:#403b8c!important}.eg-quiz-page .quiztop #chapterPill{background:#e4f4e9!important;border-color:#cde6d5!important;color:#286b49!important}
+.eg-quiz-page .progress{background:#e6e9f0!important}.eg-quiz-page .progress i{background:linear-gradient(90deg,#6356b4 0%,#9a8bd0 62%,#78b68e 100%)!important}
+.eg-quiz-page .opt{background:#fff!important;border:1.5px solid #dfe3ef!important;color:#28304b!important;border-radius:13px!important}.eg-quiz-page .opt:hover{background:#faf9fe!important;border-color:#bcb3df!important}.eg-quiz-page .opt.selected,.eg-quiz-page .opt[aria-pressed="true"]{background:#efecfa!important;border-color:#897bc3!important;color:#302b70!important;box-shadow:0 0 0 2px rgba(92,80,178,.09)!important}.eg-quiz-page .letter{background:#e9e5f7!important;color:#403b8c!important;border-radius:8px}
+.eg-quiz-page .opt.correct{background:#eaf7ee!important;border-color:#9acdad!important;color:#286b49!important}.eg-quiz-page .opt.wrong{background:#fff0f0!important;border-color:#e8b0b2!important;color:#873f47!important}
+.eg-quiz-page .btn,.eg-quiz-page button.btn{background:linear-gradient(115deg,#403b8c,#6659b8)!important;color:#fff!important;border-radius:11px!important;box-shadow:0 6px 16px rgba(64,59,140,.17)!important}.eg-quiz-page .btn.secondary,.eg-quiz-page button.secondary{background:#efecfa!important;color:#403b8c!important;border:1px solid #ded8f1!important;box-shadow:none!important}
+.eg-quiz-page #timerPill,.eg-quiz-page #questionTimerPill{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 16px;border-radius:14px!important;font-size:.96rem;font-weight:900;letter-spacing:.025em;font-variant-numeric:tabular-nums}.eg-quiz-page #timerPill{background:#403b8c!important;color:#fff!important;border:1px solid #554e9e!important}.eg-quiz-page #questionTimerPill{background:#fff3cf!important;color:#76530d!important;border:1px solid #ecd99c!important;box-shadow:none!important}.eg-quiz-page #timerPill.timer-warning,.eg-quiz-page #questionTimerPill.timer-warning{background:#fff0c7!important;color:#805707!important;border-color:#e7c979!important}.eg-quiz-page #timerPill.timer-danger,.eg-quiz-page #questionTimerPill.timer-danger{background:#ffe8ea!important;color:#963443!important;border-color:#edb7be!important}
+.eg-quiz-page .question-nav-dock{background:rgba(250,251,255,.97)!important;border-top:1px solid #dfe3ef!important;box-shadow:0 -7px 24px rgba(24,35,78,.08)!important;backdrop-filter:blur(12px)}
+.eg-quiz-page .question-nav-sheet{background:linear-gradient(155deg,#fff 0%,#f4f7f4 52%,#f1edfb 100%)!important;border:1px solid #e0e2eb!important;color:var(--eg-ink)}.eg-quiz-page .question-nav-heading h2{color:var(--eg-indigo-deep)!important}
+.eg-quiz-page .question-nav-item{background:#fff;border:1px solid #e0e3ed;color:#46506d;border-radius:12px}.eg-quiz-page .question-nav-item.answered{background:#e4f4e9;border-color:#b9dec5;color:#256747}.eg-quiz-page .question-nav-item.skipped{background:#fff1c9;border-color:#ead294;color:#856019}.eg-quiz-page .question-nav-item.current{background:#ece8fa;border-color:#8c7bc5;color:#403b8c;outline:2px solid #9e91ce;outline-offset:1px}.eg-quiz-page .question-nav-item.marked:after{color:#9b6f1a}.eg-quiz-page .question-nav-item.pace-reached{box-shadow:inset 0 0 0 2px #e5bd61;background:#fff8e8;color:#775717}.eg-quiz-page .question-nav-item.locked{background:#f0f1f4;border-color:#d7dae2;color:#777}
+.eg-quiz-page .question-nav-legend{color:#66708a}.eg-quiz-page .question-nav-legend i.answered{background:#78b68e}.eg-quiz-page .question-nav-legend i.skipped,.eg-quiz-page .question-nav-legend i.marked,.eg-quiz-page .question-nav-legend i.pace-reached{background:#e5bd61}.eg-quiz-page .question-nav-legend i.current{background:#7568b6}
+.eg-quiz-page .score{background:#f7fcf8!important;border-color:#cfe7d8!important}.eg-quiz-page .topic{background:#fff!important;border-color:#e0e4ef!important;border-radius:14px}.eg-quiz-page .good{background:#e7f5ec;color:#286b49}.eg-quiz-page .bad{background:#fff0f1;color:#923b45}
+.eg-quiz-page .btn:focus-visible,.eg-quiz-page button:focus-visible,.eg-quiz-page a:focus-visible,.eg-quiz-page select:focus-visible,.eg-quiz-page input:focus-visible{outline:3px solid rgba(92,80,178,.48)!important;outline-offset:3px}
+@media(max-width:760px){.eg-quiz-page header{padding:67px 18px 20px!important}.eg-quiz-page .wrap{margin-top:15px;padding-left:14px;padding-right:14px}.eg-quiz-page .topstats{gap:7px}.eg-quiz-page .topstats .stat{padding:11px 9px;border-radius:14px!important}.eg-quiz-page .topstats .stat strong{font-size:1.05rem}.eg-quiz-page .topstats .stat span{font-size:.7rem;line-height:1.25}.eg-quiz-page .quiz{border-radius:16px!important;padding:17px 15px}.eg-quiz-page .question-nav-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
+@media(max-width:390px){.eg-quiz-page .question-nav-dock{grid-template-columns:.95fr 1.15fr .95fr!important;gap:6px}.eg-quiz-page .question-nav-dock .btn{font-size:.78rem;padding:8px 5px}}
+
+
+/* SOF mock exam configuration and section feedback */
+.olympiad-blueprint-panel{margin-top:12px;padding:13px;border:1px solid #dcd5f0;border-radius:14px;background:linear-gradient(135deg,#f5f1ff,#f3faf5);color:#383466}
+.olympiad-blueprint-panel h3{font-size:.96rem;margin:0 0 6px;color:#332f70}
+.olympiad-blueprint-panel p{font-size:.8rem;line-height:1.5;margin:5px 0;color:#5e6480}
+.olympiad-blueprint-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:10px}
+.olympiad-blueprint-grid span{display:block;border:1px solid #e2e0ef;border-radius:9px;padding:8px 6px;background:#fff;text-align:center;font-size:.72rem;color:#4a4f70}
+.olympiad-blueprint-grid strong{display:block;font-size:.86rem;color:#393575}
+.section-pill{background:#e3f2e8!important;border-color:#c7e2d0!important;color:#286747!important}
+.navigator-section-summary{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 12px}
+.navigator-section-chip{display:inline-flex;align-items:center;border:1px solid #dcd5f0;border-radius:999px;background:#f5f2fc;padding:6px 9px;color:#51498c;font:inherit;font-size:.72rem;font-weight:750;cursor:pointer}
+.navigator-section-chip[aria-pressed="true"]{background:#ece8fa;border-color:#9e91ce;box-shadow:inset 0 0 0 1px #9e91ce}
+.question-nav-item.section-logical-reasoning{border-top:3px solid #8f84c7}
+.question-nav-item.section-science{border-top:3px solid #85ba9b}
+.question-nav-item.section-achievers{border-top:3px solid #dcb65b}
+.section-results{margin:18px 0 6px;text-align:left}
+.section-results h3{font-size:1.05rem;color:#332f70;margin:0 0 10px}
+.section-result-card{padding:13px;border:1px solid #e0e3ed;border-radius:13px;background:#fff;margin:9px 0}
+.section-result-card>strong{display:block;color:#36336f;font-size:.92rem}
+.section-result-marks{font-size:1.1rem;font-weight:850;color:#286747;margin-top:4px}
+.section-result-card p{font-size:.78rem;color:#69728a;margin:5px 0 9px}
+.section-result-track{height:8px;background:#e9ebf2;border-radius:99px;overflow:hidden}
+.section-result-track i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#8174c2,#86bf9b)}
+.difficulty-filter{display:grid;gap:6px;margin:14px 0}
+.difficulty-filter select{width:100%;border:1px solid var(--line);border-radius:11px;padding:11px 12px;background:#fff;color:var(--ink);font:inherit}
+.question-tools{align-items:flex-start}
+.question-tool-actions{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}
+.question-tool-actions .btn{white-space:nowrap}
+.bookmark-question-btn[aria-pressed="true"]{background:#fff4d7!important;color:#805b0b!important;border-color:#e8cf91!important}
+.learning-hub-link{display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid var(--line);border-radius:12px;padding:12px;background:#f7f6ff;text-decoration:none;color:#403b8c;font-weight:800;margin:12px 0}
+@media(max-width:620px){.question-tools{display:block}.question-tool-actions{justify-content:flex-start;margin:8px 0 12px}.question-tool-actions .btn{font-size:.76rem;padding:8px 10px}}
+</style>
+<link rel="stylesheet" href="./css/branding.css?v=controls1">
+<link rel="stylesheet" href="./css/app-shell.css?v=20261109-clat-navigation-v1">
+<link rel="stylesheet" href="./css/question-media.css">
+<link rel="stylesheet" href="./css/theme-roles-v2.css?v=quest3">
+</head>
+<body class="eg-quiz-page c10-theme-quest">
+<header><a href="./">← All subjects</a><div class="eyebrow" id="classEyebrow">ExamGuru Quest · CBSE Class 10</div><h1><span id="subjectIcon">📚</span> <span id="subjectTitle">Practice</span></h1><p id="subjectSubtitle">Choose a chapter and practise at your pace.</p><div class="brand-signature">Conceptualised by <strong>JP Ganathe</strong></div></header>
+<main class="wrap">
+<div class="topstats eg-metric-grid"><div class="stat eg-metric-card eg-surface"><strong id="chapterTotal">—</strong><span>chapters / topics</span></div><div class="stat eg-metric-card eg-surface"><strong id="questionTotal">—</strong><span>MCQs in practice bank</span></div><div class="stat eg-metric-card eg-surface"><strong id="overallStat">0%</strong><span>accuracy on this device</span></div></div>
+<div class="layout" id="practiceLayout">
+<aside class="panel eg-surface"><h2>Set up practice</h2><div id="chapterControls">
+<label class="label" for="chapterPickerToggle">Choose chapters / topics</label>
+<div class="chapter-picker" id="chapterPicker">
+  <button class="chapter-picker-trigger" type="button" id="chapterPickerToggle" aria-expanded="false" aria-controls="chapterPickerPanel">
+    <span class="chapter-picker-trigger-copy"><strong id="chapterPickerSummary">Loading chapters…</strong><small id="chapterPickerCount">Please wait</small></span><span class="chapter-picker-chevron" aria-hidden="true">⌄</span>
+  </button>
+  <div class="chapter-picker-panel eg-surface" id="chapterPickerPanel" hidden>
+    <div class="chapter-picker-actions"><span>Choose one or more</span><div><button type="button" id="selectAllChapters">Select all</button><button type="button" id="clearChapters">Clear</button></div></div>
+    <div class="chapter-options" id="chapterOptions"><p class="muted">Loading chapters…</p></div>
+  </div>
+</div>
+<select id="chapter" class="chapter-native-select" multiple size="6" aria-hidden="true" tabindex="-1" aria-describedby="chapterHelp"><option>Loading…</option></select>
+<p class="muted" id="chapterHelp">Tap a chapter to include or remove it. You can select several chapters for a mixed practice session.</p>
+</div>
+<label class="label">Practice mode</label><div class="mode"><button class="active" data-mode="learn">Learn</button><button data-mode="test">Test</button><button data-mode="retry">Retry missed</button><button data-mode="bookmarks">Saved questions</button><button data-mode="adaptive">Adaptive practice</button><button data-mode="random">Mixed practice</button><button data-mode="timed">Timed exam</button><button id="olympiadModeBtn" class="hide" data-mode="olympiad">🏅 SOF full mock</button></div>
+<div class="difficulty-filter"><label class="label" for="difficultyFilter">Question difficulty</label><select id="difficultyFilter"><option value="all">All difficulty levels</option><option value="Easy">Easy</option><option value="Medium">Medium</option><option value="Hard">Hard</option><option value="Challenge">Challenge</option></select><p class="muted">Difficulty filters use the question bank’s existing labels. Some subjects have fewer questions at particular levels.</p></div>
+<div id="olympiadBlueprintPanel" class="olympiad-blueprint-panel hide eg-surface" aria-live="polite">
+  <h3 id="olympiadBlueprintTitle">SOF Olympiad Level 1 · Full Mock</h3>
+  <p id="olympiadBlueprintDescription">50 questions · 60 minutes · 60 marks. The paper is assembled to the selected Olympiad's official section blueprint.</p>
+  <div class="olympiad-blueprint-grid" id="olympiadBlueprintGrid"></div>
+</div>
+<details class="time-controls" id="timingControls">
+  <summary>Time controls <span class="muted">· optional outside Timed Exam</span></summary>
+  <div class="time-control-grid">
+    <div id="overallTimerField">
+      <label class="label" for="overallTimerSetting">Overall quiz timer</label>
+      <select id="overallTimerSetting">
+        <option value="off" selected>No countdown</option><option value="600">10 minutes</option><option value="1200">20 minutes</option><option value="1800">30 minutes</option><option value="3600">60 minutes</option><option value="custom">Custom duration</option>
+      </select>
+      <label class="label" for="overallTimerCustom" id="overallCustomLabel" hidden>Custom minutes</label>
+      <input id="overallTimerCustom" type="number" min="1" max="240" step="1" value="30" inputmode="numeric" hidden>
+    </div>
+    <div id="questionTimerField">
+      <label class="label" for="questionTimerSetting">Question pace guide</label>
+      <select id="questionTimerSetting">
+        <option value="off" selected>No question countdown</option><option value="15">15 seconds</option><option value="30">30 seconds</option><option value="45">45 seconds</option><option value="60">60 seconds</option><option value="90">90 seconds</option><option value="120">2 minutes</option><option value="custom">Custom duration</option>
+      </select>
+      <label class="label" for="questionTimerCustom" id="questionCustomLabel" hidden>Custom seconds</label>
+      <input id="questionTimerCustom" type="number" min="5" max="300" step="5" value="45" inputmode="numeric" hidden>
+    </div>
+  </div>
+  <p class="muted" id="timingHelp">Overall time is the hard deadline. The optional question pace guide starts when you first open a question and keeps counting while you navigate away; reaching zero never locks or skips it.</p>
+</details>
+<div id="lengthControl"><label class="label" for="length">Questions per session</label><select id="length"><option value="5">5 · Quick</option><option value="10" selected>10 · Standard</option><option value="20">20 · Focus</option><option value="50">50 · Deep practice</option><option value="0">All available</option></select></div>
+<div class="btnrow"><button class="btn" id="startBtn">Start practice →</button></div><div class="hint" id="modeHint">Loading the chapter bank…</div>
+<hr style="border:0;border-top:1px solid var(--line);margin:18px 0"><h2>Student space</h2><p class="muted">Manage your learner details and view completed test history.</p><a class="learning-hub-link" href="./learning.html"><span>🧠 My Learning Hub</span><span>Open →</span></a><div class="btnrow"><a class="btn secondary" href="./profile.html">My profile &amp; history →</a></div><hr style="border:0;border-top:1px solid var(--line);margin:18px 0"><h2>My progress</h2><div class="muted" id="progressText">Scores and missed questions are saved on this device.</div><div class="btnrow"><button class="btn secondary" id="reviewBtn">Review missed</button><button class="btn secondary" id="clearBtn">Reset progress</button></div><p class="muted">Progress stays in this browser on this device. It does not sync to another phone or computer.</p>
+</aside>
+<section class="quiz" id="quizPanel" aria-live="polite">
+<div id="status" class="muted hide"></div>
+<div id="welcome"><div class="eyebrow" style="color:#5b7285">Ready when you are</div><h2 style="font-size:1.8rem;margin-top:10px">Build understanding, one question at a time.</h2><p class="muted">Choose a chapter and start practice. Learn mode explains each answer immediately. Test mode holds feedback until the end. Retry missed brings back questions you previously answered incorrectly.</p><div class="topicgrid"><div class="topic"><strong>🧠 Learn</strong><span>Instant feedback and explanations</span></div><div class="topic"><strong>⏱️ Test</strong><span>Answer first, review afterwards</span></div><div class="topic"><strong>🔁 Retry missed</strong><span>Focus on concepts to strengthen</span></div><div class="topic"><strong>📈 Progress</strong><span>Track attempts on this device</span></div></div><div class="hint">The other subject banks are a starter set and will be expanded chapter by chapter. Check your school’s latest syllabus before exam revision.</div></div>
+<div id="session" class="hide">
+  <div class="quiztop">
+    <span class="pill" id="chapterPill">Chapter</span><span class="pill" id="numberPill">Question 1 / 10</span><span class="pill" id="difficultyPill">Medium</span><span class="pill section-pill hide" id="sectionPill"></span>
+    <span class="pill hide" id="timerPill">Elapsed · 00:00</span><span class="pill hide" id="questionTimerPill">Pace left · 00:00</span>
+    <button class="btn secondary nav-inline-trigger" id="navigatorInlineBtn" type="button">Questions ▦</button>
+  </div>
+  <div class="progress"><i id="progressBar"></i></div>
+  <div class="question-tools"><div class="question-source-wrap hide" id="questionSourceBadgeWrap"><span class="cbse-question-source-tag" id="questionSourceBadge"></span><span class="cbse-question-source-meta" id="questionSourceMeta"></span></div><p class="qtext" id="questionText"></p><div class="question-tool-actions"><button class="btn secondary mark-review-btn" id="markReviewBtn" type="button" aria-pressed="false">⚑ Mark for review</button><button class="btn secondary bookmark-question-btn" id="bookmarkQuestionBtn" type="button" aria-pressed="false">☆ Save question</button></div></div>
+  <div id="questionMedia" class="question-media hide" aria-label="Question diagrams"></div><div class="answers" id="options"></div><div id="feedback"></div>
+  <div class="foot"><span class="muted" id="sessionHint">Choose one answer.</span><div class="btnrow" style="margin:0"><button class="btn secondary" id="skipBtn">Skip</button><button class="btn secondary" id="submitBtn">Submit quiz</button><button class="btn" id="nextBtn">Next →</button></div></div>
+</div>
+<div id="results" class="hide"><div class="result"><div class="eyebrow" style="color:#5b7285">Session complete</div><div class="score"><div><strong id="scorePct">0%</strong><br><span id="scoreUnit">correct</span></div></div><h2 id="resultTitle">Nice work!</h2><p class="muted" id="resultCopy"></p><div class="topicgrid" id="resultStats"></div><div id="sectionResults" class="section-results hide"></div><div class="btnrow" style="justify-content:center"><button class="btn" id="againBtn">Practise again</button><button class="btn secondary" id="reviewAnswersBtn">Review answers</button><button class="btn secondary" id="reportPdfBtn">Download report · PDF</button><button class="btn secondary" id="reportExcelBtn">Download report · Excel</button></div></div></div>
+<div id="review" class="hide"><div class="quiztop"><h2>Review your answers</h2><span class="pill" id="reviewPill"></span></div><div id="reviewList"></div><div class="btnrow"><button class="btn" id="backBtn">Back to results</button><button class="btn secondary" id="reviewPdfBtn">Download report · PDF</button><button class="btn secondary" id="reviewExcelBtn">Download report · Excel</button><button class="btn secondary" id="retrySetBtn">Retry missed in this session</button></div></div>
+</section></div></main>
+<div id="questionNavDock" class="question-nav-dock hide" aria-label="Question navigation">
+  <button class="btn secondary" id="mobilePreviousBtn" type="button">← Previous</button>
+  <button class="btn secondary" id="mobileNavigatorBtn" type="button">▦ Questions</button>
+  <button class="btn" id="mobileNextBtn" type="button">Next →</button>
+</div>
+<div id="questionNavigatorOverlay" class="question-nav-overlay hide">
+  <button class="question-nav-backdrop" id="questionNavigatorBackdrop" type="button" aria-label="Close question navigator"></button>
+  <section class="question-nav-sheet" role="dialog" aria-modal="true" aria-labelledby="questionNavigatorTitle">
+    <div class="question-nav-handle"></div>
+    <div class="question-nav-heading"><div><h2 id="questionNavigatorTitle">Question navigator</h2><p class="muted" id="navigatorSummary">0 answered</p></div><button class="btn secondary" id="closeQuestionNavigator" type="button" aria-label="Close navigator">✕</button></div>
+    <div id="navigatorSectionSummary" class="navigator-section-summary hide"></div>
+    <div class="question-nav-grid" id="questionNavigatorGrid"></div>
+    <div class="question-nav-legend"><span><i class="answered"></i> Answered</span><span><i class="unanswered"></i> Unanswered</span><span><i class="skipped"></i> Skipped</span><span><i class="current"></i> Current</span><span><i class="marked"></i> Marked</span><span><i class="pace-reached"></i> Pace reached</span></div>
+    <div class="question-nav-actions"><button class="btn secondary" id="navigatorReturnBtn" type="button">Return to question</button><button class="btn" id="navigatorSubmitBtn" type="button">Submit quiz</button></div>
+  </section>
+</div>
+<div id="imageViewer" class="image-viewer hide" role="dialog" aria-modal="true" aria-label="Enlarged question image" tabindex="-1">
+<div class="image-viewer-card eg-surface">
+<button type="button" id="imageViewerClose" class="image-viewer-close" aria-label="Close enlarged image">×</button>
+<img id="imageViewerImage" class="image-viewer-image" alt="">
+<p id="imageViewerCaption" class="image-viewer-caption"></p>
+</div>
+</div>
+<footer>Original practice questions for revision. Some school syllabi include additional or deleted topics; confirm the course and current syllabus with your teacher. Keep noticing what you understand and what still needs practice.<div class="brand-signature site-credit">Conceptualised by <strong>JP Ganathe</strong> · ExamGuru</div></footer>
+<script src="./js/storage.js"></script>
+<script src="./js/question-bank.js"></script>
+<script src="./js/olympiad-blueprints.js"></script>
+<script src="./js/session-model.js"></script>
+<script src="./js/learning-model.js"></script>
+<script src="./js/api-config.js"></script>
+<script src="./js/api-client.js"></script>
+<script src="./js/student-auth.js"></script>
+<script src="./js/student-auth.js"></script>
+<script src="./js/page-access.js"></script>
+<script src="./js/quiz-engine.js"></script>
+<script src="./js/app-shell.js?v=20261127-demo-env-v2"></script>
+</body></html>

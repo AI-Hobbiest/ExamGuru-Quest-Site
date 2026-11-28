@@ -1,0 +1,3597 @@
+{
+  "schemaVersion": 1,
+  "kind": "clat-model-paper",
+  "paperId": "clat-ug27-full-010",
+  "paperNumber": 10,
+  "title": "CLAT UG 2027 · Full-Length Model Paper 010",
+  "subtitle": "120-question full-length practice paper · original passages and questions",
+  "blueprintVersion": "CLAT-UG27-v1",
+  "durationMinutes": 120,
+  "status": "draft-unpublished",
+  "asOf": "2026-11-10",
+  "marking": {
+    "correct": 1,
+    "incorrect": -0.25,
+    "unanswered": 0
+  },
+  "passages": [
+    {
+      "passageId": "r010-english-01",
+      "sectionId": "english",
+      "title": "The official behind the score",
+      "text": "A district housing office began using a statistical model to sort applications for subsidised rental homes. The model assigned each application a risk score based on missing documents, reported income changes, previous tenancy disputes and the distance between the applicant's current address and the district office. Applications with higher scores were sent to a caseworker for further examination. The office described the system as a way to direct scarce staff time towards applications that might require more attention.\n\nWithin three months, a tenants' group noticed that applicants from two remote settlements were being selected for review far more often than applicants from the town centre. The office initially attributed the difference to a higher frequency of incomplete forms. A later examination showed that residents in the settlements often used seasonal work and changed phone numbers when moving for employment. Their income records therefore appeared less stable, even when their actual earnings were similar to those of other applicants.\n\nThe model had not been instructed to disadvantage the settlements. Its developers had trained it on earlier cases in which missing records were associated with higher rates of fraud. But earlier files contained fewer examples from remote communities, and the model treated patterns in that incomplete record as if they described all applicants equally. The score was not a finding of dishonesty, yet officials and applicants began to treat it as one. Some applicants stopped pursuing an application because they assumed a high score meant rejection was inevitable.\n\nThe housing office changed its procedure. A high score could now trigger a request for clarification, but it could not determine eligibility or justify refusal by itself. The office published the categories of information used, created a correction route for inaccurate records and required a caseworker to document the reason for any adverse decision. It also began checking outcomes by location and employment pattern, not merely overall accuracy.\n\nThe model remained in use, but its role became narrower. It could help organise a queue; it could not replace the official responsible for applying the rules to an individual case. The episode illustrates that an automated system can be technically consistent and still reproduce gaps in the records on which it was trained. Accountability depends on examining both the model and the institution that chooses how to act on its output."
+    },
+    {
+      "passageId": "r010-english-02",
+      "sectionId": "english",
+      "title": "Convenience is not consent",
+      "text": "A free travel application offered passengers an apparently simple service: it displayed bus arrivals, suggested a route and stored recent journeys so that users could repeat a trip quickly. During installation, the application requested access to location, contacts, photographs and the device microphone. The permission screen grouped all requests under a single button. A passenger who declined could not use even the basic arrival display.\n\nThe company said that the additional data would improve route predictions and help identify crowded services. It also used contact data to recommend that friends travel together and microphone access to test a future voice-search feature. Those purposes were not necessary to display a bus timetable. The privacy notice mentioned them in a long list of possible uses, but few users reached the relevant section before accepting the permissions.\n\nA local consumer organisation asked the company to explain why a timetable service needed a passenger's contacts. The company responded that users had voluntarily accepted the permissions and could uninstall the application at any time. That answer treated a single click as if it showed informed agreement to every use of data. It did not explain whether each purpose was optional, how long the information would be retained or whether a passenger could withdraw one permission without losing the basic service.\n\nThe company later redesigned the application. Location was requested only while a user asked for nearby arrivals. Contacts and microphone access were moved to separate features and could be declined without blocking the timetable. The application described each purpose before requesting permission, allowed users to delete stored journeys and provided a short explanation of the retention period. The company also separated service analytics from marketing profiles.\n\nThe redesign did not remove every privacy trade-off. Location data remained useful for showing nearby buses, and fraud prevention might require some limited technical records. The important change was that users could understand the connection between a data request and the feature they were choosing. Convenience can make a service attractive, but it does not turn unrelated data collection into a necessary condition of access. Consent is meaningful only when the person can see what is being requested and has a practical choice about purposes that are not essential to the service.\n\nA user who wants the basic timetable should not have to surrender access to unrelated parts of a phone. Separate permissions also make the company's own data map clearer: it can identify which feature depends on location and which feature has no need for contacts or audio."
+    },
+    {
+      "passageId": "r010-english-03",
+      "sectionId": "english",
+      "title": "The public rail and the private gate",
+      "text": "A government built a shared payment network that allowed banks and licensed service providers to send transactions through common technical rules. The network reduced the cost of connecting a new provider and made it easier for a small merchant to accept payments from customers using different applications. The government described the network as public infrastructure, although several private firms developed the applications that customers used every day.\n\nAs the network grew, a few applications became the most familiar entry points. Their interfaces offered quick refunds, rewards and customer support. Smaller providers complained that the dominant applications appeared more prominently in search results and that the terms for accessing certain features were difficult to understand. The network operator responded that the payment rail remained interoperable: a customer could transfer money between accounts regardless of which application was used.\n\nInteroperability at the technical layer did not answer every question about access at the service layer. A small provider might technically connect to the network but still struggle to reach users, understand certification requirements or obtain timely support. A consumer might be able to switch applications but lose access to stored transaction history or a reward programme. The infrastructure was open in one sense, while the market for interfaces was becoming concentrated in another.\n\nRegulators began distinguishing the shared rail from the private services built on top of it. They examined whether technical rules were published equally, whether certification decisions had clear reasons and whether a provider could challenge a suspension. They also considered whether consumers had a realistic way to move between applications without losing essential payment functionality. The aim was not to prohibit private innovation but to prevent a public utility from becoming a gate controlled by a small number of interfaces.\n\nThe episode shows why the phrase “open infrastructure” needs careful interpretation. A common protocol can reduce barriers at one layer, while commercial practices create barriers at another. Evaluation therefore requires evidence about both the network's technical design and the practical terms under which people and providers use it. Public ownership is not the only route to public value; fair and predictable access can matter just as much.\n\nFor a small provider, access may depend on predictable certification timelines and a contact point able to explain a rejection. For a consumer, portability may mean more than moving money: it may also involve retrieving a history, resolving a mistaken debit and obtaining support when a familiar interface disappears."
+    },
+    {
+      "passageId": "r010-english-04",
+      "sectionId": "english",
+      "title": "A prediction needs a reason",
+      "text": "A public research laboratory developed a model that predicted which rural wells were most likely to fail during the next dry season. The model combined rainfall history, soil conditions, pump age and reports from local engineers. The first version produced a ranked map that helped officials plan inspections. It was praised because several wells identified as high risk later required urgent repair.\n\nWhen the laboratory shared the map with district officers, they asked for a single score for every village. The score made it easier to allocate inspection teams, but it also concealed uncertainty. Two villages could receive the same score for different reasons: one had a deteriorating pump and reliable rainfall data, while the other had missing records and a model estimate based on neighbouring areas. The same number did not mean that the same evidence supported each prediction.\n\nEngineers also pointed out that some model inputs were out of date. A village had replaced its pump through a local donation, but the central database still listed the old equipment. Another had changed its water source after a road project, a fact recorded in a local meeting but not yet entered into the model. Without a process for correcting those inputs, an official might direct scarce resources away from a village whose risk was understated by stale information.\n\nThe laboratory changed its reporting format. Each high-risk result included the factors that contributed to it, the date of the underlying records and a note about missing data. District officers could submit corrections, and an engineer had to confirm material changes before the next ranking. The score remained useful for prioritising inspections, but it was no longer presented as an explanation of why a particular village should receive or lose a service.\n\nThe model's value depended on its ability to guide attention without pretending to settle every decision. A prediction can be informative even when it is uncertain, provided that its limitations are visible and people can challenge incorrect inputs. An unexplained number may look precise while concealing the very information needed to judge whether it should be trusted.\n\nThe laboratory also began publishing a short model card with each release. It listed the intended use, the groups represented in the test data, known limitations and the date of the last evaluation. The document was not a guarantee of accuracy; it gave users a basis for deciding whether the model was suitable for a particular task."
+    },
+    {
+      "passageId": "r010-current-affairs-01",
+      "sectionId": "current-affairs",
+      "title": "The New Delhi Declaration on AI Impact",
+      "text": "The AI Impact Summit 2026 was held in New Delhi on 18 and 19 February. The summit concluded with adoption of the New Delhi Declaration on AI Impact, which was endorsed by 92 countries and international organisations. The declaration presents a shared vision for collaborative, trusted and resilient artificial intelligence and places emphasis on ensuring that the benefits of AI are more widely distributed.\n\nThe declaration organises cooperation around seven pillars, described by the summit as “Chakras”. They include development of human capital, broader access for social empowerment, trustworthy AI systems, energy efficiency, use of AI in science, democratising AI resources, and using AI for economic growth and social good. The range matters because AI policy is not confined to model safety or software regulation. Access to computing resources, electricity, skills and public services can determine which countries and communities are able to develop or use the technology.\n\nThe declaration is a political statement of shared intent rather than a treaty that automatically creates enforceable obligations for every signatory. Its language supports cooperation and voluntary initiatives while recognising national sovereignty and existing international processes. The endorsement figure therefore indicates the breadth of support for a direction of work, not that all participating governments have adopted identical domestic laws or funding commitments.\n\nThe summit also highlighted the need to make AI resources more accessible. Large models require computing infrastructure, data and specialised talent. If those resources remain concentrated in a small number of companies and countries, many organisations may become users of systems they cannot meaningfully inspect, adapt or develop. Broader access can encourage innovation, but it also raises questions about energy use, security, accountability and the ability of smaller institutions to maintain systems over time.\n\nThe declaration's practical effect will depend on what governments, research bodies and businesses do after the summit. Useful indicators would include whether training opportunities expand, whether affordable computing becomes available to new users, whether AI systems are tested for reliability and whether public services can demonstrate benefits without excluding people who cannot use digital channels. The declaration creates a framework for cooperation; it does not itself prove that those outcomes have been achieved.",
+      "asOf": "2026-11-10",
+      "domain": "international AI governance",
+      "sources": [
+        {
+          "title": "AI Impact Summit 2026 Concludes with Adoption of New Delhi Declaration",
+          "publisher": "Press Information Bureau, Ministry of Electronics and Information Technology",
+          "date": "2026-02-21",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208&lang=2&reg=48"
+        }
+      ]
+    },
+    {
+      "passageId": "r010-current-affairs-02",
+      "sectionId": "current-affairs",
+      "title": "The UN Global Dialogue on AI Governance",
+      "text": "The inaugural United Nations Global Dialogue on AI Governance was held in Geneva on 6 and 7 July 2026. It was established by General Assembly resolution 79/325, adopted by consensus on 26 August 2025, and was designed as a recurring forum open to all Member States. The Dialogue brought together delegations from 163 countries as well as participants from the private sector, civil society, academia and technical communities.\n\nThe Dialogue builds on the Global Digital Compact, which called for international cooperation on digital governance and artificial intelligence. Its format recognises that AI systems are developed and deployed by a mixture of public authorities, private companies, universities and research groups. Governments remain responsible for public policy, but technical expertise and evidence about how systems work may be held outside government. A recurring forum can allow those perspectives to be exchanged without assuming that every participant has the same legal status or decision-making power.\n\nThe meeting discussed opportunities and risks associated with AI, including access to infrastructure, safety, human rights, development and the distribution of benefits. It is not a treaty-making body or a supranational regulator. Its purpose is to enable dialogue, identify common ground and inform future work. The co-chairs' summary records discussion and proposals, but it should not be mistaken for a binding rule adopted by every participating country.\n\nThe United Nations also presented the preliminary work of the Independent International Scientific Panel on AI during the Geneva meeting. The Panel is intended to provide evidence-based assessments of the opportunities, risks and impacts of AI. Scientific assessment can help policymakers understand areas of agreement and uncertainty, but it does not determine political choices on behalf of Member States. Governments still need to decide how recommendations fit with their legal systems, economic priorities and rights protections.\n\nA second annual Dialogue is scheduled for New York in May 2027. The recurring structure is significant because AI technology and deployment practices change quickly. A single conference may create attention, but sustained governance requires continued evidence, comparison and institutional follow-up. The Dialogue's value will be measured less by the number of speeches delivered than by whether it helps countries understand shared risks and develop practical cooperation while preserving their own responsibilities.",
+      "asOf": "2026-11-10",
+      "domain": "multilateral technology governance",
+      "sources": [
+        {
+          "title": "Global Dialogue on AI Governance — About the Dialogue",
+          "publisher": "United Nations",
+          "date": "2026-07-07",
+          "url": "https://www.un.org/global-dialogue-ai-governance/en"
+        },
+        {
+          "title": "Global Dialogue on AI Governance — FAQ",
+          "publisher": "United Nations",
+          "date": "2026-07-07",
+          "url": "https://www.un.org/global-dialogue-ai-governance/en/faq"
+        }
+      ]
+    },
+    {
+      "passageId": "r010-current-affairs-03",
+      "sectionId": "current-affairs",
+      "title": "India's Digital Personal Data Protection Rules",
+      "text": "India notified the Digital Personal Data Protection Rules, 2025, in November 2025 under the Digital Personal Data Protection Act, 2023. The Act establishes a framework for the processing of digital personal data and sets out responsibilities for organisations that determine the purpose and means of processing, as well as rights and duties for individuals whose data is processed. The rules provide operational detail for notices, consent and other requirements.\n\nThe framework is guided by principles including consent and transparency, purpose limitation, data minimisation, accuracy, storage limitation, security safeguards and accountability. These principles address different stages of data handling. Purpose limitation asks whether information is used for the purpose communicated to the individual. Data minimisation asks whether the organisation collects more information than is needed. Storage limitation concerns how long information is retained, while security safeguards concern protection against unauthorised access, loss or misuse.\n\nThe rules were accompanied by a phased commencement schedule. The Gazette notification specified that certain provisions would take effect on publication, others after one year and a further group after eighteen months. This sequencing matters because a notification date does not mean that every operational obligation becomes enforceable on the same day. Organisations need to identify which provisions apply at a given time and prepare for later stages rather than treat the framework as either entirely active or entirely dormant.\n\nThe rules also emphasise that consent notices should be clear and specific about the purposes for which personal data is collected and used. A person should be able to understand the request without having to infer every use from a long, undifferentiated list. Clear notices do not eliminate every question about fairness or power. A person may still face practical pressure to accept a request when a service is important or when alternative providers are unavailable.\n\nFor organisations, compliance requires more than adding a consent screen. It may involve mapping data flows, limiting collection, correcting inaccurate records, setting retention periods, securing systems and creating procedures to respond to requests. For individuals, rights become meaningful when the routes to exercise them are accessible. The framework's effect will therefore depend on implementation, enforcement, awareness and the quality of systems built around the legal requirements.",
+      "asOf": "2026-11-10",
+      "domain": "Indian data protection and regulation",
+      "sources": [
+        {
+          "title": "Digital Personal Data Protection Rules, 2025 — Gazette Notification G.S.R. 843(E)",
+          "publisher": "Ministry of Electronics and Information Technology, Government of India",
+          "date": "2025-11-13",
+          "url": "https://egazette.gov.in/WriteReadData/2025/267647.pdf"
+        },
+        {
+          "title": "Government notifies DPDP Rules to empower citizens and protect privacy",
+          "publisher": "Press Information Bureau, Ministry of Electronics and Information Technology",
+          "date": "2025-11-14",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2190014&lang=2&reg=3"
+        }
+      ]
+    },
+    {
+      "passageId": "r010-current-affairs-04",
+      "sectionId": "current-affairs",
+      "title": "UNESCO's Recommendation on the Ethics of Artificial Intelligence",
+      "text": "UNESCO's Recommendation on the Ethics of Artificial Intelligence was adopted by the organisation's General Conference in November 2021. It is a global normative instrument intended to guide Member States in developing policies and practices for AI. Unlike a treaty, a recommendation does not itself create the same kind of binding legal obligations as an international convention. Its influence depends on how governments and other institutions use it when designing laws, standards and public programmes.\n\nThe Recommendation addresses issues across the life cycle of AI systems. It calls attention to human rights, dignity, diversity, fairness, transparency, accountability, sustainability and the need for human oversight. These values are relevant not only when a system is first designed but also when it is tested, deployed, monitored and withdrawn. A system that performs well in a laboratory may produce different effects when used by a public agency or a company serving people with varied languages, incomes and access to technology.\n\nTransparency is not identical to publishing every line of source code. People affected by an AI-assisted decision may need to know that AI was used, what broad factors mattered and how they can challenge an error. Technical details may sometimes be protected for security or intellectual-property reasons, but those limits do not necessarily justify withholding all meaningful information. The level of explanation should be shaped by the impact of the system and the needs of the person affected.\n\nThe Recommendation also highlights the importance of assessing impacts before and during deployment. An impact assessment can examine who may benefit, who may be harmed, whether the data are representative and whether safeguards are adequate. Such assessment should not be reduced to a form completed once. New data, model updates and changed operating conditions can create new risks that require renewed attention.\n\nUNESCO's instrument provides a common vocabulary for ethical AI policy and encourages cooperation across countries. It does not certify any particular AI system as ethical, nor does it replace domestic legislation or sector-specific regulation. Its practical value lies in helping institutions ask the right questions about rights, fairness and accountability before technical performance is mistaken for public legitimacy.",
+      "asOf": "2026-11-10",
+      "domain": "AI ethics and human rights",
+      "sources": [
+        {
+          "title": "Recommendation on the Ethics of Artificial Intelligence",
+          "publisher": "UNESCO",
+          "date": "2021-11-23",
+          "url": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics"
+        }
+      ]
+    },
+    {
+      "passageId": "r010-current-affairs-05",
+      "sectionId": "current-affairs",
+      "title": "The International Year of Quantum Science and Technology",
+      "text": "Resolution A/RES/78/287, adopted by the United Nations General Assembly on 7 June 2024, designated 2025 as the International Year of Quantum Science and Technology. The observance marked a century of developments associated with modern quantum mechanics and aimed to raise awareness of the importance of quantum science and its applications. It involved scientific institutions, universities, governments and public organisations across different regions.\n\nQuantum science is the foundation for several technologies that are at different stages of maturity. Quantum sensors may enable highly precise measurements; quantum communication research explores methods for protecting information; and quantum computing investigates ways to process certain classes of problems using quantum states. These areas should not be treated as if they have reached the same level of readiness. A laboratory demonstration, a commercially useful device and a broadly deployed service are different milestones.\n\nThe International Year also highlighted the need for education and capacity building. Access to advanced laboratories, specialised equipment and trained researchers is uneven across countries. If scientific progress is concentrated in a few institutions, other regions may become dependent on technologies they cannot assess or adapt. International collaboration can expand access to expertise, but it also requires attention to research integrity, security and the distribution of benefits.\n\nPublic discussion sometimes treats quantum computing as a machine that will make every conventional computer obsolete. That is not a careful description of the field. Quantum devices may offer advantages for particular tasks, but they are difficult to build and operate, and many practical problems remain. Classical computing will continue to serve most routine applications. A realistic policy response should support fundamental science while avoiding promises that exceed the evidence.\n\nThe observance year was a platform for public engagement and international cooperation, not a deadline by which all promised applications had to become commercial products. Its lasting impact will depend on whether education, research networks and institutions continue to develop beyond the calendar year. The resolution called attention to a field of science; it did not itself create a quantum industry or guarantee that each country would gain equal access to its benefits.\n\nThe General Assembly's resolution invited scientific organisations, educational institutions and public bodies to use the year to communicate both established findings and open research questions. Public engagement can help students understand why quantum effects matter, but demonstrations should not imply that practical applications are already available at scale. A careful account distinguishes fundamental science from products that remain experimental.",
+      "asOf": "2026-11-10",
+      "domain": "science and emerging technology",
+      "sources": [
+        {
+          "title": "A/RES/78/287 — International Year of Quantum Science and Technology, 2025",
+          "publisher": "United Nations General Assembly",
+          "date": "2024-06-07",
+          "url": "https://documents.un.org/doc/undoc/gen/n24/175/79/pdf/n2417579.pdf"
+        }
+      ]
+    },
+    {
+      "passageId": "r010-current-affairs-06",
+      "sectionId": "current-affairs",
+      "title": "NVS-03 and the next phase of NavIC",
+      "text": "The Indian Space Research Organisation successfully launched the GSLV-F18/NVS-03 mission on 30 October 2026 from the Satish Dhawan Space Centre at Sriharikota. The GSLV-F18 vehicle placed the NVS-03 navigation satellite into a Geosynchronous Transfer Orbit. A subsequent orbit manoeuvre was completed on 31 October, with further manoeuvres planned to place the satellite in its designated geosynchronous slot. The satellite is the third in a series of five next-generation navigation satellites intended to strengthen the Navigation with Indian Constellation, or NavIC.\n\nNavIC is India's regional satellite navigation system. Satellite navigation services can support transport, timing, emergency response, surveying and other applications that depend on reliable position or time information. A regional system can complement global navigation satellite systems and provide an additional source of service for users within its coverage area. The practical performance of a navigation system depends on satellites, ground control, receiver compatibility, signal quality and the environment in which a device operates.\n\nNVS-03 includes an indigenous atomic clock along with procured atomic clocks. ISRO also described the satellite as including an L1 signal in addition to existing L5 and S-band signals, with coverage over India's landmass and a region extending about 1,500 kilometres around the country's geopolitical boundary. The addition of signal capability can improve compatibility with more receivers, but actual user experience also depends on devices being designed to receive and process the relevant signals.\n\nThe launch should be distinguished from the completion of the entire constellation. NVS-03 is one satellite in a planned series, and its placement into a transfer orbit is followed by manoeuvres to reach the intended orbital slot. A successful launch is an important mission milestone, but operational service depends on commissioning, ground-system integration and the availability of compatible user equipment.\n\nThe mission illustrates why satellite navigation is both a space capability and a public infrastructure question. A constellation can support strategic autonomy and resilient services, yet its value for citizens and businesses depends on affordable receivers, reliable applications and accurate information about coverage. The launch expands the system's capacity; it does not by itself mean that every device can immediately use every new signal.",
+      "asOf": "2026-11-10",
+      "domain": "space technology and navigation",
+      "sources": [
+        {
+          "title": "Orbit manoeuvring of NVS-03 spacecraft",
+          "publisher": "Indian Space Research Organisation",
+          "date": "2026-10-31",
+          "url": "https://www.isro.gov.in/Orbit_manoeuvring_of_NVS03_spacecraft.html"
+        },
+        {
+          "title": "GSLV-F18/NVS-03 Mission — strengthening India's indigenous navigation capabilities",
+          "publisher": "Press Information Bureau, Department of Space",
+          "date": "2026-11-01",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2331077&lang=1&reg=3"
+        }
+      ]
+    },
+    {
+      "passageId": "r010-legal-01",
+      "sectionId": "legal",
+      "title": "A model licence does not erase the dataset terms",
+      "text": "A research consortium releases a collection of annotated engineering images to help universities study defects in manufactured components. The collection is accompanied by a licence that permits research and teaching use, requires attribution to the consortium and prohibits commercial use without a separate written permission. A start-up downloads the collection, trains a defect-detection model and later offers the model to factories on a paid subscription. The start-up argues that the model weights are its own work and that the original images are no longer visible in the finished product.\n\nFor this fictional problem, apply the following rule. A person who obtains material under a licence must comply with the conditions governing the use of that material. Permission to download or adapt a dataset for research does not automatically include permission to use it for commercial training. Attribution is a separate condition: naming the source does not cure a use that the licence prohibits. A user who wishes to move beyond the permitted purpose must obtain the required permission before doing so.\n\nThe rule also distinguishes the dataset from a model trained with it. The fact that a model's parameters are not ordinary copies of the original images does not, by itself, answer whether the training activity complied with the licence. That question concerns the use made of the dataset during development. Whether a particular model output reproduces protected material is a separate question that depends on the output and the applicable terms; it should not be assumed either that every output is restricted or that no output can raise a rights issue.\n\nThe consortium offers the start-up a route to seek a commercial licence. It asks the company to identify the version of the dataset used, describe the training purpose and explain whether the resulting model will be offered to paying customers. The start-up may continue using the images for non-commercial research within the original licence while the application is considered, but it must not treat the pending request as approval for commercial use. If permission is refused, it must stop the prohibited commercial use of the dataset and assess what steps are required for its existing service.\n\nThe rule does not prohibit commercial model development or require every research dataset to remain non-commercial forever. It requires a user to respect the scope of permission actually granted and to obtain new permission before crossing a material boundary. A developer's contribution to the model may be valuable, but it does not retrospectively expand the rights attached to the input material. The decisive issue is the permitted use of the dataset at the time it was used, not merely whether the final model contains a recognisable image."
+    },
+    {
+      "passageId": "r010-legal-02",
+      "sectionId": "legal",
+      "title": "Consent for a new purpose",
+      "text": "A learning application collects a student's name, class level and answers so that it can provide practice questions and record progress. When the application first launches, the student and parent are told that the information will be used to personalise learning and generate reports. Several months later, the provider decides to use the same data to build advertising profiles and share inferred interests with commercial partners. The original notice did not describe that purpose.\n\nThe provider's reuse of learning data is governed by a purpose-limitation rule. Personal information collected for a stated purpose may be used for that purpose and for uses that are reasonably necessary to provide it. A materially different use requires a clear explanation and a valid basis separate from the original permission. The fact that the information is already held does not make every later use permissible. Where consent is the chosen basis, the person must be able to understand the new purpose and make a genuine choice without being misled about the consequences of refusal.\n\nThe provider argues that advertising revenue will keep the learning service free. That may be a legitimate business objective, but it does not automatically make advertising profiles necessary to deliver practice questions. The provider could consider less intrusive options, such as contextual advertising that does not rely on an individual's learning history, a paid version or a separate optional feature. It must also consider whether a child or parent can realistically refuse the new use while continuing to access the core educational service.\n\nIf the application shares only aggregated statistics that cannot reasonably identify an individual, the analysis may differ. But replacing names with a code does not automatically make information anonymous if the provider or partner can reconnect the record to a student. The provider must examine the practical risk of re-identification and the information available to the recipient.\n\nThe rule distinguishes the original service purpose from a new commercial use. It does not prohibit a provider from developing additional features, but it requires the provider to explain the change and obtain the required basis before using existing information in a materially different way. Convenience and business value are not substitutes for a clear purpose and a meaningful choice.\n\nIf the provider relies on a statutory basis rather than consent for a particular use, it must still identify that basis and explain the relevant purpose where the rule requires notice. It cannot call a use optional in its public wording while making refusal impossible in practice. The actual design of the service therefore matters as much as the label placed on a button."
+    },
+    {
+      "passageId": "r010-legal-03",
+      "sectionId": "legal",
+      "title": "A known software vulnerability and reasonable care",
+      "text": "A company supplies software that stores medical appointment records for a network of clinics. During a routine security review, the company discovers a vulnerability that could allow an unauthorised user to access records if a particular configuration is left unchanged. A software update is available, but installing it requires the clinics to schedule a short maintenance window. The supplier delays informing the clinics because it fears that the announcement will damage confidence in the product.\n\nThe service contract imposes duties when the provider learns of a material security weakness. A service provider that knows of a material security vulnerability must take reasonable steps to reduce the risk and inform affected customers in time for them to protect their systems. The steps required depend on the seriousness of the vulnerability, the likelihood of exploitation, the sensitivity of the information and the availability of a safe remedy. A provider need not disclose technical details in a way that enables attackers to exploit the weakness, but it must give customers enough information to understand the risk and take appropriate action.\n\nThe rule also requires reasonable coordination. If an update may interrupt a critical service, the provider should explain the available maintenance options and support customers in applying the fix. It cannot treat operational inconvenience as a reason to leave a known serious vulnerability unaddressed. If exploitation is already suspected, the provider must assist with containment and preserve information needed to investigate the incident.\n\nA clinic may have failed to install an earlier update, but that does not automatically release the supplier from its own duties. Responsibility may depend on the contract, the warnings previously given and the extent to which each party controlled the relevant configuration. The supplier should not assume that a customer's technical team can discover a vulnerability that the supplier has already identified internally.\n\nThe rule does not demand perfect security. It requires reasonable prevention, timely communication and cooperation in response to known risks. A provider that hides a serious weakness to protect reputation may increase harm to customers and patients. Security is an ongoing process, and the duty to act depends on what the provider knows and what practical steps are available.\n\nThe provider should also distinguish between a vulnerability that is merely theoretical and one that can be exploited under the customer's actual configuration. A risk notice can describe the affected versions, recommended mitigation and expected service interruption without publishing a step-by-step exploit. The rule requires enough information for protection, not instructions that create a new danger."
+    },
+    {
+      "passageId": "r010-legal-04",
+      "sectionId": "legal",
+      "title": "A synthetic recording presented as genuine",
+      "text": "A local election committee receives an audio recording in which a candidate appears to instruct supporters to damage a rival's campaign office. The recording is widely shared. A technical consultant says that the file contains signs of synthetic generation, while the person who supplied it insists that it is an authentic voice message. The committee must decide whether to rely on it when considering a complaint under its fictional conduct rules.\n\nThe committee evaluates digital recordings under an evidentiary standard focused on provenance and context. A recording may be considered as evidence only after the decision-maker examines its provenance, integrity and context. A file's apparent voice similarity is not enough to establish that the named person created or approved it. Relevant checks may include the original source, the chain of custody, signs of editing, metadata, corroborating evidence and whether the recording is complete. A technical assessment may assist, but its limitations must be disclosed.\n\nThe committee must give the person accused a fair opportunity to respond to the material relied upon. It may protect the identity of a witness where necessary, but should provide enough information about the allegation for a meaningful response. If the recording cannot be authenticated, the committee may consider other independent evidence; it cannot treat uncertainty as proof of guilt. Equally, a claim that a recording is synthetic does not automatically prove that it is false.\n\nThe rule does not require the committee to establish every technical detail beyond all doubt. It requires a reasoned assessment of reliability and a decision based on the total available evidence. If the consultant can identify likely manipulation but cannot determine who created it, the committee should state that limitation rather than attribute responsibility to a particular person without support.\n\nThe distinction between a file and the event it purports to record is central. Digital evidence can be persuasive because it appears precise and immediate, but its authenticity and context still require examination. The decision-maker remains responsible for explaining why the material is accepted, rejected or treated as inconclusive.\n\nIf the recording is circulated before the committee completes its review, the committee should avoid repeating the allegation as an established fact. It may issue a neutral notice that the material is being examined and remind participants not to harass either the candidate or the person who supplied the file. A precautionary response does not determine the final evidentiary question."
+    },
+    {
+      "passageId": "r010-legal-05",
+      "sectionId": "legal",
+      "title": "A decision needs reasons that can be used",
+      "text": "A public transport authority uses a model to decide which applicants qualify for discounted travel passes. A passenger receives a message stating that the application has been rejected because the applicant's “eligibility index” fell below the required threshold. The passenger cannot see which information produced the index and has no way to correct a mistaken address or income record.\n\nThe authority must follow a reasons-and-review standard when an automated tool affects access to a public service. Where a public authority makes an adverse decision that materially affects access to a public service, it must provide reasons sufficient for the affected person to understand the main basis of the decision and identify any relevant factual error. The authority need not publish its entire source code or disclose security-sensitive information. It must, however, explain the material categories considered and provide a route to challenge inaccurate or incomplete information.\n\nThe authority argues that a detailed explanation would make it easier for applicants to manipulate the system. The rule permits it to withhold narrow operational details where disclosure creates a demonstrated risk, but that concern cannot justify a message that gives no usable explanation at all. It may describe the relevant category, such as household income or residence, without revealing the precise detection threshold. An independent reviewer can examine whether the withheld detail is genuinely sensitive.\n\nIf the passenger shows that the address in the application was mistyped, the authority should correct the record and reconsider the decision. It need not grant the pass automatically if other eligibility conditions remain unsatisfied. The purpose of review is to ensure that the decision is based on accurate information and the published criteria, not to guarantee a favourable result.\n\nThe rule distinguishes an explanation that is technically detailed from one that is practically useful. A long report may reveal little if it does not identify the fact that affected the applicant. A concise notice can be adequate when it shows the relevant basis and tells the person how to correct it. The authority must remain able to explain the decision in terms that connect its model to the rules it is responsible for applying.\n\nReasons are also relevant to internal review. A second officer should be able to see which published criterion was applied and whether the underlying record was accurate. If the first officer cannot explain the result beyond repeating a score, the review process cannot test whether the model's output was used properly."
+    },
+    {
+      "passageId": "r010-legal-06",
+      "sectionId": "legal",
+      "title": "Changing the rules of a digital platform",
+      "text": "A digital marketplace publishes rules stating how sellers may list products, how complaints are investigated and when an account may be suspended. Small sellers rely on the platform to reach customers and plan stock purchases around the published fee schedule. The platform later changes its algorithm and begins charging a new visibility fee. It applies the change immediately to existing listings without notifying sellers or explaining how the fee affects product ranking.\n\nThe platform's terms include a fairness requirement for changes affecting existing sellers. A platform may revise its operating terms for legitimate business reasons, but a material change affecting existing users must be communicated clearly and with reasonable notice before it takes effect, unless an urgent security or legal reason requires immediate action. The platform must describe the practical effect of the change and provide a route for users to ask questions or close their account without being misled. A term that allows unlimited unilateral changes does not remove the obligation to act fairly.\n\nThe platform argues that sellers can leave whenever they wish. That option may be relevant, but it does not necessarily cure a sudden change after sellers have bought inventory or committed to advertising. A reasonable transition period allows users to adapt, cancel planned listings or compare alternatives. The required notice may depend on the magnitude of the change and the degree of reliance the platform could reasonably foresee.\n\nIf a security incident requires the platform to suspend a compromised account immediately, it may do so without the ordinary notice period. It should still provide a prompt explanation once disclosure is safe and allow the seller to challenge a mistaken identification. An urgent protective measure should not become a pretext for imposing an unrelated commercial term without notice.\n\nThe rule recognises that digital services need flexibility, but also that users organise real economic activity around platform rules. Fairness depends on the materiality of the change, the notice given, the ability to adapt and the reasons for any immediate action. The platform remains responsible for explaining how its published system has changed.\n\nThe platform should retain the earlier terms and the date on which each version applied. If a seller complains that a new fee was applied before notice, the record can show what the seller was told and when. Version control does not decide whether a change is fair, but it makes the decision easier to examine."
+    },
+    {
+      "passageId": "r010-logical-01",
+      "sectionId": "logical",
+      "title": "Benchmark performance and deployment risk",
+      "text": "A technology agency reports that a new language model achieved a higher score than its predecessor on a set of standardised reasoning tests. The agency concludes that the new model is safer for use in public services because it makes fewer errors on the benchmark. The report is based on thousands of test questions and has been reviewed by an external laboratory.\n\nThe improvement is meaningful within the limits of the test. However, the benchmark contains short, clearly stated questions and does not reproduce the conditions under which people approach a public service. A user may provide incomplete information, use a regional language, describe a problem indirectly or ask for help while under stress. The system may also be connected to databases or tools that introduce errors not present in the benchmark.\n\nA second issue concerns the nature of the errors. A model may improve its average score by answering more common questions correctly while continuing to fail on a small group of high-consequence cases. If the agency uses the model to explain benefit eligibility, a wrong answer about an appeal deadline may matter more than several correct answers about general information. A single average score hides the distribution and seriousness of mistakes.\n\nThe agency proposes a staged trial. It will test the model on realistic enquiries, compare performance across languages and user groups, measure the frequency of harmful errors and keep a human officer responsible for final decisions. It will also record cases where users abandon the interaction or seek help elsewhere. The benchmark score remains one part of the evidence, not the final test of suitability.\n\nThe report's conclusion is therefore stronger than its data justify. Better benchmark performance is evidence of progress on the tasks measured. It does not automatically establish safety in every deployment. A responsible evaluation asks whether the test resembles actual use, whether errors are distributed fairly and whether the institution can detect and correct failures after release.\n\nThe agency could also test whether the model's advantage persists when questions are asked in languages and formats that were underrepresented in its benchmark. A deployment evaluation should include users who need assistive technology and people who provide partial information. If the model performs well only for a narrow test population, the headline improvement may not transfer to the public service."
+    },
+    {
+      "passageId": "r010-logical-02",
+      "sectionId": "logical",
+      "title": "Offline alternatives and resilience",
+      "text": "A city replaces paper appointment slips at public clinics with a mobile application. Within six months, online bookings rise and the average time spent at the registration counter falls. The health department concludes that the digital system has made access more efficient and proposes closing the remaining walk-in desk at smaller clinics.\n\nThe figures describe users who successfully booked online. They do not reveal how many people tried and failed, how many lacked a compatible phone or how often the network was unavailable. In neighbourhoods with reliable connectivity, the application may reduce waiting. In remote areas, a resident may travel to a clinic only to learn that the booking system cannot verify an identity record. A lower counter queue does not necessarily mean that fewer people were unable to obtain an appointment.\n\nThe department argues that maintaining a walk-in desk is expensive and that most residents now own a smartphone. Ownership alone does not prove that a person can complete a form, receive a one-time password or understand an error message. A phone may be shared by several family members, or the data connection may be unavailable at the time the appointment is needed. A system that assumes continuous access may work well in ordinary conditions and fail precisely when demand is high.\n\nA more complete evaluation would measure successful appointment completion across channels, not only online submissions. It would also record failed attempts, abandoned journeys and the use of assisted booking. The department could maintain a smaller assisted desk or an offline queue that syncs records when connectivity returns. That arrangement would retain most of the digital efficiency while providing a fallback for people excluded by the technology.\n\nThe question is not whether digital services are preferable to paper in every case. It is whether the system remains usable when devices, connectivity or identity records fail. Resilience includes the capacity to continue serving people during disruption. A channel that disappears when its supporting infrastructure fails should not be treated as the only measure of successful modernisation.\n\nThe department should also compare the cost of assisted access with the cost of failed appointments. An offline route may appear less efficient when measured as staff time per booking, but it can prevent a person from making repeated journeys after a digital failure. The proper comparison includes successful access, not simply the cost of processing a completed online form."
+    },
+    {
+      "passageId": "r010-logical-03",
+      "sectionId": "logical",
+      "title": "More data can reduce trust",
+      "text": "A municipal safety unit installs additional cameras and proposes linking their footage with travel-card records to identify crowding and respond to emergencies. Officials argue that more information will allow faster decisions and reduce the risk of missing a dangerous incident. The system is expected to help planners understand how people move through crowded spaces.\n\nA civil-society group agrees that accurate information can improve safety but questions whether every data source is necessary. The unit has not shown that linking individual travel histories is required to estimate crowd density. It could use aggregated counts or short retention periods for much of the planning work. Linking identifiable records may create a detailed history of a person's movements that could later be used for unrelated purposes.\n\nThe unit replies that safeguards can be added after launch. Yet trust depends partly on what people understand before data collection begins. If residents believe that every journey is being recorded without a clear purpose, they may avoid public transport or change their behaviour. That response can make the data less representative and undermine the very planning objective the unit wants to support.\n\nA pilot could compare several methods. One would use camera-based counts that do not identify individuals; another would link records only for a limited emergency investigation under a defined authorisation process. The unit could measure response time, false alerts, retention needs and public understanding. It should explain what information is collected, who can access it and when it is deleted. The choice should be based on evidence of necessity and effectiveness rather than the assumption that more data always produces better decisions.\n\nThe safety objective is legitimate, but it does not settle the scope of collection. More information may improve a system when it is relevant and reliable. Unnecessary collection can increase risk, cost and public resistance. A successful design must consider both operational performance and the conditions that make people willing to use a public service.\n\nThe unit could also publish a retention schedule and an audit record of who accessed identifiable footage. Independent review may help determine whether the safety benefit justifies the collection and whether less intrusive information would have achieved the same result. These safeguards will not remove every concern, but they allow the public to examine whether the stated purpose is being respected."
+    },
+    {
+      "passageId": "r010-logical-04",
+      "sectionId": "logical",
+      "title": "An explanation must permit correction",
+      "text": "A university deploys an automated system to identify students who may need additional academic support. It sends a notice when a student's activity falls below a threshold and recommends a meeting with an adviser. The university describes the system as supportive rather than punitive, and says students can contact the office if they disagree with the result.\n\nStudents soon discover that the notice does not identify which activity triggered it. One student had completed assignments offline during a platform outage; another had changed courses and was no longer required to use the earlier online module. Both received the same notice. The university's staff could see the score but not a clear explanation of the inputs that determined it.\n\nThe university argues that showing a detailed explanation may reveal how to avoid detection. But the purpose is to offer support, not to catch misconduct. A student who does not know whether the notice concerns attendance, course registration or assignment submission cannot correct the relevant record. The general invitation to contact the office places the burden on the student to guess what went wrong.\n\nA revised process shows the categories contributing to the alert and the date of the records used. Students can correct a course enrolment or report a platform outage. Advisers review the corrected information before recommending support. The university still protects technical details that would compromise system security, but it no longer treats a score as a sufficient explanation.\n\nThe change does not require every automated system to reveal every internal calculation. It requires a level of explanation that matches the purpose and impact of the system. Where the institution expects people to act on a notice, it must give them enough information to understand what is being asked and to correct a material error. Without that possibility, the promise of supportive intervention may become an unexplained label attached to the student.\n\nThe institution should also tell the student how long a correction request is expected to take and what happens while it is being considered. A route that exists only on paper may not help someone who needs support immediately. Practical contestability therefore includes a reachable contact, a reasonable response time and a way to avoid an adverse label while a material record error is being checked. A correction can be simple, but the process should remain visible."
+    },
+    {
+      "passageId": "r010-quantitative-01",
+      "sectionId": "quantitative",
+      "title": "Shared AI compute allocation",
+      "text": "A public research centre has 1,200 accelerator-hours available in one week. University A receives 35%, University B receives 25% and start-up teams share the remainder. Of the start-up allocation, 40% is reserved for safety testing and the rest for general research. During the week, University A uses 90% of its allocation and University B uses 80%. The centre charges ₹500 per used accelerator-hour for external users. Treat all percentages as exact and ignore taxes."
+    },
+    {
+      "passageId": "r010-quantitative-02",
+      "sectionId": "quantitative",
+      "title": "Digital wallet transaction study",
+      "text": "A payment network processes 80,000 transactions in a month. Forty-five per cent are small-merchant payments, 30% are bill payments and the remainder are person-to-person transfers. Of small-merchant payments, 4% are reversed; of bill payments, 2% are reversed; and 1% of person-to-person transfers are reversed. A separate audit finds 600 transactions requiring manual review. Assume the three transaction categories are mutually exclusive and exhaustive.\n\nThe network's finance team reports reversals separately from the manual-review count. A transaction may be reversed without requiring manual review, and a transaction flagged for review may ultimately be valid. Do not assume that the two groups are identical or add them together unless a question explicitly asks for their combined total."
+    },
+    {
+      "passageId": "r010-quantitative-03",
+      "sectionId": "quantitative",
+      "title": "Cyber incident response",
+      "text": "A service provider receives 2,400 security alerts in a quarter. Thirty per cent are classified as high priority, 45% as medium priority and the remainder as low priority. Analysts resolve 80% of high-priority alerts, 75% of medium-priority alerts and 90% of low-priority alerts within the target time. Each resolved high-priority alert requires an average of 3 analyst-hours, each medium alert 1.5 hours and each low alert 0.5 hour. Assume the stated percentages are exact."
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "clat-ug27-r010-q001",
+      "passageId": "r010-english-01",
+      "sectionId": "english",
+      "prompt": "What did the tenants' group identify about the score distribution?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Applicants from remote settlements were sent for review more often than town-centre applicants."
+        },
+        {
+          "optionId": "o2",
+          "text": "Applicants from the town centre received more offers."
+        },
+        {
+          "optionId": "o3",
+          "text": "The model used only distance from the district office."
+        },
+        {
+          "optionId": "o4",
+          "text": "Remote applicants were automatically rejected."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The group noticed a higher referral rate for applicants from two remote settlements; the later review examined why.",
+      "difficulty": "easy",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q002",
+      "passageId": "r010-english-01",
+      "sectionId": "english",
+      "prompt": "Why did income records from remote settlements appear less stable?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Applicants had higher average incomes."
+        },
+        {
+          "optionId": "o2",
+          "text": "The model excluded all forms of employment."
+        },
+        {
+          "optionId": "o3",
+          "text": "Seasonal work and changing phone numbers made records look inconsistent."
+        },
+        {
+          "optionId": "o4",
+          "text": "The settlements had no housing services."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Seasonal earnings and changing contact details affected records without necessarily reflecting actual instability.",
+      "difficulty": "moderate",
+      "competency": "cause-and-effect"
+    },
+    {
+      "questionId": "clat-ug27-r010-q003",
+      "passageId": "r010-english-01",
+      "sectionId": "english",
+      "prompt": "What limitation in the training data contributed to the problem?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The training set contained only remote applicants."
+        },
+        {
+          "optionId": "o2",
+          "text": "There were fewer earlier examples from remote communities."
+        },
+        {
+          "optionId": "o3",
+          "text": "The model was trained without tenancy data."
+        },
+        {
+          "optionId": "o4",
+          "text": "The dataset included too many accurate applications."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Earlier files contained fewer examples from remote areas, so observed patterns were not representative.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q004",
+      "passageId": "r010-english-01",
+      "sectionId": "english",
+      "prompt": "What procedural change did the housing office make?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The office stopped using caseworkers."
+        },
+        {
+          "optionId": "o2",
+          "text": "The score became a final legal finding."
+        },
+        {
+          "optionId": "o3",
+          "text": "All high-scoring applicants were suspended."
+        },
+        {
+          "optionId": "o4",
+          "text": "A high score could trigger clarification but could not itself justify rejection."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The model's role was narrowed to organising attention while officers retained eligibility decisions.",
+      "difficulty": "moderate",
+      "competency": "detail-inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q005",
+      "passageId": "r010-english-01",
+      "sectionId": "english",
+      "prompt": "Why did some applicants stop pursuing their applications?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "They had to pay a new fee."
+        },
+        {
+          "optionId": "o2",
+          "text": "They assumed that a high score meant rejection was inevitable."
+        },
+        {
+          "optionId": "o3",
+          "text": "The office had closed."
+        },
+        {
+          "optionId": "o4",
+          "text": "They could no longer access the application form."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Some people treated the score as a finding of dishonesty and abandoned the process.",
+      "difficulty": "challenging",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q006",
+      "passageId": "r010-english-01",
+      "sectionId": "english",
+      "prompt": "Which statement best expresses the passage's central argument?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "A consistent model is necessarily fair to every group."
+        },
+        {
+          "optionId": "o2",
+          "text": "Human review should be removed when accuracy is high."
+        },
+        {
+          "optionId": "o3",
+          "text": "Any model trained on history should be prohibited."
+        },
+        {
+          "optionId": "o4",
+          "text": "An automated score may be useful, but accountability requires examining its data and how officials act on it."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The conclusion connects gaps in training records with institutional responsibility for decisions using model outputs.",
+      "difficulty": "easy",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r010-q007",
+      "passageId": "r010-english-02",
+      "sectionId": "english",
+      "prompt": "Why did the consumer organisation question the application's permissions?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The application did not show route information."
+        },
+        {
+          "optionId": "o2",
+          "text": "The company stored no journey history."
+        },
+        {
+          "optionId": "o3",
+          "text": "Contacts and microphone access were not necessary to display basic bus arrivals."
+        },
+        {
+          "optionId": "o4",
+          "text": "The service was unavailable outside the city."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The basic timetable feature did not require the unrelated data used for social recommendations and voice search.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q008",
+      "passageId": "r010-english-02",
+      "sectionId": "english",
+      "prompt": "What was wrong with grouping all permissions under one button?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "It obscured separate purposes and prevented a meaningful choice about optional features."
+        },
+        {
+          "optionId": "o2",
+          "text": "It made the application run too slowly."
+        },
+        {
+          "optionId": "o3",
+          "text": "It prevented route suggestions."
+        },
+        {
+          "optionId": "o4",
+          "text": "It deleted stored journeys."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "A single grouped request did not help users understand which data supported which feature.",
+      "difficulty": "moderate",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r010-q009",
+      "passageId": "r010-english-02",
+      "sectionId": "english",
+      "prompt": "Which redesign best addressed the problem?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Require all permissions before showing a timetable."
+        },
+        {
+          "optionId": "o2",
+          "text": "Delete the privacy notice."
+        },
+        {
+          "optionId": "o3",
+          "text": "Request location only for nearby arrivals and make contacts and microphone access separate optional features."
+        },
+        {
+          "optionId": "o4",
+          "text": "Collect contacts after uninstall."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The redesign linked each permission to a feature and kept the core timetable usable without unrelated access.",
+      "difficulty": "moderate",
+      "competency": "application"
+    },
+    {
+      "questionId": "clat-ug27-r010-q010",
+      "passageId": "r010-english-02",
+      "sectionId": "english",
+      "prompt": "Why is uninstalling the application not a complete answer?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "It does not give users a practical choice about optional data uses while retaining the basic service."
+        },
+        {
+          "optionId": "o2",
+          "text": "Uninstalling transfers data to a competitor."
+        },
+        {
+          "optionId": "o3",
+          "text": "Users are legally required to keep it installed."
+        },
+        {
+          "optionId": "o4",
+          "text": "It prevents data deletion."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The issue concerns whether refusing unrelated permissions blocks access to the core service.",
+      "difficulty": "challenging",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q011",
+      "passageId": "r010-english-02",
+      "sectionId": "english",
+      "prompt": "Which statement best describes location data in the redesigned service?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "It is collected continuously for advertising."
+        },
+        {
+          "optionId": "o2",
+          "text": "It is used only to identify contacts."
+        },
+        {
+          "optionId": "o3",
+          "text": "It is unnecessary for nearby arrival information."
+        },
+        {
+          "optionId": "o4",
+          "text": "It remains relevant when a user requests nearby arrivals, but not for every feature."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The redesigned request is connected to the feature for which location is useful.",
+      "difficulty": "easy",
+      "competency": "detail-inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q012",
+      "passageId": "r010-english-02",
+      "sectionId": "english",
+      "prompt": "What is the author's main point about convenience?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Convenience should always outweigh privacy."
+        },
+        {
+          "optionId": "o2",
+          "text": "A useful service does not make unrelated data collection necessary or automatically consensual."
+        },
+        {
+          "optionId": "o3",
+          "text": "A free service may collect any data it can access."
+        },
+        {
+          "optionId": "o4",
+          "text": "Consent matters only for paid services."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The conclusion rejects convenience as a substitute for clear purpose and practical choice.",
+      "difficulty": "moderate",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r010-q013",
+      "passageId": "r010-english-03",
+      "sectionId": "english",
+      "prompt": "What does the payment-network example distinguish?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The distinction between cash payments and cheque-based transactions."
+        },
+        {
+          "optionId": "o2",
+          "text": "The distinction between the institutions holding accounts and the people using them."
+        },
+        {
+          "optionId": "o3",
+          "text": "Government companies from private companies."
+        },
+        {
+          "optionId": "o4",
+          "text": "The openness of a shared technical rail from the market power of private interfaces."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Interoperability at the network layer does not settle access at the interface layer.",
+      "difficulty": "moderate",
+      "competency": "conceptual-distinction"
+    },
+    {
+      "questionId": "clat-ug27-r010-q014",
+      "passageId": "r010-english-03",
+      "sectionId": "english",
+      "prompt": "Why might a small provider still face barriers despite technical interoperability?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The rail prevents it accepting payments."
+        },
+        {
+          "optionId": "o2",
+          "text": "Certification, visibility and support conditions may be difficult to navigate."
+        },
+        {
+          "optionId": "o3",
+          "text": "The provider must use a large application."
+        },
+        {
+          "optionId": "o4",
+          "text": "The network eliminates customer choice."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Practical access conditions can disadvantage smaller providers despite technical connection.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q015",
+      "passageId": "r010-english-03",
+      "sectionId": "english",
+      "prompt": "What might a consumer lose when switching applications?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Stored transaction history or access to a reward programme."
+        },
+        {
+          "optionId": "o2",
+          "text": "Ownership of a bank account."
+        },
+        {
+          "optionId": "o3",
+          "text": "The ability to use the shared rail in every case."
+        },
+        {
+          "optionId": "o4",
+          "text": "The legal right to challenge a debit."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The passage uses histories and rewards as examples of user lock-in at the interface layer.",
+      "difficulty": "challenging",
+      "competency": "detail-inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q016",
+      "passageId": "r010-english-03",
+      "sectionId": "english",
+      "prompt": "Why did regulators distinguish the shared rail from private applications?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "To prohibit private companies from developing applications."
+        },
+        {
+          "optionId": "o2",
+          "text": "To make all applications identical."
+        },
+        {
+          "optionId": "o3",
+          "text": "To examine separate access conditions at the infrastructure and service layers."
+        },
+        {
+          "optionId": "o4",
+          "text": "To replace the network with individual bank systems."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Regulators examined technical rules, certification, suspension and portability separately.",
+      "difficulty": "easy",
+      "competency": "author-purpose"
+    },
+    {
+      "questionId": "clat-ug27-r010-q017",
+      "passageId": "r010-english-03",
+      "sectionId": "english",
+      "prompt": "Which proposition would the author most likely support?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Open technical standards should be accompanied by fair and predictable access conditions."
+        },
+        {
+          "optionId": "o2",
+          "text": "Public infrastructure has value only when government owns every interface."
+        },
+        {
+          "optionId": "o3",
+          "text": "Interoperability guarantees competition without oversight."
+        },
+        {
+          "optionId": "o4",
+          "text": "A private interface should control all access."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The conclusion identifies predictable access as central to the public value of shared infrastructure.",
+      "difficulty": "moderate",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r010-q018",
+      "passageId": "r010-english-03",
+      "sectionId": "english",
+      "prompt": "What does the example show about public value?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Public value requires government ownership in every case."
+        },
+        {
+          "optionId": "o2",
+          "text": "A technical protocol resolves every market barrier."
+        },
+        {
+          "optionId": "o3",
+          "text": "It may depend on fair access even where infrastructure is privately developed."
+        },
+        {
+          "optionId": "o4",
+          "text": "Private services cannot contribute to public infrastructure."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The passage says public ownership is not the only route to public value; fair access also matters.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q019",
+      "passageId": "r010-english-04",
+      "sectionId": "english",
+      "prompt": "Why were two villages given the same risk score despite different circumstances?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Both had identical pumps and rainfall."
+        },
+        {
+          "optionId": "o2",
+          "text": "The score concealed that the evidence supporting each prediction was different."
+        },
+        {
+          "optionId": "o3",
+          "text": "The model lacked historical records."
+        },
+        {
+          "optionId": "o4",
+          "text": "The score was based only on population."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "One village had reliable data and an ageing pump; the other had missing records and estimates from neighbours.",
+      "difficulty": "moderate",
+      "competency": "detail-inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q020",
+      "passageId": "r010-english-04",
+      "sectionId": "english",
+      "prompt": "What did engineers reveal about some model inputs?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Every record was inaccurate by the same amount."
+        },
+        {
+          "optionId": "o2",
+          "text": "The model used only satellite images."
+        },
+        {
+          "optionId": "o3",
+          "text": "Engineers could not access village information."
+        },
+        {
+          "optionId": "o4",
+          "text": "Some records were stale and did not reflect recent local changes."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "A replaced pump and a changed water source were missing from the central database.",
+      "difficulty": "challenging",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q021",
+      "passageId": "r010-english-04",
+      "sectionId": "english",
+      "prompt": "What was the purpose of the model card?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "To certify that errors would never occur."
+        },
+        {
+          "optionId": "o2",
+          "text": "To disclose intended use, data coverage, limitations and the date of evaluation."
+        },
+        {
+          "optionId": "o3",
+          "text": "To publish confidential personal records."
+        },
+        {
+          "optionId": "o4",
+          "text": "To replace local engineering inspections."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The card was described as a transparency aid, not a guarantee of accuracy.",
+      "difficulty": "easy",
+      "competency": "detail-inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q022",
+      "passageId": "r010-english-04",
+      "sectionId": "english",
+      "prompt": "Why allow district officers to submit corrections?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Officers could change scores without evidence."
+        },
+        {
+          "optionId": "o2",
+          "text": "The model could not process rainfall."
+        },
+        {
+          "optionId": "o3",
+          "text": "The laboratory wanted to remove local data."
+        },
+        {
+          "optionId": "o4",
+          "text": "Incorrect or outdated inputs could distort future rankings."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Correction was necessary because out-of-date records could understate or overstate risk.",
+      "difficulty": "moderate",
+      "competency": "cause-and-effect"
+    },
+    {
+      "questionId": "clat-ug27-r010-q023",
+      "passageId": "r010-english-04",
+      "sectionId": "english",
+      "prompt": "Which conclusion does the passage support about a prediction score?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "A numerical score explains its own basis."
+        },
+        {
+          "optionId": "o2",
+          "text": "An unexplained score is more reliable than a report."
+        },
+        {
+          "optionId": "o3",
+          "text": "It can guide attention, but should not be treated as a complete explanation."
+        },
+        {
+          "optionId": "o4",
+          "text": "A prediction is equivalent to a final service decision."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The passage says a prediction is useful only when limitations are visible and inputs can be challenged.",
+      "difficulty": "moderate",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r010-q024",
+      "passageId": "r010-english-04",
+      "sectionId": "english",
+      "prompt": "What does 'a prediction needs a reason' mean?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "A score should be accompanied by evidence and uncertainty that make it understandable."
+        },
+        {
+          "optionId": "o2",
+          "text": "A model should produce only one number."
+        },
+        {
+          "optionId": "o3",
+          "text": "Every prediction requires a legal opinion."
+        },
+        {
+          "optionId": "o4",
+          "text": "Users should accept every model output."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "A number without an account of its inputs and limits is difficult to assess.",
+      "difficulty": "moderate",
+      "competency": "interpretation"
+    },
+    {
+      "questionId": "clat-ug27-r010-q025",
+      "passageId": "r010-current-affairs-01",
+      "sectionId": "current-affairs",
+      "prompt": "How many countries and international organisations endorsed the New Delhi Declaration?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "79."
+        },
+        {
+          "optionId": "o2",
+          "text": "163."
+        },
+        {
+          "optionId": "o3",
+          "text": "92."
+        },
+        {
+          "optionId": "o4",
+          "text": "40."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The PIB release reports 92 endorsers.",
+      "difficulty": "challenging",
+      "competency": "fact-comprehension"
+    },
+    {
+      "questionId": "clat-ug27-r010-q026",
+      "passageId": "r010-current-affairs-01",
+      "sectionId": "current-affairs",
+      "prompt": "When was the AI Impact Summit held in New Delhi?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "18–19 February 2026."
+        },
+        {
+          "optionId": "o2",
+          "text": "6–7 July 2026."
+        },
+        {
+          "optionId": "o3",
+          "text": "13–14 November 2025."
+        },
+        {
+          "optionId": "o4",
+          "text": "30–31 October 2026."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The summit took place on 18 and 19 February 2026.",
+      "difficulty": "easy",
+      "competency": "date-and-event"
+    },
+    {
+      "questionId": "clat-ug27-r010-q027",
+      "passageId": "r010-current-affairs-01",
+      "sectionId": "current-affairs",
+      "prompt": "Which is one of the seven pillars identified in the declaration?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Mandatory global licensing of AI developers."
+        },
+        {
+          "optionId": "o2",
+          "text": "One worldwide model architecture."
+        },
+        {
+          "optionId": "o3",
+          "text": "A prohibition on private research."
+        },
+        {
+          "optionId": "o4",
+          "text": "Energy efficiency of AI systems."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Energy efficiency is one of the seven named areas of cooperation.",
+      "difficulty": "moderate",
+      "competency": "detail-inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q028",
+      "passageId": "r010-current-affairs-01",
+      "sectionId": "current-affairs",
+      "prompt": "What does endorsement of the declaration establish?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Every endorser enacted the same law."
+        },
+        {
+          "optionId": "o2",
+          "text": "Broad support for a shared direction, not identical binding domestic laws."
+        },
+        {
+          "optionId": "o3",
+          "text": "The declaration is a treaty with automatic enforcement."
+        },
+        {
+          "optionId": "o4",
+          "text": "All AI risks have been resolved."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The text distinguishes a political declaration from a binding treaty or identical national laws.",
+      "difficulty": "moderate",
+      "competency": "conceptual-distinction"
+    },
+    {
+      "questionId": "clat-ug27-r010-q029",
+      "passageId": "r010-current-affairs-01",
+      "sectionId": "current-affairs",
+      "prompt": "Why does access to AI resources matter for cooperation?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "AI development needs no infrastructure."
+        },
+        {
+          "optionId": "o2",
+          "text": "All countries possess equal computing resources."
+        },
+        {
+          "optionId": "o3",
+          "text": "Compute access is unrelated to research capacity."
+        },
+        {
+          "optionId": "o4",
+          "text": "Compute, data, skills and energy can be concentrated in a small number of firms and countries."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The passage explains how concentrated resources may limit who can develop or adapt AI.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q030",
+      "passageId": "r010-current-affairs-02",
+      "sectionId": "current-affairs",
+      "prompt": "Which UN resolution established the Global Dialogue on AI Governance?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Resolution 78/287."
+        },
+        {
+          "optionId": "o2",
+          "text": "Resolution 79/325."
+        },
+        {
+          "optionId": "o3",
+          "text": "Resolution 80/303."
+        },
+        {
+          "optionId": "o4",
+          "text": "Resolution 79/1."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The UN Dialogue page identifies resolution 79/325, adopted on 26 August 2025.",
+      "difficulty": "challenging",
+      "competency": "fact-comprehension"
+    },
+    {
+      "questionId": "clat-ug27-r010-q031",
+      "passageId": "r010-current-affairs-02",
+      "sectionId": "current-affairs",
+      "prompt": "Where and when was the inaugural Dialogue held?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Geneva, 6–7 July 2026."
+        },
+        {
+          "optionId": "o2",
+          "text": "New Delhi, 18–19 February 2026."
+        },
+        {
+          "optionId": "o3",
+          "text": "New York, 3–4 May 2027."
+        },
+        {
+          "optionId": "o4",
+          "text": "Paris, 23–24 November 2021."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The official Dialogue page records Geneva and the 6–7 July dates.",
+      "difficulty": "easy",
+      "competency": "date-and-event"
+    },
+    {
+      "questionId": "clat-ug27-r010-q032",
+      "passageId": "r010-current-affairs-02",
+      "sectionId": "current-affairs",
+      "prompt": "How many countries sent delegations to the inaugural Dialogue?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "92."
+        },
+        {
+          "optionId": "o2",
+          "text": "21."
+        },
+        {
+          "optionId": "o3",
+          "text": "163."
+        },
+        {
+          "optionId": "o4",
+          "text": "193."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The UN FAQ reports delegations from 163 countries.",
+      "difficulty": "moderate",
+      "competency": "fact-comprehension"
+    },
+    {
+      "questionId": "clat-ug27-r010-q033",
+      "passageId": "r010-current-affairs-02",
+      "sectionId": "current-affairs",
+      "prompt": "What is the Dialogue's institutional character?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "A recurring forum for exchange and cooperation, not a treaty-making regulator."
+        },
+        {
+          "optionId": "o2",
+          "text": "A supranational court with binding jurisdiction."
+        },
+        {
+          "optionId": "o3",
+          "text": "A private standards body for technology companies."
+        },
+        {
+          "optionId": "o4",
+          "text": "A UN agency licensing all AI systems."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The forum enables discussion and informs future work; it is not a regulator.",
+      "difficulty": "moderate",
+      "competency": "conceptual-distinction"
+    },
+    {
+      "questionId": "clat-ug27-r010-q034",
+      "passageId": "r010-current-affairs-02",
+      "sectionId": "current-affairs",
+      "prompt": "What is the role of the Independent International Scientific Panel on AI?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "To approve every AI model before deployment."
+        },
+        {
+          "optionId": "o2",
+          "text": "To decide domestic laws for Member States."
+        },
+        {
+          "optionId": "o3",
+          "text": "To provide evidence-based assessments of AI opportunities, risks and impacts."
+        },
+        {
+          "optionId": "o4",
+          "text": "To replace the Global Dialogue."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The UN describes the Panel as providing scientific assessments to inform the Dialogue.",
+      "difficulty": "moderate",
+      "competency": "detail-inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q035",
+      "passageId": "r010-current-affairs-03",
+      "sectionId": "current-affairs",
+      "prompt": "When were India's DPDP Rules, 2025 notified?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "February 2026."
+        },
+        {
+          "optionId": "o2",
+          "text": "November 2025."
+        },
+        {
+          "optionId": "o3",
+          "text": "June 2024."
+        },
+        {
+          "optionId": "o4",
+          "text": "October 2026."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The Gazette notification is dated 13 November 2025; PIB reported notification on 14 November.",
+      "difficulty": "challenging",
+      "competency": "date-and-event"
+    },
+    {
+      "questionId": "clat-ug27-r010-q036",
+      "passageId": "r010-current-affairs-03",
+      "sectionId": "current-affairs",
+      "prompt": "Which principle concerns collecting only information needed for a stated purpose?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Storage limitation."
+        },
+        {
+          "optionId": "o2",
+          "text": "Accuracy."
+        },
+        {
+          "optionId": "o3",
+          "text": "Accountability."
+        },
+        {
+          "optionId": "o4",
+          "text": "Data minimisation."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Data minimisation limits collection to what is necessary.",
+      "difficulty": "easy",
+      "competency": "conceptual-distinction"
+    },
+    {
+      "questionId": "clat-ug27-r010-q037",
+      "passageId": "r010-current-affairs-03",
+      "sectionId": "current-affairs",
+      "prompt": "What does the phased commencement schedule mean?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "All obligations began on one date."
+        },
+        {
+          "optionId": "o2",
+          "text": "Different provisions take effect on publication, after one year or after eighteen months."
+        },
+        {
+          "optionId": "o3",
+          "text": "No provisions apply before 2027."
+        },
+        {
+          "optionId": "o4",
+          "text": "The Act was repealed when Rules were notified."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The Gazette specifies multiple commencement stages.",
+      "difficulty": "moderate",
+      "competency": "fact-comprehension"
+    },
+    {
+      "questionId": "clat-ug27-r010-q038",
+      "passageId": "r010-current-affairs-03",
+      "sectionId": "current-affairs",
+      "prompt": "Which statement about a consent notice is most consistent with the Rules?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "It may combine unrelated purposes without explanation."
+        },
+        {
+          "optionId": "o2",
+          "text": "It should avoid describing data use."
+        },
+        {
+          "optionId": "o3",
+          "text": "It can be hidden behind an optional marketing page."
+        },
+        {
+          "optionId": "o4",
+          "text": "It should clearly explain the specific purposes for which information is collected and used."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The PIB summary describes notices as standalone, clear and simple about purpose.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q039",
+      "passageId": "r010-current-affairs-03",
+      "sectionId": "current-affairs",
+      "prompt": "Why is adding a consent screen alone insufficient?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Consent screens are prohibited."
+        },
+        {
+          "optionId": "o2",
+          "text": "The Act regulates only paper records."
+        },
+        {
+          "optionId": "o3",
+          "text": "Organisations must also map data, limit collection, set retention and secure systems."
+        },
+        {
+          "optionId": "o4",
+          "text": "Security safeguards are outside the framework."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The passage lists operational duties beyond collecting a click.",
+      "difficulty": "moderate",
+      "competency": "application"
+    },
+    {
+      "questionId": "clat-ug27-r010-q040",
+      "passageId": "r010-current-affairs-04",
+      "sectionId": "current-affairs",
+      "prompt": "When did UNESCO's Recommendation on the Ethics of AI get adopted?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "November 2021."
+        },
+        {
+          "optionId": "o2",
+          "text": "February 2026."
+        },
+        {
+          "optionId": "o3",
+          "text": "July 2026."
+        },
+        {
+          "optionId": "o4",
+          "text": "June 2024."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "UNESCO's Recommendation was adopted by the General Conference in November 2021.",
+      "difficulty": "challenging",
+      "competency": "date-and-event"
+    },
+    {
+      "questionId": "clat-ug27-r010-q041",
+      "passageId": "r010-current-affairs-04",
+      "sectionId": "current-affairs",
+      "prompt": "What is the legal character of the Recommendation?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "A binding treaty for every Member State."
+        },
+        {
+          "optionId": "o2",
+          "text": "A domestic statute directly enacted in every country."
+        },
+        {
+          "optionId": "o3",
+          "text": "A normative instrument that is not itself a treaty."
+        },
+        {
+          "optionId": "o4",
+          "text": "A technical certification for individual models."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The passage distinguishes a recommendation from a treaty with binding obligations.",
+      "difficulty": "easy",
+      "competency": "conceptual-distinction"
+    },
+    {
+      "questionId": "clat-ug27-r010-q042",
+      "passageId": "r010-current-affairs-04",
+      "sectionId": "current-affairs",
+      "prompt": "Why is transparency not identical to publishing source code?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Affected people may need relevant factors and a way to challenge errors without every technical detail."
+        },
+        {
+          "optionId": "o2",
+          "text": "Source code is always meaningless."
+        },
+        {
+          "optionId": "o3",
+          "text": "Security never justifies withholding technical information."
+        },
+        {
+          "optionId": "o4",
+          "text": "Transparency requires disclosing all personal data."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Meaningful explanation can focus on use and relevant factors while protecting narrow sensitive details.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q043",
+      "passageId": "r010-current-affairs-04",
+      "sectionId": "current-affairs",
+      "prompt": "What does an AI impact assessment examine?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Only the number of lines of source code."
+        },
+        {
+          "optionId": "o2",
+          "text": "Only the model's commercial value."
+        },
+        {
+          "optionId": "o3",
+          "text": "Whether the system has a memorable name."
+        },
+        {
+          "optionId": "o4",
+          "text": "Who may benefit or be harmed, whether data are representative and whether safeguards are adequate."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The passage lists these as relevant questions throughout the system life cycle.",
+      "difficulty": "moderate",
+      "competency": "detail-inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q044",
+      "passageId": "r010-current-affairs-04",
+      "sectionId": "current-affairs",
+      "prompt": "Which conclusion about the Recommendation is best supported?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "It guarantees every AI system is ethical."
+        },
+        {
+          "optionId": "o2",
+          "text": "It offers a common ethical framework but does not certify systems or replace domestic law."
+        },
+        {
+          "optionId": "o3",
+          "text": "It creates a single global AI regulator."
+        },
+        {
+          "optionId": "o4",
+          "text": "It automatically prohibits all high-risk models."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "It provides guidance and a shared vocabulary rather than certification or legislation.",
+      "difficulty": "moderate",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r010-q045",
+      "passageId": "r010-current-affairs-05",
+      "sectionId": "current-affairs",
+      "prompt": "Which resolution proclaimed 2025 the International Year of Quantum Science and Technology?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "A/RES/80/303."
+        },
+        {
+          "optionId": "o2",
+          "text": "A/RES/79/325."
+        },
+        {
+          "optionId": "o3",
+          "text": "A/RES/78/279."
+        },
+        {
+          "optionId": "o4",
+          "text": "A/RES/78/287."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The UN resolution cited is A/RES/78/287, adopted on 7 June 2024.",
+      "difficulty": "challenging",
+      "competency": "fact-comprehension"
+    },
+    {
+      "questionId": "clat-ug27-r010-q046",
+      "passageId": "r010-current-affairs-05",
+      "sectionId": "current-affairs",
+      "prompt": "Which is an example of a quantum technology application?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "A universal replacement for every classical computer."
+        },
+        {
+          "optionId": "o2",
+          "text": "Quantum sensing for highly precise measurement."
+        },
+        {
+          "optionId": "o3",
+          "text": "A standard online payment gateway."
+        },
+        {
+          "optionId": "o4",
+          "text": "A conventional paper archive."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The passage identifies quantum sensors, communication and computing as distinct research areas.",
+      "difficulty": "easy",
+      "competency": "detail-inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q047",
+      "passageId": "r010-current-affairs-05",
+      "sectionId": "current-affairs",
+      "prompt": "Why distinguish laboratory demonstrations from commercial deployment?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "They represent different levels of maturity and practical readiness."
+        },
+        {
+          "optionId": "o2",
+          "text": "Laboratory research has no scientific value."
+        },
+        {
+          "optionId": "o3",
+          "text": "Commercial devices do not require testing."
+        },
+        {
+          "optionId": "o4",
+          "text": "All quantum technologies are widely deployed."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Scientific demonstrations and deployed services are different milestones.",
+      "difficulty": "moderate",
+      "competency": "conceptual-distinction"
+    },
+    {
+      "questionId": "clat-ug27-r010-q048",
+      "passageId": "r010-current-affairs-05",
+      "sectionId": "current-affairs",
+      "prompt": "What inequality in quantum research does the passage identify?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Quantum science is available only in one language."
+        },
+        {
+          "optionId": "o2",
+          "text": "All countries have the same research capacity."
+        },
+        {
+          "optionId": "o3",
+          "text": "Access to advanced labs, specialised equipment and trained researchers is uneven."
+        },
+        {
+          "optionId": "o4",
+          "text": "Education has no role in quantum technology."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The passage links capacity building with concentrated expertise and infrastructure.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q049",
+      "passageId": "r010-current-affairs-05",
+      "sectionId": "current-affairs",
+      "prompt": "What did the International Year itself accomplish?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "It provided a platform for awareness and cooperation, not a guarantee of commercial products."
+        },
+        {
+          "optionId": "o2",
+          "text": "It required every country to launch a quantum computer."
+        },
+        {
+          "optionId": "o3",
+          "text": "It created a global quantum industry."
+        },
+        {
+          "optionId": "o4",
+          "text": "It made all applications commercially ready."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The observance was an awareness and cooperation initiative, not a deployment deadline.",
+      "difficulty": "moderate",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r010-q050",
+      "passageId": "r010-current-affairs-06",
+      "sectionId": "current-affairs",
+      "prompt": "When was the GSLV-F18/NVS-03 mission launched?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "1 November 2026."
+        },
+        {
+          "optionId": "o2",
+          "text": "31 October 2026."
+        },
+        {
+          "optionId": "o3",
+          "text": "30 October 2026."
+        },
+        {
+          "optionId": "o4",
+          "text": "30 October 2025."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "ISRO and PIB identify 30 October 2026 as the launch date.",
+      "difficulty": "challenging",
+      "competency": "date-and-event"
+    },
+    {
+      "questionId": "clat-ug27-r010-q051",
+      "passageId": "r010-current-affairs-06",
+      "sectionId": "current-affairs",
+      "prompt": "Into which orbit was NVS-03 initially placed?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Low Earth Orbit."
+        },
+        {
+          "optionId": "o2",
+          "text": "Geosynchronous Transfer Orbit."
+        },
+        {
+          "optionId": "o3",
+          "text": "Polar Sun-synchronous Orbit."
+        },
+        {
+          "optionId": "o4",
+          "text": "Lunar transfer orbit."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "GSLV-F18 placed the satellite into a transfer orbit before later manoeuvres.",
+      "difficulty": "easy",
+      "competency": "fact-comprehension"
+    },
+    {
+      "questionId": "clat-ug27-r010-q052",
+      "passageId": "r010-current-affairs-06",
+      "sectionId": "current-affairs",
+      "prompt": "What is NVS-03's role in the NavIC programme?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "It replaces all global navigation systems."
+        },
+        {
+          "optionId": "o2",
+          "text": "It is the first weather satellite in the series."
+        },
+        {
+          "optionId": "o3",
+          "text": "It provides broadband internet to every phone."
+        },
+        {
+          "optionId": "o4",
+          "text": "It is the third satellite in a five-satellite next-generation navigation series."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The passage identifies NVS-03 as the third in the planned next-generation navigation series.",
+      "difficulty": "moderate",
+      "competency": "detail-inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q053",
+      "passageId": "r010-current-affairs-06",
+      "sectionId": "current-affairs",
+      "prompt": "Which signal capability does ISRO identify for NVS-03?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "An optical laser signal only."
+        },
+        {
+          "optionId": "o2",
+          "text": "An L1 signal in addition to existing L5 and S-band signals."
+        },
+        {
+          "optionId": "o3",
+          "text": "A television broadcast band."
+        },
+        {
+          "optionId": "o4",
+          "text": "A frequency replacing every navigation band."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The ISRO mission page describes L1 in addition to L5 and S-band.",
+      "difficulty": "moderate",
+      "competency": "fact-comprehension"
+    },
+    {
+      "questionId": "clat-ug27-r010-q054",
+      "passageId": "r010-current-affairs-06",
+      "sectionId": "current-affairs",
+      "prompt": "Why does a successful launch not mean every user can immediately use every new signal?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The satellite did not enter orbit."
+        },
+        {
+          "optionId": "o2",
+          "text": "Navigation services do not use ground systems."
+        },
+        {
+          "optionId": "o3",
+          "text": "Signals are unrelated to receiver design."
+        },
+        {
+          "optionId": "o4",
+          "text": "Commissioning and compatible receiver equipment are also needed."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Launch and orbit are distinct from commissioning and user-device compatibility.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q055",
+      "passageId": "r010-legal-01",
+      "sectionId": "legal",
+      "prompt": "Under the stated rule, what permission did the start-up need before using the dataset for paid subscriptions?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Only a new attribution line naming the consortium."
+        },
+        {
+          "optionId": "o2",
+          "text": "A certificate from one of the factories buying the service."
+        },
+        {
+          "optionId": "o3",
+          "text": "A separate written permission covering commercial use of the dataset."
+        },
+        {
+          "optionId": "o4",
+          "text": "A statement that the model weights were developed independently."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The licence allowed research and teaching use but prohibited commercial use without separate written permission.",
+      "difficulty": "challenging",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r010-q056",
+      "passageId": "r010-legal-01",
+      "sectionId": "legal",
+      "prompt": "Why does adding attribution not cure the start-up's commercial-use problem?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Attribution is a separate condition and does not expand the permitted purpose."
+        },
+        {
+          "optionId": "o2",
+          "text": "Attribution is forbidden when a model is sold to a factory."
+        },
+        {
+          "optionId": "o3",
+          "text": "Attribution transfers ownership of the dataset to the start-up."
+        },
+        {
+          "optionId": "o4",
+          "text": "Attribution applies only to images that remain visible in the model."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The rule treats attribution and permitted purpose as separate requirements; naming the source does not authorise a prohibited commercial use.",
+      "difficulty": "easy",
+      "competency": "principle-identification"
+    },
+    {
+      "questionId": "clat-ug27-r010-q057",
+      "passageId": "r010-legal-01",
+      "sectionId": "legal",
+      "prompt": "What does the passage say about the relationship between dataset use and model weights?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "A model is automatically exempt from every licence once its weights are saved."
+        },
+        {
+          "optionId": "o2",
+          "text": "A dataset licence always transfers ownership of trained model weights."
+        },
+        {
+          "optionId": "o3",
+          "text": "The model's parameters do not by themselves answer whether the training use complied with the dataset licence."
+        },
+        {
+          "optionId": "o4",
+          "text": "A developer's independent work automatically permits any commercial use of inputs."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The rule examines the use of the dataset during training separately from the form of the resulting model parameters.",
+      "difficulty": "moderate",
+      "competency": "conceptual-distinction"
+    },
+    {
+      "questionId": "clat-ug27-r010-q058",
+      "passageId": "r010-legal-01",
+      "sectionId": "legal",
+      "prompt": "Which statement about a model output is supported by the passage?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Whether an output raises a rights issue depends on the output and the applicable terms."
+        },
+        {
+          "optionId": "o2",
+          "text": "Every output from a trained model is necessarily prohibited."
+        },
+        {
+          "optionId": "o3",
+          "text": "No output can ever reproduce material used for training."
+        },
+        {
+          "optionId": "o4",
+          "text": "Output questions are decided solely by the model developer."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The passage says output questions are separate and should not be assumed either restricted or unrestricted in every case.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q059",
+      "passageId": "r010-legal-01",
+      "sectionId": "legal",
+      "prompt": "What may the start-up continue doing while its commercial licence request is pending?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Sell subscriptions because the request has already been submitted."
+        },
+        {
+          "optionId": "o2",
+          "text": "Share the dataset with factories for their own commercial training."
+        },
+        {
+          "optionId": "o3",
+          "text": "Treat the consortium's silence as permanent approval."
+        },
+        {
+          "optionId": "o4",
+          "text": "Use the dataset for non-commercial research within the original licence."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The original permission continues to cover non-commercial research, but the pending request is not approval for commercial use.",
+      "difficulty": "moderate",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r010-q060",
+      "passageId": "r010-legal-02",
+      "sectionId": "legal",
+      "prompt": "Does permission to use learning data for progress reports automatically cover advertising profiles?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Yes, because the provider already holds the data."
+        },
+        {
+          "optionId": "o2",
+          "text": "No; a materially different use requires a separate valid basis and clear explanation."
+        },
+        {
+          "optionId": "o3",
+          "text": "Yes, if the service is free."
+        },
+        {
+          "optionId": "o4",
+          "text": "No, because providers may never develop new features."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The rule distinguishes the stated learning purpose from a new commercial use.",
+      "difficulty": "challenging",
+      "competency": "purpose-limitation"
+    },
+    {
+      "questionId": "clat-ug27-r010-q061",
+      "passageId": "r010-legal-02",
+      "sectionId": "legal",
+      "prompt": "Why may contextual advertising be a less intrusive alternative?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "It requires more personal data."
+        },
+        {
+          "optionId": "o2",
+          "text": "It automatically transfers data to partners."
+        },
+        {
+          "optionId": "o3",
+          "text": "It prevents the core learning service from operating."
+        },
+        {
+          "optionId": "o4",
+          "text": "It may generate revenue without relying on an individual's learning history."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The passage offers contextual advertising as an alternative to profiling.",
+      "difficulty": "easy",
+      "competency": "application"
+    },
+    {
+      "questionId": "clat-ug27-r010-q062",
+      "passageId": "r010-legal-02",
+      "sectionId": "legal",
+      "prompt": "What matters when deciding whether refusal is a genuine choice?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Whether the consent button is green."
+        },
+        {
+          "optionId": "o2",
+          "text": "Whether the person can decline the new use and still access the core learning service."
+        },
+        {
+          "optionId": "o3",
+          "text": "Whether the application has a logo."
+        },
+        {
+          "optionId": "o4",
+          "text": "Whether the provider has many users."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The passage asks whether users are practically pressured to accept unrelated uses.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q063",
+      "passageId": "r010-legal-02",
+      "sectionId": "legal",
+      "prompt": "Why does replacing a name with a code not always anonymise a record?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The provider or recipient may still reconnect the code to the individual."
+        },
+        {
+          "optionId": "o2",
+          "text": "A coded record contains no information."
+        },
+        {
+          "optionId": "o3",
+          "text": "A code automatically encrypts stored data."
+        },
+        {
+          "optionId": "o4",
+          "text": "A code removes the need for security."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The rule requires assessing practical re-identification risk and recipient access.",
+      "difficulty": "moderate",
+      "competency": "privacy"
+    },
+    {
+      "questionId": "clat-ug27-r010-q064",
+      "passageId": "r010-legal-02",
+      "sectionId": "legal",
+      "prompt": "What must the provider do before using information for a materially different purpose?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Assume original permission covers all future uses."
+        },
+        {
+          "optionId": "o2",
+          "text": "Hide the change in a long list of terms."
+        },
+        {
+          "optionId": "o3",
+          "text": "Identify the new purpose and obtain the required basis for that use."
+        },
+        {
+          "optionId": "o4",
+          "text": "Treat commercial value as a substitute for consent."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The provider must explain the change and secure the necessary basis before use.",
+      "difficulty": "moderate",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r010-q065",
+      "passageId": "r010-legal-03",
+      "sectionId": "legal",
+      "prompt": "What must a provider do after discovering a material security vulnerability?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Take reasonable steps to reduce the risk and inform affected customers in time."
+        },
+        {
+          "optionId": "o2",
+          "text": "Keep it secret to protect reputation."
+        },
+        {
+          "optionId": "o3",
+          "text": "Publish an exploit guide for every user."
+        },
+        {
+          "optionId": "o4",
+          "text": "Wait until a customer reports harm."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The rule requires mitigation and timely communication.",
+      "difficulty": "challenging",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r010-q066",
+      "passageId": "r010-legal-03",
+      "sectionId": "legal",
+      "prompt": "Why may the provider withhold step-by-step exploit details?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The provider has no duty to explain the risk."
+        },
+        {
+          "optionId": "o2",
+          "text": "Customers cannot update software."
+        },
+        {
+          "optionId": "o3",
+          "text": "To avoid enabling attackers while still giving customers enough information to protect systems."
+        },
+        {
+          "optionId": "o4",
+          "text": "The vulnerability is automatically harmless."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The rule balances usable disclosure with the risk of enabling exploitation.",
+      "difficulty": "easy",
+      "competency": "balancing-interests"
+    },
+    {
+      "questionId": "clat-ug27-r010-q067",
+      "passageId": "r010-legal-03",
+      "sectionId": "legal",
+      "prompt": "What is required if installing the update interrupts a critical service?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Ignore the vulnerability until demand falls."
+        },
+        {
+          "optionId": "o2",
+          "text": "Coordinate maintenance options and support customers in applying the fix."
+        },
+        {
+          "optionId": "o3",
+          "text": "Require clinics to close permanently."
+        },
+        {
+          "optionId": "o4",
+          "text": "Assume inconvenience removes the duty."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The rule requires reasonable coordination; inconvenience alone is not an excuse.",
+      "difficulty": "moderate",
+      "competency": "application"
+    },
+    {
+      "questionId": "clat-ug27-r010-q068",
+      "passageId": "r010-legal-03",
+      "sectionId": "legal",
+      "prompt": "A clinic failed to install an earlier update. Does this automatically remove the supplier's duty?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Yes, the supplier is always released."
+        },
+        {
+          "optionId": "o2",
+          "text": "Yes, clinics own all security risks."
+        },
+        {
+          "optionId": "o3",
+          "text": "No, the supplier must disclose source code."
+        },
+        {
+          "optionId": "o4",
+          "text": "No; responsibility depends on prior warnings, the contract and each party's control."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Customer conduct may matter, but it does not automatically eliminate supplier duties.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q069",
+      "passageId": "r010-legal-03",
+      "sectionId": "legal",
+      "prompt": "Which response is required when exploitation is suspected?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Delete the incident logs before the suspected exploitation can be examined."
+        },
+        {
+          "optionId": "o2",
+          "text": "Assist with containment and preserve information needed to investigate."
+        },
+        {
+          "optionId": "o3",
+          "text": "Wait until the contract ends."
+        },
+        {
+          "optionId": "o4",
+          "text": "Blame the customer without examining the incident."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The rule requires containment support and preservation of investigative records.",
+      "difficulty": "moderate",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r010-q070",
+      "passageId": "r010-legal-04",
+      "sectionId": "legal",
+      "prompt": "What must be examined before relying on a recording as evidence?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Only whether the recorded voice resembles the candidate's voice."
+        },
+        {
+          "optionId": "o2",
+          "text": "Only the number of shares."
+        },
+        {
+          "optionId": "o3",
+          "text": "The political popularity of the allegation."
+        },
+        {
+          "optionId": "o4",
+          "text": "Its provenance, integrity and context."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The rule lists source, chain of custody, editing, metadata and corroboration as relevant.",
+      "difficulty": "challenging",
+      "competency": "evidence-evaluation"
+    },
+    {
+      "questionId": "clat-ug27-r010-q071",
+      "passageId": "r010-legal-04",
+      "sectionId": "legal",
+      "prompt": "A technical assessment identifies possible manipulation but cannot identify the creator. What does it establish?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "That the candidate created the file."
+        },
+        {
+          "optionId": "o2",
+          "text": "That the recording is genuine."
+        },
+        {
+          "optionId": "o3",
+          "text": "Concern about authenticity, but not responsibility of a particular person."
+        },
+        {
+          "optionId": "o4",
+          "text": "That all other evidence must be ignored."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The assessment's limits must be disclosed; unsupported attribution is not justified.",
+      "difficulty": "easy",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q072",
+      "passageId": "r010-legal-04",
+      "sectionId": "legal",
+      "prompt": "What must the committee provide to the person accused?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "A fair opportunity to respond to the material relied upon."
+        },
+        {
+          "optionId": "o2",
+          "text": "Unrestricted access to every witness's private details."
+        },
+        {
+          "optionId": "o3",
+          "text": "A guarantee that the complaint will be dismissed."
+        },
+        {
+          "optionId": "o4",
+          "text": "The consultant's personal password."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The rule requires sufficient information for a meaningful response.",
+      "difficulty": "moderate",
+      "competency": "procedural-fairness"
+    },
+    {
+      "questionId": "clat-ug27-r010-q073",
+      "passageId": "r010-legal-04",
+      "sectionId": "legal",
+      "prompt": "If the recording cannot be authenticated, what may the committee do?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Treat the recording as conclusive."
+        },
+        {
+          "optionId": "o2",
+          "text": "Assume the candidate created it."
+        },
+        {
+          "optionId": "o3",
+          "text": "Consider independent evidence but not treat uncertainty as proof of guilt."
+        },
+        {
+          "optionId": "o4",
+          "text": "Automatically close the election."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The rule requires a reasoned assessment of all available evidence.",
+      "difficulty": "moderate",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r010-q074",
+      "passageId": "r010-legal-04",
+      "sectionId": "legal",
+      "prompt": "Which statement about a claim that the audio is synthetic is correct?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "That claim does not automatically prove the recording is false."
+        },
+        {
+          "optionId": "o2",
+          "text": "It conclusively proves manipulation."
+        },
+        {
+          "optionId": "o3",
+          "text": "It transfers the burden to the candidate in every case."
+        },
+        {
+          "optionId": "o4",
+          "text": "It removes the need to examine provenance."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Both authenticity and the claim of synthetic generation require examination.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q075",
+      "passageId": "r010-legal-05",
+      "sectionId": "legal",
+      "prompt": "What should an adverse decision notice provide?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Every line of source code."
+        },
+        {
+          "optionId": "o2",
+          "text": "Only a numerical threshold."
+        },
+        {
+          "optionId": "o3",
+          "text": "No information beyond 'rejected'."
+        },
+        {
+          "optionId": "o4",
+          "text": "Reasons sufficient to understand the main basis and identify a relevant factual error."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The rule requires a usable explanation and a route to challenge inaccurate information.",
+      "difficulty": "challenging",
+      "competency": "procedural-fairness"
+    },
+    {
+      "questionId": "clat-ug27-r010-q076",
+      "passageId": "r010-legal-05",
+      "sectionId": "legal",
+      "prompt": "Can the authority withhold narrow operational details?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "No, every threshold must be public."
+        },
+        {
+          "optionId": "o2",
+          "text": "Yes, where disclosure creates a demonstrated risk, but it must still provide usable reasons."
+        },
+        {
+          "optionId": "o3",
+          "text": "Yes, it may withhold every reason permanently."
+        },
+        {
+          "optionId": "o4",
+          "text": "Yes, if few people are affected."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Limited withholding is permitted for demonstrated risks, but not an entirely unusable notice.",
+      "difficulty": "easy",
+      "competency": "balancing-interests"
+    },
+    {
+      "questionId": "clat-ug27-r010-q077",
+      "passageId": "r010-legal-05",
+      "sectionId": "legal",
+      "prompt": "A passenger shows that an address was mistyped. What should the authority do?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Grant the pass automatically without checking other criteria."
+        },
+        {
+          "optionId": "o2",
+          "text": "Reject the request because a score was issued."
+        },
+        {
+          "optionId": "o3",
+          "text": "Erase the entire application."
+        },
+        {
+          "optionId": "o4",
+          "text": "Correct the record and reconsider the decision against the published criteria."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The rule requires correction and reconsideration, not automatic approval.",
+      "difficulty": "moderate",
+      "competency": "application"
+    },
+    {
+      "questionId": "clat-ug27-r010-q078",
+      "passageId": "r010-legal-05",
+      "sectionId": "legal",
+      "prompt": "Why are reasons relevant to internal review?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Reviewers should avoid reading the criteria."
+        },
+        {
+          "optionId": "o2",
+          "text": "A second officer must see which criterion was applied and whether the information was accurate."
+        },
+        {
+          "optionId": "o3",
+          "text": "A model score cannot be challenged."
+        },
+        {
+          "optionId": "o4",
+          "text": "Review exists only to approve the first decision."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Review must test factual accuracy and proper application of the rules.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q079",
+      "passageId": "r010-legal-05",
+      "sectionId": "legal",
+      "prompt": "Which explanation is most practically useful?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "A notice naming the relevant category and explaining how to correct the underlying record."
+        },
+        {
+          "optionId": "o2",
+          "text": "A long technical report with no correction route."
+        },
+        {
+          "optionId": "o3",
+          "text": "A risk score with no facts."
+        },
+        {
+          "optionId": "o4",
+          "text": "A general website link with no contact."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The rule values information that the person can act on.",
+      "difficulty": "moderate",
+      "competency": "application"
+    },
+    {
+      "questionId": "clat-ug27-r010-q080",
+      "passageId": "r010-legal-06",
+      "sectionId": "legal",
+      "prompt": "May a platform make a material change without notice in ordinary circumstances?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Yes, because users can leave."
+        },
+        {
+          "optionId": "o2",
+          "text": "Yes, if the logo changes."
+        },
+        {
+          "optionId": "o3",
+          "text": "No; it must communicate the change clearly with reasonable notice."
+        },
+        {
+          "optionId": "o4",
+          "text": "No, platform rules can never be revised."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The rule allows legitimate changes but requires notice and practical explanation.",
+      "difficulty": "challenging",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r010-q081",
+      "passageId": "r010-legal-06",
+      "sectionId": "legal",
+      "prompt": "Why does seller reliance matter when setting a notice period?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Sellers may have bought inventory or made commitments based on the old terms."
+        },
+        {
+          "optionId": "o2",
+          "text": "It proves all fees are unlawful."
+        },
+        {
+          "optionId": "o3",
+          "text": "It prevents new features."
+        },
+        {
+          "optionId": "o4",
+          "text": "It means sellers own the platform."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The rule considers foreseeable reliance on the previous terms.",
+      "difficulty": "easy",
+      "competency": "proportionality"
+    },
+    {
+      "questionId": "clat-ug27-r010-q082",
+      "passageId": "r010-legal-06",
+      "sectionId": "legal",
+      "prompt": "When may immediate suspension without ordinary notice be justified?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Whenever the platform wants more revenue."
+        },
+        {
+          "optionId": "o2",
+          "text": "Whenever a seller asks a question."
+        },
+        {
+          "optionId": "o3",
+          "text": "Where an urgent security or legal reason requires immediate action."
+        },
+        {
+          "optionId": "o4",
+          "text": "Whenever a new fee is planned."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The rule creates a narrow urgency exception for security or legal risks.",
+      "difficulty": "moderate",
+      "competency": "exception-identification"
+    },
+    {
+      "questionId": "clat-ug27-r010-q083",
+      "passageId": "r010-legal-06",
+      "sectionId": "legal",
+      "prompt": "What safeguard remains after an urgent account suspension?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The platform may withhold reasons permanently."
+        },
+        {
+          "optionId": "o2",
+          "text": "A prompt explanation once safe and a route to challenge mistaken identification."
+        },
+        {
+          "optionId": "o3",
+          "text": "The seller must accept the suspension without review."
+        },
+        {
+          "optionId": "o4",
+          "text": "The platform must delete all history."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Urgent action does not remove later duties to explain and permit challenge.",
+      "difficulty": "moderate",
+      "competency": "procedural-fairness"
+    },
+    {
+      "questionId": "clat-ug27-r010-q084",
+      "passageId": "r010-legal-06",
+      "sectionId": "legal",
+      "prompt": "Which factors determine whether a platform change is fair?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Number of app downloads alone."
+        },
+        {
+          "optionId": "o2",
+          "text": "The brand's market value."
+        },
+        {
+          "optionId": "o3",
+          "text": "The time of day the change is published."
+        },
+        {
+          "optionId": "o4",
+          "text": "Materiality, notice, ability to adapt and reasons for any immediate action."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The final paragraph identifies the practical factors shaping fairness.",
+      "difficulty": "moderate",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r010-q085",
+      "passageId": "r010-logical-01",
+      "sectionId": "logical",
+      "prompt": "What does the higher benchmark score establish?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "It is safer in every public-service setting."
+        },
+        {
+          "optionId": "o2",
+          "text": "The new model performed better on tasks included in that benchmark."
+        },
+        {
+          "optionId": "o3",
+          "text": "It has no harmful errors."
+        },
+        {
+          "optionId": "o4",
+          "text": "It performs equally well for all user groups."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The passage accepts improvement only within the limits of the benchmark.",
+      "difficulty": "challenging",
+      "competency": "scope-of-evidence"
+    },
+    {
+      "questionId": "clat-ug27-r010-q086",
+      "passageId": "r010-logical-01",
+      "sectionId": "logical",
+      "prompt": "Which factor weakens the inference that benchmark success proves deployment safety?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The benchmark contains thousands of questions."
+        },
+        {
+          "optionId": "o2",
+          "text": "An external laboratory reviewed the test."
+        },
+        {
+          "optionId": "o3",
+          "text": "The model improved on the old score."
+        },
+        {
+          "optionId": "o4",
+          "text": "Real users may provide incomplete information, use regional languages or interact with connected tools."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Benchmark conditions differ from real public-service environments.",
+      "difficulty": "easy",
+      "competency": "weaken-argument"
+    },
+    {
+      "questionId": "clat-ug27-r010-q087",
+      "passageId": "r010-logical-01",
+      "sectionId": "logical",
+      "prompt": "Why can an average score hide important risk?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Average scores cannot be calculated."
+        },
+        {
+          "optionId": "o2",
+          "text": "All errors have identical consequences."
+        },
+        {
+          "optionId": "o3",
+          "text": "A few high-consequence errors may remain even when common questions are answered correctly."
+        },
+        {
+          "optionId": "o4",
+          "text": "Models cannot be tested on multiple tasks."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The passage distinguishes average performance from the severity and distribution of errors.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q088",
+      "passageId": "r010-logical-01",
+      "sectionId": "logical",
+      "prompt": "Which test would best strengthen the agency's deployment conclusion?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "A staged trial using realistic enquiries and subgroup error analysis."
+        },
+        {
+          "optionId": "o2",
+          "text": "A second test using only the same short benchmark."
+        },
+        {
+          "optionId": "o3",
+          "text": "A survey of model developers alone."
+        },
+        {
+          "optionId": "o4",
+          "text": "A count of model parameters."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The proposed trial addresses languages, real-world use and consequences of errors.",
+      "difficulty": "moderate",
+      "competency": "evidence-selection"
+    },
+    {
+      "questionId": "clat-ug27-r010-q089",
+      "passageId": "r010-logical-01",
+      "sectionId": "logical",
+      "prompt": "What conclusion does the passage support about benchmark tests?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "They should never be used."
+        },
+        {
+          "optionId": "o2",
+          "text": "They fully reproduce public-service conditions."
+        },
+        {
+          "optionId": "o3",
+          "text": "They are useful evidence but insufficient as the sole basis for deployment decisions."
+        },
+        {
+          "optionId": "o4",
+          "text": "They eliminate post-release monitoring."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The passage treats benchmarks as one part of a broader evaluation.",
+      "difficulty": "moderate",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r010-q090",
+      "passageId": "r010-logical-01",
+      "sectionId": "logical",
+      "prompt": "Which additional fact would most strengthen the case for deployment?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The model maintains performance across language groups and high-impact cases in a realistic trial."
+        },
+        {
+          "optionId": "o2",
+          "text": "Its average score rises on the original benchmark."
+        },
+        {
+          "optionId": "o3",
+          "text": "The agency has purchased licences."
+        },
+        {
+          "optionId": "o4",
+          "text": "The interface is visually simpler."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Evidence across realistic cases and groups would address the identified limitations.",
+      "difficulty": "challenging",
+      "competency": "strengthen-argument"
+    },
+    {
+      "questionId": "clat-ug27-r010-q091",
+      "passageId": "r010-logical-02",
+      "sectionId": "logical",
+      "prompt": "What does the reduction in registration-counter time directly show?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Fewer people fail to get appointments."
+        },
+        {
+          "optionId": "o2",
+          "text": "Every resident can use the app independently."
+        },
+        {
+          "optionId": "o3",
+          "text": "The system works during network outages."
+        },
+        {
+          "optionId": "o4",
+          "text": "The counter spends less time on the completed bookings measured."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The measure concerns completed online bookings, not people who fail or abandon attempts.",
+      "difficulty": "easy",
+      "competency": "scope-of-evidence"
+    },
+    {
+      "questionId": "clat-ug27-r010-q092",
+      "passageId": "r010-logical-02",
+      "sectionId": "logical",
+      "prompt": "Which evidence would most weaken the proposal to close walk-in desks?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Most online users complete bookings quickly."
+        },
+        {
+          "optionId": "o2",
+          "text": "Many residents cannot complete bookings because of device or connectivity barriers."
+        },
+        {
+          "optionId": "o3",
+          "text": "The app provides reminders."
+        },
+        {
+          "optionId": "o4",
+          "text": "The department reduced paper costs."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Evidence of excluded users challenges the assumption that digital access is universal.",
+      "difficulty": "moderate",
+      "competency": "weaken-argument"
+    },
+    {
+      "questionId": "clat-ug27-r010-q093",
+      "passageId": "r010-logical-02",
+      "sectionId": "logical",
+      "prompt": "Why is smartphone ownership an inadequate proxy for digital capability?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Smartphones cannot connect to the internet."
+        },
+        {
+          "optionId": "o2",
+          "text": "Every user owns multiple devices."
+        },
+        {
+          "optionId": "o3",
+          "text": "Ownership proves independent access."
+        },
+        {
+          "optionId": "o4",
+          "text": "A person may share a device or be unable to complete forms and verification steps."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The passage identifies practical barriers that ownership does not reveal.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q094",
+      "passageId": "r010-logical-02",
+      "sectionId": "logical",
+      "prompt": "Which measure should compare digital and walk-in access?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Number of downloads only."
+        },
+        {
+          "optionId": "o2",
+          "text": "Successful appointment completion across channels, including failed attempts and assisted bookings."
+        },
+        {
+          "optionId": "o3",
+          "text": "Time taken by the home page to load."
+        },
+        {
+          "optionId": "o4",
+          "text": "Number of online staff."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The passage recommends counting access outcomes, not only successful submissions.",
+      "difficulty": "moderate",
+      "competency": "evidence-selection"
+    },
+    {
+      "questionId": "clat-ug27-r010-q095",
+      "passageId": "r010-logical-02",
+      "sectionId": "logical",
+      "prompt": "What does the offline queue provide?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "A fallback when devices, connectivity or identity verification fail."
+        },
+        {
+          "optionId": "o2",
+          "text": "A way to eliminate digital services."
+        },
+        {
+          "optionId": "o3",
+          "text": "A permanent replacement for all scheduling."
+        },
+        {
+          "optionId": "o4",
+          "text": "A method to prioritise wealthy patients."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The passage describes a fallback that can sync records later.",
+      "difficulty": "challenging",
+      "competency": "function"
+    },
+    {
+      "questionId": "clat-ug27-r010-q096",
+      "passageId": "r010-logical-02",
+      "sectionId": "logical",
+      "prompt": "What broader criterion should determine whether the appointment system succeeds?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The most advanced service is always the most resilient."
+        },
+        {
+          "optionId": "o2",
+          "text": "Walk-in systems should always replace apps."
+        },
+        {
+          "optionId": "o3",
+          "text": "Digital modernisation should be judged by continuity of service, not online completion alone."
+        },
+        {
+          "optionId": "o4",
+          "text": "Offline options are incompatible with efficiency."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Resilience includes serving people during infrastructure disruption.",
+      "difficulty": "easy",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r010-q097",
+      "passageId": "r010-logical-03",
+      "sectionId": "logical",
+      "prompt": "What is the group's main objection to linking all records?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The safety objective may be achievable with less intrusive or aggregated data."
+        },
+        {
+          "optionId": "o2",
+          "text": "Camera counts can never improve safety."
+        },
+        {
+          "optionId": "o3",
+          "text": "Individual records are always inaccurate."
+        },
+        {
+          "optionId": "o4",
+          "text": "Public agencies cannot use digital data."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The group accepts the safety goal but questions whether identifiable travel histories are necessary.",
+      "difficulty": "moderate",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r010-q098",
+      "passageId": "r010-logical-03",
+      "sectionId": "logical",
+      "prompt": "Why could excessive data collection undermine the unit's own objective?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "More data automatically increases trust."
+        },
+        {
+          "optionId": "o2",
+          "text": "Residents will stop using all roads."
+        },
+        {
+          "optionId": "o3",
+          "text": "Residents may avoid services or change behaviour, making data less representative."
+        },
+        {
+          "optionId": "o4",
+          "text": "The camera system will lose power."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Mistrust can alter behaviour and reduce the quality of the data.",
+      "difficulty": "moderate",
+      "competency": "causal-inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q099",
+      "passageId": "r010-logical-03",
+      "sectionId": "logical",
+      "prompt": "Which approach best tests whether identifiable records are necessary?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Link all records immediately and never review."
+        },
+        {
+          "optionId": "o2",
+          "text": "Compare aggregate counts with a limited, authorised linkage pilot."
+        },
+        {
+          "optionId": "o3",
+          "text": "Remove all safety monitoring."
+        },
+        {
+          "optionId": "o4",
+          "text": "Use only public opinion about cameras."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "A comparison can test necessity and effectiveness of the more intrusive design.",
+      "difficulty": "moderate",
+      "competency": "methodology"
+    },
+    {
+      "questionId": "clat-ug27-r010-q100",
+      "passageId": "r010-logical-03",
+      "sectionId": "logical",
+      "prompt": "What is the purpose of a retention schedule and access audit?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "To increase recorded journeys."
+        },
+        {
+          "optionId": "o2",
+          "text": "To eliminate the need for a stated purpose."
+        },
+        {
+          "optionId": "o3",
+          "text": "To allow unrestricted staff access."
+        },
+        {
+          "optionId": "o4",
+          "text": "To make storage limits and use of identifiable footage reviewable."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The passage recommends explaining collection, access and deletion to support oversight.",
+      "difficulty": "challenging",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q101",
+      "passageId": "r010-logical-03",
+      "sectionId": "logical",
+      "prompt": "Which argument would most strengthen the case for limited data linkage?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The cameras are expensive to maintain."
+        },
+        {
+          "optionId": "o2",
+          "text": "A trial shows aggregate counts cannot detect a serious safety risk that linked data reliably identifies."
+        },
+        {
+          "optionId": "o3",
+          "text": "The public is unaware cameras exist."
+        },
+        {
+          "optionId": "o4",
+          "text": "A vendor offers a discount for storing more data."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Evidence of necessity and additional safety benefit would support the more intrusive option.",
+      "difficulty": "easy",
+      "competency": "strengthen-argument"
+    },
+    {
+      "questionId": "clat-ug27-r010-q102",
+      "passageId": "r010-logical-03",
+      "sectionId": "logical",
+      "prompt": "How should the safety unit decide how much identifiable data to collect?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "More information is always better."
+        },
+        {
+          "optionId": "o2",
+          "text": "Privacy must always override every safety purpose."
+        },
+        {
+          "optionId": "o3",
+          "text": "A safety aim justifies any collection."
+        },
+        {
+          "optionId": "o4",
+          "text": "Data collection should be based on demonstrated need and balanced against trust and risk."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The passage balances performance with the conditions that sustain public trust.",
+      "difficulty": "moderate",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r010-q103",
+      "passageId": "r010-logical-04",
+      "sectionId": "logical",
+      "prompt": "Why could students not correct the alerts they received?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The university had no adviser office."
+        },
+        {
+          "optionId": "o2",
+          "text": "The alert was sent only by post."
+        },
+        {
+          "optionId": "o3",
+          "text": "The notice did not identify which activity or record triggered it."
+        },
+        {
+          "optionId": "o4",
+          "text": "The system had no threshold."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Students could see a notice but not the category of information behind the score.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q104",
+      "passageId": "r010-logical-04",
+      "sectionId": "logical",
+      "prompt": "Why is a general invitation to contact the office inadequate?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Students must guess what information they need to challenge or correct."
+        },
+        {
+          "optionId": "o2",
+          "text": "The office cannot provide support."
+        },
+        {
+          "optionId": "o3",
+          "text": "Students may not use email."
+        },
+        {
+          "optionId": "o4",
+          "text": "The system has no records."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "A usable explanation identifies the relevant input rather than simply inviting contact.",
+      "difficulty": "moderate",
+      "competency": "flaw-identification"
+    },
+    {
+      "questionId": "clat-ug27-r010-q105",
+      "passageId": "r010-logical-04",
+      "sectionId": "logical",
+      "prompt": "What did the revised process add?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Public disclosure of all students' data."
+        },
+        {
+          "optionId": "o2",
+          "text": "Automatic penalties for low scores."
+        },
+        {
+          "optionId": "o3",
+          "text": "The categories contributing to an alert, the record date and a correction route."
+        },
+        {
+          "optionId": "o4",
+          "text": "A rule that alerts cannot be challenged."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The revised notice allows students to identify and correct relevant records.",
+      "difficulty": "challenging",
+      "competency": "detail-inference"
+    },
+    {
+      "questionId": "clat-ug27-r010-q106",
+      "passageId": "r010-logical-04",
+      "sectionId": "logical",
+      "prompt": "Why is it acceptable to protect some technical details?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The institution can withhold details that compromise security while providing useful reasons."
+        },
+        {
+          "optionId": "o2",
+          "text": "All explanations should remain secret."
+        },
+        {
+          "optionId": "o3",
+          "text": "Security removes the need for correction."
+        },
+        {
+          "optionId": "o4",
+          "text": "Students need not know AI was used."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The passage distinguishes narrow sensitive details from the factors people need to contest.",
+      "difficulty": "easy",
+      "competency": "balancing-interests"
+    },
+    {
+      "questionId": "clat-ug27-r010-q107",
+      "passageId": "r010-logical-04",
+      "sectionId": "logical",
+      "prompt": "Which feature makes an explanation practically useful?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "It contains the longest technical report."
+        },
+        {
+          "optionId": "o2",
+          "text": "It repeats the score several times."
+        },
+        {
+          "optionId": "o3",
+          "text": "It refers to a general website with no contact."
+        },
+        {
+          "optionId": "o4",
+          "text": "It connects the alert to an identifiable record and explains how to correct it."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The passage focuses on the ability to understand and act on the explanation.",
+      "difficulty": "moderate",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r010-q108",
+      "passageId": "r010-logical-04",
+      "sectionId": "logical",
+      "prompt": "Which conclusion best reflects the passage?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Every model must publish its source code."
+        },
+        {
+          "optionId": "o2",
+          "text": "Contestability requires understandable reasons and a workable process for correcting errors."
+        },
+        {
+          "optionId": "o3",
+          "text": "Automated alerts should never be used."
+        },
+        {
+          "optionId": "o4",
+          "text": "A supportive purpose makes explanation unnecessary."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The final paragraph says explanations must fit the impact and allow material errors to be corrected.",
+      "difficulty": "moderate",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r010-q109",
+      "passageId": "r010-quantitative-01",
+      "sectionId": "quantitative",
+      "prompt": "How many accelerator-hours are allocated to University A?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "360 hours"
+        },
+        {
+          "optionId": "o2",
+          "text": "300 hours"
+        },
+        {
+          "optionId": "o3",
+          "text": "480 hours"
+        },
+        {
+          "optionId": "o4",
+          "text": "420 hours"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "University A receives 35% of the 1,200 accelerator-hour weekly capacity. Therefore 0.35 × 1,200 = 420 hours.",
+      "difficulty": "moderate",
+      "competency": "percentage-calculation"
+    },
+    {
+      "questionId": "clat-ug27-r010-q110",
+      "passageId": "r010-quantitative-01",
+      "sectionId": "quantitative",
+      "prompt": "How many hours are allocated to start-up teams?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "300 hours"
+        },
+        {
+          "optionId": "o2",
+          "text": "480 hours"
+        },
+        {
+          "optionId": "o3",
+          "text": "420 hours"
+        },
+        {
+          "optionId": "o4",
+          "text": "360 hours"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The remainder after 35% and 25% is 40% of 1,200 = 480 hours.",
+      "difficulty": "challenging",
+      "competency": "percentage-calculation"
+    },
+    {
+      "questionId": "clat-ug27-r010-q111",
+      "passageId": "r010-quantitative-01",
+      "sectionId": "quantitative",
+      "prompt": "How many start-up hours are reserved for safety testing?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "192 hours"
+        },
+        {
+          "optionId": "o2",
+          "text": "168 hours"
+        },
+        {
+          "optionId": "o3",
+          "text": "240 hours"
+        },
+        {
+          "optionId": "o4",
+          "text": "288 hours"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "40% of the 480-hour start-up allocation = 192 hours.",
+      "difficulty": "easy",
+      "competency": "multi-step-arithmetic"
+    },
+    {
+      "questionId": "clat-ug27-r010-q112",
+      "passageId": "r010-quantitative-01",
+      "sectionId": "quantitative",
+      "prompt": "How many hours did Universities A and B use combined?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "600 hours"
+        },
+        {
+          "optionId": "o2",
+          "text": "630 hours"
+        },
+        {
+          "optionId": "o3",
+          "text": "618 hours"
+        },
+        {
+          "optionId": "o4",
+          "text": "672 hours"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "A used 90% of 420 = 378; B used 80% of 300 = 240. Combined = 618 hours.",
+      "difficulty": "moderate",
+      "competency": "multi-step-arithmetic"
+    },
+    {
+      "questionId": "clat-ug27-r010-q113",
+      "passageId": "r010-quantitative-02",
+      "sectionId": "quantitative",
+      "prompt": "How many small-merchant transactions were processed?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "36,000 transactions"
+        },
+        {
+          "optionId": "o2",
+          "text": "32,000 transactions"
+        },
+        {
+          "optionId": "o3",
+          "text": "24,000 transactions"
+        },
+        {
+          "optionId": "o4",
+          "text": "40,000 transactions"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Small-merchant payments are 45% of the 80,000 transactions. Therefore 0.45 × 80,000 = 36,000 transactions.",
+      "difficulty": "moderate",
+      "competency": "percentage-calculation"
+    },
+    {
+      "questionId": "clat-ug27-r010-q114",
+      "passageId": "r010-quantitative-02",
+      "sectionId": "quantitative",
+      "prompt": "How many bill-payment transactions were reversed?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "600 transactions"
+        },
+        {
+          "optionId": "o2",
+          "text": "720 transactions"
+        },
+        {
+          "optionId": "o3",
+          "text": "480 transactions"
+        },
+        {
+          "optionId": "o4",
+          "text": "960 transactions"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Bill payments are 30% × 80,000 = 24,000 transactions. Two per cent are reversed, so 0.02 × 24,000 = 480 transactions.",
+      "difficulty": "moderate",
+      "competency": "multi-step-arithmetic"
+    },
+    {
+      "questionId": "clat-ug27-r010-q115",
+      "passageId": "r010-quantitative-02",
+      "sectionId": "quantitative",
+      "prompt": "How many transactions were reversed across all categories?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "1,920 transactions"
+        },
+        {
+          "optionId": "o2",
+          "text": "2,120 transactions"
+        },
+        {
+          "optionId": "o3",
+          "text": "2,400 transactions"
+        },
+        {
+          "optionId": "o4",
+          "text": "2,600 transactions"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Merchant reversals total 1,440 transactions; bill reversals total 480; person-to-person reversals total 200. Combined reversals = 1,440 + 480 + 200 = 2,120 transactions.",
+      "difficulty": "challenging",
+      "competency": "multi-step-arithmetic"
+    },
+    {
+      "questionId": "clat-ug27-r010-q116",
+      "passageId": "r010-quantitative-02",
+      "sectionId": "quantitative",
+      "prompt": "What percentage of all transactions required manual review?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "0.60%"
+        },
+        {
+          "optionId": "o2",
+          "text": "1.25%"
+        },
+        {
+          "optionId": "o3",
+          "text": "1.50%"
+        },
+        {
+          "optionId": "o4",
+          "text": "0.75%"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "600 ÷ 80,000 × 100 = 0.75%. Manual review is separate from reversals.",
+      "difficulty": "easy",
+      "competency": "percentage-calculation"
+    },
+    {
+      "questionId": "clat-ug27-r010-q117",
+      "passageId": "r010-quantitative-03",
+      "sectionId": "quantitative",
+      "prompt": "How many alerts were classified as high priority?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "600 alerts"
+        },
+        {
+          "optionId": "o2",
+          "text": "720 alerts"
+        },
+        {
+          "optionId": "o3",
+          "text": "900 alerts"
+        },
+        {
+          "optionId": "o4",
+          "text": "1,080 alerts"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The number is 720 alerts: 30% of 2,400 alerts are high priority, so 0.30 × 2,400 = 720.",
+      "difficulty": "moderate",
+      "competency": "percentage-calculation"
+    },
+    {
+      "questionId": "clat-ug27-r010-q118",
+      "passageId": "r010-quantitative-03",
+      "sectionId": "quantitative",
+      "prompt": "How many medium-priority alerts were resolved within the target time?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "720 alerts"
+        },
+        {
+          "optionId": "o2",
+          "text": "900 alerts"
+        },
+        {
+          "optionId": "o3",
+          "text": "960 alerts"
+        },
+        {
+          "optionId": "o4",
+          "text": "810 alerts"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Medium-priority alerts total 45% × 2,400 = 1,080. Seventy-five per cent resolved within target time gives 0.75 × 1,080 = 810 alerts.",
+      "difficulty": "moderate",
+      "competency": "multi-step-arithmetic"
+    },
+    {
+      "questionId": "clat-ug27-r010-q119",
+      "passageId": "r010-quantitative-03",
+      "sectionId": "quantitative",
+      "prompt": "How many alerts in total were resolved within the target time?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "1,800 alerts"
+        },
+        {
+          "optionId": "o2",
+          "text": "2,040 alerts"
+        },
+        {
+          "optionId": "o3",
+          "text": "1,926 alerts"
+        },
+        {
+          "optionId": "o4",
+          "text": "2,100 alerts"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Resolved alerts total 576 high-priority, 810 medium-priority and 540 low-priority. Adding them gives 576 + 810 + 540 = 1,926 alerts.",
+      "difficulty": "moderate",
+      "competency": "multi-step-arithmetic"
+    },
+    {
+      "questionId": "clat-ug27-r010-q120",
+      "passageId": "r010-quantitative-03",
+      "sectionId": "quantitative",
+      "prompt": "How many analyst-hours were used for resolved alerts?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "3,213 hours"
+        },
+        {
+          "optionId": "o2",
+          "text": "2,880 hours"
+        },
+        {
+          "optionId": "o3",
+          "text": "3,000 hours"
+        },
+        {
+          "optionId": "o4",
+          "text": "3,420 hours"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "High: 576 × 3 = 1,728 hours; medium: 810 × 1.5 = 1,215; low: 540 × 0.5 = 270. Total = 3,213 hours.",
+      "difficulty": "challenging",
+      "competency": "multi-step-arithmetic"
+    }
+  ]
+}

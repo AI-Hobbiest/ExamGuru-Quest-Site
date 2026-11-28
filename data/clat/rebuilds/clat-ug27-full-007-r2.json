@@ -1,0 +1,3585 @@
+{
+  "schemaVersion": 1,
+  "kind": "clat-model-paper",
+  "paperId": "clat-ug27-full-007",
+  "paperNumber": 7,
+  "title": "CLAT UG 2027 · Full-Length Model Paper 007",
+  "subtitle": "Rebuilt full-length practice draft · original passages and questions",
+  "blueprintVersion": "CLAT-UG27-v1",
+  "durationMinutes": 120,
+  "status": "draft-unpublished",
+  "asOf": "2026-11-10",
+  "marking": {
+    "correct": 1,
+    "incorrect": -0.25,
+    "unanswered": 0
+  },
+  "passages": [
+    {
+      "passageId": "r007-english-01",
+      "sectionId": "english",
+      "title": "The clinic that measured the waiting room",
+      "text": "A district hospital once reported its outpatient performance using a single figure: the average time between registration and consultation. The number improved after the hospital installed a token display and moved several clerks to the registration desk. Managers described the change as a reduction in waiting time. Patients, however, continued to complain that they spent long periods in the building. A nurse suggested measuring the entire visit, including the time spent finding the correct counter, waiting for a test and returning to collect a report.\n\nThe wider measure revealed that the registration change had shifted rather than removed some delays. The average consultation queue became shorter, but patients who needed a laboratory test often returned to a second queue that was not included in the original report. The hospital also discovered that elderly patients and people unfamiliar with the building were more likely to ask staff for directions. Their time was not recorded anywhere. The new measure therefore exposed work that was invisible in the management dashboard.\n\nThere was a reasonable objection. Recording every movement could create an expensive monitoring system and distract staff from care. The team did not propose tracking individuals continuously. It sampled visits at different times, asked patients to report broad stages of the process and compared the results with existing token data. It also separated the time a patient spent receiving care from the time spent waiting for an administrative decision. The distinction mattered because a long consultation may be clinically necessary, while a long unexplained queue may signal a process problem.\n\nThe hospital made two changes after the pilot. It placed a help desk near the entrance and scheduled laboratory collection windows for patients who had already completed a consultation. Neither measure reduced every delay, and some clinics still had limited staff. But the hospital could now identify where waiting occurred rather than relying on a single average that concealed different experiences.\n\nThe episode illustrates a general difficulty in performance measurement. An indicator is useful only to the extent that it represents the outcome people actually experience. A dashboard may be accurate about the activity it counts and still misleading about the service it claims to describe. Better measurement does not require measuring everything. It requires asking what the chosen number leaves out and whether the omitted part changes the conclusion."
+    },
+    {
+      "passageId": "r007-english-02",
+      "sectionId": "english",
+      "title": "The letter that changed the map",
+      "text": "When a coastal village was added to a district development map, the official boundary followed a road that residents rarely used. The market, school and fishing landing site lay on the other side of a tidal creek. During the dry season, residents crossed by a footbridge; during high tide, they used a longer route through a neighbouring ward. The map was not technically inaccurate: it showed the administrative boundary. Yet the map was being used to decide where a health sub-centre and a bus stop should be located.\n\nA schoolteacher wrote to the planning office with a hand-drawn route map. Rather than arguing that the boundary should be moved, she marked the paths residents used at different times of the year, the location of the boat landing and the homes of people who could not easily cross the creek. The planning office initially treated the letter as anecdotal. A field team later walked the routes with residents and found that the proposed bus stop would be inaccessible to many households during the monsoon.\n\nThe office added a second layer to its map showing seasonal access routes. The administrative boundary remained unchanged. The revised planning map helped the department distinguish legal jurisdiction from practical connectivity. It also changed the bus-stop proposal: the stop was moved to higher ground and a small feeder service was planned for the period when the footbridge was unusable.\n\nThe teacher’s letter did not replace technical data. The field team still used elevation measurements, traffic counts and engineering drawings. But the letter identified a question those datasets had not been designed to answer: how people actually moved through the area over a year. The planning office began inviting local groups to annotate draft maps before a project site was finalised. It did not promise to accept every suggested route; it promised to record why a suggestion was accepted or rejected.\n\nA map is a model of a place, not the place itself. Its usefulness depends on the decision it is intended to support. A legal boundary can be the right representation for tax administration and a poor guide to where a child can reach a clinic. The lesson is not to abandon official maps, but to avoid using one layer as though it answered every planning question."
+    },
+    {
+      "passageId": "r007-english-03",
+      "sectionId": "english",
+      "title": "A museum ticket is not a measure of memory",
+      "text": "A regional museum celebrated a rise in annual visitor numbers after introducing free entry on the first Sunday of each month. The director described the increase as proof that more people were engaging with local history. Teachers welcomed the larger crowds, but museum educators noticed that many visitors spent only a few minutes in the galleries. Some rooms were crowded while others remained nearly empty. The visitor count could not show whether the new audience encountered the collections in a meaningful way.\n\nThe museum conducted a small study. It asked visitors which object they remembered after leaving, whether they had read the display text and whether they had attended a guided activity. The study was not designed to grade visitors or to suggest that every visit must be educational. It was intended to understand whether the museum’s layout and interpretation served people who arrived without a tour. The results indicated that labels were difficult to read in crowded rooms and that families often missed the galleries at the end of the route.\n\nThe museum tested several changes. It introduced shorter labels in two languages, placed seating near objects requiring longer attention and created a quiet route for visitors who preferred not to join a group. A digital guide remained available, but staff did not assume that every visitor wanted to use a phone. The museum also asked local historians to review descriptions of objects linked to contested events. Their comments did not always produce a single agreed interpretation; the museum added context explaining where evidence was uncertain or disputed.\n\nThe director retained visitor numbers because they helped estimate staffing and building capacity. But the annual report began presenting them beside measures of access, participation and visitor feedback. Free entry had widened the door, while changes to interpretation helped people spend time with the material once inside. Neither measure alone could establish whether the museum had fulfilled its public purpose.\n\nThe passage argues against confusing scale with depth. A crowded gallery may indicate popularity, but it does not automatically show learning. Conversely, a visitor who spends ten minutes with one object may have had a valuable experience. Public institutions need indicators, but the indicators should reflect the plurality of outcomes they exist to support. A visitor survey should also avoid assuming that a remembered label is the only sign of engagement. A conversation with a guide or a question asked at the exit may show attention that a short written response does not capture."
+    },
+    {
+      "passageId": "r007-english-04",
+      "sectionId": "english",
+      "title": "When a warning becomes noise",
+      "text": "A river authority issued daily alerts during an unusually wet season. At first, the messages were specific: they named the affected villages, stated the likely time of a rise in water level and advised which roads should be avoided. As the season continued, the authority began sending the same broad warning to every district, even when expected conditions differed. Residents initially paid close attention, but many later stopped reading the messages. Local volunteers reported that some households had missed an important warning because it looked like the routine notices that preceded it.\n\nThe authority’s communication team believed that frequent alerts demonstrated caution. Hydrologists disagreed. They explained that a warning has value only if it changes a decision. A message that does not distinguish a watch from an evacuation instruction may create unnecessary movement or, worse, teach people to ignore later messages. The team therefore designed a three-level system. A watch indicated that conditions were being monitored; an advisory named a likely local impact and a precaution; an evacuation message identified the area, deadline and safe route.\n\nThe new system also addressed uncertainty. River forecasts could change as rainfall moved upstream, and the authority did not want to give an impression of precision it did not possess. Each alert included a time of issue, an expected period of validity and a note identifying what could change the forecast. Local radio repeated the message in languages used in affected settlements. Volunteers were asked to help households that did not receive digital messages, but the authority remained responsible for issuing the official warning.\n\nThe change required restraint. The team stopped sending routine messages when there was no meaningful change in risk. It also published corrections when an earlier forecast proved wrong. Some residents disliked receiving fewer updates because they had come to equate frequency with protection. The authority explained that fewer, more actionable messages were intended to preserve attention for moments when action mattered.\n\nWarnings cannot remove a flood or make every forecast accurate. Their purpose is to support decisions under uncertainty. A trustworthy system says what is known, what remains uncertain and what a recipient should do. A message that sounds urgent every day may eventually communicate nothing at all. The authority reviewed each alert after the event, comparing the forecast with observed levels and noting whether the route advice remained usable. This learning loop helped improve later messages without claiming that uncertainty could be removed."
+    },
+    {
+      "passageId": "r007-current-affairs-01",
+      "sectionId": "current-affairs",
+      "title": "A global agreement for future pandemics",
+      "text": "On 20 May 2025, the World Health Assembly adopted the WHO Pandemic Agreement by consensus. The agreement followed more than three years of negotiations shaped by weaknesses exposed during the COVID-19 pandemic, including unequal access to vaccines, diagnostics and treatments. Its stated purpose is to strengthen prevention, preparedness and response while making international cooperation more equitable.\n\nAdoption did not mean that every part of the agreement was ready for immediate operation. WHO Member States established an intergovernmental working group to continue work on the Pathogen Access and Benefit-Sharing system, often abbreviated as PABS. The system is intended to address the relationship between access to pathogens with pandemic potential and the sharing of benefits arising from their use, such as vaccines, diagnostics and treatments. This issue had been a central point of negotiation because countries want timely access to information and samples while also seeking a fair share of the products developed from them.\n\nThe agreement places emphasis on stronger health systems, sustainable financing, research and development, technology transfer and supply-chain resilience. These elements reflect a broader understanding of preparedness. A State may identify a pathogen quickly but still lack laboratories, trained personnel, manufacturing capacity or reliable distribution. International rules can encourage cooperation, but domestic infrastructure remains essential to an effective response.\n\nThe agreement was adopted under Article 19 of the WHO Constitution. As of 9 November 2026, negotiations on the PABS annex were still continuing: the eighth meeting of the Intergovernmental Working Group advanced the talks in September, and its ninth meeting was scheduled for 2–13 November 2026. WHO stated that the outcome would be submitted for consideration to the Eightieth World Health Assembly in May 2027. Adoption by the Assembly is therefore a major political and legal milestone, but it should not be confused with a completed PABS system, a treaty already ratified by every Member State or a fully functioning global distribution mechanism.\n\nThe agreement’s significance lies in its attempt to connect information-sharing with fairness in the benefits that follow. A future outbreak will test whether governments can share samples rapidly, make research results usable and ensure that products are not reserved only for countries with the greatest purchasing power. The text creates a framework for cooperation; implementation will determine whether that framework changes outcomes.\n\nThe distinction between a global commitment and a domestic capability is particularly important for countries with limited public-health budgets. Even if samples and data move quickly across borders, a State may need investment in laboratories, cold storage, trained epidemiologists and procurement systems before those inputs can improve health outcomes. The agreement can support common expectations, but it cannot remove the need for long-term institutional investment.",
+      "domain": "international health governance",
+      "asOf": "2026-11-09",
+      "sources": [
+        {
+          "title": "World Health Assembly adopts historic Pandemic Agreement",
+          "publisher": "World Health Organization",
+          "date": "2025-05-20",
+          "url": "https://www.who.int/news/item/20-05-2025-world-health-assembly-adopts-historic-pandemic-agreement-to-make-the-world-more-equitable-and-safer-from-future-pandemics"
+        },
+        {
+          "title": "Intergovernmental Working Group on the WHO Pandemic Agreement",
+          "publisher": "World Health Organization",
+          "date": "2026-11-02",
+          "url": "https://www.who.int/about/governance/world-health-assembly/intergovernmental-working-group-on-the-who-pandemic-agreement"
+        }
+      ]
+    },
+    {
+      "passageId": "r007-current-affairs-02",
+      "sectionId": "current-affairs",
+      "title": "The woman farmer year puts invisible work on the agenda",
+      "text": "The United Nations General Assembly designated 2026 as the International Year of the Woman Farmer through resolution A/RES/78/279. The designation invites Member States, United Nations bodies and other stakeholders to raise awareness of barriers faced by women farmers across agrifood systems and to direct policy attention towards actions that can advance gender equality and empowerment.\n\nThe designation is not itself a new land law, credit programme or agricultural subsidy. Its importance is agenda-setting. Women participate in planting, harvesting, livestock care, processing, marketing and household food management, yet their work may be undercounted in official statistics. Unpaid family labour may also be poorly represented in policy design. Where access to land titles, extension services, irrigation, formal credit or agricultural technology depends on recognised ownership, women who do much of the work may not receive the same support as the person whose name appears in the records.\n\nThe resolution encourages awareness and policy attention, but concrete change depends on institutions. A government could mark the year with public events while leaving registration systems, rural banking procedures and training schedules untouched. A more substantive approach would examine who receives information, who can apply for support, whether services are available at times compatible with care responsibilities and whether agricultural data identify women’s role in production.\n\nThe label “woman farmer” covers different circumstances. A smallholder managing a household plot, a tenant cultivator, a pastoralist, a wage worker on a plantation and a woman running a food-processing enterprise may face distinct constraints. A single intervention is unlikely to address all of them. Policy design therefore benefits from local evidence and consultation with women who work at different stages of the food system.\n\nAn international year does not guarantee that the underlying barriers will disappear. It creates an opportunity to make those barriers visible, gather evidence and evaluate whether national action changes access to resources and decision-making. The measure of success should be more than the number of events held during the year; it should include whether women farmers gain practical agency and recognition in the systems that shape agricultural livelihoods.\n\nA government reviewing agricultural programmes could begin by checking whether extension officers reach women who work as tenants or unpaid family members, whether bank procedures accept the documents they can realistically provide and whether training locations are accessible. These questions are administrative, but they determine whether formal programmes reach the people whose labour sustains production. A public campaign can help change perceptions; lasting improvement requires those operational details to change as well.",
+      "domain": "agriculture and gender",
+      "asOf": "2026-11-09",
+      "sources": [
+        {
+          "title": "International Year of the Woman Farmer, 2026 — A/RES/78/279",
+          "publisher": "United Nations General Assembly Mandate Registry",
+          "date": "2024-05-07",
+          "url": "https://documents.un.org/doc/undoc/gen/n24/128/15/pdf/n2412815.pdf"
+        }
+      ]
+    },
+    {
+      "passageId": "r007-current-affairs-03",
+      "sectionId": "current-affairs",
+      "title": "Four labour codes and the problem of implementation",
+      "text": "The Government of India announced that the four Labour Codes were made effective from 21 November 2025. The codes are the Code on Wages, 2019; the Industrial Relations Code, 2020; the Code on Social Security, 2020; and the Occupational Safety, Health and Working Conditions Code, 2020. The government described the reform as rationalising 29 existing labour laws and modernising the regulatory framework.\n\nThe four codes address different parts of the employment relationship. The wages code concerns wage-related protections and the framework for minimum wages. The industrial relations code deals with trade unions, standing orders and dispute resolution. The social security code consolidates provisions concerning social security schemes and extends the framework to categories including gig and platform workers. The occupational safety, health and working conditions code concerns workplace safety and conditions, including rules relevant to establishments and inter-State migrant workers.\n\nConsolidation can make a complex body of legislation easier to navigate, but the number of statutes alone does not determine whether workers are protected in practice. Definitions, rules, inspection capacity, grievance systems and awareness influence whether a legal entitlement can be exercised. A worker who does not know how to claim a benefit may remain excluded even when the law formally recognises the category. An employer may also struggle to comply if requirements are unclear or administrative systems are inconsistent.\n\nThe codes raise questions about balancing flexibility and protection. Industrial relations rules affect how establishments manage employment and resolve disputes; social security measures must be designed so workers with changing employers can maintain access. The growing use of digital platforms makes portability and contribution collection more important, because a worker may not have a single long-term employer. At the same time, formal categories must be translated into registration and service systems that work for people with irregular incomes.\n\nA reform of this scale should therefore be assessed through implementation outcomes: coverage, timely payment, workplace safety, dispute resolution and accessibility of social protection. Reorganising statutes can be a significant administrative step. It is not, by itself, evidence that every workplace has become safer or every eligible worker has obtained coverage.\n\nThe distinction between a legal framework and an enforceable entitlement matters at the workplace level. A worker may have a right on paper but lack a payslip, a record of hours or a channel to complain without retaliation. Similarly, a small establishment may need clear compliance guidance before it can follow new procedures. Effective implementation therefore depends on understandable rules, trained enforcement staff and accessible mechanisms for both workers and employers.",
+      "domain": "labour and social protection",
+      "asOf": "2026-11-09",
+      "sources": [
+        {
+          "title": "Government Makes the Four Labour Codes effective to Simplify and Streamline Labour Laws",
+          "publisher": "Press Information Bureau, Ministry of Labour & Employment",
+          "date": "2025-11-21",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2192463&lang=1&reg=3"
+        }
+      ]
+    },
+    {
+      "passageId": "r007-current-affairs-04",
+      "sectionId": "current-affairs",
+      "title": "Social protection needs to follow workers across changing jobs",
+      "text": "A large share of workers in many economies do not remain with one employer for their entire working lives. Some move between short contracts, platform assignments, seasonal work and self-employment. A social-protection system designed only around a stable monthly payroll can therefore leave gaps when a person changes occupation or has several sources of income. The problem is not simply the absence of a programme; it is the difficulty of carrying an entitlement across different work arrangements.\n\nIndia’s e-Shram initiative was developed as a national database for unorganised workers. The Ministry of Labour and Employment has described efforts to expand the platform’s usefulness, including a module for platform workers and onboarding of aggregators. Registration can improve visibility and help connect workers with welfare schemes, but a database entry does not itself guarantee a benefit. Eligibility, contribution rules, verification and delivery systems still determine whether a worker receives support.\n\nA registry also raises questions about data quality and access. A worker may change a phone number, migrate to another district or be recorded under an occupation that no longer describes the work currently performed. If records are not updated, a system built to improve inclusion may create another administrative obstacle. A reliable platform needs simple correction procedures and ways to reach people who have limited digital access.\n\nThe design of social protection must also consider who pays. Contributions may come from workers, employers, aggregators or public budgets, depending on the programme. Each arrangement distributes costs differently. If a worker’s income is irregular, fixed monthly contributions may be difficult to maintain. If an aggregator contributes, the rules need to define the relationship clearly without assuming that every digital platform has the same business model.\n\nThe key distinction is between identifying a worker and ensuring that the worker can exercise a right. Registration is an enabling step, not an outcome measure. A useful evaluation asks whether people are correctly recorded, whether they can update their details, whether benefits are delivered and whether groups with irregular earnings can remain covered when their work changes. The effectiveness of a registry lies in what it helps a person access, not merely in how many records it contains.\n\nDigital infrastructure can make programmes easier to coordinate, but it should not become the only doorway to essential support. Assisted registration, local help desks and offline grievance routes may be necessary for workers who do not own a smartphone or have stable connectivity. Those channels make the system more expensive to operate, yet excluding people because the delivery mechanism is digital would defeat the stated purpose of inclusion.",
+      "domain": "social protection and digital inclusion",
+      "asOf": "2026-11-09",
+      "sources": [
+        {
+          "title": "Year End Review 2025 — Ministry of Labour & Employment",
+          "publisher": "Press Information Bureau, Government of India",
+          "date": "2025-12-30",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2209767&lang=1&reg=3"
+        }
+      ]
+    },
+    {
+      "passageId": "r007-current-affairs-05",
+      "sectionId": "current-affairs",
+      "title": "Preparedness requires more than a stockpile",
+      "text": "Emergency warehouses are visible signs of preparedness. They can store protective equipment, medicines, water-treatment supplies and other goods needed when routine supply lines fail. Yet a warehouse can create false confidence if agencies do not know which goods are usable, how quickly they can be released or whether transport is available when roads are disrupted. Stock is only one part of the system that turns a warning into a response.\n\nA reliable preparedness plan begins with a risk assessment. A district exposed to seasonal flooding may need boats, water purification and temporary health facilities, while a heat-prone area may need cooling centres, drinking-water access and staff trained to recognise heat illness. A uniform stock list can leave both districts with supplies that are technically available but poorly matched to local needs. The mix should be reviewed as risks, population patterns and infrastructure change.\n\nThe plan also needs an inventory that is maintained rather than merely purchased. Medicines and some consumables expire; batteries lose capacity; generators require testing; and protective equipment may no longer fit current specifications. Agencies should know the condition and location of stock, the official authorised to release it and the route by which it will reach affected communities. Regular exercises reveal whether these arrangements work under pressure.\n\nPreparedness has a human-resource dimension. Volunteers need training, health workers require clear referral procedures and local authorities need to know who is responsible for communicating with the public. A warehouse may hold water filters, but it does not ensure that a household knows how to use one safely. A digital alert can identify a risk, but it does not transport a person who cannot evacuate without assistance.\n\nThe lesson is not that stockpiles are unnecessary. They provide a buffer against disrupted supply and can prevent a short interruption from becoming a crisis. The mistake is to treat the quantity stored as a proxy for readiness. A system is better prepared when goods, people, information and transport are connected through procedures that have been tested and revised.\n\nA credible readiness review should ask how long it takes to move supplies, whether the stock remains usable, which households may be missed and whether agencies can operate when electricity or mobile networks fail. These are practical questions, but they determine whether a public plan works outside a meeting room. Preparedness is a capability maintained over time, not an announcement made when a warehouse is opened.",
+      "domain": "public safety and health systems",
+      "asOf": "2026-11-09",
+      "sources": [
+        {
+          "title": "Framework for health emergency preparedness and response capabilities for national public health agencies",
+          "publisher": "World Health Organization",
+          "date": "2026-03-23",
+          "url": "https://www.who.int/publications/i/item/B09726"
+        }
+      ]
+    },
+    {
+      "passageId": "r007-current-affairs-06",
+      "sectionId": "current-affairs",
+      "title": "Cooperatives as a people-owned model of enterprise",
+      "text": "The United Nations General Assembly proclaimed 2025 the International Year of Cooperatives, under the theme “Cooperatives Build a Better World”. The year drew attention to enterprises that are owned and governed by their members rather than solely by outside investors. Cooperatives operate in agriculture, finance, housing, health, retail and many other fields. Their legal forms differ across countries, but member participation and a shared economic purpose are central to the model.\n\nA cooperative is not simply a small business with several owners. Members may be workers, producers, consumers or residents, and they participate in decisions according to the cooperative’s rules. In a producer cooperative, farmers may pool purchasing, storage or marketing so that each member can reach markets that would be difficult to access alone. In a worker cooperative, employees may share control over the enterprise and participate in decisions about investment and employment. A consumer cooperative may use collective purchasing to negotiate prices or provide services in areas underserved by commercial providers.\n\nThe model can support inclusion, but it is not automatically fair or efficient. A cooperative requires sound governance, transparent accounts and member participation. If a small group controls information or decisions, the formal promise of democratic ownership may not be realised. A cooperative may also lack access to capital or professional management, particularly when it grows beyond the scale at which members can supervise daily operations directly. Training, suitable regulation and access to finance therefore affect its ability to compete.\n\nThe International Year invited governments, the UN system and other stakeholders to promote the contribution of cooperatives to sustainable development. Its significance was partly institutional: it gave visibility to an economic form that can connect local ownership with broader development goals. But a commemorative year cannot resolve the governance challenges that cooperative members face. Those require ongoing support, accountability and a legal environment that recognises the distinctive way such enterprises are organised.\n\nThe useful question is not whether cooperatives are always preferable to investor-owned firms. It is whether the ownership and decision structure suits the purpose of the enterprise and whether members can exercise real control. A cooperative that gives members meaningful voice may distribute benefits differently; one that fails to maintain accountability may reproduce the same concentration of power it was intended to avoid.",
+      "domain": "inclusive enterprise and development",
+      "asOf": "2026-11-09",
+      "sources": [
+        {
+          "title": "UN General Assembly announces launch of the 2025 International Year of Cooperatives",
+          "publisher": "United Nations Sustainable Development",
+          "date": "2024-06-20",
+          "url": "https://www.un.org/sustainabledevelopment/blog/2024/06/press-release-iyc2025/"
+        }
+      ]
+    },
+    {
+      "passageId": "r007-legal-01",
+      "sectionId": "legal",
+      "title": "Notice before a trading permit is withdrawn",
+      "text": "A town issues annual permits to small traders who use marked spaces in a covered market. The permit is not a promise that the space will remain available forever. It is, however, the basis on which traders buy stock, arrange transport and plan their working hours. The town's fictional market code therefore distinguishes between changing the market layout and cancelling an individual permit for alleged misconduct.\n\nUnder the code, the market officer may propose cancellation if a trader repeatedly blocks a fire exit, sublets the space without permission or fails to pay the prescribed fee after receiving a reminder. Before a final cancellation, the officer must give the trader written particulars of the allegation and at least seven working days to respond. The response may include documents, photographs or an explanation of circumstances. If the matter turns on a disputed observation, the trader may request a short meeting to address it.\n\nThe code permits an immediate temporary suspension where the officer records specific facts showing an imminent danger to people or property. A temporary suspension is not a final cancellation. The officer must give reasons at the time, review the measure within forty-eight hours and provide the trader an opportunity to respond before deciding whether the suspension should continue. A general statement that the market must be kept orderly is not enough to establish an imminent danger.\n\nThe final decision must identify the evidence considered and explain why the trader's response did or did not change the officer's view. A trader may appeal to a separate review panel within ten working days. The panel can restore a permit, impose a shorter suspension or confirm cancellation. It must consider whether the original procedure was followed and whether the outcome is proportionate to the conduct proved.\n\nThe code does not require the town to keep a trader in a dangerous location while a hearing takes place. Nor does it allow an officer to treat a temporary safety measure as an easy substitute for the ordinary process. Its design separates urgent protection from the more serious decision to remove a livelihood-related permission. The practical question is whether the town can point to a concrete risk, use only the restriction needed to address it and return promptly to a fair decision-making process.\n\nFor example, a trader who stores a leaking fuel can beside a live distribution board presents a different problem from one who leaves a handcart near a painted line. The first may justify an immediate precaution while the hazard is removed; the second ordinarily calls for a warning, evidence and an opportunity to explain. The code asks the officer to describe the danger rather than rely on labels such as “disorderly trader”. It also gives the appeal panel a record against which to test whether the measure remained connected to the risk that justified it."
+    },
+    {
+      "passageId": "r007-legal-02",
+      "sectionId": "legal",
+      "title": "Who gets the community hall on Saturday?",
+      "text": "A district trust manages a community hall that is available for public meetings, cultural programmes, educational workshops and private family events. Demand is high on weekends. In the past, the caretaker allocated dates through informal requests and personal familiarity. Complaints followed when newer associations found that popular dates had already been promised without a public record.\n\nThe trust adopts a fictional allocation rule. It must publish the dates available for each quarter and accept applications during a stated window. Applications are assessed against three announced criteria: whether the activity is open to the community, whether the requested space and equipment are suitable, and whether the applicant has complied with safety and payment conditions on earlier bookings. The trust may not prefer an applicant because its members know a trustee or because the applicant supports a particular viewpoint.\n\nWhere two eligible applicants seek the same date and neither has a stronger claim under the published criteria, the trust must use a witnessed lottery. The lottery result and the reasons for any preference must be entered in a register that applicants can inspect. An applicant may ask for correction if the register contains a factual mistake, such as a payment being recorded as overdue when the receipt shows that it was paid on time.\n\nThe rule also recognises that equal treatment does not always mean identical physical arrangements. If a hall entrance has steps, the trust must consider a workable accessible route or a different room of comparable capacity where the request is made in time and the adjustment is reasonably available. It may refuse an adjustment if the proposed arrangement would create a concrete safety risk that cannot be addressed, but it must explain the risk and consider an alternative.\n\nA booking can be cancelled for a serious breach, such as deliberate overcrowding or damage to equipment. The trust must ordinarily give the organiser notice and a chance to explain. A cancellation may be immediate where continuing the event creates an urgent safety danger, but the reasons must be recorded. The rule does not guarantee every applicant a preferred date. It seeks to make scarcity manageable through visible criteria, a neutral tie-break and a record that allows mistakes or favouritism to be challenged.\n\nThe trust's duty to publish available dates is not satisfied by placing a handwritten list inside the caretaker's locked office. The information must be reasonably accessible to associations that may apply. At the same time, the rule does not require disclosure of personal details about previous applicants. The register should show the date requested, the criteria applied, the decision and the outcome of any review, while protecting information irrelevant to allocation. This distinction allows scrutiny of the process without turning transparency into indiscriminate publication of private records."
+    },
+    {
+      "passageId": "r007-legal-03",
+      "sectionId": "legal",
+      "title": "A school inquiry and an edited recording",
+      "text": "A school receives a complaint that a student altered a group project's digital presentation and removed a teammate's contribution. The class teacher is asked to investigate under a fictional school procedure. The procedure allows the school to consider electronic records, but it does not treat every screenshot or forwarded audio clip as automatically reliable.\n\nThe investigator must first identify what the record is said to show. A screenshot may establish that a message appeared on one device at a particular time, but it may not reveal whether earlier messages were omitted or whether the displayed account was controlled by the person named. A recording may capture a conversation while leaving out the sentence that gave a remark its meaning. The investigator should therefore preserve the original file where possible, note who supplied it and record any editing or forwarding that occurred.\n\nThe student accused of changing the presentation must receive a clear description of the allegation and a fair opportunity to inspect the material that will be relied upon. If the school cannot disclose a particular detail because it would reveal another student's private information, it should provide a sufficiently informative summary and consider whether the undisclosed detail is actually necessary to decide the allegation. The student may submit version histories, emails or witness accounts. The investigator should not assume that a denial proves innocence or that a confident accusation proves misconduct.\n\nThe procedure requires the finding to rest on the balance of reliable material, not on a search for absolute certainty. Where records conflict, the investigator must explain why one account is more dependable. A technical specialist may help interpret a file's metadata, but the specialist should not decide whether the student's conduct was fair or intentional. Those are conclusions for the investigator, who must consider the context and the school's stated standards.\n\nA written outcome must distinguish between what is established, what remains uncertain and what action follows. A minor mistake in file management may call for correction or instruction rather than punishment. Deliberate removal of another student's work may justify a disciplinary response if the evidence supports that conclusion. The procedure is designed to prevent digital material from being either dismissed simply because it is electronic or accepted uncritically because it looks precise.\n\nA version history showing that a file changed at 4:10 p.m. does not, by itself, identify the person who made the change or the reason for it. The student may have been using a shared account, and an automatic formatting tool may have altered the layout. Conversely, a series of saved versions may corroborate a witness who says that a contribution was deliberately removed. The investigator should test each inference against alternative explanations and state which parts of the record support the final finding."
+    },
+    {
+      "passageId": "r007-legal-04",
+      "sectionId": "legal",
+      "title": "A transparent purchase of school buses",
+      "text": "A municipal education board must purchase twelve buses for schools spread across a large district. Its fictional procurement code requires an open competition unless a recorded emergency makes competition impracticable. The board publishes the required vehicle capacity, safety features, service coverage, delivery schedule and evaluation method before bids are opened. It may ask bidders to clarify an ambiguity, but it may not quietly change a mandatory requirement for one supplier after seeing the prices.\n\nThe evaluation gives weight to the total cost over five years, the availability of maintenance facilities, delivery capability and compliance with the published safety specifications. A low initial price is relevant but not decisive if the bid excludes essential maintenance or relies on a service centre that does not exist. Conversely, evaluators cannot reject a bidder merely because they prefer a familiar brand. Any preference must be connected to a criterion disclosed in the tender and supported by evidence.\n\nEach evaluator must disclose a personal or financial relationship with a bidder. A disclosed conflict does not always require cancellation of the tender, but the affected evaluator must not participate in scoring unless the board's independent ethics officer records why the conflict is immaterial. The board keeps a written evaluation sheet showing how each bid was assessed. Commercially sensitive technical details may be protected from public release, but the reasons for the final selection and the aggregate scores must be published.\n\nIf a bidder believes that a clerical error changed its score, it may request review within five working days. The review officer checks the calculation and whether the published criteria were applied consistently. The officer cannot award the contract simply because a disappointed bidder offers a lower price after the deadline. The original competition must remain fair to all participants who submitted bids on the same terms.\n\nThe code allows the board to cancel and restart the process where a serious defect has affected competition, such as a requirement written to favour one supplier or a material specification changed after bids were received. It does not require cancellation for every minor administrative error. The decision must explain whether the defect could have influenced participation or ranking. The aim is not to make purchasing slow for its own sake; it is to preserve public confidence that the board spent public money through a process that bidders could understand and challenge.\n\nA supplier that has never sold buses to the board is not automatically less capable than an incumbent. The board may examine service records, staffing and evidence of spare-parts access, but the same evidence standard must be applied to every bidder. A promise to build a service centre after award may be considered only if the tender allowed such a commitment and specified how it would be verified. Otherwise, evaluators would be comparing different offers under criteria that were not equally available to all participants."
+    },
+    {
+      "passageId": "r007-legal-05",
+      "sectionId": "legal",
+      "title": "Publishing a neighbourhood air-quality map",
+      "text": "A research centre prepares a map of air-quality readings collected near schools, bus depots and industrial premises. The centre receives public funding and signs a fictional data-sharing agreement with the municipality. The agreement requires publication of methods, sampling dates, calibration details and the results needed to understand the map. It also protects personal information and information that would reveal the exact location of a private household monitor where disclosure could expose the resident to harassment.\n\nThe centre may not use confidentiality as a blanket reason to withhold inconvenient results. If a reading is unusually high, the report must show it with an explanation of the collection conditions and any known instrument limitation. If the monitor was placed close to a construction site for only one afternoon, readers should not be invited to treat it as the area's annual average. The centre must distinguish a measured observation from an interpretation about its cause.\n\nBefore publication, the municipality asks the centre to remove a cluster of high readings because the map may alarm parents. The agreement does not permit removal merely because a result is politically uncomfortable. The centre may delay publication briefly to check a credible technical error, but it must record the reason for delay and publish the corrected result and correction history. If a result cannot be verified, the report should label it as uncertain rather than silently delete it.\n\nThe agreement permits the centre to aggregate readings or mask a precise monitor location where that is necessary to protect a resident. It must still provide enough geographic and methodological detail for the public to judge the relevance of the data. A community group may ask for a review if it believes that the centre has withheld a whole area without a privacy or technical justification. A reviewer examines the decision and may direct publication in a less identifying form.\n\nThe rule recognises two distinct duties: protect people from avoidable exposure and protect the integrity of public evidence. Neither duty automatically defeats the other. The centre must explain how it has balanced them, disclose the limits of the dataset and correct errors openly. A map is useful only when readers can see both what the measurements show and what they cannot establish.\n\nFor instance, several high readings taken on a day when a monitor malfunctioned may need correction, but a high reading taken during a genuine pollution episode is not a malfunction merely because it is inconvenient. The centre should use calibration records, neighbouring instruments and field notes to decide which explanation is supported. If evidence remains mixed, the report can preserve the observation with an uncertainty label and explain the reasons for caution. This protects privacy without allowing uncertainty to become a device for suppressing adverse findings."
+    },
+    {
+      "passageId": "r007-legal-06",
+      "sectionId": "legal",
+      "title": "When an automated benefit decision is questioned",
+      "text": "A welfare department uses software to flag applications that may contain inconsistent income information. The software compares entries in an application with records supplied by employers and other public agencies. Under the department's fictional decision rule, a software flag may trigger a request for clarification, but it cannot by itself justify refusal or suspension of a benefit.\n\nThe applicant must be told which category of information appears inconsistent and given a practical way to correct a mistaken record. A notice that merely says “risk score exceeded” is not sufficient because it tells the applicant neither what needs explanation nor where to begin. The department need not disclose source code or security details that would enable deliberate manipulation, but it must disclose the material facts and the type of comparison that led to the concern.\n\nA trained officer must review the application, the flagged records and the applicant's response before making an adverse decision. The officer may accept that a mismatch is harmless, such as where an employer used a different payroll date or a record was updated late. If the officer rejects the explanation, the decision must state the evidence relied upon and why the response did not resolve the inconsistency. The officer cannot simply repeat the software's score as a reason.\n\nWhere the department discovers that a source database has a known error affecting many applicants, it must pause decisions that depend on that field until a reliable correction process is in place. A person's benefit should not be suspended merely because the department's own data systems disagree. If an urgent risk of fraud is supported by independent evidence, a temporary measure may be used, but the department must give reasons, set a short review date and provide a prompt appeal route.\n\nThe rule does not prohibit automation. Software may help identify patterns that a busy office would otherwise overlook. It does insist that the department remain responsible for decisions made in its name. The applicant's ability to understand and challenge a decision is part of the decision process, not an optional courtesy after the software has already determined the outcome.\n\nThe distinction also affects procurement and oversight. A model that produces many false alerts may burden both applicants and officers, even if it detects some genuine inconsistencies. The department should monitor error rates across different groups, allow corrections to flow back to source records and retain an audit trail of human overrides. These measures do not require publication of sensitive code. They make it possible to ask whether the tool is functioning as intended and whether a person can obtain a reasoned decision when the system is wrong."
+    },
+    {
+      "passageId": "r007-logical-01",
+      "sectionId": "logical",
+      "title": "Did the new bus timetable reduce missed connections?",
+      "text": "A transport authority introduced a revised timetable on three bus routes that connect outer neighbourhoods to a central railway station. The authority reports that the number of passengers who missed a train after arriving by bus fell by 18 per cent during the first month. It concludes that the revised timetable caused the improvement and proposes applying the same timetable to every route in the district.\n\nThe comparison is attractive because the measure is closely related to the stated aim. Yet the report compares the first month after the change with the same month in the previous year. During the later month, the railway operator also added a five-minute transfer window to several services. That change could reduce missed connections even if the buses had arrived at exactly the same times. The authority has not separated the effects of the two changes.\n\nThere is another issue in the underlying counts. The report records passengers who complained at the station desk. It does not count people who missed a train but left without making a complaint, nor does it count passengers who abandoned the bus-rail journey altogether. A fall in recorded complaints may reflect better connections, but it may also reflect a change in who uses the service or who reports a problem.\n\nA stronger evaluation would compare routes that received the new timetable with similar routes that did not, while checking whether railway transfer rules and passenger volumes changed. It would also count missed connections through a sample of observed journeys rather than rely only on complaints. If the authority cannot find a comparable route, it could examine several weeks before and after the change and record other factors that might explain the result.\n\nNone of this proves that the timetable failed. The reported decline is consistent with an improvement and may justify a further trial. It does not yet show that the bus timetable alone produced the full decline or that every route would respond in the same way. The strength of a causal conclusion depends not only on whether the outcome changed, but also on whether plausible competing explanations have been examined.\n\nA route with a bus arriving six minutes before a train may benefit from a revised schedule, while a route whose bus reaches the station twenty minutes early may not. The same timetable adjustment can therefore have different effects according to starting conditions. The authority's district-wide proposal assumes that the three selected routes represent the rest of the network, but the report does not establish that similarity. Route-level evidence should guide where the next trial is conducted."
+    },
+    {
+      "passageId": "r007-logical-02",
+      "sectionId": "logical",
+      "title": "The library's rising attendance figure",
+      "text": "A city library network has recorded a 25 per cent increase in annual visits after extending opening hours at six branches. The council's cultural committee argues that the extension has made the network more accessible and recommends applying it to all branches. The increase is real in the attendance register, but the register alone does not settle the policy question.\n\nDuring the same year, two branches hosted large examination-preparation programmes that brought groups of students on repeated days. A visit count treats each entry separately, so a small number of regular participants can produce a substantial rise. That may be a valuable use of the library, but it does not necessarily show that more distinct residents gained access. The network has not reported how many individual users visited at least once.\n\nThe committee also compares total visits across the network, even though only six branches received extended hours. Some of the increase may have occurred at branches whose hours did not change. Those branches may have benefited from a new catalogue system or a temporary closure of a nearby reading room. Without branch-level figures, it is difficult to attribute the increase to the policy under review.\n\nThe strongest case for extension would combine several measures: visits by branch and time of day, unique user counts, usage of study spaces, attendance by different age groups and the additional staffing and energy costs. Surveys could ask whether the new hours enabled people to visit who previously could not. The council should also distinguish a one-time examination surge from continued use after the programme ends.\n\nThe committee is right that attendance is relevant to a library's public value. It would be too strong, however, to treat every additional entry as evidence of wider access or to infer that the same operating hours will benefit every branch equally. A decision to expand may still be justified, but it should rest on information that connects the extra opening hours to the people and services the council intends to reach.\n\nThe network could test the policy further by selecting branches with different neighbourhood needs and publishing their results separately. A branch near a college may draw large numbers late in the evening, whereas one serving older residents may need early-morning access and staffed assistance. A single network-wide percentage conceals these patterns. The committee's decision should therefore address the distribution of benefit as well as the overall count."
+    },
+    {
+      "passageId": "r007-logical-03",
+      "sectionId": "logical",
+      "title": "A building retrofit and the missing baseline",
+      "text": "A housing agency installed reflective roof coatings and motion-sensitive corridor lights in ten apartment blocks. Six months later, the agency announced that the buildings used 14 per cent less electricity than before and described the project as a successful energy-saving programme. It plans to use the same package in every block under its control.\n\nThe result is encouraging, but the before-and-after comparison may not capture the effect of the retrofit alone. The six months after installation included a cooler season than the six months used as the baseline. Lower use of fans and cooling equipment could explain part of the reduction. The agency also replaced several old refrigerators in two blocks, an intervention that was not included in its headline description.\n\nThe figures raise a second question. The agency reports total electricity drawn by the blocks, not consumption per occupied apartment or per resident. During the post-installation period, one block had a higher number of vacant flats because of repairs. A lower total may therefore reflect fewer people using electricity rather than improved efficiency. If residents changed their routines after receiving energy-saving advice, that behavioural effect should also be identified separately from the equipment effect.\n\nA careful evaluation would compare weather-adjusted consumption, occupancy and the condition of each block. It could compare treated blocks with similar untreated blocks or introduce the retrofit in stages. The agency should retain the original meter readings and disclose any other upgrades made during the same period. A cost calculation should include installation, maintenance and replacement of sensors, not just the reduction in electricity bills.\n\nThe 14 per cent decline is evidence worth investigating, not a meaningless number. But the conclusion that the package caused the whole decline—and will produce the same result everywhere—requires assumptions that the report has not tested. A pilot can support wider adoption when its design distinguishes the intervention from seasonal, occupancy and maintenance effects.\n\nThe agency should also examine whether the two components work independently. Roof coatings may reduce cooling demand on upper floors, while corridor sensors may reduce electricity use in shared spaces. A building with low corridor use may gain little from sensors but still benefit from roof treatment. If the package is evaluated as one indivisible intervention, the agency may spend on components that have little local value. A further trial could compare components separately and identify the conditions under which each performs well."
+    },
+    {
+      "passageId": "r007-logical-04",
+      "sectionId": "logical",
+      "title": "What a household survey can and cannot say",
+      "text": "A district survey asked 1,200 households whether they had used a public digital service during the previous three months. Sixty-two per cent of respondents answered yes. The district administrator concluded that nearly two-thirds of all residents could comfortably use digital public services and proposed ending the staffed help desk at local offices.\n\nThe survey's question measured use, not comfort or independence. A person may have used a service with help from a relative, a shopkeeper or an office employee. Another may have started an application but abandoned it. The answer also does not reveal whether the service was completed successfully or whether the respondent understood the information being submitted.\n\nThe survey was conducted through telephone interviews using numbers drawn from a list of households that had registered a mobile contact. Households without a current number were less likely to be reached. The district has not estimated how many residents are missing from the contact list or whether they differ in age, income or location. If people without reliable phones also have less digital access, the survey could overstate the district-wide level of capability.\n\nA better study would ask separate questions about use, completion, assistance and confidence. It could include in-person interviews in settlements with low telephone coverage and report the response rate. A sample of service transactions could be checked, with personal details protected, to see how often applicants needed help or made errors. The district could then test whether a reduced help desk affects completion before deciding whether to close it.\n\nThe 62 per cent result is useful evidence that many households have encountered the service. It cannot support the administrator's stronger claim about comfortable independent use by nearly two-thirds of residents. Nor does it establish that a staffed help desk is unnecessary. The proposed policy depends on a different outcome from the one the survey actually measured.\n\nA separate experiment could make help available by appointment at some offices while retaining walk-in support elsewhere. The district could compare successful completion, repeated visits and unresolved complaints without removing assistance from the entire population at once. The experiment would need to account for differences between neighbourhoods and ensure that people in the comparison group are not denied an essential service. A carefully designed trial could inform the decision more directly than a general question about recent use."
+    },
+    {
+      "passageId": "r007-quant-01",
+      "sectionId": "quantitative",
+      "title": "A district's mobile vaccination teams",
+      "text": "A district deploys three mobile teams for a five-day campaign. Team A can vaccinate 48 people per full day, Team B 42 and Team C 36. On the first two days, all teams work full days. On the third day, Team C is unavailable. On the fourth day, Team A works a half-day while B and C work full days. The fifth day is reserved for follow-up visits; the teams together can complete 90 follow-ups. Assume capacities are exact and there is no wastage."
+    },
+    {
+      "passageId": "r007-quant-02",
+      "sectionId": "quantitative",
+      "title": "A cooperative's grain storage ledger",
+      "text": "A cooperative receives 1,250 tonnes of grain. It stores 40% in Warehouse North, 35% in Warehouse South and the remainder in a smaller depot. During the month, 8% of North's stock and 4% of South's stock are issued to public distribution. The smaller depot releases 72 tonnes. A weighing check finds that 2% of the remaining combined stock is damaged and cannot be distributed. Use the figures as exact and calculate percentages on the relevant stock after releases."
+    },
+    {
+      "passageId": "r007-quant-03",
+      "sectionId": "quantitative",
+      "title": "A town's bus operating costs",
+      "text": "A town operates 24 buses. Each bus travels an average of 180 kilometres a day for 25 operating days in a month. Fuel consumption averages 4 kilometres per litre and fuel costs ₹96 per litre. Monthly driver wages total ₹18 lakh, while maintenance and other operating costs are ₹7.2 lakh. A proposed route revision is expected to reduce total distance travelled by 5% without changing the number of operating days or the fixed wage bill."
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "clat-ug27-r007-q001",
+      "passageId": "r007-english-01",
+      "sectionId": "english",
+      "prompt": "Which proposition best captures the passage’s central argument? (Passage: “The clinic that measured the waiting room”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Service indicators should represent the full experience relevant to the outcome being claimed."
+        },
+        {
+          "optionId": "o2",
+          "text": "Hospitals should record every movement made by every patient."
+        },
+        {
+          "optionId": "o3",
+          "text": "Average registration time is always a misleading measure."
+        },
+        {
+          "optionId": "o4",
+          "text": "Administrative performance should be judged only by patient complaints."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The original figure measured one queue but did not describe the entire visit.",
+      "difficulty": "easy",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r007-q002",
+      "passageId": "r007-english-01",
+      "sectionId": "english",
+      "prompt": "Why did the wider measure reveal work that was previously invisible? (Passage: “The clinic that measured the waiting room”)",
+      "options": [
+        {
+          "optionId": "o4",
+          "text": "It replaced token data with continuous individual tracking."
+        },
+        {
+          "optionId": "o1",
+          "text": "It counted only clinical consultation time."
+        },
+        {
+          "optionId": "o3",
+          "text": "It removed all differences between patient groups."
+        },
+        {
+          "optionId": "o2",
+          "text": "It included directions, laboratory queues and report collection omitted from the original indicator."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The passage lists stages not included in the registration-to-consultation figure.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q003",
+      "passageId": "r007-english-01",
+      "sectionId": "english",
+      "prompt": "How did the team respond to the cost objection? (Passage: “The clinic that measured the waiting room”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "It abandoned the measurement exercise entirely."
+        },
+        {
+          "optionId": "o3",
+          "text": "It used sampling and broad process stages instead of continuous tracking of individuals."
+        },
+        {
+          "optionId": "o2",
+          "text": "It required each patient to carry a location device."
+        },
+        {
+          "optionId": "o4",
+          "text": "It treated all consultation time as administrative delay."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The team limited the burden by sampling visits and distinguishing waiting from care.",
+      "difficulty": "moderate",
+      "competency": "purpose"
+    },
+    {
+      "questionId": "clat-ug27-r007-q004",
+      "passageId": "r007-english-01",
+      "sectionId": "english",
+      "prompt": "Which finding would most weaken the claim that the new system improved patient experience? (Passage: “The clinic that measured the waiting room”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Patients could find the help desk more easily."
+        },
+        {
+          "optionId": "o2",
+          "text": "The laboratory collection schedule reduced repeat queuing."
+        },
+        {
+          "optionId": "o4",
+          "text": "The registration queue fell, but total visit time and access barriers remained unchanged."
+        },
+        {
+          "optionId": "o3",
+          "text": "The hospital identified a previously uncounted delay."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The central claim concerns the entire experience, so unchanged total time would undercut it.",
+      "difficulty": "moderate",
+      "competency": "weaken"
+    },
+    {
+      "questionId": "clat-ug27-r007-q005",
+      "passageId": "r007-english-01",
+      "sectionId": "english",
+      "prompt": "The phrase “a dashboard may be accurate about the activity it counts” implies that: (Passage: “The clinic that measured the waiting room”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "accurate data can still support a misleading conclusion if the indicator is too narrow."
+        },
+        {
+          "optionId": "o2",
+          "text": "dashboards should never be used in public services."
+        },
+        {
+          "optionId": "o3",
+          "text": "patients are unable to report their experience reliably."
+        },
+        {
+          "optionId": "o4",
+          "text": "every performance indicator must include all possible variables."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "A figure can be technically correct yet fail to represent the broader service outcome.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q006",
+      "passageId": "r007-english-01",
+      "sectionId": "english",
+      "prompt": "Which measurement choice is most consistent with the author’s reasoning? (Passage: “The clinic that measured the waiting room”)",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "Track the full sequence of service stages using proportionate sampling and patient feedback."
+        },
+        {
+          "optionId": "o1",
+          "text": "Replace all performance data with a satisfaction poll."
+        },
+        {
+          "optionId": "o3",
+          "text": "Use only the time spent at the registration desk."
+        },
+        {
+          "optionId": "o4",
+          "text": "Compare hospitals by the number of tokens printed."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The author supports fit-for-purpose measurement that reveals omitted stages without excessive surveillance.",
+      "difficulty": "easy",
+      "competency": "application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q007",
+      "passageId": "r007-english-02",
+      "sectionId": "english",
+      "prompt": "What did the teacher’s letter contribute to the planning process? (Passage: “The letter that changed the map”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "It established that the district boundary was legally invalid."
+        },
+        {
+          "optionId": "o3",
+          "text": "It showed seasonal routes and practical access patterns missing from the administrative map."
+        },
+        {
+          "optionId": "o2",
+          "text": "It replaced the need for engineering measurements."
+        },
+        {
+          "optionId": "o4",
+          "text": "It proved that residents used only one route throughout the year."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The letter identified seasonal movement and access constraints absent from the official boundary layer.",
+      "difficulty": "moderate",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r007-q008",
+      "passageId": "r007-english-02",
+      "sectionId": "english",
+      "prompt": "Why did the office keep the administrative boundary unchanged? (Passage: “The letter that changed the map”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Residents had no reliable knowledge of their own routes."
+        },
+        {
+          "optionId": "o2",
+          "text": "The field team found seasonal access irrelevant."
+        },
+        {
+          "optionId": "o4",
+          "text": "The letter concerned practical connectivity rather than the legal location of the boundary."
+        },
+        {
+          "optionId": "o3",
+          "text": "The planning office rejected every part of the letter."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The revised map added a functional layer without changing the legal boundary.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q009",
+      "passageId": "r007-english-02",
+      "sectionId": "english",
+      "prompt": "Which statement best describes the role of local knowledge? (Passage: “The letter that changed the map”)",
+      "options": [
+        {
+          "optionId": "o4",
+          "text": "It can determine every final planning decision without review."
+        },
+        {
+          "optionId": "o2",
+          "text": "It should replace measurements and engineering drawings."
+        },
+        {
+          "optionId": "o3",
+          "text": "It is useful only when it changes a legal boundary."
+        },
+        {
+          "optionId": "o1",
+          "text": "It identifies questions and patterns that technical datasets may not have been designed to capture."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The field team combined residents’ route knowledge with technical evidence.",
+      "difficulty": "moderate",
+      "competency": "function"
+    },
+    {
+      "questionId": "clat-ug27-r007-q010",
+      "passageId": "r007-english-02",
+      "sectionId": "english",
+      "prompt": "Which additional finding would most strongly support the revised bus-stop location? (Passage: “The letter that changed the map”)",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "The elevated location remains reachable by the largest number of households during high tide."
+        },
+        {
+          "optionId": "o1",
+          "text": "The old stop was closer to the district office."
+        },
+        {
+          "optionId": "o3",
+          "text": "The new stop requires a longer name on the map."
+        },
+        {
+          "optionId": "o4",
+          "text": "Residents prefer a different bus colour."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The problem was seasonal inaccessibility, so year-round reach is decisive.",
+      "difficulty": "moderate",
+      "competency": "evidence"
+    },
+    {
+      "questionId": "clat-ug27-r007-q011",
+      "passageId": "r007-english-02",
+      "sectionId": "english",
+      "prompt": "The passage distinguishes a map’s accuracy from its: (Passage: “The letter that changed the map”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "ability to display official boundaries."
+        },
+        {
+          "optionId": "o3",
+          "text": "fitness for a particular planning decision."
+        },
+        {
+          "optionId": "o2",
+          "text": "usefulness for tax administration."
+        },
+        {
+          "optionId": "o4",
+          "text": "scale and printing quality."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "An accurate boundary map may still be inadequate for planning practical access.",
+      "difficulty": "easy",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q012",
+      "passageId": "r007-english-02",
+      "sectionId": "english",
+      "prompt": "Which practice best follows the planning office’s revised approach? (Passage: “The letter that changed the map”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Allow every suggested route to override engineering standards."
+        },
+        {
+          "optionId": "o2",
+          "text": "Publish only the administrative boundary layer."
+        },
+        {
+          "optionId": "o4",
+          "text": "Invite residents to annotate draft maps and record reasons for accepting or rejecting their proposals."
+        },
+        {
+          "optionId": "o3",
+          "text": "Stop using elevation and traffic data in site selection."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The office combines local annotation with technical review and transparent reasons.",
+      "difficulty": "moderate",
+      "competency": "application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q013",
+      "passageId": "r007-english-03",
+      "sectionId": "english",
+      "prompt": "What does the museum’s study attempt to understand? (Passage: “A museum ticket is not a measure of memory”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Whether layout and interpretation help visitors engage with collections beyond simply entering the building."
+        },
+        {
+          "optionId": "o2",
+          "text": "Whether visitors should be required to attend guided tours."
+        },
+        {
+          "optionId": "o3",
+          "text": "Whether free admission should be withdrawn."
+        },
+        {
+          "optionId": "o4",
+          "text": "Whether every object can be remembered by every visitor."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The study looks at interpretation, recall and access rather than counting entry alone.",
+      "difficulty": "moderate",
+      "competency": "purpose"
+    },
+    {
+      "questionId": "clat-ug27-r007-q014",
+      "passageId": "r007-english-03",
+      "sectionId": "english",
+      "prompt": "Why did the museum not require every visitor to use a digital guide? (Passage: “A museum ticket is not a measure of memory”)",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "It recognised that visitors have different preferences and may not want to use a phone."
+        },
+        {
+          "optionId": "o1",
+          "text": "The digital guide contained no collection information."
+        },
+        {
+          "optionId": "o3",
+          "text": "The museum had removed all staff from the galleries."
+        },
+        {
+          "optionId": "o4",
+          "text": "Visitors were prohibited from carrying devices."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The digital guide remained optional rather than being treated as a universal solution.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q015",
+      "passageId": "r007-english-03",
+      "sectionId": "english",
+      "prompt": "How did the museum address disagreement about contested objects? (Passage: “A museum ticket is not a measure of memory”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "It removed all contested objects from the collection."
+        },
+        {
+          "optionId": "o3",
+          "text": "It added context about uncertainty and disputed evidence rather than forcing a single interpretation."
+        },
+        {
+          "optionId": "o2",
+          "text": "It selected whichever interpretation was most popular online."
+        },
+        {
+          "optionId": "o4",
+          "text": "It stopped consulting local historians."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The museum disclosed evidentiary uncertainty instead of suppressing disagreement.",
+      "difficulty": "moderate",
+      "competency": "detail"
+    },
+    {
+      "questionId": "clat-ug27-r007-q016",
+      "passageId": "r007-english-03",
+      "sectionId": "english",
+      "prompt": "Which conclusion is best supported? (Passage: “A museum ticket is not a measure of memory”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Visitor counts should be removed from all annual reports."
+        },
+        {
+          "optionId": "o2",
+          "text": "Free admission necessarily reduces educational value."
+        },
+        {
+          "optionId": "o4",
+          "text": "Visitor numbers are useful for capacity planning but insufficient as a measure of meaningful engagement."
+        },
+        {
+          "optionId": "o3",
+          "text": "A museum should measure success only through object recall."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The director retained counts but supplemented them with access and participation measures.",
+      "difficulty": "easy",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q017",
+      "passageId": "r007-english-03",
+      "sectionId": "english",
+      "prompt": "What is the main contrast in the final paragraph? (Passage: “A museum ticket is not a measure of memory”)",
+      "options": [
+        {
+          "optionId": "o4",
+          "text": "Local history versus international history."
+        },
+        {
+          "optionId": "o2",
+          "text": "Free admission versus paid admission."
+        },
+        {
+          "optionId": "o3",
+          "text": "Digital guides versus printed labels."
+        },
+        {
+          "optionId": "o1",
+          "text": "Scale of attendance versus depth and variety of visitor experience."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The conclusion warns against treating popularity as identical to learning.",
+      "difficulty": "moderate",
+      "competency": "structure"
+    },
+    {
+      "questionId": "clat-ug27-r007-q018",
+      "passageId": "r007-english-03",
+      "sectionId": "english",
+      "prompt": "Which proposal would best align with the author’s view? (Passage: “A museum ticket is not a measure of memory”)",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "Report attendance alongside accessibility, participation and qualitative visitor feedback."
+        },
+        {
+          "optionId": "o1",
+          "text": "Rank every gallery by the number of photographs visitors take."
+        },
+        {
+          "optionId": "o3",
+          "text": "Require every visitor to complete a test before leaving."
+        },
+        {
+          "optionId": "o4",
+          "text": "Measure only the average time spent in the building."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The author advocates multiple measures reflecting the different outcomes museums support.",
+      "difficulty": "moderate",
+      "competency": "application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q019",
+      "passageId": "r007-english-04",
+      "sectionId": "english",
+      "prompt": "What caused residents to pay less attention to the alerts? (Passage: “When a warning becomes noise”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The authority stopped issuing all river forecasts."
+        },
+        {
+          "optionId": "o3",
+          "text": "Broad, repetitive messages made materially different warnings resemble routine notices."
+        },
+        {
+          "optionId": "o2",
+          "text": "Hydrologists refused to provide rainfall information."
+        },
+        {
+          "optionId": "o4",
+          "text": "The messages were sent only through local radio."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The passage links message repetition and lack of differentiation to alert fatigue.",
+      "difficulty": "moderate",
+      "competency": "causation"
+    },
+    {
+      "questionId": "clat-ug27-r007-q020",
+      "passageId": "r007-english-04",
+      "sectionId": "english",
+      "prompt": "What is the purpose of the three-level warning system? (Passage: “When a warning becomes noise”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "To increase the number of messages sent each day."
+        },
+        {
+          "optionId": "o2",
+          "text": "To replace local volunteers with hydrologists."
+        },
+        {
+          "optionId": "o4",
+          "text": "To distinguish monitoring, precautionary advice and evacuation instructions by the action required."
+        },
+        {
+          "optionId": "o3",
+          "text": "To guarantee that forecasts never change."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The categories separate different levels of risk and recipient response.",
+      "difficulty": "moderate",
+      "competency": "function"
+    },
+    {
+      "questionId": "clat-ug27-r007-q021",
+      "passageId": "r007-english-04",
+      "sectionId": "english",
+      "prompt": "Why did the authority include validity periods and uncertainty notes? (Passage: “When a warning becomes noise”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "To prevent recipients from treating changing forecasts as exact and permanent predictions."
+        },
+        {
+          "optionId": "o2",
+          "text": "To avoid identifying when a warning was issued."
+        },
+        {
+          "optionId": "o3",
+          "text": "To shift responsibility for official alerts to radio stations."
+        },
+        {
+          "optionId": "o4",
+          "text": "To make all messages identical across districts."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Forecasts can change, so time and uncertainty information improve interpretation.",
+      "difficulty": "easy",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q022",
+      "passageId": "r007-english-04",
+      "sectionId": "english",
+      "prompt": "Which practice would most undermine the new system? (Passage: “When a warning becomes noise”)",
+      "options": [
+        {
+          "optionId": "o4",
+          "text": "Stopping routine alerts when risk has not materially changed."
+        },
+        {
+          "optionId": "o1",
+          "text": "Issuing a correction when a forecast changes."
+        },
+        {
+          "optionId": "o3",
+          "text": "Naming the affected settlement and safe route."
+        },
+        {
+          "optionId": "o2",
+          "text": "Sending the highest-level evacuation instruction for every minor change in rainfall."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Unnecessary high-level alerts would erase the distinctions the system was designed to preserve.",
+      "difficulty": "moderate",
+      "competency": "weaken"
+    },
+    {
+      "questionId": "clat-ug27-r007-q023",
+      "passageId": "r007-english-04",
+      "sectionId": "english",
+      "prompt": "The phrase “a message that sounds urgent every day may eventually communicate nothing” means: (Passage: “When a warning becomes noise”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "urgent messages should never be issued more than once."
+        },
+        {
+          "optionId": "o3",
+          "text": "excessive urgency can reduce attention to genuinely critical warnings."
+        },
+        {
+          "optionId": "o2",
+          "text": "residents cannot understand technical forecasts."
+        },
+        {
+          "optionId": "o4",
+          "text": "warnings are useful only when every prediction is exact."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The passage describes alert fatigue caused by repeated, uncalibrated urgency.",
+      "difficulty": "moderate",
+      "competency": "interpretation"
+    },
+    {
+      "questionId": "clat-ug27-r007-q024",
+      "passageId": "r007-english-04",
+      "sectionId": "english",
+      "prompt": "Which principle best summarises the author’s view of public warnings? (Passage: “When a warning becomes noise”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The safest policy is to issue the maximum number of messages."
+        },
+        {
+          "optionId": "o2",
+          "text": "Authorities should avoid corrections to preserve confidence."
+        },
+        {
+          "optionId": "o4",
+          "text": "Communications should be calibrated to evidence and linked to a clear action."
+        },
+        {
+          "optionId": "o3",
+          "text": "Forecast uncertainty should be hidden from recipients."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The conclusion emphasises transparency about knowledge, uncertainty and action.",
+      "difficulty": "moderate",
+      "competency": "central-idea"
+    },
+    {
+      "questionId": "clat-ug27-r007-q025",
+      "passageId": "r007-current-affairs-01",
+      "sectionId": "current-affairs",
+      "prompt": "Why was the WHO Pandemic Agreement negotiated? (Passage: “A global agreement for future pandemics”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "To address gaps and inequities in pandemic prevention, preparedness and response exposed by COVID-19."
+        },
+        {
+          "optionId": "o2",
+          "text": "To transfer national health services to WHO control."
+        },
+        {
+          "optionId": "o3",
+          "text": "To replace all existing international health regulations."
+        },
+        {
+          "optionId": "o4",
+          "text": "To create a single global vaccine manufacturer."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The official account connects negotiations to weaknesses and inequities in the COVID-19 response.",
+      "difficulty": "moderate",
+      "competency": "purpose"
+    },
+    {
+      "questionId": "clat-ug27-r007-q026",
+      "passageId": "r007-current-affairs-01",
+      "sectionId": "current-affairs",
+      "prompt": "What is the PABS system intended to address? (Passage: “A global agreement for future pandemics”)",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "The relationship between access to pathogens and sharing benefits from products developed using them."
+        },
+        {
+          "optionId": "o1",
+          "text": "The licensing of all private hospitals."
+        },
+        {
+          "optionId": "o3",
+          "text": "The allocation of domestic health budgets among districts."
+        },
+        {
+          "optionId": "o4",
+          "text": "The transfer of every laboratory to WHO ownership."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The passage describes pathogen access and benefit-sharing as a central negotiation issue.",
+      "difficulty": "easy",
+      "competency": "concept"
+    },
+    {
+      "questionId": "clat-ug27-r007-q027",
+      "passageId": "r007-current-affairs-01",
+      "sectionId": "current-affairs",
+      "prompt": "Why is domestic infrastructure still important under the agreement? (Passage: “A global agreement for future pandemics”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "International cooperation makes national health systems unnecessary."
+        },
+        {
+          "optionId": "o3",
+          "text": "Detection alone is insufficient without laboratories, trained staff, production and distribution capacity."
+        },
+        {
+          "optionId": "o2",
+          "text": "The agreement prohibits cross-border research."
+        },
+        {
+          "optionId": "o4",
+          "text": "Every State already has equal manufacturing capacity."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The passage distinguishes international rules from the practical capabilities required to respond.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q028",
+      "passageId": "r007-current-affairs-01",
+      "sectionId": "current-affairs",
+      "prompt": "Which statement about the agreement’s status is supported? (Passage: “A global agreement for future pandemics”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "It had been ratified by every WHO Member State on adoption day."
+        },
+        {
+          "optionId": "o2",
+          "text": "The PABS system was fully operational before adoption."
+        },
+        {
+          "optionId": "o4",
+          "text": "It was adopted in May 2025, while further work and treaty steps remained necessary."
+        },
+        {
+          "optionId": "o3",
+          "text": "It replaced the WHO Constitution."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The text separates adoption from later operational and ratification steps.",
+      "difficulty": "moderate",
+      "competency": "status"
+    },
+    {
+      "questionId": "clat-ug27-r007-q029",
+      "passageId": "r007-current-affairs-01",
+      "sectionId": "current-affairs",
+      "prompt": "Which outcome would best reflect the agreement’s equity objective? (Passage: “A global agreement for future pandemics”)",
+      "options": [
+        {
+          "optionId": "o4",
+          "text": "A rule limiting health products to countries that financed the first laboratory."
+        },
+        {
+          "optionId": "o2",
+          "text": "A system in which only the first country to detect a pathogen may use resulting products."
+        },
+        {
+          "optionId": "o3",
+          "text": "A ban on sharing research findings with developing countries."
+        },
+        {
+          "optionId": "o1",
+          "text": "Rapid sharing of samples accompanied by fair access to resulting vaccines, diagnostics and treatments."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The passage connects information-sharing with equitable access to resulting benefits.",
+      "difficulty": "moderate",
+      "competency": "application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q030",
+      "passageId": "r007-current-affairs-02",
+      "sectionId": "current-affairs",
+      "prompt": "What is the primary function of designating 2026 the International Year of the Woman Farmer? (Passage: “The woman farmer year puts invisible work on the agenda”)",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "To raise awareness and direct policy attention to barriers faced by women across agrifood systems."
+        },
+        {
+          "optionId": "o1",
+          "text": "To create an immediately enforceable global land-ownership rule."
+        },
+        {
+          "optionId": "o3",
+          "text": "To establish a single agricultural subsidy for all countries."
+        },
+        {
+          "optionId": "o4",
+          "text": "To replace national agricultural ministries."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The resolution is agenda-setting and invites policy attention.",
+      "difficulty": "moderate",
+      "competency": "purpose"
+    },
+    {
+      "questionId": "clat-ug27-r007-q031",
+      "passageId": "r007-current-affairs-02",
+      "sectionId": "current-affairs",
+      "prompt": "Why might women’s agricultural work be undercounted? (Passage: “The woman farmer year puts invisible work on the agenda”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Women do not participate in processing or livestock care."
+        },
+        {
+          "optionId": "o3",
+          "text": "Official records and support systems may recognise formal ownership more readily than work actually performed."
+        },
+        {
+          "optionId": "o2",
+          "text": "Agricultural statistics exclude all household activity by definition."
+        },
+        {
+          "optionId": "o4",
+          "text": "Every woman farmer is employed only as a wage worker."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The passage explains how ownership-based records may obscure unpaid or non-title-holder labour.",
+      "difficulty": "easy",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q032",
+      "passageId": "r007-current-affairs-02",
+      "sectionId": "current-affairs",
+      "prompt": "Which action would best translate the designation into substantive policy? (Passage: “The woman farmer year puts invisible work on the agenda”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Hold celebratory events without changing service delivery."
+        },
+        {
+          "optionId": "o2",
+          "text": "Use only land-title records to identify who farms."
+        },
+        {
+          "optionId": "o4",
+          "text": "Review access to extension, credit, irrigation and training using evidence about women’s circumstances."
+        },
+        {
+          "optionId": "o3",
+          "text": "Offer identical training schedules regardless of care responsibilities."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The passage identifies practical institutional barriers and suggests examining service access.",
+      "difficulty": "moderate",
+      "competency": "application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q033",
+      "passageId": "r007-current-affairs-02",
+      "sectionId": "current-affairs",
+      "prompt": "Why does the passage emphasise different categories of women farmers? (Passage: “The woman farmer year puts invisible work on the agenda”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Their roles and constraints differ, so one intervention may not address all circumstances."
+        },
+        {
+          "optionId": "o2",
+          "text": "The resolution applies only to commercial plantation owners."
+        },
+        {
+          "optionId": "o3",
+          "text": "Smallholders and pastoralists perform identical work."
+        },
+        {
+          "optionId": "o4",
+          "text": "A single national statistic always captures every farming arrangement."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The examples demonstrate heterogeneity across agrifood systems.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q034",
+      "passageId": "r007-current-affairs-02",
+      "sectionId": "current-affairs",
+      "prompt": "Which indicator would best measure the year’s practical success? (Passage: “The woman farmer year puts invisible work on the agenda”)",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "Improved access to resources and decision-making for women in varied farming roles."
+        },
+        {
+          "optionId": "o1",
+          "text": "The total number of commemorative posters distributed."
+        },
+        {
+          "optionId": "o3",
+          "text": "The number of speeches made by ministers."
+        },
+        {
+          "optionId": "o4",
+          "text": "The number of years since the resolution was drafted."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The passage calls for outcomes beyond ceremonial activities.",
+      "difficulty": "moderate",
+      "competency": "evaluation"
+    },
+    {
+      "questionId": "clat-ug27-r007-q035",
+      "passageId": "r007-current-affairs-03",
+      "sectionId": "current-affairs",
+      "prompt": "What did the Government announce on 21 November 2025? (Passage: “Four labour codes and the problem of implementation”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "All 29 earlier labour laws were abolished without replacement."
+        },
+        {
+          "optionId": "o3",
+          "text": "The four Labour Codes were made effective from that date."
+        },
+        {
+          "optionId": "o2",
+          "text": "Every worker received an identical social-security payment."
+        },
+        {
+          "optionId": "o4",
+          "text": "All labour disputes were transferred to a single national court."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The official release states that the four codes were made effective from the stated date.",
+      "difficulty": "moderate",
+      "competency": "detail"
+    },
+    {
+      "questionId": "clat-ug27-r007-q036",
+      "passageId": "r007-current-affairs-03",
+      "sectionId": "current-affairs",
+      "prompt": "Which code addresses gig and platform workers within the social-security framework? (Passage: “Four labour codes and the problem of implementation”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The Code on Wages, 2019."
+        },
+        {
+          "optionId": "o2",
+          "text": "The Industrial Relations Code, 2020."
+        },
+        {
+          "optionId": "o4",
+          "text": "The Code on Social Security, 2020."
+        },
+        {
+          "optionId": "o3",
+          "text": "The Occupational Safety, Health and Working Conditions Code, 2020."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The passage specifically associates gig and platform workers with the social-security code.",
+      "difficulty": "easy",
+      "competency": "detail"
+    },
+    {
+      "questionId": "clat-ug27-r007-q037",
+      "passageId": "r007-current-affairs-03",
+      "sectionId": "current-affairs",
+      "prompt": "Why caution against treating consolidation as proof of improved protection? (Passage: “Four labour codes and the problem of implementation”)",
+      "options": [
+        {
+          "optionId": "o4",
+          "text": "Administrative inspection has no effect on workplace safety."
+        },
+        {
+          "optionId": "o2",
+          "text": "A consolidated code cannot create legal obligations."
+        },
+        {
+          "optionId": "o3",
+          "text": "Workers are always aware of statutory benefits."
+        },
+        {
+          "optionId": "o1",
+          "text": "Legal entitlements depend on definitions, rules, awareness and effective implementation."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The text identifies practical systems that determine whether formal rights are usable.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q038",
+      "passageId": "r007-current-affairs-03",
+      "sectionId": "current-affairs",
+      "prompt": "Why is portability important for platform workers? (Passage: “Four labour codes and the problem of implementation”)",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "They may move between work providers and lack one long-term employer through whom benefits can be maintained."
+        },
+        {
+          "optionId": "o1",
+          "text": "They are prohibited from changing employers."
+        },
+        {
+          "optionId": "o3",
+          "text": "They work only in government establishments."
+        },
+        {
+          "optionId": "o4",
+          "text": "Their income is always fixed by a collective agreement."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The passage links changing work relationships to the need for portable social protection.",
+      "difficulty": "moderate",
+      "competency": "concept"
+    },
+    {
+      "questionId": "clat-ug27-r007-q039",
+      "passageId": "r007-current-affairs-03",
+      "sectionId": "current-affairs",
+      "prompt": "Which measure would best test whether the reform is working? (Passage: “Four labour codes and the problem of implementation”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The number of sections in each code."
+        },
+        {
+          "optionId": "o3",
+          "text": "Data on coverage, timely wages, safety, dispute resolution and access to social protection."
+        },
+        {
+          "optionId": "o2",
+          "text": "The number of press conferences held after commencement."
+        },
+        {
+          "optionId": "o4",
+          "text": "The number of pages removed from earlier statutes."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The concluding paragraph sets implementation outcomes as the relevant tests.",
+      "difficulty": "moderate",
+      "competency": "evaluation"
+    },
+    {
+      "questionId": "clat-ug27-r007-q040",
+      "passageId": "r007-current-affairs-04",
+      "sectionId": "current-affairs",
+      "prompt": "What problem does portable social protection seek to address? (Passage: “Social protection needs to follow workers across changing jobs”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The difficulty of calculating a single national minimum wage."
+        },
+        {
+          "optionId": "o2",
+          "text": "The inability of permanent employees to receive monthly salaries."
+        },
+        {
+          "optionId": "o4",
+          "text": "Gaps in coverage when workers move between short contracts, platforms and self-employment."
+        },
+        {
+          "optionId": "o3",
+          "text": "The lack of any relationship between work and social security."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The passage focuses on continuity of benefits across changing work arrangements.",
+      "difficulty": "moderate",
+      "competency": "concept"
+    },
+    {
+      "questionId": "clat-ug27-r007-q041",
+      "passageId": "r007-current-affairs-04",
+      "sectionId": "current-affairs",
+      "prompt": "What does registration on a worker database establish? (Passage: “Social protection needs to follow workers across changing jobs”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "An identification and coordination step, not an automatic guarantee of benefit delivery."
+        },
+        {
+          "optionId": "o2",
+          "text": "An unconditional right to every welfare scheme."
+        },
+        {
+          "optionId": "o3",
+          "text": "Proof that the worker has a single permanent employer."
+        },
+        {
+          "optionId": "o4",
+          "text": "A completed contribution history for every worker."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The passage distinguishes registry inclusion from eligibility and actual delivery.",
+      "difficulty": "easy",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q042",
+      "passageId": "r007-current-affairs-04",
+      "sectionId": "current-affairs",
+      "prompt": "Why are correction procedures important? (Passage: “Social protection needs to follow workers across changing jobs”)",
+      "options": [
+        {
+          "optionId": "o4",
+          "text": "Correction procedures eliminate the need for benefits."
+        },
+        {
+          "optionId": "o1",
+          "text": "A registry should prevent workers from changing occupations."
+        },
+        {
+          "optionId": "o3",
+          "text": "Digital records do not require verification."
+        },
+        {
+          "optionId": "o2",
+          "text": "Work details, contact information and location may change, making records inaccurate over time."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The text describes migration, changing phones and occupation as possible sources of outdated records.",
+      "difficulty": "moderate",
+      "competency": "purpose"
+    },
+    {
+      "questionId": "clat-ug27-r007-q043",
+      "passageId": "r007-current-affairs-04",
+      "sectionId": "current-affairs",
+      "prompt": "Which funding issue is raised by irregular earnings? (Passage: “Social protection needs to follow workers across changing jobs”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Workers with irregular income cannot receive public support."
+        },
+        {
+          "optionId": "o3",
+          "text": "Fixed monthly contributions may be difficult to maintain when income varies."
+        },
+        {
+          "optionId": "o2",
+          "text": "Aggregators must always pay the entire cost."
+        },
+        {
+          "optionId": "o4",
+          "text": "Every worker has the same contribution capacity."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The passage links income volatility to contribution design.",
+      "difficulty": "moderate",
+      "competency": "application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q044",
+      "passageId": "r007-current-affairs-04",
+      "sectionId": "current-affairs",
+      "prompt": "Which measure best evaluates the registry’s effectiveness? (Passage: “Social protection needs to follow workers across changing jobs”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The total number of screens in the application."
+        },
+        {
+          "optionId": "o2",
+          "text": "The number of press releases about registration."
+        },
+        {
+          "optionId": "o4",
+          "text": "Whether correctly recorded workers can update details and actually receive eligible benefits."
+        },
+        {
+          "optionId": "o3",
+          "text": "The frequency with which a database logo is displayed."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The passage defines success through usable access and delivery, not record count alone.",
+      "difficulty": "moderate",
+      "competency": "evaluation"
+    },
+    {
+      "questionId": "clat-ug27-r007-q045",
+      "passageId": "r007-current-affairs-05",
+      "sectionId": "current-affairs",
+      "prompt": "Why can a warehouse create false confidence? (Passage: “Preparedness requires more than a stockpile”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Stored goods may be unusable, unreleased or impossible to transport when required."
+        },
+        {
+          "optionId": "o2",
+          "text": "Warehouses always increase demand for emergency supplies."
+        },
+        {
+          "optionId": "o3",
+          "text": "Every emergency requires identical stock lists."
+        },
+        {
+          "optionId": "o4",
+          "text": "Supplies have no role in disaster response."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The passage explains that stock alone does not ensure usable delivery.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q046",
+      "passageId": "r007-current-affairs-05",
+      "sectionId": "current-affairs",
+      "prompt": "Why should stock lists differ by local risk? (Passage: “Preparedness requires more than a stockpile”)",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "Hazards and population needs vary, so a uniform list may not match the response required."
+        },
+        {
+          "optionId": "o1",
+          "text": "All districts face identical hazards."
+        },
+        {
+          "optionId": "o3",
+          "text": "Local authorities cannot maintain inventories."
+        },
+        {
+          "optionId": "o4",
+          "text": "A risk assessment is useful only after an emergency."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Flood-prone and heat-prone districts may require different supplies and capabilities.",
+      "difficulty": "easy",
+      "competency": "application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q047",
+      "passageId": "r007-current-affairs-05",
+      "sectionId": "current-affairs",
+      "prompt": "Which task is part of maintaining preparedness stock? (Passage: “Preparedness requires more than a stockpile”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Counting only the number of cartons purchased."
+        },
+        {
+          "optionId": "o3",
+          "text": "Testing generators and tracking expiry or condition of stored goods."
+        },
+        {
+          "optionId": "o2",
+          "text": "Leaving release authority undefined."
+        },
+        {
+          "optionId": "o4",
+          "text": "Removing all field exercises from the plan."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The passage identifies maintenance, condition tracking and release procedures as necessary.",
+      "difficulty": "moderate",
+      "competency": "detail"
+    },
+    {
+      "questionId": "clat-ug27-r007-q048",
+      "passageId": "r007-current-affairs-05",
+      "sectionId": "current-affairs",
+      "prompt": "What does the water-filter example illustrate? (Passage: “Preparedness requires more than a stockpile”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Training can replace all physical supplies."
+        },
+        {
+          "optionId": "o2",
+          "text": "Households should be responsible for warehouse inventory."
+        },
+        {
+          "optionId": "o4",
+          "text": "Supplies are ineffective unless people know how and where to use them safely."
+        },
+        {
+          "optionId": "o3",
+          "text": "Digital alerts are always more reliable than field support."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The passage links equipment with training and communication.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q049",
+      "passageId": "r007-current-affairs-05",
+      "sectionId": "current-affairs",
+      "prompt": "Which indicator best reflects readiness? (Passage: “Preparedness requires more than a stockpile”)",
+      "options": [
+        {
+          "optionId": "o4",
+          "text": "The number of items on a procurement invoice."
+        },
+        {
+          "optionId": "o2",
+          "text": "The total floor area of the emergency warehouse."
+        },
+        {
+          "optionId": "o3",
+          "text": "The number of photographs of stored goods."
+        },
+        {
+          "optionId": "o1",
+          "text": "The time required to deliver usable supplies to affected households under tested conditions."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The conclusion emphasises tested delivery capability rather than stored quantity.",
+      "difficulty": "moderate",
+      "competency": "evaluation"
+    },
+    {
+      "questionId": "clat-ug27-r007-q050",
+      "passageId": "r007-current-affairs-06",
+      "sectionId": "current-affairs",
+      "prompt": "What was the central purpose of the International Year of Cooperatives? (Passage: “Cooperatives as a people-owned model of enterprise”)",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "To highlight the role of cooperatives in inclusive and sustainable development."
+        },
+        {
+          "optionId": "o1",
+          "text": "To require every private company to become member-owned."
+        },
+        {
+          "optionId": "o3",
+          "text": "To replace national company laws with one global rule."
+        },
+        {
+          "optionId": "o4",
+          "text": "To prohibit enterprises from raising external capital."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The UN year promoted recognition of cooperatives’ contribution rather than mandating a universal ownership form.",
+      "difficulty": "moderate",
+      "competency": "purpose"
+    },
+    {
+      "questionId": "clat-ug27-r007-q051",
+      "passageId": "r007-current-affairs-06",
+      "sectionId": "current-affairs",
+      "prompt": "What distinguishes a cooperative from a business with several investors? (Passage: “Cooperatives as a people-owned model of enterprise”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "It must operate only in agriculture."
+        },
+        {
+          "optionId": "o3",
+          "text": "Member participation and shared economic purpose form part of its governance model."
+        },
+        {
+          "optionId": "o2",
+          "text": "It cannot earn a surplus."
+        },
+        {
+          "optionId": "o4",
+          "text": "It is exempt from accounts and regulation."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The passage identifies member ownership and participation as core features.",
+      "difficulty": "easy",
+      "competency": "concept"
+    },
+    {
+      "questionId": "clat-ug27-r007-q052",
+      "passageId": "r007-current-affairs-06",
+      "sectionId": "current-affairs",
+      "prompt": "Which condition may prevent democratic ownership from being realised? (Passage: “Cooperatives as a people-owned model of enterprise”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Members receive clear accounts and take part in decisions."
+        },
+        {
+          "optionId": "o2",
+          "text": "The cooperative provides training for new members."
+        },
+        {
+          "optionId": "o4",
+          "text": "A small group controls information and decisions despite formal membership rules."
+        },
+        {
+          "optionId": "o3",
+          "text": "The enterprise adopts transparent governance procedures."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The text cautions that formal democratic structure can be undermined by concentrated control.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q053",
+      "passageId": "r007-current-affairs-06",
+      "sectionId": "current-affairs",
+      "prompt": "Why might a producer cooperative help small farmers? (Passage: “Cooperatives as a people-owned model of enterprise”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Pooling purchasing, storage or marketing may improve access to markets and services."
+        },
+        {
+          "optionId": "o2",
+          "text": "It guarantees that every crop will receive a fixed price."
+        },
+        {
+          "optionId": "o3",
+          "text": "It eliminates the need for professional management."
+        },
+        {
+          "optionId": "o4",
+          "text": "It transfers all production decisions to a government agency."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The passage explains how collective activity can overcome scale constraints.",
+      "difficulty": "moderate",
+      "competency": "application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q054",
+      "passageId": "r007-current-affairs-06",
+      "sectionId": "current-affairs",
+      "prompt": "Which conclusion best reflects the passage? (Passage: “Cooperatives as a people-owned model of enterprise”)",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Cooperatives are always more efficient than investor-owned firms."
+        },
+        {
+          "optionId": "o2",
+          "text": "Cooperatives may advance inclusion, but their performance depends on governance, finance and member participation."
+        },
+        {
+          "optionId": "o3",
+          "text": "The International Year itself resolved cooperative governance problems."
+        },
+        {
+          "optionId": "o4",
+          "text": "Member ownership makes financial accountability unnecessary."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The passage argues that cooperative ownership can support inclusion, but results depend on governance, finance and active member participation.",
+      "difficulty": "moderate",
+      "competency": "evaluation"
+    },
+    {
+      "questionId": "clat-ug27-r007-q055",
+      "passageId": "r007-legal-01",
+      "sectionId": "legal",
+      "prompt": "A trader has missed a payment but has not received a reminder. What is normally required before final cancellation?",
+      "options": [
+        {
+          "optionId": "o3",
+          "text": "Written particulars and at least seven working days to respond."
+        },
+        {
+          "optionId": "o1",
+          "text": "Immediate cancellation without notice."
+        },
+        {
+          "optionId": "o2",
+          "text": "A vote by every trader in the market."
+        },
+        {
+          "optionId": "o4",
+          "text": "A police report in every case."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The code requires written particulars and at least seven working days for a response before final cancellation.",
+      "difficulty": "moderate",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q056",
+      "passageId": "r007-legal-01",
+      "sectionId": "legal",
+      "prompt": "Which circumstance most clearly supports an immediate temporary suspension?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "A trader requests a different space."
+        },
+        {
+          "optionId": "o4",
+          "text": "An officer records fuel leaking beside a live electrical panel."
+        },
+        {
+          "optionId": "o2",
+          "text": "A competitor disputes the trader's price."
+        },
+        {
+          "optionId": "o3",
+          "text": "A trader misses a single deadline after paying the fee."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "A recorded fuel leak beside electrical equipment is a concrete and imminent danger; the other facts do not establish such a danger.",
+      "difficulty": "easy",
+      "competency": "risk-assessment"
+    },
+    {
+      "questionId": "clat-ug27-r007-q057",
+      "passageId": "r007-legal-01",
+      "sectionId": "legal",
+      "prompt": "What must the officer do within forty-eight hours of an emergency suspension?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "Publish the trader's private financial records."
+        },
+        {
+          "optionId": "o3",
+          "text": "Ask the other traders to vote."
+        },
+        {
+          "optionId": "o1",
+          "text": "Review the measure and provide an opportunity to respond before deciding whether it continues."
+        },
+        {
+          "optionId": "o4",
+          "text": "Treat the suspension as a final cancellation."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The code requires review within forty-eight hours and a chance for the trader to respond before continuation is decided.",
+      "difficulty": "moderate",
+      "competency": "procedural-fairness"
+    },
+    {
+      "questionId": "clat-ug27-r007-q058",
+      "passageId": "r007-legal-01",
+      "sectionId": "legal",
+      "prompt": "The final cancellation letter does not address the trader's photographs. What is the strongest objection?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The town can never cancel a permit."
+        },
+        {
+          "optionId": "o3",
+          "text": "The photographs must automatically determine the outcome."
+        },
+        {
+          "optionId": "o4",
+          "text": "The officer must accept every explanation."
+        },
+        {
+          "optionId": "o2",
+          "text": "The decision fails to explain how relevant material was considered."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The final decision must identify the evidence considered and explain why the response did or did not change the officer's view.",
+      "difficulty": "moderate",
+      "competency": "reasoning-from-principle"
+    },
+    {
+      "questionId": "clat-ug27-r007-q059",
+      "passageId": "r007-legal-01",
+      "sectionId": "legal",
+      "prompt": "An exit was blocked once by accident and cleared immediately. Which outcome best fits the code?",
+      "options": [
+        {
+          "optionId": "o4",
+          "text": "The panel must ignore the trader's explanation."
+        },
+        {
+          "optionId": "o1",
+          "text": "Cancellation is mandatory for any obstruction."
+        },
+        {
+          "optionId": "o2",
+          "text": "The trader must be excluded permanently."
+        },
+        {
+          "optionId": "o3",
+          "text": "The review panel may consider a proportionate shorter suspension or restore the permit."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The review panel may vary the outcome and must consider proportionality; the code does not make every obstruction an automatic cancellation.",
+      "difficulty": "moderate",
+      "competency": "proportionality"
+    },
+    {
+      "questionId": "clat-ug27-r007-q060",
+      "passageId": "r007-legal-02",
+      "sectionId": "legal",
+      "prompt": "Two eligible associations seek the same Saturday and are equal under all published criteria. What should the trust do?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Give it to the association with the most social-media followers."
+        },
+        {
+          "optionId": "o4",
+          "text": "Use a witnessed lottery and record the result."
+        },
+        {
+          "optionId": "o2",
+          "text": "Allow the caretaker to choose privately."
+        },
+        {
+          "optionId": "o3",
+          "text": "Reject both applications automatically."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The rule specifies a witnessed lottery where applicants are tied on the published criteria.",
+      "difficulty": "moderate",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q061",
+      "passageId": "r007-legal-02",
+      "sectionId": "legal",
+      "prompt": "The caretaker has promised several dates to a familiar association before applications open. Which requirement is most directly undermined?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "The requirement to protect every prior applicant's identity."
+        },
+        {
+          "optionId": "o3",
+          "text": "The accessibility adjustment duty."
+        },
+        {
+          "optionId": "o1",
+          "text": "The requirement to publish dates and allocate through the stated application process."
+        },
+        {
+          "optionId": "o4",
+          "text": "The ability to cancel for urgent safety danger."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Advance private allocations bypass the published dates and application window, undermining the transparent process.",
+      "difficulty": "easy",
+      "competency": "flaw-identification"
+    },
+    {
+      "questionId": "clat-ug27-r007-q062",
+      "passageId": "r007-legal-02",
+      "sectionId": "legal",
+      "prompt": "A receipt proves that an applicant paid on time, although the register says payment was late. What can the applicant seek?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "An automatic booking for every weekend."
+        },
+        {
+          "optionId": "o3",
+          "text": "A refund of all trust funds."
+        },
+        {
+          "optionId": "o4",
+          "text": "A new allocation rule written for that applicant."
+        },
+        {
+          "optionId": "o2",
+          "text": "Correction of the factual entry in the register."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The rule permits an applicant to request correction of factual mistakes in the register.",
+      "difficulty": "moderate",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q063",
+      "passageId": "r007-legal-02",
+      "sectionId": "legal",
+      "prompt": "A timely request seeks an accessible route, and a comparable safe route is reasonably available. What follows?",
+      "options": [
+        {
+          "optionId": "o3",
+          "text": "The trust must consider the adjustment or a comparable room."
+        },
+        {
+          "optionId": "o1",
+          "text": "The trust may refuse because identical arrangements are required."
+        },
+        {
+          "optionId": "o2",
+          "text": "The applicant must pay any amount demanded."
+        },
+        {
+          "optionId": "o4",
+          "text": "The booking must be transferred to the caretaker."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The rule recognises that equal treatment may require a reasonable accessibility adjustment where it is available.",
+      "difficulty": "moderate",
+      "competency": "reasoning-from-principle"
+    },
+    {
+      "questionId": "clat-ug27-r007-q064",
+      "passageId": "r007-legal-02",
+      "sectionId": "legal",
+      "prompt": "An event becomes dangerously overcrowded. What may the trust do?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Wait until the next quarterly schedule."
+        },
+        {
+          "optionId": "o4",
+          "text": "Cancel immediately, record reasons and address the breach."
+        },
+        {
+          "optionId": "o2",
+          "text": "Continue because notice is always required."
+        },
+        {
+          "optionId": "o3",
+          "text": "Use a lottery to decide who may remain."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Immediate cancellation is permitted if continuing the event creates an urgent safety danger, provided reasons are recorded.",
+      "difficulty": "moderate",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q065",
+      "passageId": "r007-legal-03",
+      "sectionId": "legal",
+      "prompt": "A screenshot shows an edited message but omits earlier replies. What should the investigator examine?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "Whether the student has a high academic score."
+        },
+        {
+          "optionId": "o3",
+          "text": "Whether the screenshot has a colourful interface."
+        },
+        {
+          "optionId": "o1",
+          "text": "Its completeness, provenance and what it is actually capable of showing."
+        },
+        {
+          "optionId": "o4",
+          "text": "Whether the sender has apologised."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The procedure requires assessment of what the electronic record proves, including omissions and who supplied or controlled it.",
+      "difficulty": "moderate",
+      "competency": "evidence-evaluation"
+    },
+    {
+      "questionId": "clat-ug27-r007-q066",
+      "passageId": "r007-legal-03",
+      "sectionId": "legal",
+      "prompt": "The school withholds one detail to protect another student's privacy. What is the fairest course?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Provide no information to the accused student."
+        },
+        {
+          "optionId": "o3",
+          "text": "Publish the private detail to the whole class."
+        },
+        {
+          "optionId": "o4",
+          "text": "End the inquiry immediately."
+        },
+        {
+          "optionId": "o2",
+          "text": "Give an informative summary and assess whether the hidden detail is necessary."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The procedure permits privacy protection but requires enough information to respond and consideration of necessity.",
+      "difficulty": "easy",
+      "competency": "procedural-fairness"
+    },
+    {
+      "questionId": "clat-ug27-r007-q067",
+      "passageId": "r007-legal-03",
+      "sectionId": "legal",
+      "prompt": "Metadata shows a file changed at 4:10 p.m. What does it not necessarily establish?",
+      "options": [
+        {
+          "optionId": "o3",
+          "text": "Who made the change or why it was made."
+        },
+        {
+          "optionId": "o1",
+          "text": "That a file existed at some point."
+        },
+        {
+          "optionId": "o2",
+          "text": "That a saved version can be examined."
+        },
+        {
+          "optionId": "o4",
+          "text": "That the file's metadata has a timestamp."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "A timestamp records a file event but does not by itself identify the user or establish intent.",
+      "difficulty": "moderate",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q068",
+      "passageId": "r007-legal-03",
+      "sectionId": "legal",
+      "prompt": "Two records conflict. What must the investigator explain?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Why one student's marks are higher."
+        },
+        {
+          "optionId": "o4",
+          "text": "Why one account or record is more dependable than the other."
+        },
+        {
+          "optionId": "o2",
+          "text": "Why electronic evidence is always superior."
+        },
+        {
+          "optionId": "o3",
+          "text": "Why the accused student must prove innocence."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The procedure requires a reasoned explanation for preferring one conflicting account over another.",
+      "difficulty": "moderate",
+      "competency": "reasoning-from-principle"
+    },
+    {
+      "questionId": "clat-ug27-r007-q069",
+      "passageId": "r007-legal-03",
+      "sectionId": "legal",
+      "prompt": "The evidence shows a minor file-management mistake, not deliberate removal of a teammate's work. Which response is most consistent?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "Expulsion for every digital mistake."
+        },
+        {
+          "optionId": "o3",
+          "text": "No correction of the project."
+        },
+        {
+          "optionId": "o1",
+          "text": "Correction or instruction may be more appropriate than punishment."
+        },
+        {
+          "optionId": "o4",
+          "text": "Treat the mistake as proof of intentional misconduct."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The passage distinguishes an accidental mistake from intentional removal and allows a corrective response.",
+      "difficulty": "moderate",
+      "competency": "proportionality"
+    },
+    {
+      "questionId": "clat-ug27-r007-q070",
+      "passageId": "r007-legal-04",
+      "sectionId": "legal",
+      "prompt": "A bid has the lowest upfront price but excludes required maintenance. What should evaluators consider?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The bidder's familiarity with the board."
+        },
+        {
+          "optionId": "o3",
+          "text": "The number of advertisements the bidder placed."
+        },
+        {
+          "optionId": "o4",
+          "text": "Only the initial purchase price."
+        },
+        {
+          "optionId": "o2",
+          "text": "Total five-year cost and compliance with published requirements."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The code makes lifecycle cost and required maintenance relevant; lowest initial price is not decisive.",
+      "difficulty": "moderate",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q071",
+      "passageId": "r007-legal-04",
+      "sectionId": "legal",
+      "prompt": "An evaluator has a financial relationship with a bidder. What is required?",
+      "options": [
+        {
+          "optionId": "o4",
+          "text": "Publication of the evaluator's bank account."
+        },
+        {
+          "optionId": "o1",
+          "text": "Silence unless another supplier complains."
+        },
+        {
+          "optionId": "o2",
+          "text": "Automatic cancellation of all bids."
+        },
+        {
+          "optionId": "o3",
+          "text": "Disclosure and application of the independent ethics-officer process."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The evaluator must disclose the relationship and follow the prescribed independent assessment of the conflict.",
+      "difficulty": "easy",
+      "competency": "procedural-fairness"
+    },
+    {
+      "questionId": "clat-ug27-r007-q072",
+      "passageId": "r007-legal-04",
+      "sectionId": "legal",
+      "prompt": "After bids are opened, the board changes a mandatory safety requirement for one supplier. What is the defect?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The board compared maintenance costs."
+        },
+        {
+          "optionId": "o4",
+          "text": "The material requirements were altered after bids, undermining equal competition."
+        },
+        {
+          "optionId": "o2",
+          "text": "The board published aggregate scores."
+        },
+        {
+          "optionId": "o3",
+          "text": "The board examined delivery capability."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Changing a mandatory requirement after seeing bids departs from the published competition rules and disadvantages others.",
+      "difficulty": "moderate",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q073",
+      "passageId": "r007-legal-04",
+      "sectionId": "legal",
+      "prompt": "A bidder alleges a clerical scoring error. What can the review officer do?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "Accept a new bid after the deadline."
+        },
+        {
+          "optionId": "o3",
+          "text": "Award the contract without a calculation."
+        },
+        {
+          "optionId": "o1",
+          "text": "Check the arithmetic and consistent use of published criteria."
+        },
+        {
+          "optionId": "o4",
+          "text": "Replace the evaluation criteria."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The review officer may correct a clerical error but cannot rewrite the competition or accept a late bid.",
+      "difficulty": "moderate",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q074",
+      "passageId": "r007-legal-04",
+      "sectionId": "legal",
+      "prompt": "A tender specification may have been designed to favour one supplier and deter others. What may the board do?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Award the contract immediately to the favoured supplier."
+        },
+        {
+          "optionId": "o3",
+          "text": "Ignore the defect because prices are known."
+        },
+        {
+          "optionId": "o4",
+          "text": "Change the winning price privately."
+        },
+        {
+          "optionId": "o2",
+          "text": "Cancel and restart with corrected requirements."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "A serious defect that may have affected participation or ranking can justify cancellation and a fresh competition.",
+      "difficulty": "moderate",
+      "competency": "reasoning-from-principle"
+    },
+    {
+      "questionId": "clat-ug27-r007-q075",
+      "passageId": "r007-legal-05",
+      "sectionId": "legal",
+      "prompt": "A pollution reading is unusually high after one afternoon near construction. How should it be reported?",
+      "options": [
+        {
+          "optionId": "o3",
+          "text": "As an observation with sampling conditions and limitations clearly stated."
+        },
+        {
+          "optionId": "o1",
+          "text": "As the area's annual average."
+        },
+        {
+          "optionId": "o2",
+          "text": "As proof that construction caused every local reading."
+        },
+        {
+          "optionId": "o4",
+          "text": "Delete it because it may concern parents."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The rule requires a distinction between measurement and interpretation, including sampling duration and conditions.",
+      "difficulty": "moderate",
+      "competency": "evidence-evaluation"
+    },
+    {
+      "questionId": "clat-ug27-r007-q076",
+      "passageId": "r007-legal-05",
+      "sectionId": "legal",
+      "prompt": "The municipality asks to remove high results because they may alarm residents. Is that permitted?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Yes, if a public authority requests it."
+        },
+        {
+          "optionId": "o4",
+          "text": "No; political discomfort is not a permitted reason to delete a result."
+        },
+        {
+          "optionId": "o2",
+          "text": "Yes, if the average looks more favourable."
+        },
+        {
+          "optionId": "o3",
+          "text": "No; all private monitor locations must be published."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The agreement does not allow removal merely because a result is politically uncomfortable.",
+      "difficulty": "easy",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q077",
+      "passageId": "r007-legal-05",
+      "sectionId": "legal",
+      "prompt": "A household monitor's exact location could expose its owner to harassment. What may the centre do?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "Publish the full address with the resident's name."
+        },
+        {
+          "optionId": "o3",
+          "text": "Delete every result in the neighbourhood."
+        },
+        {
+          "optionId": "o1",
+          "text": "Aggregate or mask the location while retaining enough detail to assess the evidence."
+        },
+        {
+          "optionId": "o4",
+          "text": "Withhold the entire study."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The rule permits masking or aggregation for privacy while preserving useful geographic and methodological detail.",
+      "difficulty": "moderate",
+      "competency": "balancing-interests"
+    },
+    {
+      "questionId": "clat-ug27-r007-q078",
+      "passageId": "r007-legal-05",
+      "sectionId": "legal",
+      "prompt": "A result cannot be verified after a credible technical concern. What is the proper treatment?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Publish it as certain regardless."
+        },
+        {
+          "optionId": "o3",
+          "text": "Replace it silently with a lower nearby reading."
+        },
+        {
+          "optionId": "o4",
+          "text": "Remove the correction history."
+        },
+        {
+          "optionId": "o2",
+          "text": "Label it uncertain and explain the technical issue."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The agreement requires uncertainty and corrections to be disclosed rather than hidden.",
+      "difficulty": "moderate",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q079",
+      "passageId": "r007-legal-05",
+      "sectionId": "legal",
+      "prompt": "A community group believes a whole area was withheld without a privacy reason. What can it seek?",
+      "options": [
+        {
+          "optionId": "o3",
+          "text": "A review and, where suitable, publication in a less identifying form."
+        },
+        {
+          "optionId": "o1",
+          "text": "Automatic access to every resident's name."
+        },
+        {
+          "optionId": "o2",
+          "text": "Cancellation of all research funding."
+        },
+        {
+          "optionId": "o4",
+          "text": "A guarantee that every measurement is annual."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The agreement permits review and release in a form that protects identity while preserving meaningful information.",
+      "difficulty": "moderate",
+      "competency": "procedural-fairness"
+    },
+    {
+      "questionId": "clat-ug27-r007-q080",
+      "passageId": "r007-legal-06",
+      "sectionId": "legal",
+      "prompt": "Under the rule, what may a software-generated risk flag do?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Automatically terminate the benefit."
+        },
+        {
+          "optionId": "o4",
+          "text": "Trigger a clarification request but not alone justify refusal or suspension."
+        },
+        {
+          "optionId": "o2",
+          "text": "Prevent correction of source records."
+        },
+        {
+          "optionId": "o3",
+          "text": "Replace the trained officer's review."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The flag is a screening tool; an adverse outcome requires independent human review.",
+      "difficulty": "moderate",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q081",
+      "passageId": "r007-legal-06",
+      "sectionId": "legal",
+      "prompt": "Why is a notice that says only “risk score exceeded” insufficient?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "It reveals the software's entire source code."
+        },
+        {
+          "optionId": "o3",
+          "text": "It is not printed on paper."
+        },
+        {
+          "optionId": "o1",
+          "text": "It gives no meaningful indication of the mismatch or how to respond."
+        },
+        {
+          "optionId": "o4",
+          "text": "It proves the applicant has committed fraud."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The applicant must be told the material category of inconsistency and how to correct or explain it.",
+      "difficulty": "easy",
+      "competency": "procedural-fairness"
+    },
+    {
+      "questionId": "clat-ug27-r007-q082",
+      "passageId": "r007-legal-06",
+      "sectionId": "legal",
+      "prompt": "An employer's payroll date differs from the date in a government record. What should the officer do?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Reject the explanation because the software flagged it."
+        },
+        {
+          "optionId": "o3",
+          "text": "Repeat the score as the only reason."
+        },
+        {
+          "optionId": "o4",
+          "text": "Suspend the benefit until the next year."
+        },
+        {
+          "optionId": "o2",
+          "text": "Assess whether the mismatch is harmless in light of the records and response."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The officer must independently evaluate whether the mismatch is explained by timing or another harmless difference.",
+      "difficulty": "moderate",
+      "competency": "rule-application"
+    },
+    {
+      "questionId": "clat-ug27-r007-q083",
+      "passageId": "r007-legal-06",
+      "sectionId": "legal",
+      "prompt": "A department discovers a known error in a database field used in many applications. What must happen?",
+      "options": [
+        {
+          "optionId": "o4",
+          "text": "Delete all applications containing the field."
+        },
+        {
+          "optionId": "o1",
+          "text": "Continue all decisions to avoid delay."
+        },
+        {
+          "optionId": "o2",
+          "text": "Make applicants prove every unrelated entry."
+        },
+        {
+          "optionId": "o3",
+          "text": "Pause decisions depending on that field until a reliable correction process is available."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The rule requires decisions that depend on a known erroneous field to pause pending a reliable correction process.",
+      "difficulty": "moderate",
+      "competency": "risk-assessment"
+    },
+    {
+      "questionId": "clat-ug27-r007-q084",
+      "passageId": "r007-legal-06",
+      "sectionId": "legal",
+      "prompt": "An urgent fraud risk is supported by independent evidence and a temporary measure is used. Which safeguard remains mandatory?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "No explanation or review."
+        },
+        {
+          "optionId": "o4",
+          "text": "Reasons, a short review date and a prompt appeal route."
+        },
+        {
+          "optionId": "o2",
+          "text": "An indefinite suspension with no review date or appeal opportunity."
+        },
+        {
+          "optionId": "o3",
+          "text": "Disclosure of confidential source code."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Even an urgent temporary measure requires reasons, timely review and a prompt appeal process.",
+      "difficulty": "moderate",
+      "competency": "procedural-fairness"
+    },
+    {
+      "questionId": "clat-ug27-r007-q085",
+      "passageId": "r007-logical-01",
+      "sectionId": "logical",
+      "prompt": "What is the principal weakness in the authority's causal claim?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "The routes are all operated by public agencies."
+        },
+        {
+          "optionId": "o3",
+          "text": "The number of passengers was not published in a newspaper."
+        },
+        {
+          "optionId": "o1",
+          "text": "The railway operator changed its transfer window at the same time."
+        },
+        {
+          "optionId": "o4",
+          "text": "Passengers generally prefer trains to buses."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The concurrent transfer-window change is a plausible alternative cause of fewer missed connections.",
+      "difficulty": "moderate",
+      "competency": "causal-inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q086",
+      "passageId": "r007-logical-01",
+      "sectionId": "logical",
+      "prompt": "Which evidence would most improve the timetable evaluation?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "A national opinion poll about buses."
+        },
+        {
+          "optionId": "o3",
+          "text": "A list of the buses' registration numbers."
+        },
+        {
+          "optionId": "o4",
+          "text": "The number of posters at the railway station."
+        },
+        {
+          "optionId": "o2",
+          "text": "Observed connection outcomes on treated and comparable untreated routes."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "A matched route comparison and direct observation help isolate the timetable's effect from other changes.",
+      "difficulty": "easy",
+      "competency": "evidence-selection"
+    },
+    {
+      "questionId": "clat-ug27-r007-q087",
+      "passageId": "r007-logical-01",
+      "sectionId": "logical",
+      "prompt": "If only revised routes improve while similar unchanged routes do not, what is strengthened?",
+      "options": [
+        {
+          "optionId": "o3",
+          "text": "The inference that the timetable contributed to the improvement."
+        },
+        {
+          "optionId": "o1",
+          "text": "The claim that every train is delayed."
+        },
+        {
+          "optionId": "o2",
+          "text": "The view that complaints measure all travel failures."
+        },
+        {
+          "optionId": "o4",
+          "text": "The argument that route-level data are unnecessary."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "A differential improvement between treated and comparison routes supports a causal contribution from the timetable change.",
+      "difficulty": "moderate",
+      "competency": "causal-inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q088",
+      "passageId": "r007-logical-01",
+      "sectionId": "logical",
+      "prompt": "Why are station-desk complaints an incomplete outcome measure?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "They automatically count every missed connection."
+        },
+        {
+          "optionId": "o4",
+          "text": "Some affected passengers may not complain or may abandon the journey."
+        },
+        {
+          "optionId": "o2",
+          "text": "They show the precise cause of every delay."
+        },
+        {
+          "optionId": "o3",
+          "text": "They include people who stopped using the service."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Complaint data omit unreported failures and people who stop using the service, so they may not represent all missed connections.",
+      "difficulty": "moderate",
+      "competency": "measurement"
+    },
+    {
+      "questionId": "clat-ug27-r007-q089",
+      "passageId": "r007-logical-01",
+      "sectionId": "logical",
+      "prompt": "Which conclusion is best supported at this stage?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "Apply the same timetable everywhere immediately."
+        },
+        {
+          "optionId": "o3",
+          "text": "Conclude that the revision had no effect."
+        },
+        {
+          "optionId": "o1",
+          "text": "Continue a limited trial while collecting comparison data and observing actual journeys."
+        },
+        {
+          "optionId": "o4",
+          "text": "Use complaints as the only measure in future."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "The decline is encouraging but does not isolate the timetable's effect or show that every route will respond similarly.",
+      "difficulty": "moderate",
+      "competency": "conclusion"
+    },
+    {
+      "questionId": "clat-ug27-r007-q090",
+      "passageId": "r007-logical-01",
+      "sectionId": "logical",
+      "prompt": "What assumption underlies a district-wide rollout?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "All trains have the same platform length."
+        },
+        {
+          "optionId": "o3",
+          "text": "No passenger ever changes travel behaviour."
+        },
+        {
+          "optionId": "o4",
+          "text": "The railway operator will never alter its schedule again."
+        },
+        {
+          "optionId": "o2",
+          "text": "The three trial routes are sufficiently similar to routes not yet tested."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "The proposed generalisation assumes the trial routes represent the wider network, which the report has not established.",
+      "difficulty": "moderate",
+      "competency": "assumption-identification"
+    },
+    {
+      "questionId": "clat-ug27-r007-q091",
+      "passageId": "r007-logical-02",
+      "sectionId": "logical",
+      "prompt": "What is the committee's central inferential error?",
+      "options": [
+        {
+          "optionId": "o3",
+          "text": "Treating every extra entry as evidence of access by more distinct residents."
+        },
+        {
+          "optionId": "o1",
+          "text": "Assuming that libraries can host study programmes."
+        },
+        {
+          "optionId": "o2",
+          "text": "Counting visits separately at each branch."
+        },
+        {
+          "optionId": "o4",
+          "text": "Using opening hours as a policy variable."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Repeated visits by the same examination group can increase entries without showing that more distinct people gained access.",
+      "difficulty": "easy",
+      "competency": "flaw-identification"
+    },
+    {
+      "questionId": "clat-ug27-r007-q092",
+      "passageId": "r007-logical-02",
+      "sectionId": "logical",
+      "prompt": "Which fact would most weaken the claim that extended hours caused the network-wide increase?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Unique users increased at all six extended-hour branches."
+        },
+        {
+          "optionId": "o4",
+          "text": "Most additional entries occurred at branches whose hours did not change."
+        },
+        {
+          "optionId": "o2",
+          "text": "Users said evening opening was useful."
+        },
+        {
+          "optionId": "o3",
+          "text": "The new catalogue system reduced search time."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "If the rise occurred mainly at unchanged branches, longer hours cannot explain most of the network-wide increase.",
+      "difficulty": "challenging",
+      "competency": "weaken-argument"
+    },
+    {
+      "questionId": "clat-ug27-r007-q093",
+      "passageId": "r007-logical-02",
+      "sectionId": "logical",
+      "prompt": "Which measure most directly tests whether more distinct residents gained access?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "The total number of books held in storage."
+        },
+        {
+          "optionId": "o3",
+          "text": "The number of lights installed in each branch."
+        },
+        {
+          "optionId": "o1",
+          "text": "The number of unique users who visited at least once."
+        },
+        {
+          "optionId": "o4",
+          "text": "The length of the cultural committee's report."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Unique-user counts distinguish additional residents from repeated visits by existing users.",
+      "difficulty": "challenging",
+      "competency": "evidence-selection"
+    },
+    {
+      "questionId": "clat-ug27-r007-q094",
+      "passageId": "r007-logical-02",
+      "sectionId": "logical",
+      "prompt": "After examination classes end, first-time evening visitors remain higher at the six extended-hour branches. What follows?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The earlier attendance register was false."
+        },
+        {
+          "optionId": "o3",
+          "text": "The catalogue change must have caused all visits."
+        },
+        {
+          "optionId": "o4",
+          "text": "No more evaluation is required."
+        },
+        {
+          "optionId": "o2",
+          "text": "Evidence for a sustained access benefit becomes stronger."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Persistent first-time use after the temporary programme ends addresses two important alternative explanations.",
+      "difficulty": "challenging",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q095",
+      "passageId": "r007-logical-02",
+      "sectionId": "logical",
+      "prompt": "Why do network-wide totals conceal an important distinction?",
+      "options": [
+        {
+          "optionId": "o3",
+          "text": "They do not show whether the increase occurred at the branches whose hours changed."
+        },
+        {
+          "optionId": "o1",
+          "text": "Every branch necessarily has the same user profile."
+        },
+        {
+          "optionId": "o2",
+          "text": "The total is mathematically impossible to calculate."
+        },
+        {
+          "optionId": "o4",
+          "text": "The total excludes all examination students."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Branch-level data are needed to connect the reported effect to the six branches receiving the intervention.",
+      "difficulty": "challenging",
+      "competency": "measurement"
+    },
+    {
+      "questionId": "clat-ug27-r007-q096",
+      "passageId": "r007-logical-02",
+      "sectionId": "logical",
+      "prompt": "Which assessment of the attendance figures does the passage warrant?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Attendance is irrelevant to a library's public value."
+        },
+        {
+          "optionId": "o4",
+          "text": "Attendance matters, but branch patterns, distinct users and additional costs are needed before expansion."
+        },
+        {
+          "optionId": "o2",
+          "text": "Every branch should close if visits are low."
+        },
+        {
+          "optionId": "o3",
+          "text": "Longer hours always reduce costs."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The passage treats attendance as relevant but insufficient for the broader access and rollout conclusions.",
+      "difficulty": "easy",
+      "competency": "conclusion"
+    },
+    {
+      "questionId": "clat-ug27-r007-q097",
+      "passageId": "r007-logical-03",
+      "sectionId": "logical",
+      "prompt": "What is the principal weakness in the agency's retrofit claim?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "Reflective coatings cannot reduce energy use."
+        },
+        {
+          "optionId": "o3",
+          "text": "Electricity meters are incapable of recording consumption."
+        },
+        {
+          "optionId": "o1",
+          "text": "The comparison does not account for weather, occupancy and other upgrades."
+        },
+        {
+          "optionId": "o4",
+          "text": "The project included only ten buildings."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Cooler weather, vacancies and refrigerator replacements could explain part of the decline independently of the retrofit package.",
+      "difficulty": "challenging",
+      "competency": "flaw-identification"
+    },
+    {
+      "questionId": "clat-ug27-r007-q098",
+      "passageId": "r007-logical-03",
+      "sectionId": "logical",
+      "prompt": "Which adjustment best addresses the seasonal difference?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Compare the largest and smallest buildings."
+        },
+        {
+          "optionId": "o3",
+          "text": "Ignore the temperature records."
+        },
+        {
+          "optionId": "o4",
+          "text": "Count only the number of lights installed."
+        },
+        {
+          "optionId": "o2",
+          "text": "Use weather-adjusted readings over comparable seasonal periods."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Weather adjustment or like-for-like seasonal comparison helps distinguish retrofit effects from temperature-driven demand.",
+      "difficulty": "challenging",
+      "competency": "methodology"
+    },
+    {
+      "questionId": "clat-ug27-r007-q099",
+      "passageId": "r007-logical-03",
+      "sectionId": "logical",
+      "prompt": "If treated buildings use less electricity per occupied apartment than comparable untreated buildings under similar weather, what is strengthened?",
+      "options": [
+        {
+          "optionId": "o4",
+          "text": "The claim that residents did not change behaviour."
+        },
+        {
+          "optionId": "o1",
+          "text": "The claim that vacancies explain the entire reduction."
+        },
+        {
+          "optionId": "o2",
+          "text": "The assertion that maintenance is free."
+        },
+        {
+          "optionId": "o3",
+          "text": "The case that the retrofit contributed to lower use."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "A comparable per-occupied-apartment measure under similar weather addresses two major alternative explanations.",
+      "difficulty": "challenging",
+      "competency": "causal-inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q100",
+      "passageId": "r007-logical-03",
+      "sectionId": "logical",
+      "prompt": "Why include sensor replacement and maintenance in the cost calculation?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "They establish the number of residents."
+        },
+        {
+          "optionId": "o4",
+          "text": "They are part of the lifecycle cost of achieving the savings."
+        },
+        {
+          "optionId": "o2",
+          "text": "They prove electricity use has increased."
+        },
+        {
+          "optionId": "o3",
+          "text": "They are unrelated to the intervention."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The economic value of the programme depends on full lifecycle costs, not just lower energy bills.",
+      "difficulty": "challenging",
+      "competency": "evaluation"
+    },
+    {
+      "questionId": "clat-ug27-r007-q101",
+      "passageId": "r007-logical-03",
+      "sectionId": "logical",
+      "prompt": "What risk arises from using total electricity alone?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "Total electricity cannot ever be measured accurately."
+        },
+        {
+          "optionId": "o3",
+          "text": "It automatically exaggerates all savings."
+        },
+        {
+          "optionId": "o1",
+          "text": "A reduction may reflect fewer occupied apartments rather than greater efficiency."
+        },
+        {
+          "optionId": "o4",
+          "text": "It already adjusts for occupancy."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Total consumption can fall because fewer people use the building, so occupancy should be considered.",
+      "difficulty": "easy",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q102",
+      "passageId": "r007-logical-03",
+      "sectionId": "logical",
+      "prompt": "Which evaluation design best follows from the passage?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "Roll out immediately because the percentage is positive."
+        },
+        {
+          "optionId": "o3",
+          "text": "Reject the retrofit without further evidence."
+        },
+        {
+          "optionId": "o4",
+          "text": "Use only residents' memories of their bills."
+        },
+        {
+          "optionId": "o2",
+          "text": "Use a staged or matched comparison accounting for weather, occupancy and other upgrades."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "A staged or matched design can distinguish the package's effect from seasonal, occupancy and maintenance changes.",
+      "difficulty": "challenging",
+      "competency": "methodology"
+    },
+    {
+      "questionId": "clat-ug27-r007-q103",
+      "passageId": "r007-logical-04",
+      "sectionId": "logical",
+      "prompt": "What does the 62 per cent survey result directly establish?",
+      "options": [
+        {
+          "optionId": "o3",
+          "text": "The share of responding households reporting use during the previous three months."
+        },
+        {
+          "optionId": "o1",
+          "text": "The share of all residents who can independently use services."
+        },
+        {
+          "optionId": "o2",
+          "text": "The share of applications that were successfully completed."
+        },
+        {
+          "optionId": "o4",
+          "text": "The share of people who want help desks closed."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The question measured self-reported recent use, not independent capability, completion or policy preference.",
+      "difficulty": "challenging",
+      "competency": "reading-comprehension"
+    },
+    {
+      "questionId": "clat-ug27-r007-q104",
+      "passageId": "r007-logical-04",
+      "sectionId": "logical",
+      "prompt": "Which sampling feature could overstate district-wide capability?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The survey asked about a defined three-month period."
+        },
+        {
+          "optionId": "o4",
+          "text": "Households without registered mobile contacts were less likely to be reached."
+        },
+        {
+          "optionId": "o2",
+          "text": "The survey covered 1,200 households."
+        },
+        {
+          "optionId": "o3",
+          "text": "The survey asked about a public service."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The contact list may omit residents with weaker connectivity and lower digital access, creating coverage bias.",
+      "difficulty": "challenging",
+      "competency": "sampling-bias"
+    },
+    {
+      "questionId": "clat-ug27-r007-q105",
+      "passageId": "r007-logical-04",
+      "sectionId": "logical",
+      "prompt": "Which question would better measure independent use?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "Have you heard the service's name?"
+        },
+        {
+          "optionId": "o3",
+          "text": "Do you own any paper documents?"
+        },
+        {
+          "optionId": "o1",
+          "text": "Did you complete the task without assistance, and was it successful?"
+        },
+        {
+          "optionId": "o4",
+          "text": "How many offices are in the district?"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Asking about assistance and successful completion measures the capability that the original survey did not test.",
+      "difficulty": "challenging",
+      "competency": "evidence-selection"
+    },
+    {
+      "questionId": "clat-ug27-r007-q106",
+      "passageId": "r007-logical-04",
+      "sectionId": "logical",
+      "prompt": "If in-person interviews in poorly connected settlements show lower independent completion, what is the implication?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "The telephone survey becomes representative of every household."
+        },
+        {
+          "optionId": "o3",
+          "text": "The service must be discontinued."
+        },
+        {
+          "optionId": "o4",
+          "text": "The help desk is unnecessary."
+        },
+        {
+          "optionId": "o2",
+          "text": "The original figure may overstate independent capability across the district."
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Lower capability among under-reached households suggests that the telephone sample did not capture the whole distribution.",
+      "difficulty": "easy",
+      "competency": "inference"
+    },
+    {
+      "questionId": "clat-ug27-r007-q107",
+      "passageId": "r007-logical-04",
+      "sectionId": "logical",
+      "prompt": "What inference about closing the help desk is justified by the survey's limitations?",
+      "options": [
+        {
+          "optionId": "o3",
+          "text": "Use is not the same as independent successful use; a help-desk pilot should precede closure."
+        },
+        {
+          "optionId": "o1",
+          "text": "A help desk should close because most households have tried a digital service."
+        },
+        {
+          "optionId": "o2",
+          "text": "Telephone surveys are never useful."
+        },
+        {
+          "optionId": "o4",
+          "text": "Every resident should be required to use the digital channel."
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The measured outcome is weaker than the conclusion about capability, so the effect of reducing assistance should be tested.",
+      "difficulty": "challenging",
+      "competency": "conclusion"
+    },
+    {
+      "questionId": "clat-ug27-r007-q108",
+      "passageId": "r007-logical-04",
+      "sectionId": "logical",
+      "prompt": "Why examine protected samples of actual transactions?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "They eliminate all need for personal-data safeguards."
+        },
+        {
+          "optionId": "o4",
+          "text": "They can reveal completion and error patterns beyond self-reported use."
+        },
+        {
+          "optionId": "o2",
+          "text": "They measure only public opinion."
+        },
+        {
+          "optionId": "o3",
+          "text": "They make a survey response rate irrelevant."
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Transaction samples provide behavioural evidence about successful completion and help needs, subject to privacy protection.",
+      "difficulty": "challenging",
+      "competency": "methodology"
+    },
+    {
+      "questionId": "clat-ug27-r007-q109",
+      "passageId": "r007-quant-01",
+      "sectionId": "quantitative",
+      "prompt": "How many vaccinations can all three teams complete during the first two full days?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "240"
+        },
+        {
+          "optionId": "o3",
+          "text": "264"
+        },
+        {
+          "optionId": "o1",
+          "text": "252"
+        },
+        {
+          "optionId": "o4",
+          "text": "228"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Two full days at 48 + 42 + 36 = 126 per day give 2 × 126 = 252 vaccinations.",
+      "difficulty": "challenging",
+      "competency": "multi-step-arithmetic"
+    },
+    {
+      "questionId": "clat-ug27-r007-q110",
+      "passageId": "r007-quant-01",
+      "sectionId": "quantitative",
+      "prompt": "How many vaccinations can Teams A and B complete on the third day?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "84"
+        },
+        {
+          "optionId": "o3",
+          "text": "96"
+        },
+        {
+          "optionId": "o4",
+          "text": "102"
+        },
+        {
+          "optionId": "o2",
+          "text": "90"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Team C is unavailable, so the total is Team A's 48 plus Team B's 42 = 90.",
+      "difficulty": "challenging",
+      "competency": "data-interpretation"
+    },
+    {
+      "questionId": "clat-ug27-r007-q111",
+      "passageId": "r007-quant-01",
+      "sectionId": "quantitative",
+      "prompt": "How many vaccinations can the teams complete on the fourth day?",
+      "options": [
+        {
+          "optionId": "o4",
+          "text": "114"
+        },
+        {
+          "optionId": "o1",
+          "text": "108"
+        },
+        {
+          "optionId": "o2",
+          "text": "96"
+        },
+        {
+          "optionId": "o3",
+          "text": "102"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Team A works half a day (24), while B and C work full days (42 and 36): 24 + 42 + 36 = 102.",
+      "difficulty": "easy",
+      "competency": "multi-step-arithmetic"
+    },
+    {
+      "questionId": "clat-ug27-r007-q112",
+      "passageId": "r007-quant-01",
+      "sectionId": "quantitative",
+      "prompt": "How many total service encounters are possible over all five days, including follow-ups?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "516"
+        },
+        {
+          "optionId": "o4",
+          "text": "534"
+        },
+        {
+          "optionId": "o2",
+          "text": "546"
+        },
+        {
+          "optionId": "o3",
+          "text": "528"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "The schedule gives 252 in the first two days, 90 on day three, 102 on day four and 90 follow-ups: total 534.",
+      "difficulty": "challenging",
+      "competency": "multi-step-arithmetic"
+    },
+    {
+      "questionId": "clat-ug27-r007-q113",
+      "passageId": "r007-quant-02",
+      "sectionId": "quantitative",
+      "prompt": "How much grain is initially placed in Warehouse North?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "450 tonnes"
+        },
+        {
+          "optionId": "o3",
+          "text": "550 tonnes"
+        },
+        {
+          "optionId": "o1",
+          "text": "500 tonnes"
+        },
+        {
+          "optionId": "o4",
+          "text": "475 tonnes"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "North receives 40% of 1,250 tonnes: 0.40 × 1,250 = 500 tonnes.",
+      "difficulty": "challenging",
+      "competency": "percentage-calculation"
+    },
+    {
+      "questionId": "clat-ug27-r007-q114",
+      "passageId": "r007-quant-02",
+      "sectionId": "quantitative",
+      "prompt": "How much grain is issued from Warehouse South during the month?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "15 tonnes"
+        },
+        {
+          "optionId": "o3",
+          "text": "20 tonnes"
+        },
+        {
+          "optionId": "o4",
+          "text": "22.5 tonnes"
+        },
+        {
+          "optionId": "o2",
+          "text": "17.5 tonnes"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "South holds 35% × 1,250 = 437.5 tonnes. Four per cent issued is 17.5 tonnes.",
+      "difficulty": "challenging",
+      "competency": "percentage-calculation"
+    },
+    {
+      "questionId": "clat-ug27-r007-q115",
+      "passageId": "r007-quant-02",
+      "sectionId": "quantitative",
+      "prompt": "How much grain remains in the smaller depot after its release?",
+      "options": [
+        {
+          "optionId": "o3",
+          "text": "240.5 tonnes"
+        },
+        {
+          "optionId": "o1",
+          "text": "232.5 tonnes"
+        },
+        {
+          "optionId": "o2",
+          "text": "248 tonnes"
+        },
+        {
+          "optionId": "o4",
+          "text": "252.5 tonnes"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "The depot receives the remaining 25% of 1,250 = 312.5 tonnes. After releasing 72 tonnes, 240.5 tonnes remain.",
+      "difficulty": "challenging",
+      "competency": "multi-step-arithmetic"
+    },
+    {
+      "questionId": "clat-ug27-r007-q116",
+      "passageId": "r007-quant-02",
+      "sectionId": "quantitative",
+      "prompt": "How much grain is damaged if 2% applies to all stock remaining after the releases?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "21.84 tonnes"
+        },
+        {
+          "optionId": "o4",
+          "text": "22.41 tonnes"
+        },
+        {
+          "optionId": "o2",
+          "text": "23.10 tonnes"
+        },
+        {
+          "optionId": "o3",
+          "text": "20.96 tonnes"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "Remaining stock is (500 − 40) + (437.5 − 17.5) + (312.5 − 72) = 1,120.5 tonnes. Two per cent is 22.41 tonnes.",
+      "difficulty": "easy",
+      "competency": "percentage-calculation"
+    },
+    {
+      "questionId": "clat-ug27-r007-q117",
+      "passageId": "r007-quant-03",
+      "sectionId": "quantitative",
+      "prompt": "What distance does the fleet travel in one operating day?",
+      "options": [
+        {
+          "optionId": "o2",
+          "text": "4,200 km"
+        },
+        {
+          "optionId": "o3",
+          "text": "4,500 km"
+        },
+        {
+          "optionId": "o1",
+          "text": "4,320 km"
+        },
+        {
+          "optionId": "o4",
+          "text": "4,080 km"
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": "Twenty-four buses each travel 180 km: 24 × 180 = 4,320 km per day.",
+      "difficulty": "challenging",
+      "competency": "multiplication"
+    },
+    {
+      "questionId": "clat-ug27-r007-q118",
+      "passageId": "r007-quant-03",
+      "sectionId": "quantitative",
+      "prompt": "How many litres of fuel does the fleet use in a 25-day month before the route revision?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "25,200 L"
+        },
+        {
+          "optionId": "o3",
+          "text": "24,000 L"
+        },
+        {
+          "optionId": "o4",
+          "text": "26,400 L"
+        },
+        {
+          "optionId": "o2",
+          "text": "27,000 L"
+        }
+      ],
+      "correctOptionId": "o2",
+      "explanation": "Monthly distance is 4,320 × 25 = 108,000 km. At 4 km per litre, consumption is 27,000 litres.",
+      "difficulty": "challenging",
+      "competency": "ratio-and-rate"
+    },
+    {
+      "questionId": "clat-ug27-r007-q119",
+      "passageId": "r007-quant-03",
+      "sectionId": "quantitative",
+      "prompt": "What is the monthly fuel cost before the route revision?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "₹24.92 lakh"
+        },
+        {
+          "optionId": "o2",
+          "text": "₹25.60 lakh"
+        },
+        {
+          "optionId": "o3",
+          "text": "₹25.92 lakh"
+        },
+        {
+          "optionId": "o4",
+          "text": "₹26.40 lakh"
+        }
+      ],
+      "correctOptionId": "o3",
+      "explanation": "Fuel cost is 27,000 × ₹96 = ₹25,92,000, or ₹25.92 lakh.",
+      "difficulty": "challenging",
+      "competency": "percentage-calculation"
+    },
+    {
+      "questionId": "clat-ug27-r007-q120",
+      "passageId": "r007-quant-03",
+      "sectionId": "quantitative",
+      "prompt": "What is the revised total monthly operating cost after a 5% distance reduction?",
+      "options": [
+        {
+          "optionId": "o1",
+          "text": "₹49.30 lakh"
+        },
+        {
+          "optionId": "o2",
+          "text": "₹50.00 lakh"
+        },
+        {
+          "optionId": "o3",
+          "text": "₹49.88 lakh"
+        },
+        {
+          "optionId": "o4",
+          "text": "₹49.82 lakh"
+        }
+      ],
+      "correctOptionId": "o4",
+      "explanation": "New distance is 95% of 108,000 km, or 102,600 km. Fuel is 25,650 L × ₹96 = ₹24.624 lakh. Adding ₹18 lakh wages and ₹7.2 lakh other costs gives ₹49.824 lakh, or ₹49.82 lakh rounded to two decimals.",
+      "difficulty": "challenging",
+      "competency": "multi-step-arithmetic"
+    }
+  ]
+}

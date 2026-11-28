@@ -1,0 +1,303 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-hobbiest.github.io/ExamGuru-Quest/data/exam-papers/question-bank.schema.json",
+  "title": "ExamGuru Exam Paper Question Bank v1 (subject-neutral)",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "kind",
+    "classId",
+    "subjectId",
+    "academicYear",
+    "bankVersion",
+    "questions"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "kind": {
+      "const": "exam-paper-question-bank"
+    },
+    "classId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subjectId": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "academicYear": {
+      "type": "string"
+    },
+    "bankVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string"
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "questionId",
+          "sectionId",
+          "chapterId",
+          "type",
+          "marks",
+          "prompt",
+          "difficulty",
+          "competency",
+          "approvalStatus"
+        ],
+        "properties": {
+          "questionId": {
+            "type": "string"
+          },
+          "sectionId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "chapterId": {
+            "type": "string"
+          },
+          "topicTags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "type": {
+            "enum": [
+              "mcq",
+              "assertion-reason",
+              "very-short-answer",
+              "short-answer",
+              "long-answer",
+              "case-based",
+              "numerical",
+              "diagram-based"
+            ]
+          },
+          "marks": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20
+          },
+          "prompt": {
+            "type": "string"
+          },
+          "stimulus": {
+            "type": "string"
+          },
+          "parts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "partId",
+                "prompt",
+                "marks"
+              ],
+              "properties": {
+                "partId": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "prompt": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "marks": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "answerKey": {},
+                "markingScheme": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                },
+                "alternatives": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "prompt"
+                    ],
+                    "properties": {
+                      "prompt": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "answerKey": {},
+                      "markingScheme": {
+                        "type": "array",
+                        "items": {
+                          "type": "object"
+                        }
+                      }
+                    },
+                    "additionalProperties": true
+                  }
+                },
+                "questionId": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Stable question identity for all-format repetition protection."
+                },
+                "options": {
+                  "type": "array",
+                  "minItems": 2,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "optionId",
+                      "text"
+                    ],
+                    "properties": {
+                      "optionId": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  }
+                },
+                "correctOptionId": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "optionId",
+                "text"
+              ],
+              "properties": {
+                "optionId": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "correctOptionId": {
+            "type": "string"
+          },
+          "assertionReason": {
+            "type": "object"
+          },
+          "answerKey": {},
+          "markingScheme": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "alternatives": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "prompt"
+              ],
+              "properties": {
+                "prompt": {
+                  "type": "string"
+                },
+                "parts": {
+                  "type": "array"
+                }
+              }
+            }
+          },
+          "difficulty": {
+            "enum": [
+              "easy",
+              "medium",
+              "hard"
+            ]
+          },
+          "competency": {
+            "enum": [
+              "knowledge-understanding",
+              "application",
+              "analysis-evaluation-creation"
+            ]
+          },
+          "approvalStatus": {
+            "enum": [
+              "draft",
+              "review",
+              "approved",
+              "rejected",
+              "retired"
+            ]
+          },
+          "source": {
+            "type": "object"
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "src",
+                "alt"
+              ],
+              "properties": {
+                "src": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Safe relative asset path in the ExamGuru repository."
+                },
+                "alt": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "caption": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "assessmentLevels": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "description": "Optional assessment profiles that may use this question, such as standard or basic."
+          },
+          "attemptAny": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Number of nested parts students must attempt when fewer than all parts are required."
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

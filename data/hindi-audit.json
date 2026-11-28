@@ -1,0 +1,61 @@
+{
+  "subject": "Class 10 Hindi",
+  "auditDate": "2026-10-27",
+  "sourceFile": "data/hindi.json",
+  "status": "expanded-but-not-complete",
+  "counts": {
+    "topics": 27,
+    "questions": 92
+  },
+  "structuralChecks": {
+    "duplicateQuestionIds": 0,
+    "malformedQuestions": 0,
+    "answerIndexErrors": 0
+  },
+  "completionRules": [
+    "Map Course A and Course B independently to the CBSE 2026-27 syllabus.",
+    "Do not mark a topic complete until syllabus mapping is verified and the target question count is met.",
+    "Each MCQ must have exactly four options, a valid zero-based answer index, an explanation, and a difficulty label.",
+    "Check for repeated stems, ambiguous answers, factual errors, and distractors that are obviously unrelated.",
+    "Retain valid existing questions; do not regenerate completed content."
+  ],
+  "knownGaps": [
+    "The current 27-topic bank has 254 questions (9-10 per topic), not 100 per approved topic.",
+    "The official CBSE 2026-27 curriculum lists separate Hindi Course A and Course B; the legacy bank contains older chapter selections and must not be treated as a fully reconciled 2026-27 syllabus bank.",
+    "Some literature questions are thematic rather than verified against exact textbook passages; factual chapter-specific review is still required.",
+    "Course A and Course B reading-comprehension and writing-task formats need more varied practice sets aligned to the current sample papers.",
+    "Structural validation checks format and answer indices, not the academic correctness of every answer."
+  ],
+  "nextActions": [
+    "Rebuild the topic index using the official 2026-27 Course A and Course B syllabi and sample papers; mark excluded texts as excluded.",
+    "Move legacy topic sets that do not match the 2026-27 syllabus into an explicitly labelled legacy/practice section instead of presenting them as current syllabus coverage.",
+    "Expand every verified topic to 100 distinct, syllabus-aligned MCQs without templated duplicates.",
+    "Review literature answers against the prescribed textbook text and sample marking schemes.",
+    "Run schema, duplicate, answer-index, academic review, and coverage checks before declaring Hindi complete."
+  ],
+  "note": "This audit records current limitations and is not a claim that Hindi preparation is complete.",
+  "currentBank": {
+    "topics": 27,
+    "questions": 254,
+    "addedThisPass": 108,
+    "perTopicRange": [
+      9,
+      10
+    ],
+    "structuralValidation": {
+      "malformedQuestions": 0,
+      "duplicateIds": 0,
+      "answerIndexErrors": 0
+    }
+  },
+  "syllabusMap": "data/hindi-syllabus-map.json",
+  "officialSyllabus": {
+    "courseA": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Hindi_A_SecP1_2026-27.pdf",
+    "courseB": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Hindi_B_SecP1_2026-27.pdf"
+  },
+  "completionTarget": "100 questions per verified syllabus topic, after official 2026-27 Course A/B topic reconciliation",
+  "officialReferences": [
+    "https://cbseacademic.nic.in/curriculum_2027.html",
+    "https://cbseacademic.nic.in/sqp_classx_2026-27.html"
+  ]
+}

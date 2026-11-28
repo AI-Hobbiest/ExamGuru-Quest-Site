@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+<title id="title">ExamGuru wisdom emblem</title>
+<desc id="desc">A symbolic educational emblem inspired by Saraswati: a lotus, open book, and veena string, without a figurative portrait.</desc>
+<defs>
+  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8170f4"/><stop offset="1" stop-color="#41318e"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe8a6"/><stop offset="1" stop-color="#d99a2c"/></linearGradient>
+</defs>
+<circle cx="64" cy="61" r="53" fill="#f6f3ff" stroke="#ded6ff" stroke-width="2"/>
+<circle cx="64" cy="61" r="44" fill="none" stroke="#e5b94d" stroke-width="1.5" stroke-dasharray="2 5"/>
+<g fill="url(#violet)" stroke="#5140b7" stroke-width="1.5" stroke-linejoin="round">
+  <path d="M64 86C47 77 43 65 48 57C58 61 63 72 64 86Z"/>
+  <path d="M64 86C81 77 85 65 80 57C70 61 65 72 64 86Z"/>
+  <path d="M64 87C51 85 38 78 37 68C51 69 60 77 64 87Z" fill="#9a8af9"/>
+  <path d="M64 87C77 85 90 78 91 68C77 69 68 77 64 87Z" fill="#9a8af9"/>
+</g>
+<g stroke="#5140b7" stroke-width="2" stroke-linejoin="round">
+  <path d="M35 91Q49 83 64 92Q79 83 93 91L91 105Q77 98 64 106Q51 98 37 105Z" fill="#fff"/>
+  <path d="M64 92V105" fill="none"/>
+  <path d="M42 94Q51 91 59 96M69 96Q78 91 86 94" fill="none" stroke="#c6bfff" stroke-width="1.5"/>
+</g>
+<g fill="none" stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M33 39L91 23" stroke-width="5"/>
+  <path d="M33 39L91 23" stroke="#fff1bd" stroke-width="1.5"/>
+  <ellipse cx="34" cy="39" rx="9" ry="6" transform="rotate(-15 34 39)" fill="url(#gold)" stroke="#b98224" stroke-width="1.8"/>
+  <circle cx="94" cy="22" r="6" fill="url(#gold)" stroke="#b98224" stroke-width="1.8"/>
+  <path d="M40 37L86 25" stroke="#fff7da" stroke-width="1"/>
+</g>
+<path d="M23 112Q43 103 64 112Q85 103 105 112" fill="none" stroke="url(#violet)" stroke-width="3" stroke-linecap="round"/>
+</svg>

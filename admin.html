@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#211b48">
+<meta name="description" content="ExamGuru LMS platform administration, learning content, assessments, people and institution operations.">
+<title>LMS Administration | ExamGuru Quest</title>
+<script>try{const s=JSON.parse(sessionStorage.getItem("examguru_mvp_admin_session_v1")||"null");if((!s||s.role!=="admin"||!["__PUBLIC_DEMO_ADMIN_DISABLED__","demo.admin"].includes(s.username))&&!sessionStorage.getItem("c10playground_api_session")&&!location.hash.includes("auth_code="))location.replace("./index.html?admin=login-required");}catch(_){location.replace("./index.html?admin=login-required");}</script>
+<link rel="stylesheet" href="./css/branding.css?v=controls1">
+<link rel="stylesheet" href="./css/app-shell.css?v=20261106-persistent-topbar-v1">
+<link rel="stylesheet" href="./css/admin.css">
+<link rel="stylesheet" href="./css/question-media.css">
+<link rel="stylesheet" href="./css/theme-roles-v2.css?v=quest3">
+<style>
+.eg-lms-admin-hero{background:linear-gradient(118deg,#ece8fa 0%,#f7f6fc 54%,#e7f4ea 100%)!important;color:#252b46!important;border:1px solid #ddd8ee;box-shadow:0 13px 32px rgba(45,46,91,.09)!important}
+.eg-lms-admin-hero h1{color:#25285a!important}.eg-lms-admin-hero p{color:#626b84!important}.eg-lms-admin-hero .admin-kicker{color:#5a4f98!important}
+.eg-lms-admin-hero .admin-hero-actions{display:flex;flex-wrap:wrap;gap:10px}.eg-lms-admin-hero .admin-btn.secondary{background:#fff;color:#403b8c;border:1px solid #dcd7ee}
+.lms-admin-welcome{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:18px}.lms-admin-welcome h2{font-size:1.5rem;margin:4px 0 5px;color:#292e55}.lms-admin-welcome p{margin:0;max-width:700px}
+.lms-admin-status{display:flex;align-items:center;gap:8px;white-space:nowrap;border:1px solid #d9e8dc;background:#f1faf3;color:#37664a;border-radius:999px;padding:8px 12px;font-size:.75rem;font-weight:800}
+.lms-status-dot{width:8px;height:8px;border-radius:50%;background:#69ad7c;box-shadow:0 0 0 4px #dff0e3}
+.lms-admin-metrics{margin:0 0 25px}.lms-admin-section-heading{display:flex;align-items:end;justify-content:space-between;margin:4px 0 13px}.lms-admin-section-heading h3{font-size:1.05rem;margin:0 0 3px;color:#292e55}.lms-admin-section-heading p{font-size:.78rem;margin:0;color:var(--c10-muted)}
+.lms-admin-launch-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.lms-admin-launch-card{display:flex;align-items:center;gap:12px;min-width:0;padding:16px;border:1px solid #e0e4ef;border-radius:16px;background:linear-gradient(145deg,#fff,#faf9fe);text-decoration:none!important;color:#292e55!important;box-shadow:0 5px 16px rgba(39,45,82,.035);transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease}
+.lms-admin-launch-card:hover{transform:translateY(-2px);border-color:#bdb4df;box-shadow:0 9px 22px rgba(39,45,82,.08)}
+.lms-admin-card-icon{width:42px;height:42px;flex:0 0 42px;display:grid;place-items:center;border-radius:13px;background:#efecfa;font-size:1.3rem}
+.lms-admin-launch-card:nth-child(3n+2) .lms-admin-card-icon{background:#eaf6ee}.lms-admin-launch-card:nth-child(3n) .lms-admin-card-icon{background:#fff5df}
+.lms-admin-card-copy{display:grid;gap:4px;min-width:0}.lms-admin-card-copy strong{font-size:.87rem;line-height:1.25}.lms-admin-card-copy small{font-size:.72rem;line-height:1.4;color:#737b91}
+.lms-admin-arrow{margin-left:auto;align-self:center;color:#8177b5;font-size:1.05rem}
+.lms-admin-footnote{margin-top:18px;padding:13px 15px;border:1px solid #e4e3ee;border-radius:13px;background:#f8f7fc;color:#697188;font-size:.78rem;line-height:1.55}
+@media(max-width:850px){.lms-admin-launch-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.lms-admin-welcome{display:grid}.lms-admin-launch-grid{grid-template-columns:1fr}.lms-admin-status{justify-self:start}.eg-lms-admin-hero .admin-hero-actions{align-items:stretch}.eg-lms-admin-hero .admin-btn{flex:1;justify-content:center}}
+</style>
+</head>
+<body class="c10-theme-admin">
+<header class="admin-hero eg-lms-admin-hero">
+  <div class="admin-kicker">ExamGuru Quest · Platform control centre</div>
+  <h1>LMS Administration</h1>
+  <p>One place to manage the learning platform — curriculum, study resources, assessments, learners, institutions and platform operations.</p>
+  <div class="brand-signature">Conceptualised by <strong>JP Ganathe</strong></div>
+  <div class="admin-actions admin-hero-actions">
+    <a class="admin-btn" href="#tab-overview">⌂ Administration overview</a>
+    <a class="admin-btn secondary" href="./institution-operations.html">🏢 Institution operations</a>
+  </div>
+</header>
+<main class="admin-wrap">
+  <div class="admin-notice">
+    <strong>Admin publishing:</strong> this workspace creates local drafts and downloadable JSON files. It has no in-app admin authentication or GitHub write token. Only a trusted repository maintainer should commit changes to GitHub. Student sign-in uses a public flat file and is a convenience feature, not secure access control. Never use personal or reused passwords.
+  </div>
+  <section class="admin-panel active eg-surface" id="adminAuthBanner" style="gap:12px">
+    <div class="admin-form-grid">
+      <div style="grid-column:1/-1">
+        <h2>Publishing permissions</h2>
+        <p class="admin-muted">GitHub sign-in inside this app is deferred. Publish approved content and account-file updates directly through GitHub using repository write permissions.</p>
+      </div>
+    </div>
+    <div class="admin-actions">
+      <button class="admin-btn" id="adminLoginBtn" type="button" hidden>Continue with GitHub</button>
+      <button class="admin-btn secondary" id="adminLogoutBtn" type="button" hidden>Sign out</button>
+      <span id="adminIdentity" class="admin-chip" hidden></span>
+    </div>
+    <div id="adminAuthStatus" class="admin-status" role="status" aria-live="polite">In-app admin sign-in is deferred. GitHub repository permissions control publishing.</div>
+  </section>
+  <div class="admin-workspace">
+    <nav class="admin-tabs" aria-label="Admin workspace sections">
+      <button class="admin-tab-button active" data-tab="overview" type="button"><span class="admin-tab-icon">🏠</span>Overview</button>
+      <button class="admin-tab-button" data-tab="banks" type="button"><span class="admin-tab-icon">🧩</span>Question banks</button>
+      <button class="admin-tab-button" data-tab="cbse-review" type="button"><span class="admin-tab-icon">📄</span>CBSE review</button>
+      <button class="admin-tab-button" data-tab="departments" type="button"><span class="admin-tab-icon">🏛️</span>Departments &amp; HOD</button>
+      <button class="admin-tab-button" data-tab="classes" type="button"><span class="admin-tab-icon">🏫</span>Classes</button>
+      <button class="admin-tab-button" data-tab="exam-papers" type="button"><span class="admin-tab-icon">📝</span>Exam Paper Studio</button>
+      <button class="admin-tab-button" data-tab="knowledge" type="button"><span class="admin-tab-icon">📚</span>Knowledge base</button>
+      <button class="admin-tab-button" data-tab="students" type="button"><span class="admin-tab-icon">👩‍🎓</span>Students &amp; reports</button>
+      <button class="admin-tab-button" data-tab="leaderboard" type="button"><span class="admin-tab-icon">🏆</span>Leaderboards</button>
+      <button class="admin-tab-button" data-tab="access" type="button"><span class="admin-tab-icon">🔐</span>Admin access</button>
+      <button class="admin-tab-button" data-tab="institution-operations" type="button"><span class="admin-tab-icon">🏢</span>Institution Operations</button>
+      <button class="admin-tab-button" data-tab="operations" type="button"><span class="admin-tab-icon">🛠️</span>Operations</button>
+    </nav>
+    <div class="admin-content">
+      <section class="admin-panel active eg-surface" id="tab-overview">
+        <div class="lms-admin-welcome">
+          <div><div class="admin-kicker">Platform overview</div><h2>Welcome to ExamGuru</h2><p class="admin-muted">Choose an area to manage. The platform is organised around the complete learning lifecycle — not just question authoring.</p></div>
+          <div class="lms-admin-status"><span class="lms-status-dot"></span><span>Platform administration</span></div>
+        </div>
+        <div class="admin-grid lms-admin-metrics" aria-label="Platform snapshot">
+          <div class="admin-stat eg-surface"><strong id="statQuestions">—</strong><span>Questions across published banks</span></div>
+          <div class="admin-stat eg-surface"><strong id="statClasses">—</strong><span>Curriculum classes</span></div>
+          <div class="admin-stat eg-surface"><strong id="statStudents">0</strong><span>Student backups in this session</span></div>
+        </div>
+        <div class="lms-admin-section-heading"><div><h3>Platform management</h3><p>Core administration and content operations</p></div></div>
+        <div class="lms-admin-launch-grid">
+          <a class="lms-admin-launch-card" href="#tab-classes"><span class="lms-admin-card-icon">🏫</span><span class="lms-admin-card-copy"><strong>Curriculum catalogue</strong><small>Classes, subjects and curriculum structure</small></span><span class="lms-admin-arrow">↗</span></a>
+          <a class="lms-admin-launch-card" href="#tab-banks"><span class="lms-admin-card-icon">🧩</span><span class="lms-admin-card-copy"><strong>Question banks</strong><small>MCQs, question quality, chapters and assets</small></span><span class="lms-admin-arrow">↗</span></a>
+          <a class="lms-admin-launch-card" href="#tab-knowledge"><span class="lms-admin-card-icon">📚</span><span class="lms-admin-card-copy"><strong>Study Library &amp; resources</strong><small>Notes, reference material and learning resources</small></span><span class="lms-admin-arrow">↗</span></a>
+          <a class="lms-admin-launch-card" href="./competitive-exams-admin.html"><span class="lms-admin-card-icon">⚖️</span><span class="lms-admin-card-copy"><strong>Competitive exams</strong><small>CLAT and future entrance-exam programmes</small></span><span class="lms-admin-arrow">↗</span></a>
+          <a class="lms-admin-launch-card" href="#tab-exam-papers"><span class="lms-admin-card-icon">📝</span><span class="lms-admin-card-copy"><strong>Exam Paper Studio</strong><small>Blueprints, paper creation and validation</small></span><span class="lms-admin-arrow">↗</span></a>
+          <a class="lms-admin-launch-card" href="#tab-cbse-review"><span class="lms-admin-card-icon">📄</span><span class="lms-admin-card-copy"><strong>CBSE paper review</strong><small>Source verification and question approval</small></span><span class="lms-admin-arrow">↗</span></a>
+          <a class="lms-admin-launch-card" href="#tab-students"><span class="lms-admin-card-icon">🎓</span><span class="lms-admin-card-copy"><strong>Learners &amp; reports</strong><small>Accounts, student profiles and progress reports</small></span><span class="lms-admin-arrow">↗</span></a>
+          <a class="lms-admin-launch-card" href="./user-management.html"><span class="lms-admin-card-icon">👥</span><span class="lms-admin-card-copy"><strong>User &amp; role management</strong><small>Platform users, roles and access assignments</small></span><span class="lms-admin-arrow">↗</span></a>
+          <a class="lms-admin-launch-card" href="./institution-operations.html"><span class="lms-admin-card-icon">🏢</span><span class="lms-admin-card-copy"><strong>Institution operations</strong><small>Schools, branches, classes and academic teams</small></span><span class="lms-admin-arrow">↗</span></a>
+          <a class="lms-admin-launch-card" href="./platform-entitlements.html"><span class="lms-admin-card-icon">🎟️</span><span class="lms-admin-card-copy"><strong>Institution entitlements</strong><small>Feature access and institution subscriptions</small></span><span class="lms-admin-arrow">↗</span></a>
+          <a class="lms-admin-launch-card" href="#tab-leaderboard"><span class="lms-admin-card-icon">🏆</span><span class="lms-admin-card-copy"><strong>Performance insights</strong><small>Leaderboards and imported learning analytics</small></span><span class="lms-admin-arrow">↗</span></a>
+          <a class="lms-admin-launch-card" href="#tab-operations"><span class="lms-admin-card-icon">⚙️</span><span class="lms-admin-card-copy"><strong>Platform operations</strong><small>Release checks, maintenance and publishing workflow</small></span><span class="lms-admin-arrow">↗</span></a>
+        </div>
+        <div class="lms-admin-footnote"><strong>Current architecture:</strong> ExamGuru is still using local/browser storage for several workflows. Cloud database and centralised services remain a later stage; this administration hub is designed to grow with that migration.</div>
+        <div id="overviewStatus" class="admin-status" role="status">Loading curriculum catalogue and resource manifest…</div>
+      </section>
+
+      <section class="admin-panel eg-surface" id="tab-banks">
+        <h2>Question banks</h2>
+        <p class="admin-muted">Browse the banks by class first, then subject. Each published class–subject combination points to its own JSON file. Edits stay local until you export the bank and publish the file through GitHub.</p>
+        <div class="admin-bank-selection">
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="bankClass">Class</label><select id="bankClass" aria-describedby="bankSelectionHelp"></select></div>
+            <div class="admin-field"><label for="bankSubject">Subject</label><select id="bankSubject" aria-describedby="bankSelectionHelp"></select></div>
+            <p class="admin-inline-help full" id="bankSelectionHelp">Only published banks are listed here. Choosing another class or subject loads that bank and asks before discarding unsaved draft edits.</p>
+          </div>
+          <div class="admin-bank-toolbar">
+            <div class="admin-bank-context">
+              <strong id="bankTargetTitle">Class 10 · Science</strong>
+              <span id="bankTargetPath">Published file: data/science.json</span>
+              <span id="bankTargetStatus">Choose a bank to view its current contents.</span>
+            </div>
+            <div class="admin-actions">
+              <button class="admin-btn" type="button" id="loadBankBtn">Load selected bank</button>
+              <button class="admin-btn secondary" type="button" id="chooseBankBtn">Import JSON</button>
+              <input hidden type="file" id="bankFile" accept=".json,application/json">
+            </div>
+          </div>
+          <div class="admin-bank-metrics" aria-label="Selected question bank summary">
+            <div class="admin-bank-metric"><strong id="bankChapterTotal">—</strong><span>Chapters</span></div>
+            <div class="admin-bank-metric"><strong id="bankQuestionTotal">—</strong><span>Questions</span></div>
+            <div class="admin-bank-metric"><strong id="bankDraftState">Not loaded</strong><span>Selected bank status</span></div>
+          </div>
+        </div>
+        <div id="bankStatus" class="admin-status" role="status">Choose a class and subject.</div>
+        <hr class="admin-rule">
+        <div class="admin-split">
+          <div class="admin-content">
+            <div class="admin-field"><label for="bankChapter">Chapter / topic</label><select id="bankChapter"><option value="">Load a bank first</option></select></div>
+            <div class="admin-field"><label for="newChapterTitle">New chapter title</label><input id="newChapterTitle" placeholder="e.g. Light — Reflection and Refraction"></div>
+            <div class="admin-actions"><button class="admin-btn secondary" type="button" id="addChapterBtn">＋ Add chapter</button><button class="admin-btn secondary" type="button" id="renameChapterBtn">Rename selected</button><button class="admin-btn danger" type="button" id="deleteChapterBtn">Remove chapter</button></div>
+            <h3>Questions in selected chapter</h3>
+            <div id="questionList" class="admin-list"><div class="admin-empty">Load a bank to view its questions.</div></div>
+            <button class="admin-btn" type="button" id="newQuestionBtn">＋ New question</button>
+          </div>
+          <div class="admin-content">
+            <h3 id="questionEditorTitle">Question editor</h3>
+            <div class="admin-form-grid">
+              <div class="admin-field"><label for="qId">Question ID</label><input id="qId" placeholder="e.g. science-light-001"></div>
+              <div class="admin-field"><label for="qDifficulty">Difficulty</label><select id="qDifficulty"><option>Easy</option><option selected>Medium</option><option>Hard</option><option>Challenge</option><option>Unspecified</option></select><p class="admin-inline-help">Challenge is the highest tier: require multi-step reasoning, evidence interpretation or connected concepts beyond Hard.</p></div>
+              <div class="admin-field full"><label for="qCompetency">Cognitive competency <span aria-hidden="true">*</span></label><select id="qCompetency" required><option value="">Choose the thinking skill tested</option><option value="knowledge-understanding">Knowledge &amp; Understanding</option><option value="application">Application</option><option value="analysis-evaluation-creation">Analysis / Evaluation / Creation</option></select><p id="qCompetencyStatus" class="admin-inline-help">Required for every new MCQ. Competency is the thinking skill needed to answer; difficulty is how challenging the question is.</p></div>
+              <div class="admin-field full"><label for="qPrompt">Question text</label><textarea id="qPrompt" placeholder="Write the question clearly."></textarea></div>
+              <div class="admin-field"><label for="qOption0">Option A</label><input id="qOption0"></div>
+              <div class="admin-field"><label for="qOption1">Option B</label><input id="qOption1"></div>
+              <div class="admin-field"><label for="qOption2">Option C</label><input id="qOption2"></div>
+              <div class="admin-field"><label for="qOption3">Option D</label><input id="qOption3"></div>
+              <div class="admin-field"><label for="qAnswer">Correct answer</label><select id="qAnswer"><option value="0">A</option><option value="1">B</option><option value="2">C</option><option value="3">D</option></select></div>
+              <div class="admin-field full"><label for="qExplanation">Explanation</label><textarea id="qExplanation" placeholder="Explain why the correct answer is right."></textarea></div>
+            </div>
+            <hr class="admin-rule">
+            <h3>Question diagrams and images</h3>
+            <p class="admin-inline-help">Use a relative asset path, not a temporary browser URL. Uploaded images are downloaded separately and must be committed to the matching repository path. Use PNG, JPEG or WebP and keep image files reasonably small.</p>
+            <div class="admin-form-grid">
+              <div class="admin-field full"><label for="imageFile">Select image asset</label><input class="admin-file" type="file" id="imageFile" accept="image/png,image/jpeg,image/webp,image/gif"></div>
+              <div class="admin-field full"><label for="imagePath">Repository asset path</label><input id="imagePath" placeholder="./assets/questions/science/diagram.png"></div>
+              <div class="admin-field full"><label for="imageAlt">Alternative text (required)</label><input id="imageAlt" placeholder="Describe the diagram for accessibility"></div>
+              <div class="admin-field full"><label for="imageCaption">Caption (optional)</label><input id="imageCaption" placeholder="e.g. Fig. 1 — Experimental setup"></div>
+            </div>
+            <div class="admin-actions"><button class="admin-btn secondary" type="button" id="addImageBtn">Attach image to question</button></div>
+            <div id="questionImageList" class="admin-content"><div class="admin-empty">No question selected.</div></div>
+            <h3>New image files awaiting download</h3>
+            <div id="pendingAssets" class="admin-content"><div class="admin-empty">No new image assets.</div></div>
+            <div class="admin-actions"><button class="admin-btn" type="button" id="saveQuestionBtn">Save question draft</button><button class="admin-btn secondary" type="button" id="exportBankBtn">Export bank JSON</button><button class="admin-btn danger" type="button" id="deleteQuestionBtn">Delete question</button></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="admin-panel eg-surface" id="tab-cbse-review">
+        <h2>CBSE question review</h2>
+        <p class="admin-muted">Review MCQ candidates extracted from the original CBSE Class 10 papers. The parser only proposes possible question blocks. It does not decide the answer, chapter, difficulty or competency. Nothing enters a student bank until an educator checks the source PDF and official marking scheme and approves it here.</p>
+        <div class="admin-notice"><strong>Source and redistribution:</strong> questions accepted here retain CBSE year, examination, subject code, paper ID and original question number. Original PDFs are extracted byte-for-byte. Files carrying explicit copyright notices or unreadable rights checks are withheld from redistribution pending review.</div>
+        <div class="admin-form-grid">
+          <div class="admin-field"><label for="cbseReviewSubject">Subject</label><select id="cbseReviewSubject"><option value="all">All subjects</option><option value="science">Science</option><option value="mathematics-standard">Mathematics Standard</option><option value="mathematics-basic">Mathematics Basic</option><option value="social-science">Social Science</option><option value="english">English</option><option value="hindi-a">Hindi Course A</option><option value="hindi-b">Hindi Course B</option></select></div>
+          <div class="admin-field"><label for="cbseReviewYear">Year</label><select id="cbseReviewYear"><option value="all">All years</option></select></div>
+          <div class="admin-field full"><label for="cbseReviewCandidate">Candidate MCQ</label><select id="cbseReviewCandidate"><option value="">Load the review queue first</option></select></div>
+        </div>
+        <div class="admin-actions"><button class="admin-btn secondary" type="button" id="cbseReviewReload">Reload review queue</button></div>
+        <div id="cbseReviewStatus" class="admin-status" role="status" aria-live="polite">Loading the CBSE review queue…</div>
+        <div id="cbseReviewSummary" class="admin-feature-list"></div>
+        <div class="cbse-review-layout">
+          <section class="cbse-review-source">
+            <h3>Original source</h3>
+            <p id="cbseReviewSource" class="admin-muted">Choose a candidate to inspect its paper provenance.</p>
+            <div id="cbseReviewSourceLinks" class="admin-actions"></div>
+            <h3>Candidate question</h3>
+            <p id="cbseReviewPrompt" class="cbse-review-prompt">No candidate selected.</p>
+            <ol id="cbseReviewOptions" class="cbse-review-options"></ol>
+            <h3>Parsed marking-scheme suggestions</h3>
+            <div id="cbseReviewProposals" class="cbse-review-proposals"><p class="admin-muted">No answer suggestions have been parsed.</p></div>
+          </section>
+          <section class="cbse-review-editor">
+            <h3>Educator verification</h3>
+            <div class="admin-field"><label for="cbseReviewChapter">Chapter / topic in the target bank</label><select id="cbseReviewChapter"><option value="">Load a candidate first</option></select></div>
+            <div class="admin-form-grid">
+              <div class="admin-field"><label for="cbseReviewCorrectOption">Verified correct answer</label><select id="cbseReviewCorrectOption"><option value="">Choose after checking the official key</option></select></div>
+              <div class="admin-field"><label for="cbseReviewDifficulty">Difficulty</label><select id="cbseReviewDifficulty"><option value="Easy">Easy</option><option value="Medium" selected>Medium</option><option value="Hard">Hard</option><option value="Challenge">Challenge</option><option value="Unspecified">Unspecified</option></select></div>
+              <div class="admin-field full"><label for="cbseReviewCompetency">Cognitive competency</label><select id="cbseReviewCompetency"><option value="">Choose competency</option><option value="knowledge-understanding">Knowledge &amp; Understanding</option><option value="application">Application</option><option value="analysis-evaluation-creation">Analysis / Evaluation / Creation</option></select></div>
+              <div class="admin-field full"><label for="cbseReviewExplanation">Verified explanation</label><textarea id="cbseReviewExplanation" placeholder="Explain why the verified answer is correct."></textarea></div>
+            </div>
+            <label class="cbse-review-confirm"><input type="checkbox" id="cbseReviewConfirm"><span>I checked the exact question and all four options against the original CBSE paper, and independently verified the selected answer against the official marking scheme.</span></label>
+            <div class="admin-actions"><button class="admin-btn" type="button" id="cbseReviewApprove" disabled>Approve and add to bank draft</button><button class="admin-btn secondary" type="button" id="cbseReviewExportBank" disabled>Export updated bank JSON</button></div>
+            <p class="admin-inline-help">Approved questions are added only to this browser's local bank draft. Export the JSON, review it, then publish the matching <code>data/*.json</code> file through GitHub. The question receives a visible <strong>CBSE-YYYY Question</strong> badge in student quizzes.</p>
+          </section>
+        </div>
+        <div id="cbseReviewWorkStatus" class="admin-status" role="status" aria-live="polite"></div>
+      </section>
+
+      <section class="admin-panel eg-surface" id="tab-departments">
+  <h2>Academic departments</h2>
+  <p class="admin-muted">Manage institution departments, subjects, class coverage, teacher membership and scoped HOD appointments. Your selected institution membership controls access.</p>
+  <div class="admin-form-grid">
+    <div class="admin-field full"><label for="departmentMembership">Institution membership</label><select id="departmentMembership"><option value="">Load your memberships…</option></select></div>
+    <div class="admin-field"><label for="departmentName">Department name</label><input id="departmentName" maxlength="100" placeholder="e.g. Science"></div>
+    <div class="admin-field"><label for="departmentCode">Department code</label><input id="departmentCode" maxlength="20" placeholder="e.g. SCI"></div>
+    <div class="admin-field full"><label for="departmentParent">Parent department ID (optional)</label><input id="departmentParent" placeholder="Leave blank for a top-level department"></div>
+  </div>
+  <div class="admin-actions"><button class="admin-btn" id="loadDepartmentsBtn" type="button">Load departments</button><button class="admin-btn" id="createDepartmentBtn" type="button">＋ Create department</button></div>
+  <div id="departmentStatus" class="admin-status" role="status">Sign in with a School Admin account, then load your institution memberships.</div>
+  <div id="departmentList" class="department-list"><div class="admin-empty">No departments loaded.</div></div>
+  <div class="department-tools">
+    <h3 id="departmentSelectedTitle">Department setup</h3>
+    <p class="admin-muted">Select a department above. Use comma-separated IDs for the subject catalogue and institution class-group IDs. These are IDs, not display labels.</p>
+    <div class="admin-form-grid">
+      <div class="admin-field"><label for="departmentSubjects">Subject IDs</label><input id="departmentSubjects" placeholder="science, mathematics"></div>
+      <div class="admin-field"><label for="departmentClasses">Institution class-group IDs</label><input id="departmentClasses" placeholder="class-6-a, class-7-a"></div>
+      <div class="admin-field full"><label for="departmentTeacherMembership">Teacher institution membership ID</label><input id="departmentTeacherMembership" placeholder="Membership ID from the institution directory"></div>
+      <div class="admin-field"><label for="departmentRole">Department role</label><select id="departmentRole"><option value="member">Member</option><option value="coordinator">Coordinator</option></select></div>
+    </div>
+    <div class="admin-actions"><button class="admin-btn secondary" id="saveDepartmentScopesBtn" type="button">Save subjects &amp; class scope</button><button class="admin-btn secondary" id="addDepartmentTeacherBtn" type="button">Add teacher</button></div>
+    <hr class="admin-rule">
+    <h3>Appoint Head of Department</h3>
+    <div class="admin-form-grid">
+      <div class="admin-field full"><label for="hodDepartmentMember">Department member</label><select id="hodDepartmentMember"><option value="">Load a department first</option></select></div>
+      <div class="admin-field"><label for="hodEffectiveFrom">Effective from</label><input id="hodEffectiveFrom" type="date"></div>
+      <div class="admin-field"><label for="hodEffectiveTo">Effective to (optional)</label><input id="hodEffectiveTo" type="date"></div>
+      <div class="admin-field full"><label for="hodClasses">HOD class IDs (blank = all department classes)</label><input id="hodClasses" placeholder="class-6-a, class-7-a"></div>
+    </div>
+    <div class="admin-actions"><button class="admin-btn" id="appointHodBtn" type="button">Appoint HOD</button></div>
+  </div>
+</section>
+
+      <section class="admin-panel eg-surface" id="tab-classes">
+        <h2>Class catalogue</h2>
+        <p class="admin-muted">Platform-wide content metadata only: this catalogue supports published question-bank profiles and platform learning content. It is not inherited as an institution's grade, subject, class-section or cohort structure. Each Institution Admin defines those independently under Institution Operations. Removing a platform content class does not delete historic student records.</p>
+        <div class="admin-form-grid">
+          <div class="admin-field"><label for="classId">Class ID</label><input id="classId" placeholder="e.g. 5 or 10"></div>
+          <div class="admin-field"><label for="classLabel">Display label</label><input id="classLabel" placeholder="e.g. Class 5"></div>
+          <div class="admin-field full"><label for="classSubjects">Subjects for this class</label><select id="classSubjects" multiple size="5" aria-describedby="classSubjectsHelp"><option value="science">Science</option><option value="mathematics">Mathematics</option><option value="english">English</option><option value="social-science">Social Science</option><option value="hindi">Hindi</option></select><span class="admin-inline-help" id="classSubjectsHelp">Hold Ctrl (Windows) or Command (Mac) to select more than one subject. These selections control the student's subject menu.</span></div>
+        </div>
+        <div class="admin-actions"><button class="admin-btn" id="addClassBtn" type="button">＋ Add class</button><button class="admin-btn secondary" id="exportClassesBtn" type="button">Export classes.json</button><button class="admin-btn secondary" id="reloadClassesBtn" type="button">Reload published list</button></div><div class="admin-actions"><button class="admin-btn secondary" id="syncClassesBtn" type="button" hidden>Sync catalogue to central accounts</button></div><p class="admin-inline-help" hidden>Central class synchronisation is deferred until a backend is configured.</p>
+        <div id="classesStatus" class="admin-status" role="status">Class changes are drafts until you export and publish data/classes.json.</div>
+        <div id="classesTable" class="admin-table-wrap"></div>
+      </section>
+
+      <section class="admin-panel eg-surface" id="tab-exam-papers">
+        <h2>Exam Paper Studio</h2>
+        <p class="admin-muted">Create and validate examination papers from enabled profiles in the shared exam-profile registry. Each profile supplies its own blueprint, approved question pool and optional chapter-wise practice bank.</p>
+        <div class="admin-notice"><strong>Profile-driven workflow:</strong> select an enabled examination profile below. The Studio loads its matching blueprint and question banks, validates class/subject/year metadata, and checks every paper slot before enabling generation.</div>
+        <div class="admin-form-grid">
+          <div class="admin-field"><label for="paperProfileSelect">Examination profile</label><select id="paperProfileSelect" disabled><option>Loading enabled profiles…</option></select></div>
+          <div class="admin-field"><label for="paperBlueprintState">Blueprint status</label><input id="paperBlueprintState" value="Loading…" readonly></div>
+          <div class="admin-field full"><label>Paper summary</label><div id="paperTotalSummary" class="admin-status">Loading blueprint…</div><div id="paperProfileMeta" class="admin-inline-help"></div></div>
+        </div>
+        <div id="paperBlueprintSummary" class="admin-feature-list"></div>
+        <hr class="admin-rule">
+        <h3>Approved paper question pool</h3>
+        <p class="admin-inline-help">Import a versioned JSON question pool. Supported types include MCQ, assertion–reason, very short, short and long answer, case-based, numerical and diagram-based. Only approvalStatus = approved questions can be selected.</p>
+        <div class="admin-form-grid"><div class="admin-field full"><label for="paperPoolFile">Supplementary mixed-question bank (optional JSON import)</label><input class="admin-file" type="file" id="paperPoolFile" accept=".json,application/json"></div></div>
+        <div class="admin-actions"><button class="admin-btn" type="button" id="importPaperPoolBtn">Import question pool to this browser</button><button class="admin-btn secondary" type="button" id="downloadPaperPoolTemplateBtn">Download JSON template</button></div>
+        <div class="admin-form-grid">
+          <div class="admin-field"><label>Question pool status</label><div id="paperPoolState" class="admin-status">No pool imported</div></div>
+          <div class="admin-field full"><label>Approved questions by section</label><div id="paperPoolSummary" class="admin-feature-list">No local question pool imported.</div></div>
+        </div>
+        <hr class="admin-rule">
+        <hr class="admin-rule">
+        <h3>Student delivery mode</h3>
+        <p class="admin-inline-help">Choose how the student will complete this generated paper. Printable is the recommended CBSE pathway; online preserves the interactive attempt experience.</p>
+        <div class="admin-form-grid">
+          <div class="admin-field full"><label for="paperDeliveryMode">How will the student take this paper?</label>
+            <select id="paperDeliveryMode">
+              <option value="printable" selected>Printable · question paper + handwritten answer booklet</option>
+              <option value="online">Online · interactive digital examination</option>
+              <option value="hybrid">Hybrid · printable paper + online follow-up</option>
+            </select>
+          </div>
+          <div class="admin-field full"><div id="paperDeliveryHelp" class="admin-status">Recommended for CBSE: print the question paper and separate answer booklet. The teacher copy contains the marking scheme.</div></div>
+        </div>
+        <div class="admin-actions"><button class="admin-btn" type="button" id="generatePaperBtn" disabled>Generate examination paper</button></div>
+        <div id="paperStudioStatus" class="admin-status" role="status" aria-live="polite">Loading examination blueprint…</div>
+        <div id="paperPreviewStatus" class="admin-muted">No paper generated in this session.</div>
+        <div id="paperPreview" class="admin-feature-list"></div>
+        <div id="paperResultActions" class="admin-actions" hidden><button class="admin-btn secondary" type="button" id="downloadPaperJsonBtn">Download paper JSON</button><button class="admin-btn secondary" type="button" id="openPaperOnlineBtn">Open online exam</button><button class="admin-btn secondary" type="button" id="printStudentPaperBtn">Print / Save question paper PDF</button><button class="admin-btn secondary" type="button" id="printAnswerBookletBtn">Print / Save answer booklet PDF</button><button class="admin-btn secondary" type="button" id="printTeacherPaperBtn">Print evaluator copy / Save PDF</button></div>
+        <div class="admin-footnote">Imported question pools and generated drafts are stored in this browser using ExamGuru’s versioned local storage adapter. They are not committed to GitHub automatically. Do not import confidential examination content into this public-repository MVP.</div>
+      </section>
+      <section class="admin-panel eg-surface" id="tab-knowledge">
+        <h2>Knowledge base and source files</h2>
+        <p class="admin-muted">Track books, course notes, revision guides and visual references separately from MCQ banks. Published resources appear in the student Study Library. Add an optional class list and learner-facing description; leave classes blank to make a resource available to every class. Only publish after the file is committed at its exact path and redistribution rights are confirmed.</p>
+        <div class="admin-content" style="margin:14px 0;padding:14px;border:1px solid var(--c10-line);border-radius:14px">
+          <h3 style="margin-top:0">Study Library · Admin preview</h3>
+          <p class="admin-muted">Preview the published student-facing revision board and learning resources for any supported class. This opens a read-only preview.</p>
+          <div class="admin-actions"><label class="admin-field">Preview class <select id="studyLibraryPreviewClass"><option value="3">Class 3</option><option value="6">Class 6</option><option value="10" selected>Class 10</option></select></label><a class="admin-btn" id="openStudyLibraryPreview" href="./study.html?classId=10">Preview student Study Library ↗</a></div>
+        </div>
+        <div class="admin-notice"><strong>Public-repository warning:</strong> a PDF or image committed to this repository will be publicly downloadable. Only publish resources you own or are permitted to redistribute. Do not put private student data here.</div>
+        <div class="admin-form-grid">
+          <div class="admin-field full"><label for="resourceFile">Select resource file</label><input class="admin-file" type="file" id="resourceFile" accept=".pdf,application/pdf,image/png,image/jpeg,image/webp,.txt,.md,.json"></div>
+          <div class="admin-field"><label for="resourceTitle">Resource title</label><input id="resourceTitle" placeholder="e.g. Science revision notes"></div>
+          <div class="admin-field"><label for="resourceType">Resource type</label><select id="resourceType"><option value="textbook-pdf">Textbook PDF</option><option value="question-bank-pdf">Question-bank PDF</option><option value="image-reference-pdf">Image-reference PDF</option><option value="notes">Notes / study guide</option><option value="image-asset">Standalone image</option><option value="other">Other</option></select></div>
+          <div class="admin-field"><label for="resourceSubject">Subject</label><select id="resourceSubject"><option value="">Not subject-specific</option><option>Science</option><option>Mathematics</option><option>English</option><option>Social Science</option><option>Hindi</option></select></div>
+          <div class="admin-field"><label for="resourceChapter">Chapter / topic (optional)</label><input id="resourceChapter" placeholder="Chapter or unit"></div>
+          <div class="admin-field"><label for="resourceClassIds">Classes (optional)</label><input id="resourceClassIds" placeholder="e.g. 6, 10; blank = all classes"></div>
+          <div class="admin-field full"><label for="resourceSummary">Learner-facing description (optional)</label><textarea id="resourceSummary" placeholder="A short summary to help students choose this resource"></textarea></div>
+          <div class="admin-field full"><label for="resourcePath">Repository path</label><input id="resourcePath" placeholder="knowledge/science/revision-notes.pdf"></div>
+          <div class="admin-field full"><label for="resourceRights">Rights / source note</label><textarea id="resourceRights" placeholder="Owner, source URL, licence, permission note, or why this file may be redistributed"></textarea></div>
+        </div>
+        <div class="admin-actions"><button class="admin-btn" id="addResourceBtn" type="button">＋ Add resource to manifest</button><button class="admin-btn secondary" id="exportManifestBtn" type="button">Export manifest JSON</button><button class="admin-btn secondary" id="importManifestBtn" type="button">Import manifest JSON</button><input hidden type="file" id="manifestFile" accept=".json,application/json"></div>
+        <div id="knowledgeStatus" class="admin-status" role="status"></div>
+        <div id="pendingResources" class="admin-content"><div class="admin-empty">No resource files selected in this session.</div></div>
+        <h3>Published question-bank inventory</h3>
+        <p class="admin-inline-help">Counts are calculated from the primary question-bank JSON files used by the portal, not typed in as fixed numbers. Source-batch/chunk files are not added separately when they are not the active bank for a subject.</p>
+        <div id="questionBankInventoryStatus" class="admin-status" role="status">Calculating published question totals…</div>
+        <div id="questionBankInventory" class="admin-table-wrap"><div class="admin-empty">Reading published question banks…</div></div>
+        <h3>Published knowledge-base manifest</h3>
+        <div id="knowledgeTable" class="admin-table-wrap"></div>
+      </section>
+
+      <section class="admin-panel eg-surface" id="tab-students">
+        <section class="admin-content" id="flatFileAccountsPanel" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px">
+          <h3>Student accounts · GitHub JSON database</h3>
+          <p class="admin-muted">Create and manage student accounts here. The portal generates the updated JSON file; because GitHub Pages is static, an authorised maintainer must publish that file to GitHub for accounts to become available to all students.</p>
+          <div class="admin-notice"><strong>Important:</strong> this is a simple starter, not secure authentication. The repository is public; the username, salt and password hash can be read by anyone and weak passwords may be guessed offline. Do not store real names, emails, school details or reused passwords in this file.</div>
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="staticAccountUsername">New username</label><input id="staticAccountUsername" maxlength="32" minlength="3" pattern="[A-Za-z0-9._-]{3,32}" autocomplete="off" autocapitalize="none" placeholder="e.g. learner_01"></div><div class="admin-field"><label for="staticAccountClass">Assigned class</label><select id="staticAccountClass"><option value="10">Class 10</option></select></div>
+          </div>
+          <div class="admin-actions"><button class="admin-btn" id="createStaticAccountBtn" type="button">Create account &amp; export database</button><button class="admin-btn secondary" id="reloadStaticAccountsBtn" type="button">Reload published account file</button></div>
+          <hr class="admin-rule">
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="resetStaticAccountUsername">Reset password for</label><select id="resetStaticAccountUsername"><option value="">Load accounts first</option></select></div>
+          </div>
+          <div class="admin-actions"><button class="admin-btn secondary" id="resetStaticAccountBtn" type="button">Reset password &amp; export database</button></div>
+          <hr class="admin-rule">
+          <h4>Promote / change assigned class</h4>
+          <p class="admin-muted">Choose a student and the new class. This updates the account JSON draft; students cannot edit their assigned class in their profile.</p>
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="manageStaticAccountUsername">Student account</label><select id="manageStaticAccountUsername"><option value="">Load accounts first</option></select></div>
+            <div class="admin-field"><label for="manageStaticAccountClass">New assigned class</label><select id="manageStaticAccountClass"><option value="10">Class 10</option></select></div>
+          </div>
+          <div class="admin-actions"><button class="admin-btn secondary" id="updateStaticAccountClassBtn" type="button">Update class &amp; export database</button></div>
+          <div id="staticAccountStatus" class="admin-status" role="status">Loading the published account file…</div>
+          <div id="staticAccountTempBox" hidden>
+            <p><strong>Temporary password — share privately with the student.</strong></p>
+            <textarea id="staticAccountTempPassword" rows="2" readonly></textarea>
+            <div class="admin-actions"><button class="admin-btn secondary" id="copyStaticAccountTempPasswordBtn" type="button">Copy temporary password</button></div>
+          </div>
+          <h4>Accounts in the published/local draft</h4>
+          <div id="staticAccountsTable" class="admin-table-wrap"></div>
+        </section>
+
+        <section class="admin-content" id="familyAccessPanel" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px;margin:18px 0">
+          <h3>Family access · parent accounts and child links</h3>
+          <p class="admin-muted">Create parent logins and map each parent to one or more student accounts. A student may be linked to more than one parent. After publishing the exported file, parents sign in from the main ExamGuru home page using this username/password form; their account opens the Family Dashboard.</p>
+          <div class="admin-notice"><strong>Local MVP privacy limit:</strong> <code>family-access.json</code> is public in this repository. Use aliases rather than full legal names, and classroom-only passwords. This is not production-grade authentication or confidential family data storage.</div>
+          <h4>Create parent account</h4>
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="parentAccountDisplayName">Display name / alias</label><input id="parentAccountDisplayName" maxlength="60" placeholder="e.g. Parent A"></div>
+            <div class="admin-field"><label for="parentAccountUsername">Parent username</label><input id="parentAccountUsername" maxlength="32" minlength="3" pattern="[A-Za-z0-9._-]{3,32}" autocomplete="off" autocapitalize="none" placeholder="e.g. parent_a"></div>
+          </div>
+          <div class="admin-actions"><button class="admin-btn" id="createParentAccountBtn" type="button">Create parent login &amp; export</button><button class="admin-btn secondary" id="reloadFamilyAccessBtn" type="button">Reload published family file</button></div>
+          <div id="parentTempPasswordBox" hidden>
+            <p><strong>Temporary parent password — share privately.</strong></p>
+            <textarea id="parentTempPassword" rows="2" readonly></textarea>
+            <div class="admin-actions"><button class="admin-btn secondary" id="copyParentTempPasswordBtn" type="button">Copy temporary password</button></div>
+          </div>
+          <hr class="admin-rule">
+          <h4>Map parents to students</h4>
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="familyParentSelect">Parent account</label><select id="familyParentSelect"><option value="">Load parent accounts first</option></select></div>
+            <div class="admin-field"><label for="familyChildrenSelect">Linked children (select multiple)</label><select id="familyChildrenSelect" multiple size="6" aria-describedby="familyLinksHelp"></select><span class="admin-inline-help" id="familyLinksHelp">Use Ctrl (Windows) or Command (Mac) to select multiple children. A student can be linked to several parent accounts.</span></div>
+          </div>
+          <div class="admin-actions"><button class="admin-btn" id="saveFamilyLinksBtn" type="button">Save relationships &amp; export</button><button class="admin-btn secondary" id="downloadFamilyAccessBtn" type="button">Download family-access.json</button></div>
+          <div id="familyAccessStatus" class="admin-status" role="status">Loading parent accounts and student mappings…</div>
+          <div id="familyLinksTable" class="admin-table-wrap"></div>
+        </section>
+
+        
+
+        <h2>Student profile management and progress reports</h2>
+        <section class="admin-content" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px" hidden>
+          <h3>Central student accounts · live (deferred)</h3>
+          <p class="admin-muted">Requires authorised GitHub Admin sign-in and the configured Cloudflare account service. These are real central accounts, not imported backup copies.</p>
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="centralStudentUsername">Username</label><input id="centralStudentUsername" maxlength="32" minlength="3" pattern="[A-Za-z0-9._-]{3,32}" autocomplete="off" autocapitalize="none" required placeholder="e.g. learner2026"></div>
+            <div class="admin-field"><label for="centralStudentId">Student ID (internal, optional)</label><input id="centralStudentId" placeholder="Leave blank to generate"></div>
+            <div class="admin-field"><label for="centralStudentName">Display name</label><input id="centralStudentName" maxlength="80"></div>
+            <div class="admin-field"><label for="centralStudentSchool">School</label><input id="centralStudentSchool" maxlength="160"></div>
+            <div class="admin-field"><label for="centralStudentClass">Class</label><select id="centralStudentClass"><option value="10">Class 10</option></select></div>
+            <div class="admin-field"><label for="centralStudentCity">City</label><input id="centralStudentCity" maxlength="100"></div>
+            <div class="admin-field"><label for="centralStudentState">State / UT</label><select id="centralStudentState"><option value="">Choose State / UT</option></select></div>
+          </div>
+          <div class="admin-actions"><button class="admin-btn" type="button" id="createCentralStudentBtn">Create student account</button><button class="admin-btn secondary" type="button" id="refreshCentralStudentsBtn">Refresh accounts</button></div>
+          <div id="centralStudentStatus" class="admin-status" role="status">Sign in with GitHub after setting up the API to enable central accounts.</div>
+          <div id="centralTempPasswordBox" hidden>
+            <strong>Temporary password — copy and share privately now. It will not be shown again.</strong>
+            <textarea id="centralTempPassword" readonly rows="2"></textarea>
+            <button class="admin-btn secondary" type="button" id="copyCentralTempPasswordBtn">Copy temporary password</button>
+          </div>
+          <div id="centralStudentsTable" class="admin-table-wrap"></div>
+        </section>
+        <section class="admin-content" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px" hidden>
+          <h3>Live progress report (deferred)</h3>
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="liveProgressClass">Class filter</label><select id="liveProgressClass"><option value="">All classes</option></select></div>
+            <div class="admin-field"><label for="liveProgressSubject">Subject filter</label><select id="liveProgressSubject"><option value="">All subjects</option><option value="science">Science</option><option value="mathematics">Mathematics</option><option value="english">English</option><option value="social-science">Social Science</option><option value="hindi">Hindi</option><option value="science-sof">Science · SOF</option><option value="mathematics-sof">Mathematics · SOF</option><option value="english-sof">English · SOF</option></select></div>
+          </div>
+          <div class="admin-actions"><button class="admin-btn secondary" id="refreshLiveProgressBtn" type="button">Refresh live report</button><button class="admin-btn secondary" id="exportLiveProgressBtn" type="button">Download live CSV</button></div>
+          <div id="liveProgressStatus" class="admin-status" role="status">Sign in and configure the API to retrieve central progress records.</div>
+          <div id="liveProgressTable" class="admin-table-wrap"></div>
+        </section>
+        <p class="admin-muted">Import one or more student backup JSON files received from the existing portal. The files remain in this browser session. You can inspect reports, edit an imported profile snapshot, download a revised backup, or remove a record from this local workbench.</p>
+        <div class="admin-notice"><strong>Current limitation:</strong> quiz history remains on each student's device. Import backup JSON files for reports. Passwords are managed separately through the public hashed account file above; account login does not sync or protect local progress.</div>
+        <div class="admin-field"><label for="studentBackups">Import student backup files (multiple allowed)</label><input class="admin-file" id="studentBackups" type="file" accept=".json,application/json" multiple></div>
+        <div class="admin-actions"><button class="admin-btn secondary" type="button" id="clearStudentsBtn">Clear imported data from this workbench</button><button class="admin-btn secondary" type="button" id="exportReportBtn">Download progress report CSV</button></div>
+        <div id="studentStatus" class="admin-status" role="status">No student backups loaded.</div>
+        <div id="studentsTable" class="admin-table-wrap"></div>
+        <div class="admin-footnote">Student backup files contain personal profile and performance data. Keep them private. This page does not upload them to GitHub or any server.</div>
+      </section>
+
+      <section class="admin-panel eg-surface" id="tab-leaderboard">
+        <h2>Leaderboards</h2>
+        <p class="admin-muted">Rankings below are calculated from student backup JSON files that the administrator imports. Cross-device live rankings are deferred.</p>
+        <section class="admin-content" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px" hidden>
+          <h3>Live class / subject leaderboard (deferred)</h3>
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="liveLeaderClass">Class filter</label><select id="liveLeaderClass"><option value="">All classes</option></select></div>
+            <div class="admin-field"><label for="liveLeaderSubject">Subject filter</label><select id="liveLeaderSubject"><option value="">Overall</option><option value="science">Science</option><option value="mathematics">Mathematics</option><option value="english">English</option><option value="social-science">Social Science</option><option value="hindi">Hindi</option><option value="science-sof">Science · SOF</option><option value="mathematics-sof">Mathematics · SOF</option><option value="english-sof">English · SOF</option></select></div>
+          </div>
+          <div class="admin-actions"><button class="admin-btn secondary" id="refreshLiveLeaderboardBtn" type="button">Refresh live leaderboard</button><button class="admin-btn secondary" id="exportLiveLeaderboardBtn" type="button">Download live leaderboard CSV</button></div>
+          <div id="liveLeaderboardStatus" class="admin-status" role="status">Sign in and configure the API to retrieve live rankings.</div>
+          <div id="liveLeaderboardTable" class="admin-table-wrap"></div>
+        </section>
+        <div class="admin-form-grid">
+          <div class="admin-field"><label for="leaderClass">Class filter</label><select id="leaderClass"><option value="">All imported classes</option></select></div>
+          <div class="admin-field"><label for="leaderSubject">Subject</label><select id="leaderSubject"><option value="">Overall</option><option value="science">Science</option><option value="mathematics">Mathematics</option><option value="english">English</option><option value="social-science">Social Science</option><option value="hindi">Hindi</option><option value="science-sof">Science · SOF</option><option value="mathematics-sof">Mathematics · SOF</option><option value="english-sof">English · SOF</option></select></div>
+        </div>
+        <div id="leaderboardStatus" class="admin-status" role="status">Import student backups to calculate rankings.</div>
+        <div id="leaderboardTable" class="admin-table-wrap"></div>
+        <div class="admin-actions"><button class="admin-btn secondary" type="button" id="exportLeaderboardBtn">Download leaderboard CSV</button></div>
+        <div class="admin-footnote">Use class/subject reports for support, not as the only measure of a student's ability. Only imported data appears here; there is no cross-device sync yet.</div>
+      </section>
+
+      <section class="admin-panel eg-surface" id="tab-access">
+        <h2>Admin access and account security</h2>
+        <p class="admin-muted">The Admin Workspace contains no GitHub write token or server-side authentication. Publishing account files and content is controlled by GitHub repository permissions.</p>
+        <div class="admin-feature-list">
+          <div class="admin-feature"><strong>Publishing access</strong><p>Use your GitHub account to commit approved JSON and asset files. Publishing access is controlled by repository permissions, not by this page.</p><p><a href="https://github.com/AI-Hobbiest/C10-Playground/settings/access" target="_blank" rel="noopener noreferrer">Open repository access settings →</a></p></div>
+          <div class="admin-feature"><strong>Add another admin</strong><p>Grant repository access to that person's own GitHub account with the least permissions they need. Remove their access in GitHub when no longer required. Do not share your personal GitHub password.</p><p><a href="https://github.com/AI-Hobbiest/C10-Playground/settings" target="_blank" rel="noopener noreferrer">Open repository settings →</a></p></div>
+        </div>
+        <div class="admin-notice"><strong>Student passwords:</strong> only salted hashes are committed in <code>data/student-accounts.json</code>. Because the file is public and verification happens in the browser, this is not a secure login system. Use unique classroom-only passwords, never reuse passwords, and migrate to a server-side verifier before using accounts for protected data.</div>
+      </section>
+
+      <section class="admin-panel eg-surface" id="tab-institution-operations">
+        <h2>Institution Operations</h2>
+        <p class="admin-muted">Manage your institution’s branches, class sections, teacher assignments, student enrolments, parent / guardian links and delegated branch administrators.</p>
+        <div class="admin-feature">
+          <strong>M4 Operations Workspace</strong>
+          <p>Open the dedicated workspace to manage operational records under your selected institution and branch permissions.</p>
+          <p><a class="admin-btn" href="./institution-operations.html">Open Institution Operations →</a></p>
+        </div>
+      </section>
+
+      <section class="admin-panel eg-surface" id="tab-operations">
+        <h2>Release &amp; maintenance</h2>
+        <div class="admin-feature-list">
+          <div class="admin-feature"><strong>Before publishing</strong><p>Export changed bank JSON, download each new image/resource file, upload every file to the exact referenced path, and check that all image references resolve.</p></div>
+          <div class="admin-feature"><strong>Validate</strong><p>Wait for GitHub Actions to pass. Invalid JSON, malformed MCQs or missing assets should be fixed before publication.</p></div>
+          <div class="admin-feature"><strong>Keep repository size under control</strong><p>Prefer compressed, appropriately sized diagrams. Avoid duplicate textbook PDFs, large videos and base64 images embedded in thousands of questions.</p></div>
+          <div class="admin-feature"><strong>Back up private data</strong><p>Keep individual student backups in a private location. Never commit student backup files, passwords, access tokens or private reports to this public repository.</p></div>
+        </div>
+        <div class="admin-notice"><strong>Later improvements:</strong> server-side authentication, private account storage, admin-only account management, cross-device progress sync, centrally collected attempts and live reports. Cloudflare Worker + D1 remains an option, but is not needed for the current starter phase.</div>
+        <p><a href="./">← Back to Student Portal</a></p>
+      </section>
+    </div>
+  </div>
+</main>
+<div id="profileEditorModal" class="image-viewer hide" role="dialog" aria-modal="true" aria-labelledby="profileEditorTitle">
+  <div class="image-viewer-card eg-surface" style="width:min(650px,100%);">
+    <button type="button" class="image-viewer-close" id="closeProfileEditor" aria-label="Close student profile editor">×</button>
+    <h2 id="profileEditorTitle">Edit imported student profile</h2>
+    <p class="admin-muted">This changes only the backup currently loaded in this workbench. The student must import the revised backup to update their own device.</p>
+    <div class="admin-form-grid">
+      <div class="admin-field full"><label for="editStudentName">Display name</label><input id="editStudentName"></div>
+      <div class="admin-field"><label for="editStudentClass">Class</label><select id="editStudentClass"></select></div>
+      <div class="admin-field"><label for="editStudentSchool">School</label><input id="editStudentSchool"></div>
+      <div class="admin-field"><label for="editStudentCity">City</label><input id="editStudentCity"></div>
+      <div class="admin-field"><label for="editStudentState">State / UT</label><input id="editStudentState"></div>
+    </div>
+    <div class="admin-actions"><button type="button" class="admin-btn" id="saveStudentProfileBtn">Save profile to imported backup</button><button type="button" class="admin-btn secondary" id="downloadStudentBackupBtn">Download revised backup</button></div>
+    <div id="studentEditStatus" class="admin-status" role="status"></div>
+  </div>
+</div>
+<div id="centralStudentEditorModal" class="image-viewer hide" role="dialog" aria-modal="true" aria-labelledby="centralStudentEditorTitle">
+  <div class="image-viewer-card eg-surface" style="width:min(650px,100%)">
+    <button type="button" class="image-viewer-close" id="closeCentralStudentEditor" aria-label="Close student account editor">×</button>
+    <h2 id="centralStudentEditorTitle">Edit central student account</h2>
+    <div class="admin-form-grid">
+      <div class="admin-field full"><label for="editCentralStudentName">Display name</label><input id="editCentralStudentName"></div>
+      <div class="admin-field"><label for="editCentralStudentSchool">School</label><input id="editCentralStudentSchool"></div>
+      <div class="admin-field"><label for="editCentralStudentClass">Class</label><select id="editCentralStudentClass"></select></div>
+      <div class="admin-field"><label for="editCentralStudentCity">City</label><input id="editCentralStudentCity"></div>
+      <div class="admin-field"><label for="editCentralStudentState">State / UT</label><select id="editCentralStudentState"></select></div>
+      <div class="admin-field full"><label for="editCentralStudentStatus">Account status</label><select id="editCentralStudentStatus"><option value="active">Active</option><option value="suspended">Suspended</option></select></div>
+    </div>
+    <div class="admin-actions"><button type="button" class="admin-btn" id="saveCentralStudentBtn">Save central profile</button></div>
+    <div id="centralStudentEditStatus" class="admin-status" role="status"></div>
+  </div>
+</div>
+<script src="./js/storage.js"></script>
+<script src="./js/competency-tagger.js"></script>
+<script src="./js/question-bank.js"></script>
+<script src="./js/session-model.js"></script>
+<script src="./js/profile-model.js"></script>
+<script src="./js/admin-manager.js"></script>
+<script src="./js/department-admin.js?v=m3-ui-v1"></script>
+<script>(()=>{const s=document.getElementById("studyLibraryPreviewClass"),a=document.getElementById("openStudyLibraryPreview");if(!s||!a)return;const sync=()=>{a.href="./study.html?classId="+encodeURIComponent(s.value);};s.addEventListener("change",sync);sync();})();</script>
+<script src="./js/cbse-mcq-review.js?v=20261115-cbse-review-v1"></script>
+<script src="./js/exam-paper-generator.js?v=20261106-math-competency-alignment-v3"></script>
+<script src="./js/exam-paper-renderer.js"></script>
+<script src="./js/exam-paper-studio.js?v=20261106-math-integrated-pool-v2"></script>
+<script src="./js/static-account-admin.js"></script>
+<script src="./js/family-access-admin.js"></script>
+<script src="./js/family-access-admin.js"></script>
+<script src="./js/iam-local-store.js?v=20261127-demo-lifecycle-v1"></script><script src="./js/institution-data-store.js?v=20261127-demo-lifecycle-v1"></script><script src="./js/institution-content-store.js?v=demo-env-v2"></script><script src="./js/demo-environment.js?v=demo-env-wizard-v3"></script><script src="./js/app-shell.js?v=20261127-demo-env-v3"></script>
+</body>
+</html>

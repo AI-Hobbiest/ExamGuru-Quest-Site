@@ -1,0 +1,21 @@
+/* Institution-owned content store. Versioned local adapter; legacy key/API retained. */
+(()=>{"use strict";
+const KEY="examguru_institution_content_v1",iam=()=>window.ExamGuruLocalIAM;
+if(!window.C10Storage||typeof window.C10Storage.createLocalStore!=="function")throw Error("C10Storage must load before institution content.");
+const store=window.C10Storage.createLocalStore({
+ kind:"institution-content",recordId:"all",studentId:"",
+ defaults:()=>({schemaVersion:1,institutions:{}}),
+ validate:value=>!!value&&value.schemaVersion===1&&!!value.institutions&&typeof value.institutions==="object",
+ legacyKey:KEY
+});
+function currentId(){return sessionStorage.getItem("examguru_active_institution_v1")||"";}
+function read(){try{const v=store.load();return v&&v.schemaVersion===1?v:{schemaVersion:1,institutions:{}};}catch(_){return {schemaVersion:1,institutions:{}};}}
+function tenant(id,root){if(!id||!iam()?.findInstitution(id))throw Error("Select a valid institution before managing content.");if(!root.institutions[id])root.institutions[id]={banks:[],papers:[]};return root.institutions[id];}
+function persist(root){try{return store.save(root).persisted===true;}catch(_){return false;}}
+function saveBank({name,contentClassId,subject,rows}){if(!Array.isArray(rows)||!rows.length)throw Error("No valid MCQs to save.");const root=read(),t=tenant(currentId(),root),bank={bankId:"IBANK-"+Date.now().toString(36).toUpperCase(),name:String(name||subject+" · Class "+contentClassId).trim(),contentClassId:String(contentClassId),subject:String(subject),questions:rows.map(x=>({...x,questionId:String(x.questionId),images:[],source:"institution"})),status:"draft",createdAt:new Date().toISOString(),updatedAt:new Date().toISOString()};t.banks.push(bank);if(!persist(root))throw Error("Browser storage unavailable; bank was not saved.");return JSON.parse(JSON.stringify(bank));}
+function savePapers(papers){const root=read(),t=tenant(currentId(),root);if(!papers.length)throw Error("No valid test papers to save.");const saved=papers.map(p=>({...p,paperId:String(p.paperId),questions:(p.questions||[]).map(q=>({...q,images:[],source:"institution"})),status:"draft",createdAt:new Date().toISOString()})),ids=new Set(t.papers.map(x=>x.paperId));saved.forEach(p=>{if(ids.has(p.paperId))throw Error("Test paper already exists: "+p.paperId);ids.add(p.paperId);});t.papers.push(...saved);if(!persist(root))throw Error("Browser storage unavailable; test papers were not saved.");return JSON.parse(JSON.stringify(saved));}
+function list(){const root=read(),t=tenant(currentId(),root);return JSON.parse(JSON.stringify({banks:t.banks,papers:t.papers}));}
+function publish(kind,id){const actor=sessionStorage.getItem("examguru_rbac_test_role_v1")||sessionStorage.getItem("examguru_active_role_v1");if(actor!=="school_admin")throw Error("Only this institution's Institution Admin can publish institution content.");const root=read(),t=tenant(currentId(),root),rows=kind==="bank"?t.banks:t.papers,item=rows.find(x=>(kind==="bank"?x.bankId:x.paperId)===id);if(!item)throw Error("Content record not found in this institution.");item.status="published";item.publishedAt=new Date().toISOString();if(!persist(root))throw Error("Browser storage unavailable.");return JSON.parse(JSON.stringify(item));}
+function removeDemoEnvironment(institutionId,environmentId){const session=(()=>{try{return JSON.parse(sessionStorage.getItem("examguru_mvp_admin_session_v1")||"null");}catch(_){return null;}})();if(!session||session.role!=="admin"||!(session.username==="__PUBLIC_DEMO_ADMIN_DISABLED__"||(session.username==="demo.admin"&&session.demoAccount===true))||session.rbacTestMode!=="local-platform-admin")throw Error("Only Platform Admin can remove temporary demo content.");const institution=iam()?.findInstitution(institutionId);if(!institution||institution.demoEnvironmentId!==String(environmentId||""))return false;const root=read();delete root.institutions[institutionId];if(!persist(root))throw Error("Browser storage unavailable; demo content was not removed.");return true;}
+window.ExamGuruInstitutionContent={key:KEY,currentInstitutionId:currentId,saveBank,savePapers,list,publish,removeDemoEnvironment};
+})();

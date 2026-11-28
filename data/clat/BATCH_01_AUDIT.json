@@ -1,0 +1,257 @@
+{
+  "batch": 1,
+  "asOf": "2026-11-09",
+  "papers": [
+    {
+      "paper": 1,
+      "path": "data/clat/drafts/clat-ug27-full-001.json",
+      "sha": "fb626760409f2e620c33a9848f519387b068ab45",
+      "questions": 120,
+      "passages": 22,
+      "counts": {
+        "english": 24,
+        "current-affairs": 30,
+        "legal": 30,
+        "logical": 24,
+        "quantitative": 12
+      },
+      "keyCounts": {
+        "o1": 30,
+        "o2": 30,
+        "o3": 30,
+        "o4": 30
+      },
+      "bandErrors": [],
+      "shortExplanations": [],
+      "structural": true,
+      "difficultyCounts": {
+        "easy": 36,
+        "moderate": 53,
+        "challenging": 31
+      }
+    },
+    {
+      "paper": 2,
+      "path": "data/clat/drafts/clat-ug27-full-002.json",
+      "sha": "9340458721e63bcdeb716830cea8a054e8f94773",
+      "questions": 120,
+      "passages": 23,
+      "counts": {
+        "english": 24,
+        "current-affairs": 30,
+        "legal": 30,
+        "logical": 24,
+        "quantitative": 12
+      },
+      "keyCounts": {
+        "o1": 30,
+        "o2": 30,
+        "o3": 30,
+        "o4": 30
+      },
+      "bandErrors": [],
+      "shortExplanations": [],
+      "structural": true,
+      "difficultyCounts": {
+        "easy": 28,
+        "moderate": 60,
+        "challenging": 32
+      },
+      "sourceUrlCorrection": "Fast Track Special Courts release ID corrected to 2332483"
+    },
+    {
+      "paper": 3,
+      "path": "data/clat/drafts/clat-ug27-full-003.json",
+      "sha": "50390db833dc5707d2659f068971b8526f318788",
+      "questions": 120,
+      "passages": 23,
+      "counts": {
+        "english": 24,
+        "current-affairs": 30,
+        "legal": 30,
+        "logical": 24,
+        "quantitative": 12
+      },
+      "keyCounts": {
+        "o1": 30,
+        "o2": 30,
+        "o3": 30,
+        "o4": 30
+      },
+      "bandErrors": [],
+      "shortExplanations": [],
+      "structural": true,
+      "difficultyCounts": {
+        "easy": 29,
+        "moderate": 60,
+        "challenging": 31
+      }
+    },
+    {
+      "paper": 4,
+      "path": "data/clat/drafts/clat-ug27-full-004.json",
+      "sha": "354d6fcf2fa06459250ef77c7ebbd574cb6ef524",
+      "questions": 120,
+      "passages": 23,
+      "counts": {
+        "english": 24,
+        "current-affairs": 30,
+        "legal": 30,
+        "logical": 24,
+        "quantitative": 12
+      },
+      "keyCounts": {
+        "o1": 30,
+        "o2": 30,
+        "o3": 30,
+        "o4": 30
+      },
+      "bandErrors": [],
+      "shortExplanations": [],
+      "structural": true,
+      "difficultyCounts": {
+        "easy": 30,
+        "moderate": 59,
+        "challenging": 31
+      }
+    },
+    {
+      "paper": 5,
+      "path": "data/clat/drafts/clat-ug27-full-005.json",
+      "sha": "2bba5de6262f8fbaa712d4f8a6b6e2696f134267",
+      "questions": 120,
+      "passages": 23,
+      "counts": {
+        "english": 24,
+        "current-affairs": 30,
+        "legal": 30,
+        "logical": 24,
+        "quantitative": 12
+      },
+      "keyCounts": {
+        "o1": 30,
+        "o2": 30,
+        "o3": 30,
+        "o4": 30
+      },
+      "bandErrors": [],
+      "shortExplanations": [],
+      "structural": true,
+      "difficultyCounts": {
+        "easy": 27,
+        "moderate": 72,
+        "challenging": 21
+      },
+      "duplicateOptionTextCorrections": 1,
+      "difficultyCalibration": "27 easy / 72 moderate / 21 challenging"
+    }
+  ],
+  "summary": {
+    "draftFiles": 5,
+    "fullLengthDrafts": 5,
+    "structuralCheckPasses": 5,
+    "questions": 600,
+    "uniqueQuestionStems": 600,
+    "uniquePassages": 114,
+    "quantitativeQuestionsRecalculated": 60,
+    "duplicateOptionTextAfterCorrections": 0,
+    "editoriallyApproved": 0,
+    "studentFacingPracticePilots": 5
+  },
+  "test005Present": true,
+  "workflowIncludesTest005": true,
+  "latestWorkflow": {
+    "id": 42584191882,
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/AI-Hobbiest/ExamGuru-Quest/actions/runs/42584191882",
+    "headSha": "be9bca53214da1bb377f4cf3c0d1a2b019d2b75e"
+  },
+  "recentRuns": [
+    {
+      "id": 42570908314,
+      "status": "completed",
+      "conclusion": "failure",
+      "sha": "6a71ae4343ca6d7528006fad8eff4c52cb6fda68",
+      "url": "https://github.com/AI-Hobbiest/ExamGuru-Quest/actions/runs/42570908314"
+    },
+    {
+      "id": 42570864821,
+      "status": "completed",
+      "conclusion": "failure",
+      "sha": "a301e25a949e061aded288e39bc1fe7f2ca64bfa",
+      "url": "https://github.com/AI-Hobbiest/ExamGuru-Quest/actions/runs/42570864821"
+    },
+    {
+      "id": 42570859238,
+      "status": "completed",
+      "conclusion": "failure",
+      "sha": "c27fd5adf3ccad801f40c6b4a0e3ee91051755a9",
+      "url": "https://github.com/AI-Hobbiest/ExamGuru-Quest/actions/runs/42570859238"
+    },
+    {
+      "id": 42570853415,
+      "status": "completed",
+      "conclusion": "failure",
+      "sha": "d3b89ff18fdb46adc0d358cbc57e2e5ec400a66a",
+      "url": "https://github.com/AI-Hobbiest/ExamGuru-Quest/actions/runs/42570853415"
+    },
+    {
+      "id": 42570799820,
+      "status": "completed",
+      "conclusion": "failure",
+      "sha": "0c533b2a95a4c48427d22bf4eb77a2db0e2fe7ae",
+      "url": "https://github.com/AI-Hobbiest/ExamGuru-Quest/actions/runs/42570799820"
+    },
+    {
+      "id": 42570081531,
+      "status": "completed",
+      "conclusion": "failure",
+      "sha": "ccce650c2c1174e2ad260b807fd3f8b5336d1db8",
+      "url": "https://github.com/AI-Hobbiest/ExamGuru-Quest/actions/runs/42570081531"
+    },
+    {
+      "id": 42570039661,
+      "status": "completed",
+      "conclusion": "failure",
+      "sha": "c7753dc1cb3d32e9bb55fff6068dfb153fd9585e",
+      "url": "https://github.com/AI-Hobbiest/ExamGuru-Quest/actions/runs/42570039661"
+    },
+    {
+      "id": 42570005921,
+      "status": "completed",
+      "conclusion": "success",
+      "sha": "eda868dcb9e28a8c16baf33ee103fef531e4ac79",
+      "url": "https://github.com/AI-Hobbiest/ExamGuru-Quest/actions/runs/42570005921"
+    }
+  ],
+  "integrityCorrections": [
+    {
+      "issue": "Duplicate option text",
+      "paper": 5,
+      "questionId": "clat-ug27-p005-q112",
+      "resolution": "Changed duplicated o2 option to Bihar and Maharashtra; correct keyed option remains Madhya Pradesh and Maharashtra."
+    },
+    {
+      "issue": "Repeated logical question stem across papers",
+      "papers": [
+        2,
+        3,
+        5
+      ],
+      "questionIdSuffix": "q108",
+      "resolution": "Reworded all three prompts to be passage-specific."
+    },
+    {
+      "issue": "Difficulty mix",
+      "paper": 5,
+      "resolution": "Recalibrated difficulty labels to 27 easy, 72 moderate and 21 challenging."
+    },
+    {
+      "issue": "Broken current-affairs source link",
+      "paper": 2,
+      "passageId": "p002-ca-01",
+      "resolution": "Corrected PIB Fast Track Special Courts release URL to PRID 2332483."
+    }
+  ]
+}

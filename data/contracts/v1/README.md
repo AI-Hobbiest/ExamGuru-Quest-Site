@@ -1,0 +1,44 @@
+# C10 Playground data contracts — v1
+
+These contracts are the platform's portable data model. They are provider-neutral: JSON is the interchange format; browser storage is the first adapter, not the canonical long-term database.
+
+## Compatibility strategy
+
+- Current subject JSON arrays are accepted as **legacy import format** so existing banks keep working unchanged.
+- New or migrated banks should use the versioned envelope in `question-bank.schema.json`.
+- Stable IDs are strings. Once published, do not reuse an ID for a different question or profile. If content changes materially, preserve the ID only for a correction; otherwise assign a new ID.
+- Timestamps are ISO 8601 UTC strings.
+- Profile identifiers should be random, pseudonymous IDs. Do not place names, email addresses, school IDs, dates of birth, or other personal information in the repository.
+- Test attempts and answers are append-only historical records. Do not recompute old results using a newer question-bank version.
+
+## Contract files
+
+| Contract | Purpose |
+|---|---|
+| `question-bank.schema.json` | Versioned subject/chapter/question bank |
+| `question-bank-import.schema.json` | Current legacy array format |
+| `student-profile.schema.json` | Minimal pseudonymous learner profile |
+| `answer-record.schema.json` | An answer to one question in one attempt |
+| `test-attempt.schema.json` | One complete practice/test session |
+| `local-store-envelope.schema.json` | Versioned storage adapter envelope |
+| `institution.schema.json` | Tenant/institution identity contract |
+| `branch.schema.json` | Institution-owned campus/branch contract |
+| `institution-membership.schema.json` | Multi-institution role membership and branch scope |
+| `institution-entitlements.schema.json` | Class-wise curriculum and competitive-exam add-on entitlements |
+| `institution-content-import.schema.json` | Validated institution-owned MCQ and test-paper import envelope |\n| `department.schema.json` | Institution-owned academic department |\n| `department-membership.schema.json` | A teacher's membership in one department |\n| `department-head-appointment.schema.json` | Effective-dated HOD appointment and class scope |
+
+## Stable question identity
+
+Use `questionId` as the durable identifier. The browser currently derives a temporary-compatible ID of the form `<subjectId>/<chapterId>/q-<questionId>`; legacy chapter number + question number keys are migrated on first load. For new banks, define explicit `subjectId`, `chapterId`, and string `questionId` values in the source data.
+
+## Storage adapter boundary
+
+UI and quiz logic should use a small storage interface (`load`, `save`, `clear`, `exportJSON`, `importJSON`) rather than calling `localStorage` directly. The current adapter is local-only. A future remote adapter should implement the same interface and add authentication, conflict handling, and server-side active-session enforcement.
+
+## MCQ cognitive competency
+
+Every new MCQ must include `competency`, `competencyTagStatus`, and `competencyTagReason`. The only valid categories are `knowledge-understanding`, `application`, and `analysis-evaluation-creation`. Difficulty remains a separate field. Newly authored questions saved through the Admin Question Bank Editor are marked `author-confirmed`; legacy MCQs are migrated with `inferred` or `needs-review` status and must not be described as educator-verified. See `docs/mcq-competency-tagging-standard.md` for the authoring rubric.
+
+## Multi-tenant RBAC contracts
+
+These additive v1 contracts separate user identity from role grants and keep institution/branch scope explicit. See `docs/rbac-architecture-v1.md` for the target model, permission rules, compatibility requirements and migration sequence. The additive D1 foundation is `cloudflare/migrations/0003_multitenant_rbac_foundation.sql`; M2 adds identity/session context in migration 0004, and M3 adds departments and scoped HOD appointments in migration 0005. These migrations deliberately leave the current `users.role` and legacy Worker route semantics unchanged until a separately tested API cutover.

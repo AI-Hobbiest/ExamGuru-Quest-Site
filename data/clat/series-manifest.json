@@ -1,0 +1,583 @@
+{
+  "kind": "clat-ug27-series-manifest",
+  "blueprintVersion": "CLAT-UG27-v1",
+  "targetPapers": 50,
+  "questionsPerPaper": 120,
+  "targetUniqueQuestions": 6000,
+  "asOf": "2026-11-10",
+  "releasePolicy": "Individual batches may be exposed as clearly labelled practice pilots once their strict structural CI, primary-source link checks, quantitative recalculation and cross-paper integrity tests pass. Editorial approval for official full-length mock status still requires full blind solving, legal/current-affairs fact verification and ambiguity review.",
+  "papers": [
+    {
+      "paperNumber": 1,
+      "paperId": "clat-ug27-full-001",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "primary-source linked; independent editorial fact-check pending",
+      "editorialAudit": "pilot QA completed; blind solve and full editorial review pending",
+      "passageCount": 22,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 QT questions independently recalculated; blind solve of verbal sections pending",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 2,
+      "paperId": "clat-ug27-full-002",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "primary-source links checked; one incorrect release ID corrected; full editorial fact-check pending",
+      "editorialAudit": "pilot QA completed; blind solve and full editorial review pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 QT questions independently recalculated; blind solve of verbal sections pending",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 3,
+      "paperId": "clat-ug27-full-003",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "primary-source linked; independent editorial fact-check pending",
+      "editorialAudit": "pilot QA completed; blind solve and full editorial review pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 QT questions independently recalculated; blind solve of verbal sections pending",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 4,
+      "paperId": "clat-ug27-full-004",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "primary-source linked; independent editorial fact-check pending",
+      "editorialAudit": "pilot QA completed; blind solve and full editorial review pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 QT questions independently recalculated; blind solve of verbal sections pending",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 5,
+      "paperId": "clat-ug27-full-005",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "primary-source linked; independent editorial fact-check pending",
+      "editorialAudit": "pilot QA completed; blind solve and full editorial review pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 QT questions independently recalculated; blind solve of verbal sections pending",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 6,
+      "paperId": "clat-ug27-full-006",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "official source metadata attached; selected source URLs and dates corrected; independent comprehensive fact/link adjudication remains pending",
+      "editorialAudit": "practice-pilot release; blind solve, semantic near-duplicate, distractor-quality and ambiguity review remain pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 quantitative questions independently recalculated and matched to keyed answers and rationales",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 7,
+      "paperId": "clat-ug27-full-007",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "official source metadata attached; selected source URLs and dates corrected; independent comprehensive fact/link adjudication remains pending",
+      "editorialAudit": "practice-pilot release; blind solve, semantic near-duplicate, distractor-quality and ambiguity review remain pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 quantitative questions independently recalculated and matched to keyed answers and rationales",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 8,
+      "paperId": "clat-ug27-full-008",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "official source metadata attached; selected source URLs and dates corrected; independent comprehensive fact/link adjudication remains pending",
+      "editorialAudit": "practice-pilot release; blind solve, semantic near-duplicate, distractor-quality and ambiguity review remain pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 quantitative questions independently recalculated and matched to keyed answers and rationales",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 9,
+      "paperId": "clat-ug27-full-009",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "official source metadata attached; selected source URLs and dates corrected; independent comprehensive fact/link adjudication remains pending",
+      "editorialAudit": "practice-pilot release; blind solve, semantic near-duplicate, distractor-quality and ambiguity review remain pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 quantitative questions independently recalculated and matched to keyed answers and rationales",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 10,
+      "paperId": "clat-ug27-full-010",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "official source metadata attached; selected source URLs and dates corrected; independent comprehensive fact/link adjudication remains pending",
+      "editorialAudit": "practice-pilot release; blind solve, semantic near-duplicate, distractor-quality and ambiguity review remain pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 quantitative questions independently recalculated and matched to keyed answers and rationales",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 11,
+      "paperId": "clat-ug27-full-011",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "official source metadata attached; selected claims checked against publisher records; independent comprehensive fact and link adjudication remains pending",
+      "editorialAudit": "practice-pilot release; blind solve, semantic near-duplicate, distractor-quality and ambiguity review remain pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 quantitative answers independently recalculated; displayed answer-position balance verified",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 12,
+      "paperId": "clat-ug27-full-012",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "official source metadata attached; selected claims checked against publisher records; independent comprehensive fact and link adjudication remains pending",
+      "editorialAudit": "practice-pilot release; blind solve, semantic near-duplicate, distractor-quality and ambiguity review remain pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 quantitative answers independently recalculated; displayed answer-position balance verified",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 13,
+      "paperId": "clat-ug27-full-013",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "official source metadata attached; selected claims checked against publisher records; independent comprehensive fact and link adjudication remains pending",
+      "editorialAudit": "practice-pilot release; blind solve, semantic near-duplicate, distractor-quality and ambiguity review remain pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 quantitative answers independently recalculated; displayed answer-position balance verified",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 14,
+      "paperId": "clat-ug27-full-014",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "official source metadata attached; selected claims checked against publisher records; independent comprehensive fact and link adjudication remains pending",
+      "editorialAudit": "practice-pilot release; blind solve, semantic near-duplicate, distractor-quality and ambiguity review remain pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 quantitative answers independently recalculated; displayed answer-position balance verified",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 15,
+      "paperId": "clat-ug27-full-015",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "official source metadata attached; selected claims checked against publisher records; independent comprehensive fact and link adjudication remains pending",
+      "editorialAudit": "practice-pilot release; blind solve, semantic near-duplicate, distractor-quality and ambiguity review remain pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 quantitative answers independently recalculated; displayed answer-position balance verified",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 16,
+      "paperId": "clat-ug27-full-016",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "official source metadata attached; factual claims linked to primary government and regulator records; full independent source adjudication pending",
+      "editorialAudit": "practice-pilot release; full blind solve, semantic near-duplicate, distractor-quality and ambiguity review remain pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 quantitative answers independently recalculated; displayed answer-position balance verified",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 17,
+      "paperId": "clat-ug27-full-017",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "official source metadata attached; factual claims linked to primary government and regulator records; full independent source adjudication pending",
+      "editorialAudit": "practice-pilot release; full blind solve, semantic near-duplicate, distractor-quality and ambiguity review remain pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 quantitative answers independently recalculated; displayed answer-position balance verified",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 18,
+      "paperId": "clat-ug27-full-018",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "official source metadata attached; factual claims linked to primary government and regulator records; full independent source adjudication pending",
+      "editorialAudit": "practice-pilot release; full blind solve, semantic near-duplicate, distractor-quality and ambiguity review remain pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 quantitative answers independently recalculated; displayed answer-position balance verified",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 19,
+      "paperId": "clat-ug27-full-019",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "official source metadata attached; factual claims linked to primary government and regulator records; full independent source adjudication pending",
+      "editorialAudit": "practice-pilot release; full blind solve, semantic near-duplicate, distractor-quality and ambiguity review remain pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 quantitative answers independently recalculated; displayed answer-position balance verified",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 20,
+      "paperId": "clat-ug27-full-020",
+      "status": "practice-pilot",
+      "questionCount": 120,
+      "sourceAudit": "official source metadata attached; factual claims linked to primary government and regulator records; full independent source adjudication pending",
+      "editorialAudit": "practice-pilot release; full blind solve, semantic near-duplicate, distractor-quality and ambiguity review remain pending",
+      "passageCount": 23,
+      "automatedValidation": "passed",
+      "answerKeyAudit": "all 12 quantitative answers independently recalculated; displayed answer-position balance verified",
+      "releaseEligible": false,
+      "practicePilotAvailable": true
+    },
+    {
+      "paperNumber": 21,
+      "paperId": "clat-ug27-full-021",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 22,
+      "paperId": "clat-ug27-full-022",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 23,
+      "paperId": "clat-ug27-full-023",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 24,
+      "paperId": "clat-ug27-full-024",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 25,
+      "paperId": "clat-ug27-full-025",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 26,
+      "paperId": "clat-ug27-full-026",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 27,
+      "paperId": "clat-ug27-full-027",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 28,
+      "paperId": "clat-ug27-full-028",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 29,
+      "paperId": "clat-ug27-full-029",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 30,
+      "paperId": "clat-ug27-full-030",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 31,
+      "paperId": "clat-ug27-full-031",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 32,
+      "paperId": "clat-ug27-full-032",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 33,
+      "paperId": "clat-ug27-full-033",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 34,
+      "paperId": "clat-ug27-full-034",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 35,
+      "paperId": "clat-ug27-full-035",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 36,
+      "paperId": "clat-ug27-full-036",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 37,
+      "paperId": "clat-ug27-full-037",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 38,
+      "paperId": "clat-ug27-full-038",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 39,
+      "paperId": "clat-ug27-full-039",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 40,
+      "paperId": "clat-ug27-full-040",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 41,
+      "paperId": "clat-ug27-full-041",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 42,
+      "paperId": "clat-ug27-full-042",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 43,
+      "paperId": "clat-ug27-full-043",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 44,
+      "paperId": "clat-ug27-full-044",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 45,
+      "paperId": "clat-ug27-full-045",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 46,
+      "paperId": "clat-ug27-full-046",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 47,
+      "paperId": "clat-ug27-full-047",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 48,
+      "paperId": "clat-ug27-full-048",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 49,
+      "paperId": "clat-ug27-full-049",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    },
+    {
+      "paperNumber": 50,
+      "paperId": "clat-ug27-full-050",
+      "status": "planned",
+      "questionCount": 0,
+      "sourceAudit": "not-started",
+      "editorialAudit": "not-started"
+    }
+  ],
+  "progress": {
+    "draftPapers": 20,
+    "automatedValidationPassed": 20,
+    "editoriallyApprovedPapers": 0,
+    "publishedPapers": 20,
+    "practicePilotPapers": 20,
+    "uniqueQuestionsDrafted": 2400,
+    "uniqueQuestionsTarget": 6000,
+    "lastAudit": "Papers 016–020 added as student-visible practice pilots; strict CLAT blueprint, source metadata, passage-length, answer-key, difficulty, and cross-paper exact-integrity checks passed for 2,400 questions across papers 001–020. Independent editorial/source adjudication and blind solving remain pending.",
+    "asOf": "2026-11-10"
+  },
+  "batchProduction": {
+    "batchNumber": 2,
+    "paperNumbers": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "status": "practice-pilot-published",
+    "draftFilesPresent": 5,
+    "fullLengthDrafts": 5,
+    "localStructuralChecksPassing": 5,
+    "latestWorkflowConclusion": "success",
+    "latestWorkflowRunId": 42786850097,
+    "editorialApproval": 0,
+    "studentFacing": 5,
+    "questionsDrafted": 600,
+    "exactUniqueStemsAcrossSeries": 1200,
+    "uniquePassagesAcrossSeries": 229
+  },
+  "batchHistory": [
+    {
+      "batchNumber": 1,
+      "paperNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "practice-pilot-published",
+      "draftFilesPresent": 5,
+      "fullLengthDrafts": 5,
+      "localStructuralChecksPassing": 5,
+      "latestWorkflowConclusion": "success",
+      "latestWorkflowRunId": 42584191882,
+      "editorialApproval": 0,
+      "studentFacing": 5,
+      "questionsDrafted": 600
+    },
+    {
+      "batchNumber": 2,
+      "paperNumbers": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "practice-pilot-published",
+      "draftFilesPresent": 5,
+      "fullLengthDrafts": 5,
+      "localStructuralChecksPassing": 5,
+      "latestWorkflowConclusion": "success",
+      "latestWorkflowRunId": 42617857546,
+      "editorialApproval": 0,
+      "studentFacing": 5,
+      "questionsDrafted": 600
+    }
+  ]
+}

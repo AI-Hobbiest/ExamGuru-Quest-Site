@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ece8fa">
+<title>Family Dashboard | ExamGuru Quest</title>
+<link rel="stylesheet" href="./css/branding.css?v=controls1">
+<link rel="stylesheet" href="./css/app-shell.css?v=20261109-clat-navigation-v1">
+<link rel="stylesheet" href="./css/theme-roles-v2.css?v=quest3">
+<style>
+.parent-page{max-width:1120px;margin:0 auto;padding:30px 22px 60px}
+.parent-hero{padding:26px;border-radius:22px;background:linear-gradient(135deg,#f0edfb,#eaf7f0);border:1px solid #dedbef}
+.parent-hero h1{margin:0 0 8px;color:#292b58;font-size:clamp(1.7rem,4vw,2.4rem)}
+.parent-hero p{margin:0;color:#5e6680;line-height:1.6}
+.parent-status{margin:18px 0;color:#626b84;font-size:.9rem}
+.family-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:16px;margin-top:18px}
+.family-card{cursor:pointer;transition:transform .18s ease,box-shadow .18s ease;background:#fff;border:1px solid #e0e4ef;border-radius:18px;padding:20px;box-shadow:0 10px 25px rgba(37,43,82,.06)}
+.family-card:hover{transform:translateY(-2px);box-shadow:0 15px 32px rgba(37,43,82,.1)}.family-card:focus{outline:3px solid rgba(124,110,199,.28);outline-offset:3px}.family-card h2{margin:0 0 4px;font-size:1.2rem;color:#292b58}
+.family-level{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:14px 0 6px;padding:12px;border-radius:14px;background:linear-gradient(135deg,#f0edfb,#eaf7f0)}
+.family-level strong{font-size:1.05rem;color:#34336f}.family-level span{font-size:.76rem;color:#626b84;font-weight:700}
+.family-recent{margin-top:12px;padding-top:12px;border-top:1px solid #ebeaf1}.family-recent h3{font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:#626b84;margin:0 0 8px}
+.family-activity{display:grid;gap:7px}.family-activity-item{display:flex;justify-content:space-between;gap:10px;font-size:.8rem;color:#515a72}.family-activity-item strong{color:#34366f}.family-empty-activity{font-size:.8rem;color:#73788b}
+.family-card .class-tag{color:#626b84;font-size:.84rem}
+.family-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px 0}
+.family-metric{background:#f5f4fb;border-radius:12px;padding:12px}
+.family-metric strong{display:block;font-size:1.25rem;color:#36366f}
+.family-metric span{display:block;font-size:.75rem;color:#6c7185;margin-top:3px}
+.family-latest{border-top:1px solid #ebeaf1;padding-top:12px;color:#626b84;font-size:.83rem;line-height:1.6}
+.family-empty{padding:22px;border:1px dashed #c9c8d9;border-radius:16px;color:#626b84;background:#fff}
+.child-detail{margin-top:26px;padding:22px;border-radius:20px;background:#fff;border:1px solid #e0e4ef;box-shadow:0 10px 25px rgba(37,43,82,.06)}.child-detail[hidden]{display:none}.detail-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;border-bottom:1px solid #ebeaf1;padding-bottom:14px}.detail-head h2{margin:0;color:#292b58}.detail-head p{margin:5px 0 0;color:#687089}.detail-close{border:1px solid #ddd8ef;background:#f7f5fd;color:#403d78;border-radius:10px;padding:8px 12px;font-weight:800;cursor:pointer}.detail-section{margin-top:20px}.detail-section h3{margin:0 0 10px;color:#36366f;font-size:1rem}.subject-progress{display:grid;gap:10px}.subject-row{display:grid;grid-template-columns:minmax(100px,1.2fr) 2fr auto;gap:12px;align-items:center;padding:11px;border-radius:12px;background:#f7f7fb}.subject-row strong{font-size:.88rem;color:#36366f}.progress-track{height:9px;border-radius:999px;background:#e7e8f0;overflow:hidden}.progress-fill{height:100%;border-radius:999px;background:linear-gradient(90deg,#8fcfb1,#8f83cf)}.subject-score{font-size:.8rem;color:#5d647b;font-weight:800}.insight-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.insight{padding:14px;border-radius:14px;background:#f7f5fd}.insight h4{margin:0 0 7px;color:#413e78;font-size:.88rem}.insight p{margin:0;color:#626b84;font-size:.83rem;line-height:1.5}.chapter-list{display:grid;gap:8px}.chapter-row{display:flex;justify-content:space-between;gap:12px;padding:10px 12px;border:1px solid #ecebf2;border-radius:11px;font-size:.83rem;color:#535b72}.detail-empty{padding:16px;border:1px dashed #c9c8d9;border-radius:12px;color:#73788b;font-size:.84rem}.report-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.report-button{border:0;border-radius:11px;padding:10px 14px;background:#4f46a5;color:#fff;font-weight:850;cursor:pointer}.report-button.secondary{background:#f3f1fa;color:#403d78;border:1px solid #ddd8ef}.report-panel{margin-top:20px;padding:18px;border-radius:16px;background:#faf9fe;border:1px solid #e4e1f0}.report-panel h3{margin:0 0 6px;color:#34336f}.report-panel p{margin:0;color:#687089;font-size:.84rem}.family-note{font-size:.8rem;color:#73788b;margin-top:20px;line-height:1.6}
+.assessment-intro{margin:18px 0;padding:16px 18px;border:1px solid #e2e0ef;background:#fff;border-radius:15px;color:#626b84;line-height:1.55}
+.assignment-help{font-size:.83rem;color:#687089;line-height:1.5;margin:0 0 12px}
+.assignment-form{display:grid;gap:12px;padding:16px;border:1px solid #e5e3ef;border-radius:15px;background:#faf9fe}
+.assignment-field{display:grid;gap:6px;font-size:.82rem;font-weight:800;color:#41436b}
+.assignment-field input,.assignment-field select{width:100%;min-height:42px;border:1px solid #d9d8e7;border-radius:9px;padding:9px 10px;background:#fff;color:#303653;font:inherit;box-sizing:border-box}
+.assignment-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.assignment-topics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;max-height:210px;overflow:auto;padding:9px;border:1px solid #e4e3ed;border-radius:10px;background:#fff}
+.assignment-topic{display:flex;gap:8px;align-items:flex-start;font-size:.78rem;font-weight:600;color:#535b72}
+.assignment-topic input{margin-top:3px}
+.assignment-status-note{font-size:.82rem;color:#626b84;line-height:1.5;margin:0}
+.assignment-list{display:grid;gap:8px}
+.assignment-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:11px 13px;border:1px solid #e8e7f0;border-radius:11px;background:#fff}
+.assignment-row p{font-size:.78rem;color:#687089;margin:4px 0 0}
+.assignment-status{font-size:.78rem;font-weight:850;color:#5140a6;white-space:nowrap}
+.paper-evaluation-form{display:grid;grid-template-columns:minmax(100px,.65fr) minmax(160px,2fr) auto;gap:7px;align-items:start;margin-top:10px;width:100%}
+.paper-evaluation-form input,.paper-evaluation-form textarea{width:100%;min-width:0;border:1px solid #d9d8e7;border-radius:8px;padding:8px;font:inherit;font-size:.8rem;box-sizing:border-box}
+.paper-evaluation-form textarea{resize:vertical}
+@media(max-width:600px){.paper-evaluation-form{grid-template-columns:1fr}}
+@media(max-width:600px){.assignment-options,.assignment-topics{grid-template-columns:1fr}.assignment-row{align-items:flex-start;flex-direction:column}}
+
+/* Parent MCQ chapter picker: compact, searchable and predictable on desktop/mobile. */
+.assignment-topic-picker{min-width:0}
+.assignment-topic-heading{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.assignment-topic-hint{font-size:.74rem;font-weight:600;color:#7b8095}
+.assignment-topic-tools{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.assignment-topic-tools .report-button{padding:7px 11px;font-size:.76rem}
+.assignment-topic-count{margin-left:auto;font-size:.76rem;font-weight:800;color:#5140a6}
+.assignment-topic-picker>input[type="search"]{width:100%;min-width:0;min-height:40px;border:1px solid #d9d8e7;border-radius:9px;padding:9px 11px;background:#fff;color:#303653;font:inherit;font-size:.84rem;box-sizing:border-box}
+.assignment-topics{display:grid;grid-template-columns:minmax(0,1fr);gap:5px;max-height:260px;overflow-y:auto;overscroll-behavior:contain;padding:8px;border:1px solid #e1e0eb;border-radius:11px;background:#fff}
+.assignment-topic{display:flex;gap:10px;align-items:center;min-width:0;padding:9px 10px;border:1px solid transparent;border-radius:8px;background:#f8f8fc;font-size:.82rem;font-weight:600;color:#454b68;cursor:pointer}
+.assignment-topic:hover{background:#f1effa;border-color:#e0dcf2}
+.assignment-topic[hidden]{display:none}
+.assignment-topic input{flex:0 0 auto;width:17px;height:17px;margin:0;accent-color:#5143a8}
+.assignment-topic span{min-width:0;overflow-wrap:anywhere;line-height:1.35}
+@media(max-width:600px){.assignment-topic-tools{gap:6px}.assignment-topic-count{width:100%;margin-left:0}.assignment-topics{max-height:240px}}
+
+
+/* Modern parent assessment composer controls */
+.assessment-composer{
+  padding:20px;
+  border:1px solid #e3e1f0;
+  border-radius:18px;
+  background:linear-gradient(145deg,#fbfaff 0%,#f8fbf9 100%);
+}
+.assessment-composer>h3{font-size:1.12rem;letter-spacing:-.015em;margin-bottom:6px}
+.assessment-composer>.assignment-help{max-width:760px;margin-bottom:17px}
+.child-detail .assignment-field{gap:8px;min-width:0;font-size:.82rem;font-weight:800;color:#41436b}
+.child-detail .assignment-field>span:first-child{letter-spacing:.005em}
+.child-detail .assignment-field input:not([type="checkbox"]),
+.child-detail .assignment-field select,
+.child-detail .assignment-field textarea{
+  width:100%;min-width:0;min-height:46px;box-sizing:border-box;
+  padding:11px 13px;border:1px solid #dcddec;border-radius:11px;
+  background-color:#fff;color:#303653;font:inherit;font-size:.88rem;
+  box-shadow:0 1px 2px rgba(37,43,82,.035);
+  transition:border-color .16s ease,box-shadow .16s ease,background-color .16s ease;
+}
+.child-detail .assignment-field select{
+  appearance:none;-webkit-appearance:none;padding-right:42px;cursor:pointer;
+  background-image:linear-gradient(45deg,transparent 50%,#65658a 50%),linear-gradient(135deg,#65658a 50%,transparent 50%);
+  background-position:calc(100% - 18px) 20px,calc(100% - 13px) 20px;
+  background-size:5px 5px;background-repeat:no-repeat;
+}
+.child-detail .assignment-field input::placeholder,
+.child-detail .assignment-field textarea::placeholder{color:#9699ad;font-weight:500}
+.child-detail .assignment-field input:focus,
+.child-detail .assignment-field select:focus,
+.child-detail .assignment-field textarea:focus,
+.assignment-topic-picker>input[type="search"]:focus{
+  outline:none;border-color:#8176cc;box-shadow:0 0 0 3px rgba(107,94,190,.14);background-color:#fff;
+}
+.assignment-topic-picker{display:grid;gap:10px;padding:15px;border:1px solid #e4e2f0;border-radius:15px;background:rgba(255,255,255,.8)}
+.assignment-topic-heading{margin-bottom:1px}
+.assignment-topic-heading>span:first-child{font-size:.86rem;font-weight:850;color:#36366f}
+.assignment-topic-hint{padding:4px 9px;border-radius:999px;background:#f0eefb;color:#77729b;font-size:.7rem}
+.assignment-topic-tools{gap:7px}
+.assignment-topic-tools .report-button{min-height:34px;padding:7px 12px;border-radius:9px;font-size:.75rem}
+.assignment-topic-tools .report-button:hover,
+.assessment-composer .assignment-latest-btn:hover{background:#e9e6f8;border-color:#ccc6e9}
+.assignment-topic-count{
+  margin-left:auto;padding:6px 10px;border-radius:999px;
+  background:#eeecfa;color:#4e4594;font-size:.73rem;font-weight:850;
+}
+.assignment-topic-picker>input[type="search"]{
+  width:100%;min-width:0;min-height:43px;box-sizing:border-box;
+  padding:10px 13px 10px 39px;border:1px solid #deddeb;border-radius:11px;
+  background-color:#fff;color:#303653;font:inherit;font-size:.84rem;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%2381849b' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-4-4'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:13px center;
+  transition:border-color .16s ease,box-shadow .16s ease;
+}
+.assignment-topics{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,245px),1fr));
+  gap:8px;max-height:340px;overflow-y:auto;overscroll-behavior:contain;
+  padding:2px;border:0;border-radius:0;background:transparent;
+}
+.assignment-topic{
+  display:flex;align-items:center;gap:11px;min-width:0;min-height:52px;
+  padding:11px 13px;border:1px solid #e3e4ef;border-radius:12px;
+  background:#fff;color:#505671;font-size:.81rem;font-weight:650;
+  box-shadow:0 1px 2px rgba(37,43,82,.025);
+  cursor:pointer;transition:border-color .15s ease,background-color .15s ease,box-shadow .15s ease,transform .15s ease;
+}
+.assignment-topic:hover{transform:translateY(-1px);border-color:#c9c4e6;background:#fcfbff}
+.assignment-topic:has(input:checked){
+  border-color:#8a80cf;background:#f3f1fc;color:#383374;
+  box-shadow:0 0 0 1px rgba(105,93,190,.08),0 3px 10px rgba(71,61,143,.055);
+}
+.assignment-topic[hidden]{display:none}
+.assignment-topic span{order:1;flex:1;min-width:0;overflow-wrap:anywhere;line-height:1.35}
+.assignment-topic input{
+  order:2;flex:0 0 19px;appearance:none;-webkit-appearance:none;
+  display:grid;place-content:center;width:19px;height:19px;margin:0;
+  border:1.6px solid #c7c9d9;border-radius:6px;background:#fff;
+  cursor:pointer;transition:background-color .15s ease,border-color .15s ease,box-shadow .15s ease;
+}
+.assignment-topic input::after{
+  content:"";width:9px;height:5px;border:2px solid #fff;border-top:0;border-right:0;
+  transform:rotate(-45deg) scale(0);transform-origin:center;transition:transform .12s ease;
+}
+.assignment-topic input:checked{border-color:#5a50a8;background:#5a50a8}
+.assignment-topic input:checked::after{transform:rotate(-45deg) scale(1)}
+.assignment-topic input:focus-visible{outline:3px solid rgba(107,94,190,.22);outline-offset:2px}
+.assignment-topic input:checked+span{color:#383374}
+.assessment-composer .assignment-latest-btn{
+  justify-self:start;min-height:39px;padding:9px 13px;border-radius:10px;
+  background:#f5f3fc;border:1px solid #dedbef;color:#4b4588;font-size:.78rem;
+}
+.assessment-composer .assignment-options{gap:13px;margin-top:2px}
+.assessment-composer .report-button:not(.secondary){
+  width:100%;min-height:49px;border-radius:12px;
+  background:linear-gradient(105deg,#5145a4,#6659bc);
+  box-shadow:0 7px 16px rgba(75,65,157,.16);
+  font-size:.9rem;letter-spacing:.005em;
+  transition:transform .15s ease,box-shadow .15s ease,filter .15s ease;
+}
+.assessment-composer .report-button:not(.secondary):hover{
+  transform:translateY(-1px);box-shadow:0 10px 20px rgba(75,65,157,.2);filter:brightness(1.04);
+}
+.assessment-composer .assignment-status-note{
+  padding:11px 13px;border:1px solid #e4e4ef;border-radius:10px;
+  background:#fff;font-size:.8rem;
+}
+.parent-paper-builder .assignment-field select,
+.parent-paper-builder .assignment-field input:not([type="checkbox"]){
+  border-radius:11px;min-height:46px;border:1px solid #dcddec;background-color:#fff;
+}
+.parent-paper-builder .assignment-field select{
+  appearance:none;-webkit-appearance:none;padding-right:42px;
+  background-image:linear-gradient(45deg,transparent 50%,#65658a 50%),linear-gradient(135deg,#65658a 50%,transparent 50%);
+  background-position:calc(100% - 18px) 20px,calc(100% - 13px) 20px;
+  background-size:5px 5px;background-repeat:no-repeat;
+}
+@media(max-width:680px){
+  .assessment-composer{padding:15px}
+  .assignment-topic-picker{padding:11px}
+  .assignment-topics{grid-template-columns:1fr;max-height:300px}
+  .assignment-topic-tools{align-items:center}
+  .assignment-topic-count{margin-left:auto}
+  .assessment-composer .assignment-options{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+  .assignment-topic,.assessment-composer .report-button:not(.secondary),
+  .child-detail .assignment-field input,.child-detail .assignment-field select{transition:none}
+}
+
+</style>
+</head>
+<body class="c10-theme-quest">
+<header style="padding:18px max(18px,calc((100vw - 1120px)/2));display:flex;align-items:center;justify-content:space-between;gap:15px">
+  <strong>ExamGuru <span style="color:#8fcfb1">●</span></strong>
+  <span class="brand-signature" style="margin:0">Family workspace</span>
+</header>
+<main class="parent-page">
+  <section class="parent-hero">
+    <p style="font-weight:850;letter-spacing:.08em;text-transform:uppercase;font-size:.72rem;margin-bottom:8px">Parent / Guardian</p>
+    <h1 id="parentGreeting">Family learning dashboard</h1>
+    <p>View the learning activity of children linked to this parent account. Each child keeps a separate learning history and XP record.</p>
+  </section>
+  <p id="parentStatus" class="parent-status" role="status" aria-live="polite">Loading linked children…</p>
+  <section id="familyChildrenGrid" class="family-grid" aria-label="Linked children"></section>
+  <p class="family-note">Each linked child card includes a Study Library link. Open it to view revision notes and resources for that child’s class.</p>
+  <section id="assessments" class="assessment-intro"><strong>Assessment workspace:</strong> select a child above to create and assign a custom MCQ test from their existing class question banks. Their assigned tests and results will appear in the selected child’s detail view.</section>
+  <section id="exam-paper-practice" class="assessment-intro" style="margin-top:14px">
+    <h2 style="margin:0 0 8px">Exam Paper Practice · Class 6</h2>
+    <p>Class 6 students can open SOF full mocks for Science (ISO), Mathematics (IMO) and English (IEO) from <strong>their own student sign-in</strong>: My Learning → Exam Paper Practice. They then select the subject and choose “SOF full mock” in Practice mode.</p>
+    <p>Parents can review the child’s activity and results in the family dashboard. Class 6 CBSE full-paper profiles are not published yet; the parent workspace will show that limitation rather than offering a Class 10 paper.</p>
+  </section>
+  <section id="childDetail" class="child-detail" hidden aria-live="polite"></section>
+  <section class="report-panel eg-surface" aria-label="Family reports">
+    <h3>Progress reports</h3>
+    <p>Select a child above to open their detailed progress. From there you can open a print-ready progress report with charts and learning insights. Use Print / Save as PDF in the report window to save a copy.</p>
+  </section>
+  <p class="family-note">Progress shown here is stored on this browser/device only. Children should sign in with their own username to practise. Family access and parent–child links are maintained by the administrator. This local-first version does not synchronise history between devices.</p>
+</main>
+<script src="./js/student-auth.js"></script>
+<script src="./js/storage.js"></script>
+<script src="./js/gamification.js"></script>
+<script src="./js/assessment-manager.js"></script>
+<script src="./js/report-print.js?v=20261106-report-print-v1"></script>
+<script src="./js/iam-local-store.js?v=20261127-demo-lifecycle-v1"></script><script src="./js/institution-data-store.js?v=20261127-demo-lifecycle-v1"></script><script src="./js/parent-dashboard.js?v=20261127-demo-parent-v1"></script>
+<script src="./js/exam-paper-generator.js"></script>
+<script src="./js/exam-paper-renderer.js"></script>
+<script src="./js/parent-assessments.js?v=20261105-class6-parent-exam-guide"></script>
+
+
+<script src="./js/app-shell.js?v=20261127-demo-env-v2"></script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-hobbiest.github.io/ExamGuru-Quest/data/contracts/v1/backup.schema.json",
+  "title": "ExamGuru Quest Local Backup v1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "kind",
+    "exportedAt",
+    "profile",
+    "subjectData"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "kind": {
+      "const": "c10-playground-backup"
+    },
+    "exportedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "profile": {
+      "$ref": "./student-profile.schema.json"
+    },
+    "subjectData": {
+      "type": "object",
+      "required": [
+        "science",
+        "mathematics",
+        "english",
+        "social-science",
+        "hindi"
+      ],
+      "properties": {
+        "mathematics": {
+          "$ref": "#/$defs/subjectData"
+        },
+        "english": {
+          "$ref": "#/$defs/subjectData"
+        },
+        "social-science": {
+          "$ref": "#/$defs/subjectData"
+        },
+        "hindi": {
+          "$ref": "#/$defs/subjectData"
+        },
+        "science": {
+          "$ref": "#/$defs/subjectData"
+        }
+      },
+      "additionalProperties": false
+    },
+    "learningLibrary": {
+      "$ref": "#/$defs/learningLibrary"
+    },
+    "studyLibraryProgress": {
+      "$ref": "#/$defs/studyLibraryProgress"
+    }
+  },
+  "$defs": {
+    "progress": {
+      "type": "object",
+      "required": [
+        "missed",
+        "answered",
+        "correct",
+        "attempts"
+      ],
+      "properties": {
+        "missed": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "answered": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "correct": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "attempts": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "ledger": {
+      "type": "object",
+      "required": [
+        "attempts",
+        "activeAttempt",
+        "answerRecords"
+      ],
+      "properties": {
+        "attempts": {
+          "type": "array",
+          "items": {
+            "$ref": "./test-attempt.schema.json"
+          }
+        },
+        "activeAttempt": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "answerRecords": {
+          "type": "array",
+          "items": {
+            "$ref": "./answer-record.schema.json"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "subjectData": {
+      "type": "object",
+      "required": [
+        "progress",
+        "ledger"
+      ],
+      "properties": {
+        "progress": {
+          "$ref": "#/$defs/progress"
+        },
+        "ledger": {
+          "$ref": "#/$defs/ledger"
+        }
+      },
+      "additionalProperties": false
+    },
+    "studyLibraryProgress": {
+      "type": "object",
+      "required": ["schemaVersion", "kind", "completedResourceIds", "bookmarkedResourceIds"],
+      "properties": {
+        "schemaVersion": {"const": 1},
+        "kind": {"const": "study-library-progress"},
+        "completedResourceIds": {"type": "array", "items": {"type": "string"}},
+        "bookmarkedResourceIds": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "learningLibrary": {
+      "type": "object",
+      "required": [
+        "schemaVersion",
+        "kind",
+        "mistakes",
+        "bookmarks",
+        "responses"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": 1
+        },
+        "kind": {
+          "const": "learning-library"
+        },
+        "mistakes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "questionKey",
+              "question",
+              "subjectId"
+            ],
+            "properties": {
+              "questionKey": {
+                "type": "string"
+              },
+              "question": {
+                "type": "string"
+              },
+              "subjectId": {
+                "type": "string"
+              },
+              "status": {
+                "enum": [
+                  "open",
+                  "mastered"
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "bookmarks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "questionKey",
+              "question",
+              "subjectId"
+            ],
+            "properties": {
+              "questionKey": {
+                "type": "string"
+              },
+              "question": {
+                "type": "string"
+              },
+              "subjectId": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "responses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "responseId",
+              "questionKey",
+              "subjectId",
+              "status"
+            ],
+            "properties": {
+              "responseId": {
+                "type": "string"
+              },
+              "questionKey": {
+                "type": "string"
+              },
+              "subjectId": {
+                "type": "string"
+              },
+              "status": {
+                "enum": [
+                  "answered",
+                  "skipped"
+                ]
+              },
+              "isCorrect": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

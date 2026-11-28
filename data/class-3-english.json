@@ -1,0 +1,2258 @@
+[
+  {
+    "chapter_no": 1,
+    "title": "Colours",
+    "key": "colours",
+    "section": "Colour vocabulary and description",
+    "questions": [
+      {
+        "id": "c3e01q001",
+        "question": "Mina sorts crayons before drawing a rainbow. She places red, orange, yellow, green, blue and violet in order. Which colour comes between yellow and blue?",
+        "options": [
+          "green",
+          "to hide the crayons",
+          "to make the task harder",
+          "to leave the work unfinished"
+        ],
+        "answer": 0,
+        "explanation": "Green is the sensible answer in this colours situation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e01q002",
+        "question": "Read: “Mina painted the sky orange, pink and purple. She waited until the sun disappeared.” Which time of day is most likely?",
+        "options": [
+          "Morning",
+          "Evening",
+          "Noon",
+          "Midnight"
+        ],
+        "answer": 1,
+        "explanation": "The sun disappears after the sky changes colour, which points to evening.",
+        "difficulty": "Challenge",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e01q003",
+        "question": "The sun looks ______ in the clear afternoon sky.",
+        "options": [
+          "quiet",
+          "heavy",
+          "bright",
+          "empty"
+        ],
+        "answer": 2,
+        "explanation": "“bright” correctly completes the sentence and reinforces the colour vocabulary and description vocabulary.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "needs-review",
+        "competencyTagReason": "No reliable cognitive-demand cue was found; the provisional label must be checked by an educator.",
+        "competencyConfidence": 0.4,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e01q004",
+        "question": "Choose the correctly written sentence about colour vocabulary and description.",
+        "options": [
+          "we can learn something useful from colour vocabulary and description.",
+          "We can learn something useful from colour vocabulary and description",
+          "Can learn something useful from colour vocabulary and description.",
+          "We can learn something useful from colour vocabulary and description."
+        ],
+        "answer": 3,
+        "explanation": "A complete sentence begins with a capital letter, has a subject and verb, and ends with suitable punctuation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e01q005",
+        "question": "Read: “The red balloon rose above the blue roof.” Which word tells the colour of the balloon?",
+        "options": [
+          "red",
+          "balloon",
+          "rose",
+          "roof"
+        ],
+        "answer": 0,
+        "explanation": "The word “red” directly names the balloon’s colour.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e01q006",
+        "question": "A child writes: “The grass is green. The sky is blue.” Which sentence adds a more vivid description?",
+        "options": [
+          "The grass is grass.",
+          "The soft green grass moved in the breeze.",
+          "The sky is sky.",
+          "There is a sky."
+        ],
+        "answer": 1,
+        "explanation": "The sentence adds movement and sensory detail, making the picture clearer.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e01q007",
+        "question": "Which punctuation mark should end this question about red?",
+        "options": [
+          "Full stop (.)",
+          "Comma (,)",
+          "Question mark (?)",
+          "Apostrophe (')"
+        ],
+        "answer": 2,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e01q008",
+        "question": "Which is the most polite way to ask about red?",
+        "options": [
+          "Tell me now!",
+          "You must answer me.",
+          "I will not listen.",
+          "Could you tell me about red, please?"
+        ],
+        "answer": 3,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e01q009",
+        "question": "Mina sees a red flower beside a yellow flower. Which detail would make her description more precise?",
+        "options": [
+          "The red flower has five petals and the yellow one has six.",
+          "There are flowers.",
+          "The flowers are outside.",
+          "The flowers are nice."
+        ],
+        "answer": 0,
+        "explanation": "Counting and naming visible features gives a more precise description.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e01q010",
+        "question": "Mina has red, blue and yellow paint. Which mixture can make green?",
+        "options": [
+          "Mix blue and yellow paint.",
+          "Mix red and yellow paint.",
+          "Mix all the paint with water.",
+          "Mix red and blue paint."
+        ],
+        "answer": 0,
+        "explanation": "Blue and yellow are the two colours that combine to make green.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      }
+    ]
+  },
+  {
+    "chapter_no": 2,
+    "title": "Badal and Moti",
+    "key": "badal-and-moti",
+    "section": "Story comprehension and animal care",
+    "questions": [
+      {
+        "id": "c3e02q001",
+        "question": "Badal sees Moti scratching at the door. He checks the bowl and finds it empty. What should Badal do first?",
+        "options": [
+          "to hide the crayons",
+          "fill the bowl with clean water",
+          "to make the task harder",
+          "to leave the work unfinished"
+        ],
+        "answer": 1,
+        "explanation": "Fill the bowl with clean water is the sensible answer in this badal and moti situation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e02q002",
+        "question": "Read: “Moti shivered in the rain. Badal opened an umbrella and stood beside him.” What does Badal’s action show?",
+        "options": [
+          "Anger",
+          "Fear of umbrellas",
+          "Care and kindness",
+          "Impatience"
+        ],
+        "answer": 2,
+        "explanation": "Badal shelters Moti from the rain, showing care for him.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e02q003",
+        "question": "A dog needs a safe ______ to stay dry in the rain.",
+        "options": [
+          "engine",
+          "triangle",
+          "calendar",
+          "shelter"
+        ],
+        "answer": 3,
+        "explanation": "“shelter” correctly completes the sentence and reinforces the story comprehension and animal care vocabulary.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "needs-review",
+        "competencyTagReason": "No reliable cognitive-demand cue was found; the provisional label must be checked by an educator.",
+        "competencyConfidence": 0.4,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e02q004",
+        "question": "Choose the correctly written sentence about story comprehension and animal care.",
+        "options": [
+          "We can learn something useful from story comprehension and animal care.",
+          "we can learn something useful from story comprehension and animal care.",
+          "We can learn something useful from story comprehension and animal care",
+          "Can learn something useful from story comprehension and animal care."
+        ],
+        "answer": 0,
+        "explanation": "A complete sentence begins with a capital letter, has a subject and verb, and ends with suitable punctuation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e02q005",
+        "question": "Which sentence gives the clearest clue that an animal is uncomfortable?",
+        "options": [
+          "The puppy has four legs.",
+          "The puppy curled up and trembled in the cold.",
+          "The puppy is brown.",
+          "The puppy has a name."
+        ],
+        "answer": 1,
+        "explanation": "Shivering is a sign that the puppy feels cold or uncomfortable.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e02q006",
+        "question": "Read: “Moti wagged his tail when Badal returned.” What can you infer?",
+        "options": [
+          "Moti is going to sleep.",
+          "Moti is hungry for grass.",
+          "Moti is happy to see Badal.",
+          "Moti is afraid of the rain."
+        ],
+        "answer": 2,
+        "explanation": "Wagging his tail when Badal returns suggests happiness and welcome.",
+        "difficulty": "Hard",
+        "competency": "analysis-evaluation-creation",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires inference, comparison, pattern recognition, evidence interpretation or evaluation.",
+        "competencyConfidence": 0.88,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e02q007",
+        "question": "Which punctuation mark should end this question about Badal?",
+        "options": [
+          "Full stop (.)",
+          "Comma (,)",
+          "Apostrophe (')",
+          "Question mark (?)"
+        ],
+        "answer": 3,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e02q008",
+        "question": "Which is the most polite way to ask about Badal?",
+        "options": [
+          "Could you tell me about Badal, please?",
+          "Tell me now!",
+          "You must answer me.",
+          "I will not listen."
+        ],
+        "answer": 0,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e02q009",
+        "question": "Moti is hiding during a thunderstorm. Badal sits nearby and speaks softly. Why is this better than pulling Moti outside?",
+        "options": [
+          "It lets Moti feel safer while the storm passes.",
+          "It teaches Moti to dislike Badal.",
+          "It stops the rain immediately.",
+          "It makes the thunder louder."
+        ],
+        "answer": 0,
+        "explanation": "Staying calm nearby can comfort a frightened animal without forcing it.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "needs-review",
+        "competencyTagReason": "No reliable cognitive-demand cue was found; the provisional label must be checked by an educator.",
+        "competencyConfidence": 0.4,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e02q010",
+        "question": "Badal notices that Moti has no clean water. What is the most helpful action?",
+        "options": [
+          "Give Moti clean drinking water.",
+          "Give Moti sweets instead.",
+          "Move the water bowl out of reach.",
+          "Wait until Moti finds some."
+        ],
+        "answer": 0,
+        "explanation": "Dogs need clean drinking water; providing it directly meets Moti’s need.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem asks for direct identification, recall, meaning or understanding of a stated concept.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      }
+    ]
+  },
+  {
+    "chapter_no": 3,
+    "title": "Best Friends",
+    "key": "best-friends",
+    "section": "Story comprehension and shapes",
+    "questions": [
+      {
+        "id": "c3e03q001",
+        "question": "Tara and Dev both want the same storybook. They decide to read alternate pages. Which quality are they showing?",
+        "options": [
+          "to hide the crayons",
+          "to make the task harder",
+          "cooperation",
+          "to leave the work unfinished"
+        ],
+        "answer": 2,
+        "explanation": "Cooperation is the sensible answer in this best friends situation.",
+        "difficulty": "Easy",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e03q002",
+        "question": "Read: “Tara lent her crayons to Dev. Later, Dev helped Tara finish her drawing.” Which idea best fits their actions?",
+        "options": [
+          "Friends never share.",
+          "Drawing is always easy.",
+          "Crayons should be hidden.",
+          "Friends help one another."
+        ],
+        "answer": 3,
+        "explanation": "Tara and Dev both help each other, which is what friendship looks like.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e03q003",
+        "question": "Helping a friend when they are sad is an act of ______.",
+        "options": [
+          "kindness",
+          "noise",
+          "distance",
+          "pillow"
+        ],
+        "answer": 0,
+        "explanation": "“kindness” correctly completes the sentence and reinforces the story comprehension and shapes vocabulary.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e03q004",
+        "question": "Choose the correctly written sentence about story comprehension and shapes.",
+        "options": [
+          "we can learn something useful from story comprehension and shapes.",
+          "We can learn something useful from story comprehension and shapes.",
+          "We can learn something useful from story comprehension and shapes",
+          "Can learn something useful from story comprehension and shapes."
+        ],
+        "answer": 1,
+        "explanation": "A complete sentence begins with a capital letter, has a subject and verb, and ends with suitable punctuation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e03q005",
+        "question": "Choose the sentence that joins the ideas correctly: “I was tired. I finished my homework.”",
+        "options": [
+          "I was tired because I finished my homework.",
+          "I was tired or I finished my homework.",
+          "I was tired, but I finished my homework.",
+          "I was tired under I finished my homework."
+        ],
+        "answer": 2,
+        "explanation": "“But” correctly shows a contrast between being tired and finishing the work.",
+        "difficulty": "Hard",
+        "competency": "analysis-evaluation-creation",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires inference, comparison, pattern recognition, evidence interpretation or evaluation.",
+        "competencyConfidence": 0.88,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e03q006",
+        "question": "Read: “Aarav looked for his friend at lunch. He saved a seat when she arrived.” What does this tell you about Aarav?",
+        "options": [
+          "He is careless.",
+          "He is unkind.",
+          "He is confused.",
+          "He is thoughtful."
+        ],
+        "answer": 3,
+        "explanation": "Saving a seat for a friend shows thoughtfulness.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e03q007",
+        "question": "Which punctuation mark should end this question about Circle?",
+        "options": [
+          "Question mark (?)",
+          "Full stop (.)",
+          "Comma (,)",
+          "Apostrophe (')"
+        ],
+        "answer": 0,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e03q008",
+        "question": "Which is the most polite way to ask about Circle?",
+        "options": [
+          "Tell me now!",
+          "Could you tell me about Circle, please?",
+          "You must answer me.",
+          "I will not listen."
+        ],
+        "answer": 1,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e03q009",
+        "question": "Tara and Dev disagree about a game. Which action is most likely to help them solve the problem fairly?",
+        "options": [
+          "They take turns explaining ideas and agree on a rule.",
+          "They stop speaking forever.",
+          "They change the rules after every turn.",
+          "One friend decides everything."
+        ],
+        "answer": 0,
+        "explanation": "Listening and agreeing on a rule gives both friends a fair chance.",
+        "difficulty": "Challenge",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e03q010",
+        "question": "Tara has forgotten her lunch. Dev has enough food to share. What would be the kindest choice?",
+        "options": [
+          "Offer to share some food with Tara.",
+          "Tell everyone about her mistake.",
+          "Hide the lunch box.",
+          "Laugh at Tara."
+        ],
+        "answer": 0,
+        "explanation": "Offering food helps a friend without embarrassing her.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      }
+    ]
+  },
+  {
+    "chapter_no": 4,
+    "title": "Out in the Garden",
+    "key": "out-in-the-garden",
+    "section": "Nature vocabulary and observation",
+    "questions": [
+      {
+        "id": "c3e04q001",
+        "question": "A bee visits a flower and then flies to another flower. What may it carry between them?",
+        "options": [
+          "to hide the crayons",
+          "to make the task harder",
+          "to leave the work unfinished",
+          "pollen"
+        ],
+        "answer": 3,
+        "explanation": "Pollen is the sensible answer in this out in the garden situation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e04q002",
+        "question": "Read: “The bee visited three flowers. It carried yellow dust on its legs.” What is the yellow dust most likely to be?",
+        "options": [
+          "Pollen",
+          "Sand",
+          "Paint",
+          "Smoke"
+        ],
+        "answer": 0,
+        "explanation": "Yellow dust carried by a bee from flower to flower is pollen.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem asks for direct identification, recall, meaning or understanding of a stated concept.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e04q003",
+        "question": "A flower has colourful ______ around its centre.",
+        "options": [
+          "batteries",
+          "petals",
+          "tickets",
+          "wheels"
+        ],
+        "answer": 1,
+        "explanation": "“petals” correctly completes the sentence and reinforces the nature vocabulary and observation vocabulary.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "needs-review",
+        "competencyTagReason": "No reliable cognitive-demand cue was found; the provisional label must be checked by an educator.",
+        "competencyConfidence": 0.4,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e04q004",
+        "question": "Choose the correctly written sentence about nature vocabulary and observation.",
+        "options": [
+          "we can learn something useful from nature vocabulary and observation.",
+          "We can learn something useful from nature vocabulary and observation",
+          "We can learn something useful from nature vocabulary and observation.",
+          "Can learn something useful from nature vocabulary and observation."
+        ],
+        "answer": 2,
+        "explanation": "A complete sentence begins with a capital letter, has a subject and verb, and ends with suitable punctuation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e04q005",
+        "question": "A gardener sees drooping leaves on a hot afternoon. What is the best first step?",
+        "options": [
+          "Pull off every leaf.",
+          "Cover it with plastic forever.",
+          "Stop giving it sunlight.",
+          "Water the plant and check the soil."
+        ],
+        "answer": 3,
+        "explanation": "Watering and checking the soil addresses the likely cause without harming the plant.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem asks for direct identification, recall, meaning or understanding of a stated concept.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e04q006",
+        "question": "Read: “A bird built a nest in the tree. The gardener left that branch alone.” Why did the gardener do this?",
+        "options": [
+          "To avoid disturbing the bird’s home.",
+          "To make the tree shorter.",
+          "To stop the bird from flying.",
+          "To collect the nest."
+        ],
+        "answer": 0,
+        "explanation": "The gardener leaves the nesting branch undisturbed to protect the bird’s home.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "needs-review",
+        "competencyTagReason": "No reliable cognitive-demand cue was found; the provisional label must be checked by an educator.",
+        "competencyConfidence": 0.4,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e04q007",
+        "question": "Which punctuation mark should end this question about garden?",
+        "options": [
+          "Full stop (.)",
+          "Question mark (?)",
+          "Comma (,)",
+          "Apostrophe (')"
+        ],
+        "answer": 1,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e04q008",
+        "question": "Which is the most polite way to ask about garden?",
+        "options": [
+          "Tell me now!",
+          "You must answer me.",
+          "Could you tell me about garden, please?",
+          "I will not listen."
+        ],
+        "answer": 2,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e04q009",
+        "question": "A bee visits a flower, then visits another flower. What might happen because of this movement?",
+        "options": [
+          "The flower turns into a bee.",
+          "Pollen may be carried from one flower to another.",
+          "The bee waters the roots.",
+          "The flower stops needing sunlight."
+        ],
+        "answer": 1,
+        "explanation": "Bees can carry pollen between flowers, helping pollination.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e04q010",
+        "question": "A plant is drooping. Its soil is dry, but its leaves have no spots. What should the gardener try first?",
+        "options": [
+          "Pull the plant out of the ground.",
+          "Water the soil and observe the plant.",
+          "Keep it in a dark cupboard.",
+          "Cut off every leaf."
+        ],
+        "answer": 1,
+        "explanation": "Dry soil suggests the plant may need water; observing it afterwards checks the result.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      }
+    ]
+  },
+  {
+    "chapter_no": 5,
+    "title": "Talking Toys",
+    "key": "talking-toys",
+    "section": "Imagination and dialogue",
+    "questions": [
+      {
+        "id": "c3e05q001",
+        "question": "A toy train moves when its key is wound. Which word describes the train’s movement?",
+        "options": [
+          "rolling",
+          "to hide the crayons",
+          "to make the task harder",
+          "to leave the work unfinished"
+        ],
+        "answer": 0,
+        "explanation": "Rolling is the sensible answer in this talking toys situation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e05q002",
+        "question": "Read: “The toy train whispered, ‘All aboard!’ Rohan imagined it travelling through the clouds.” What is happening in the sentence?",
+        "options": [
+          "The train is really flying.",
+          "Rohan is using his imagination.",
+          "The clouds are talking.",
+          "Rohan is at a railway station."
+        ],
+        "answer": 1,
+        "explanation": "The train’s speech and flight through clouds are part of Rohan’s imagination.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem asks for direct identification, recall, meaning or understanding of a stated concept.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e05q003",
+        "question": "The child began to ______ so the baby would not wake up.",
+        "options": [
+          "shout",
+          "clap",
+          "whisper",
+          "stomp"
+        ],
+        "answer": 2,
+        "explanation": "“whisper” correctly completes the sentence and reinforces the imagination and dialogue vocabulary.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "needs-review",
+        "competencyTagReason": "No reliable cognitive-demand cue was found; the provisional label must be checked by an educator.",
+        "competencyConfidence": 0.4,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e05q004",
+        "question": "Choose the correctly written sentence about imagination and dialogue.",
+        "options": [
+          "we can learn something useful from imagination and dialogue.",
+          "We can learn something useful from imagination and dialogue",
+          "Can learn something useful from imagination and dialogue.",
+          "We can learn something useful from imagination and dialogue."
+        ],
+        "answer": 3,
+        "explanation": "A complete sentence begins with a capital letter, has a subject and verb, and ends with suitable punctuation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e05q005",
+        "question": "Which line is written as dialogue?",
+        "options": [
+          "“Let us build a castle,” said the doll.",
+          "The doll was on the shelf.",
+          "The castle was made of blocks.",
+          "Riya played after school."
+        ],
+        "answer": 0,
+        "explanation": "Quotation marks show the exact words spoken by the doll.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e05q006",
+        "question": "A toy robot says, “I can help you sort the blocks.” Which reply best continues the conversation?",
+        "options": [
+          "The blocks are made of wood.",
+          "“Great! Let us put the red blocks together.”",
+          "Yesterday was sunny.",
+          "Robots have wheels."
+        ],
+        "answer": 1,
+        "explanation": "The reply responds to the robot and suggests a next step in the activity.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e05q007",
+        "question": "Which punctuation mark should end this question about toy?",
+        "options": [
+          "Full stop (.)",
+          "Comma (,)",
+          "Question mark (?)",
+          "Apostrophe (')"
+        ],
+        "answer": 2,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e05q008",
+        "question": "Which is the most polite way to ask about toy?",
+        "options": [
+          "Tell me now!",
+          "You must answer me.",
+          "I will not listen.",
+          "Could you tell me about toy, please?"
+        ],
+        "answer": 3,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e05q009",
+        "question": "A toy robot gives three instructions, but Rohan follows only the last one. Why might the result be wrong?",
+        "options": [
+          "Robots cannot speak.",
+          "The instructions may need to be followed in order.",
+          " toys cannot be sorted.",
+          "The last instruction is always wrong."
+        ],
+        "answer": 1,
+        "explanation": "Changing the order can change the result when steps depend on one another.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e05q010",
+        "question": "Rohan says the toy train is flying through the clouds. Which clue tells you this is pretend play?",
+        "options": [
+          "The train has wheels.",
+          "Rohan is imagining the train travelling through the clouds.",
+          "The toy is made of plastic.",
+          "The train is on a shelf."
+        ],
+        "answer": 1,
+        "explanation": "The train is a toy and its cloud journey is described as Rohan’s imagination.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      }
+    ]
+  },
+  {
+    "chapter_no": 6,
+    "title": "Paper Boats",
+    "key": "paper-boats",
+    "section": "Poetry, sequencing and craft",
+    "questions": [
+      {
+        "id": "c3e06q001",
+        "question": "A paper boat is placed in a tub of water. What should it do if it is folded well and has no holes?",
+        "options": [
+          "to hide the crayons",
+          "float",
+          "to make the task harder",
+          "to leave the work unfinished"
+        ],
+        "answer": 1,
+        "explanation": "Float is the sensible answer in this paper boats situation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e06q002",
+        "question": "Read: “Fold the paper in half. Press the crease. Open it and fold the two corners inward.” Which action happens second?",
+        "options": [
+          "Open the paper.",
+          "Fold the corners inward.",
+          "Press the crease.",
+          "Finish the boat."
+        ],
+        "answer": 2,
+        "explanation": "The instructions say to fold first and press the crease next.",
+        "difficulty": "Challenge",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e06q003",
+        "question": "We ______ the paper carefully to make the sides meet.",
+        "options": [
+          "bake",
+          "stitch",
+          "paint",
+          "fold"
+        ],
+        "answer": 3,
+        "explanation": "“fold” correctly completes the sentence and reinforces the poetry, sequencing and craft vocabulary.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "needs-review",
+        "competencyTagReason": "No reliable cognitive-demand cue was found; the provisional label must be checked by an educator.",
+        "competencyConfidence": 0.4,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e06q004",
+        "question": "Choose the correctly written sentence about poetry, sequencing and craft.",
+        "options": [
+          "We can learn something useful from poetry, sequencing and craft.",
+          "we can learn something useful from poetry, sequencing and craft.",
+          "We can learn something useful from poetry, sequencing and craft",
+          "Can learn something useful from poetry, sequencing and craft."
+        ],
+        "answer": 0,
+        "explanation": "A complete sentence begins with a capital letter, has a subject and verb, and ends with suitable punctuation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e06q005",
+        "question": "A paper boat floats at first but tips over when a heavy coin is placed inside. What is the best explanation?",
+        "options": [
+          "The paper became a real ship.",
+          "The extra weight made it less stable.",
+          "The water disappeared.",
+          "The coin made the boat lighter."
+        ],
+        "answer": 1,
+        "explanation": "The coin adds weight, which can make the paper boat tip over.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem asks for direct identification, recall, meaning or understanding of a stated concept.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e06q006",
+        "question": "Which instruction is clearest for a classmate making a paper boat?",
+        "options": [
+          "Do something with the paper.",
+          "Make it nice somehow.",
+          "Fold the top corners towards the centre.",
+          "Put it there."
+        ],
+        "answer": 2,
+        "explanation": "This instruction tells exactly which parts to fold and where.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e06q007",
+        "question": "Which punctuation mark should end this question about paper?",
+        "options": [
+          "Full stop (.)",
+          "Comma (,)",
+          "Apostrophe (')",
+          "Question mark (?)"
+        ],
+        "answer": 3,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e06q008",
+        "question": "Which is the most polite way to ask about paper?",
+        "options": [
+          "Could you tell me about paper, please?",
+          "Tell me now!",
+          "You must answer me.",
+          "I will not listen."
+        ],
+        "answer": 0,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e06q009",
+        "question": "A paper boat is folded unevenly and leans to one side. What should the maker check first?",
+        "options": [
+          "The colour of the table.",
+          "Whether both sides are folded evenly.",
+          "The size of the water bowl only.",
+          "Whether the room is quiet."
+        ],
+        "answer": 1,
+        "explanation": "Uneven folds can make the boat unbalanced, so checking the folds is a sensible first step.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e06q010",
+        "question": "A paper boat sinks after a large stone is put inside. What change would best help it float again?",
+        "options": [
+          "Add two more stones.",
+          "Remove the stone and test the boat again.",
+          "Push the boat under the water.",
+          "Make the paper wet."
+        ],
+        "answer": 1,
+        "explanation": "Removing the heavy stone reduces the load; the boat can then be tested again.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      }
+    ]
+  },
+  {
+    "chapter_no": 7,
+    "title": "The Big Laddoo",
+    "key": "the-big-laddoo",
+    "section": "Food vocabulary and size words",
+    "questions": [
+      {
+        "id": "c3e07q001",
+        "question": "A laddoo is shared equally among four children. What should each child receive?",
+        "options": [
+          "to hide the crayons",
+          "to make the task harder",
+          "one equal share",
+          "to leave the work unfinished"
+        ],
+        "answer": 2,
+        "explanation": "One equal share is the sensible answer in this the big laddoo situation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e07q002",
+        "question": "Read: “The laddoo was too big for one child, so four friends shared it equally.” What does equally mean here?",
+        "options": [
+          "One friend gets it all.",
+          "The biggest friend gets more.",
+          "Nobody gets any.",
+          "Each friend gets the same amount."
+        ],
+        "answer": 3,
+        "explanation": "Sharing equally means each friend receives the same-sized share.",
+        "difficulty": "Challenge",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e07q003",
+        "question": "We should ______ our sweets fairly with everyone.",
+        "options": [
+          "share",
+          "hide",
+          "waste",
+          "break"
+        ],
+        "answer": 0,
+        "explanation": "“share” correctly completes the sentence and reinforces the food vocabulary and size words vocabulary.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "needs-review",
+        "competencyTagReason": "No reliable cognitive-demand cue was found; the provisional label must be checked by an educator.",
+        "competencyConfidence": 0.4,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e07q004",
+        "question": "Choose the correctly written sentence about food vocabulary and size words.",
+        "options": [
+          "we can learn something useful from food vocabulary and size words.",
+          "We can learn something useful from food vocabulary and size words.",
+          "We can learn something useful from food vocabulary and size words",
+          "Can learn something useful from food vocabulary and size words."
+        ],
+        "answer": 1,
+        "explanation": "A complete sentence begins with a capital letter, has a subject and verb, and ends with suitable punctuation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e07q005",
+        "question": "Which sentence uses “bigger” correctly?",
+        "options": [
+          "This laddoo is biggest than that one.",
+          "This laddoo is more big that one.",
+          "This laddoo is bigger than that one.",
+          "This laddoo is biger than that one."
+        ],
+        "answer": 2,
+        "explanation": "“Bigger than” is the correct comparative form when comparing two things.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e07q006",
+        "question": "A recipe needs 2 cups of flour. Rani has already added 1 cup. What should she add next?",
+        "options": [
+          "Two more cups",
+          "Half a cup",
+          "No flour",
+          "One more cup"
+        ],
+        "answer": 3,
+        "explanation": "Rani needs one more cup to reach the two cups required.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e07q007",
+        "question": "Which punctuation mark should end this question about laddoo?",
+        "options": [
+          "Question mark (?)",
+          "Full stop (.)",
+          "Comma (,)",
+          "Apostrophe (')"
+        ],
+        "answer": 0,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e07q008",
+        "question": "Which is the most polite way to ask about laddoo?",
+        "options": [
+          "Tell me now!",
+          "Could you tell me about laddoo, please?",
+          "You must answer me.",
+          "I will not listen."
+        ],
+        "answer": 1,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e07q009",
+        "question": "Four children share 16 laddoos. Then one child gives 1 laddoo to each of the other three. How many does that child have now?",
+        "options": [
+          "1",
+          "3",
+          "2",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "Each child first gets 4. Giving away 3 leaves the child with 1.",
+        "difficulty": "Challenge",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e07q010",
+        "question": "Four friends share 24 laddoos equally. One friend eats 2. How many does that friend have left?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "24 divided by 4 is 6; after eating 2, 4 remain.",
+        "difficulty": "Challenge",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      }
+    ]
+  },
+  {
+    "chapter_no": 8,
+    "title": "Thank God",
+    "key": "thank-god",
+    "section": "Orchard vocabulary and gratitude",
+    "questions": [
+      {
+        "id": "c3e08q001",
+        "question": "A family gets a good harvest after caring for its trees. Which word best describes how they may feel?",
+        "options": [
+          "to hide the crayons",
+          "to make the task harder",
+          "to leave the work unfinished",
+          "thankful"
+        ],
+        "answer": 3,
+        "explanation": "Thankful is the sensible answer in this thank god situation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e08q002",
+        "question": "Read: “The tree gave shade to the travellers. They rested beneath it and thanked nature.” Which word best describes the travellers’ feeling?",
+        "options": [
+          "Grateful",
+          "Jealous",
+          "Furious",
+          "Sleepy"
+        ],
+        "answer": 0,
+        "explanation": "The travellers thank the tree for its help, so they feel grateful.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e08q003",
+        "question": "We feel ______ when someone helps us.",
+        "options": [
+          "careless",
+          "grateful",
+          "empty",
+          "angry"
+        ],
+        "answer": 1,
+        "explanation": "“grateful” correctly completes the sentence and reinforces the orchard vocabulary and gratitude vocabulary.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e08q004",
+        "question": "Choose the correctly written sentence about orchard vocabulary and gratitude.",
+        "options": [
+          "we can learn something useful from orchard vocabulary and gratitude.",
+          "We can learn something useful from orchard vocabulary and gratitude",
+          "We can learn something useful from orchard vocabulary and gratitude.",
+          "Can learn something useful from orchard vocabulary and gratitude."
+        ],
+        "answer": 2,
+        "explanation": "A complete sentence begins with a capital letter, has a subject and verb, and ends with suitable punctuation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e08q005",
+        "question": "Choose the sentence with the correct punctuation.",
+        "options": [
+          "We picked apples pears and mangoes",
+          "We picked apples; pears and mangoes?",
+          "we picked apples, pears and mangoes",
+          "We picked apples, pears and mangoes."
+        ],
+        "answer": 3,
+        "explanation": "Commas separate the three items in the list.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e08q006",
+        "question": "Read: “A small seed grew into a tall tree after many rainy seasons.” What does this suggest about growth?",
+        "options": [
+          "It can take time and care.",
+          "It happens in one minute.",
+          "Seeds never change.",
+          "Rain stops all growth."
+        ],
+        "answer": 0,
+        "explanation": "The seed becomes a tree over many rainy seasons, showing that growth takes time.",
+        "difficulty": "Hard",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e08q007",
+        "question": "Which punctuation mark should end this question about orchard?",
+        "options": [
+          "Full stop (.)",
+          "Question mark (?)",
+          "Comma (,)",
+          "Apostrophe (')"
+        ],
+        "answer": 1,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e08q008",
+        "question": "Which is the most polite way to ask about orchard?",
+        "options": [
+          "Tell me now!",
+          "You must answer me.",
+          "Could you tell me about orchard, please?",
+          "I will not listen."
+        ],
+        "answer": 2,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e08q009",
+        "question": "A traveller plants a tree near a path. What is one benefit that may grow as the tree becomes larger?",
+        "options": [
+          "It will make rain stop everywhere.",
+          "It will turn stones into soil overnight.",
+          "It may provide shade for people and shelter for birds.",
+          "It will remove the need for water."
+        ],
+        "answer": 2,
+        "explanation": "A growing tree can provide shade and habitat.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem asks for direct identification, recall, meaning or understanding of a stated concept.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e08q010",
+        "question": "A tree gives shade to people and shelter to birds. Which action best protects it?",
+        "options": [
+          "Break small branches for fun.",
+          "Pour rubbish around its roots.",
+          "Avoid damaging it and keep the area clean.",
+          "Pull off its leaves."
+        ],
+        "answer": 2,
+        "explanation": "Protecting the tree and keeping its surroundings clean help it and the living things that depend on it.",
+        "difficulty": "Challenge",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      }
+    ]
+  },
+  {
+    "chapter_no": 9,
+    "title": "Madhu’s Wish",
+    "key": "madhus-wish",
+    "section": "Story comprehension and water",
+    "questions": [
+      {
+        "id": "c3e09q001",
+        "question": "Madhu wants to save water while brushing her teeth. What should she do?",
+        "options": [
+          "turn off the tap while brushing",
+          "to hide the crayons",
+          "to make the task harder",
+          "to leave the work unfinished"
+        ],
+        "answer": 0,
+        "explanation": "Turn off the tap while brushing is the sensible answer in this madhu’s wish situation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e09q002",
+        "question": "Read: “Madhu wished for clean water near her home. She began by keeping the well area tidy.” Which action shows she is helping her wish come true?",
+        "options": [
+          "Waiting without doing anything",
+          "Keeping the well area clean",
+          "Wasting water",
+          "Throwing rubbish near the well"
+        ],
+        "answer": 1,
+        "explanation": "Keeping the well area clean is a practical step towards having a cleaner water source.",
+        "difficulty": "Challenge",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e09q003",
+        "question": "We should ______ water by turning off the tap.",
+        "options": [
+          "scatter",
+          "waste",
+          "conserve",
+          "spill"
+        ],
+        "answer": 2,
+        "explanation": "“conserve” correctly completes the sentence and reinforces the story comprehension and water vocabulary.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "needs-review",
+        "competencyTagReason": "No reliable cognitive-demand cue was found; the provisional label must be checked by an educator.",
+        "competencyConfidence": 0.4,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e09q004",
+        "question": "Choose the correctly written sentence about story comprehension and water.",
+        "options": [
+          "we can learn something useful from story comprehension and water.",
+          "We can learn something useful from story comprehension and water",
+          "Can learn something useful from story comprehension and water.",
+          "We can learn something useful from story comprehension and water."
+        ],
+        "answer": 3,
+        "explanation": "A complete sentence begins with a capital letter, has a subject and verb, and ends with suitable punctuation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e09q005",
+        "question": "Choose the best replacement for “very, very thirsty”.",
+        "options": [
+          "Parched",
+          "Tiny",
+          "Silent",
+          "Bright"
+        ],
+        "answer": 0,
+        "explanation": "“Parched” means extremely thirsty.",
+        "difficulty": "Hard",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e09q006",
+        "question": "Read: “The rain filled the tank, but the family used only what they needed.” What lesson does this give?",
+        "options": [
+          "Use all the water quickly.",
+          "Save water and avoid waste.",
+          "Leave taps running.",
+          "Rainwater cannot be stored."
+        ],
+        "answer": 1,
+        "explanation": "Using only the water they need shows that the family is saving water.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e09q007",
+        "question": "Which punctuation mark should end this question about Madhu?",
+        "options": [
+          "Full stop (.)",
+          "Comma (,)",
+          "Question mark (?)",
+          "Apostrophe (')"
+        ],
+        "answer": 2,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e09q008",
+        "question": "Which is the most polite way to ask about Madhu?",
+        "options": [
+          "Tell me now!",
+          "You must answer me.",
+          "I will not listen.",
+          "Could you tell me about Madhu, please?"
+        ],
+        "answer": 3,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e09q009",
+        "question": "Madhu’s well is clean, but the path to it is muddy after rain. Which improvement would help people reach it safely?",
+        "options": [
+          "Throw rubbish on the path.",
+          "Leave the mud untouched forever.",
+          "Make a safe, non-slippery path and keep drains clear.",
+          "Block the path with stones."
+        ],
+        "answer": 2,
+        "explanation": "A stable path and clear drainage reduce slipping and help people reach the well.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e09q010",
+        "question": "Madhu wants the well area to remain clean. Which plan is most likely to work every week?",
+        "options": [
+          "Clean it once and never check again.",
+          "Throw waste behind the well.",
+          "Ask neighbours to take turns cleaning and use a rubbish bin.",
+          "Wait for the wind to carry rubbish away."
+        ],
+        "answer": 2,
+        "explanation": "A shared routine and proper waste disposal help keep the area clean over time.",
+        "difficulty": "Challenge",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      }
+    ]
+  },
+  {
+    "chapter_no": 10,
+    "title": "Night",
+    "key": "night",
+    "section": "Poetry and sky vocabulary",
+    "questions": [
+      {
+        "id": "c3e10q001",
+        "question": "The sky is dark and the stars are visible. Which time is it most likely to be?",
+        "options": [
+          "to hide the crayons",
+          "night",
+          "to make the task harder",
+          "to leave the work unfinished"
+        ],
+        "answer": 1,
+        "explanation": "Night is the sensible answer in this night situation.",
+        "difficulty": "Easy",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e10q002",
+        "question": "Read: “The street grew quiet. A silver moon appeared, and tiny stars blinked above the roofs.” Which sense is used most clearly in “the street grew quiet”?",
+        "options": [
+          "Taste",
+          "Smell",
+          "Hearing",
+          "Touch"
+        ],
+        "answer": 2,
+        "explanation": "The word “quiet” describes what can be heard, so the sense is hearing.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e10q003",
+        "question": "Stars seem to ______ in the dark sky.",
+        "options": [
+          "boil",
+          "shout",
+          "melt",
+          "twinkle"
+        ],
+        "answer": 3,
+        "explanation": "“twinkle” correctly completes the sentence and reinforces the poetry and sky vocabulary vocabulary.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "needs-review",
+        "competencyTagReason": "No reliable cognitive-demand cue was found; the provisional label must be checked by an educator.",
+        "competencyConfidence": 0.4,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e10q004",
+        "question": "Choose the correctly written sentence about poetry and sky vocabulary.",
+        "options": [
+          "We can learn something useful from poetry and sky vocabulary.",
+          "we can learn something useful from poetry and sky vocabulary.",
+          "We can learn something useful from poetry and sky vocabulary",
+          "Can learn something useful from poetry and sky vocabulary."
+        ],
+        "answer": 0,
+        "explanation": "A complete sentence begins with a capital letter, has a subject and verb, and ends with suitable punctuation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e10q005",
+        "question": "Which pair of words rhymes?",
+        "options": [
+          "moon – star",
+          "light – night",
+          "dark – sky",
+          "cloud – rain"
+        ],
+        "answer": 1,
+        "explanation": "“Light” and “night” rhyme because they share the same ending sound.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e10q006",
+        "question": "Read: “The lamps glowed softly as the night became darker.” What does “softly” describe?",
+        "options": [
+          "Where the lamps stood",
+          "When the lamps were bought",
+          "How the lamps glowed",
+          "Who switched them on"
+        ],
+        "answer": 2,
+        "explanation": "“Softly” tells how the lamps glowed.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e10q007",
+        "question": "Which punctuation mark should end this question about night?",
+        "options": [
+          "Full stop (.)",
+          "Comma (,)",
+          "Apostrophe (')",
+          "Question mark (?)"
+        ],
+        "answer": 3,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e10q008",
+        "question": "Which is the most polite way to ask about night?",
+        "options": [
+          "Could you tell me about night, please?",
+          "Tell me now!",
+          "You must answer me.",
+          "I will not listen."
+        ],
+        "answer": 0,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e10q009",
+        "question": "The street becomes quiet and the lamps are switched on. What is the strongest clue that evening has arrived?",
+        "options": [
+          "A child is reading a book.",
+          "A door is painted blue.",
+          "A dog has four legs.",
+          "The lamps are shining as daylight fades."
+        ],
+        "answer": 3,
+        "explanation": "Lamps being switched on as daylight fades is a clue that evening is beginning.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem asks for direct identification, recall, meaning or understanding of a stated concept.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e10q010",
+        "question": "A poem describes the moon as a silver boat. Why might the poet use this comparison?",
+        "options": [
+          "To tell us the moon is made of metal.",
+          "To explain how boats are built.",
+          "To say that the moon is on the sea.",
+          "To help us picture the moon’s shape and shine."
+        ],
+        "answer": 3,
+        "explanation": "The comparison helps readers imagine the moon’s appearance.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "needs-review",
+        "competencyTagReason": "No reliable cognitive-demand cue was found; the provisional label must be checked by an educator.",
+        "competencyConfidence": 0.4,
+        "competencyTaggerVersion": "1.0.0"
+      }
+    ]
+  },
+  {
+    "chapter_no": 11,
+    "title": "Chanda Mama Counts the Stars",
+    "key": "chanda-mama-counts-the-stars",
+    "section": "Story comprehension and counting language",
+    "questions": [
+      {
+        "id": "c3e11q001",
+        "question": "A child counts stars in groups of five: 5, 10, 15, __. What comes next?",
+        "options": [
+          "to hide the crayons",
+          "to make the task harder",
+          "20",
+          "to leave the work unfinished"
+        ],
+        "answer": 2,
+        "explanation": "20 is the sensible answer in this chanda mama counts the stars situation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e11q002",
+        "question": "Read: “Leela counted 12 stars, then found 5 more between the clouds.” How many stars did she count altogether?",
+        "options": [
+          "7",
+          "15",
+          "20",
+          "17"
+        ],
+        "answer": 3,
+        "explanation": "12 + 5 = 17 stars altogether.",
+        "difficulty": "Challenge",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e11q003",
+        "question": "A repeated design is called a ______.",
+        "options": [
+          "pattern",
+          "pillow",
+          "window",
+          "ladder"
+        ],
+        "answer": 0,
+        "explanation": "“pattern” correctly completes the sentence and reinforces the story comprehension and counting language vocabulary.",
+        "difficulty": "Easy",
+        "competency": "analysis-evaluation-creation",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires inference, comparison, pattern recognition, evidence interpretation or evaluation.",
+        "competencyConfidence": 0.88,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e11q004",
+        "question": "Choose the correctly written sentence about story comprehension and counting language.",
+        "options": [
+          "we can learn something useful from story comprehension and counting language.",
+          "We can learn something useful from story comprehension and counting language.",
+          "We can learn something useful from story comprehension and counting language",
+          "Can learn something useful from story comprehension and counting language."
+        ],
+        "answer": 1,
+        "explanation": "A complete sentence begins with a capital letter, has a subject and verb, and ends with suitable punctuation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e11q005",
+        "question": "Which question would help a child learn more while watching the night sky?",
+        "options": [
+          "Can I count the same star twice?",
+          "Should I close my eyes all night?",
+          "Why do some stars look brighter than others?",
+          "Why is the sky always a table?"
+        ],
+        "answer": 2,
+        "explanation": "This open question invites observation and curiosity about why stars appear to have different brightness.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e11q006",
+        "question": "Read: “The child counted slowly, pointing to each star once.” Why is pointing useful?",
+        "options": [
+          "It makes stars brighter.",
+          "It changes the number of stars.",
+          "It makes the night shorter.",
+          "It helps avoid counting a star more than once."
+        ],
+        "answer": 3,
+        "explanation": "Checking instruments helps the team make sure the equipment is ready for the mission.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "needs-review",
+        "competencyTagReason": "No reliable cognitive-demand cue was found; the provisional label must be checked by an educator.",
+        "competencyConfidence": 0.4,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e11q007",
+        "question": "Which punctuation mark should end this question about Chanda Mama?",
+        "options": [
+          "Question mark (?)",
+          "Full stop (.)",
+          "Comma (,)",
+          "Apostrophe (')"
+        ],
+        "answer": 0,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e11q008",
+        "question": "Which is the most polite way to ask about Chanda Mama?",
+        "options": [
+          "Tell me now!",
+          "Could you tell me about Chanda Mama, please?",
+          "You must answer me.",
+          "I will not listen."
+        ],
+        "answer": 1,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e11q009",
+        "question": "Leela groups stars in sets of five. She makes 3 full groups and has 4 stars left. How many stars are there?",
+        "options": [
+          "15",
+          "17",
+          "20",
+          "19"
+        ],
+        "answer": 3,
+        "explanation": "Three groups of five make 15; add 4 more to get 19.",
+        "difficulty": "Challenge",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e11q010",
+        "question": "Leela counts 14 stars and then 9 more. Three stars were counted in both groups. How many different stars did she count?",
+        "options": [
+          "17",
+          "23",
+          "26",
+          "20"
+        ],
+        "answer": 3,
+        "explanation": "14 + 9 = 23 counts; subtract the 3 counted twice to get 20 different stars.",
+        "difficulty": "Challenge",
+        "competency": "application",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem requires using a concept, rule, procedure or formula in a supplied context.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      }
+    ]
+  },
+  {
+    "chapter_no": 12,
+    "title": "Chandrayaan",
+    "key": "chandrayaan",
+    "section": "Space vocabulary and science language",
+    "questions": [
+      {
+        "id": "c3e12q001",
+        "question": "A spacecraft is sent to study the Moon. What is its main purpose?",
+        "options": [
+          "to hide the crayons",
+          "to make the task harder",
+          "to leave the work unfinished",
+          "to collect information about the Moon"
+        ],
+        "answer": 3,
+        "explanation": "To collect information about the Moon is the sensible answer in this chandrayaan situation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem asks for direct identification, recall, meaning or understanding of a stated concept.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e12q002",
+        "question": "Read: “The spacecraft travelled beyond Earth and sent pictures back to scientists.” What is the main purpose of the pictures?",
+        "options": [
+          "To help scientists learn about space.",
+          "To decorate the spacecraft.",
+          "To make the journey shorter.",
+          "To replace the Moon."
+        ],
+        "answer": 0,
+        "explanation": "The spacecraft sends pictures back so scientists can study space.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem asks for direct identification, recall, meaning or understanding of a stated concept.",
+        "competencyConfidence": 0.82,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e12q003",
+        "question": "A spacecraft can travel in an ______ around a planet.",
+        "options": [
+          "kitchen",
+          "orbit",
+          "raincoat",
+          "garden"
+        ],
+        "answer": 1,
+        "explanation": "“orbit” correctly completes the sentence and reinforces the space vocabulary and science language vocabulary.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "needs-review",
+        "competencyTagReason": "No reliable cognitive-demand cue was found; the provisional label must be checked by an educator.",
+        "competencyConfidence": 0.4,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e12q004",
+        "question": "Choose the correctly written sentence about space vocabulary and science language.",
+        "options": [
+          "we can learn something useful from space vocabulary and science language.",
+          "We can learn something useful from space vocabulary and science language",
+          "We can learn something useful from space vocabulary and science language.",
+          "Can learn something useful from space vocabulary and science language."
+        ],
+        "answer": 2,
+        "explanation": "A complete sentence begins with a capital letter, has a subject and verb, and ends with suitable punctuation.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e12q005",
+        "question": "Choose the sentence with the correct subject–verb agreement.",
+        "options": [
+          "The spacecraft send pictures.",
+          "The spacecraft sending pictures.",
+          "The spacecraft are sends pictures.",
+          "The spacecraft sends pictures."
+        ],
+        "answer": 3,
+        "explanation": "“Spacecraft” is singular, so “sends” is the matching verb.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e12q006",
+        "question": "Read: “The team checked every instrument before launch. They wanted the mission to be safe.” Why did they check the instruments?",
+        "options": [
+          "To make sure the equipment was ready.",
+          "To make the spacecraft heavier.",
+          "To delay the launch for fun.",
+          "To change the colour of space."
+        ],
+        "answer": 0,
+        "explanation": "Checking instruments helps the team make sure the equipment is ready for the mission.",
+        "difficulty": "Hard",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "needs-review",
+        "competencyTagReason": "No reliable cognitive-demand cue was found; the provisional label must be checked by an educator.",
+        "competencyConfidence": 0.4,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e12q007",
+        "question": "Which punctuation mark should end this question about Chandrayaan?",
+        "options": [
+          "Full stop (.)",
+          "Question mark (?)",
+          "Comma (,)",
+          "Apostrophe (')"
+        ],
+        "answer": 1,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e12q008",
+        "question": "Which is the most polite way to ask about Chandrayaan?",
+        "options": [
+          "Tell me now!",
+          "You must answer me.",
+          "Could you tell me about Chandrayaan, please?",
+          "I will not listen."
+        ],
+        "answer": 2,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e12q009",
+        "question": "A spacecraft camera takes a blurry picture. What should the team do before using it to study the Moon?",
+        "options": [
+          "Guess what the picture shows.",
+          "Delete every other picture.",
+          "Stop sending information to Earth.",
+          "Check the camera and take another clear picture."
+        ],
+        "answer": 3,
+        "explanation": "A clear image is needed to study surface details reliably.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      },
+      {
+        "id": "c3e12q010",
+        "question": "A spacecraft sends pictures of the Moon to scientists. What can the pictures help scientists do?",
+        "options": [
+          "Change the Moon’s shape.",
+          "Stop the spacecraft moving.",
+          "Make the journey shorter.",
+          "Study the Moon’s surface."
+        ],
+        "answer": 3,
+        "explanation": "Photographs give scientists information they can study.",
+        "difficulty": "Challenge",
+        "competency": "knowledge-understanding",
+        "competencyTagStatus": "inferred",
+        "competencyTagReason": "The stem appears to ask for direct identification or understanding; verify against the intended learning outcome.",
+        "competencyConfidence": 0.66,
+        "competencyTaggerVersion": "1.0.0"
+      }
+    ]
+  }
+]

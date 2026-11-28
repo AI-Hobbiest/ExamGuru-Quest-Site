@@ -1,0 +1,143 @@
+/* Responsive shared navigation shell for ExamGuru Quest. */
+:root{--c10-sidebar-width:252px;--c10-shell-bg:#211b48;--c10-shell-line:rgba(255,255,255,.14);--c10-shell-text:#e9e5ff}
+body.c10-shell-ready{padding-left:var(--c10-sidebar-width)}
+.c10-sidebar{position:fixed;inset:0 auto 0 0;width:var(--c10-sidebar-width);z-index:1000;background:linear-gradient(180deg,#211b48 0%,#2c245e 58%,#352b73 100%);color:#fff;display:flex;flex-direction:column;padding:19px 14px 14px;box-shadow:8px 0 30px rgba(25,17,65,.12);overflow-y:auto}
+.c10-brand{display:flex;align-items:center;gap:10px;padding:3px 8px 18px;border-bottom:1px solid var(--c10-shell-line);margin-bottom:15px}
+.c10-brand-mark{height:38px;width:38px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.35);background:linear-gradient(145deg,#ff6b70,#8a65f0);color:#fff;font-size:.78rem;font-weight:950;border-radius:12px;flex:none}
+.c10-brand-copy{min-width:0}
+.c10-brand-title{font-size:1rem;font-weight:900;line-height:1.15}
+.c10-brand-sub{font-size:.7rem;color:#cbc6ff;margin-top:3px}
+.c10-nav-label{font-size:.66rem;font-weight:850;letter-spacing:.14em;text-transform:uppercase;color:#bcb6ee;padding:11px 10px 6px}
+.c10-nav-list{display:grid;gap:4px}
+.c10-nav-link{display:flex;gap:11px;align-items:center;min-height:42px;padding:9px 11px;border:1px solid transparent;border-radius:12px;text-decoration:none;color:#e7e4ff;font-size:.87rem;font-weight:680;transition:background .16s ease,border-color .16s ease;line-height:1.25}
+.c10-sidebar a.c10-nav-link,.c10-sidebar a.c10-nav-link:visited{color:#e7e4ff}
+.c10-sidebar a.c10-nav-link:hover,.c10-sidebar a.c10-nav-link:focus-visible{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.13);color:#fff}
+.c10-sidebar a.c10-nav-link.active,.c10-sidebar a.c10-nav-link.active:visited{background:linear-gradient(100deg,rgba(255,107,112,.2),rgba(143,112,255,.23));border-color:rgba(211,202,255,.27);color:#fff}
+
+.c10-nav-icon{width:22px;display:inline-grid;place-items:center;font-size:1.05rem;flex:none}
+.c10-nav-divider{height:1px;background:var(--c10-shell-line);margin:12px 8px 7px}
+.c10-sidebar-bottom{margin-top:auto;padding:13px 9px 3px;color:#bcb6ee;font-size:.72rem;line-height:1.6}
+.c10-mobilebar{display:none}
+.c10-menu-toggle{display:none}
+.c10-nav-scrim{display:none}
+.c10-shell-credit{display:block;margin-top:5px;color:#fff;font-weight:800}
+.c10-page-anchor{scroll-margin-top:72px}
+@media(max-width:1100px){
+  body.c10-shell-ready{padding-left:0;padding-top:60px}
+  .c10-mobilebar{position:fixed;inset:0 0 auto 0;height:60px;z-index:1001;display:flex;align-items:center;gap:12px;padding:0 14px;background:#211b48;color:#fff;box-shadow:0 6px 20px rgba(25,17,65,.18)}
+  .c10-menu-toggle{display:inline-grid;place-items:center;height:40px;width:42px;border:1px solid rgba(255,255,255,.24);border-radius:12px;background:rgba(255,255,255,.09);color:#fff;font-size:1.35rem;cursor:pointer;flex:none}
+  .c10-mobile-title{font-size:.95rem;font-weight:850}
+  .c10-mobile-sub{font-size:.68rem;color:#d0cbff;margin-top:2px}
+  .c10-sidebar{inset:60px auto 0 0;height:auto;transform:translateX(-105%);transition:transform .22s ease;width:min(290px,86vw);padding-top:16px}
+  .c10-sidebar.open{transform:translateX(0)}
+  .c10-nav-scrim{display:block;position:fixed;inset:60px 0 0;z-index:999;background:rgba(19,14,45,.42);opacity:0;pointer-events:none;transition:opacity .18s ease}
+  .c10-nav-scrim.visible{opacity:1;pointer-events:auto}
+  body.c10-menu-open{overflow:hidden}
+}
+@media(prefers-reduced-motion:reduce){.c10-sidebar,.c10-nav-scrim,.c10-nav-link{transition:none}}
+
+.c10-nav-action{width:100%;text-align:left;cursor:pointer;font:inherit;background:transparent}
+.c10-nav-action:disabled{opacity:.55;cursor:wait}
+
+
+/* Refined navigation: slim themed scrollbar and predictable header/sidebar geometry. */
+.c10-sidebar{scrollbar-width:thin;scrollbar-color:rgba(205,197,255,.62) transparent;overscroll-behavior:contain}
+.c10-sidebar::-webkit-scrollbar{width:6px}
+.c10-sidebar::-webkit-scrollbar-track{background:transparent;margin:10px 0}
+.c10-sidebar::-webkit-scrollbar-thumb{background:rgba(205,197,255,.42);border-radius:999px;border:1px solid transparent;background-clip:padding-box}
+.c10-sidebar::-webkit-scrollbar-thumb:hover{background:rgba(229,224,255,.8);background-clip:padding-box}
+.c10-brand-mark{overflow:hidden;border:0;background:transparent;border-radius:10px}
+.c10-brand-mark img{display:block;width:100%;height:100%;object-fit:contain}
+.c10-mobilebar{background:linear-gradient(100deg,#eeeaff,#e5e0ff)!important;color:#211b48!important}
+.c10-mobile-sub{color:#655a9b!important}
+.c10-menu-toggle{border-color:rgba(83,64,160,.18)!important;background:rgba(255,255,255,.55)!important;color:#4533bd!important}
+@media(max-width:1100px){body.c10-shell-ready{padding-top:64px}.c10-mobilebar{height:64px}.c10-sidebar{inset:64px auto 0 0}.c10-nav-scrim{inset:64px 0 0}}
+
+/* Persistent learner identity directly below the product brand. */
+.c10-sidebar-top{position:sticky;top:-19px;z-index:5;margin:-19px -14px 10px;padding:19px 14px 0;background:linear-gradient(180deg,#211b48 0%,#2c245e 100%)}
+.c10-brand{margin-bottom:10px}
+.c10-user-card{margin:0 3px 10px;padding:10px 11px;border:1px solid rgba(220,214,255,.22);border-radius:12px;background:rgba(255,255,255,.07);min-width:0}
+.c10-user-name{font-size:.82rem;font-weight:850;color:#fff;overflow-wrap:anywhere;line-height:1.35}
+.c10-user-class{font-size:.72rem;color:#cfc9ff;margin-top:4px;font-weight:700}
+.c10-mobile-title{font-weight:900}
+
+/* Student portal shell: light botanical-lavender surfaces with indigo navigation. */
+:root{--c10-shell-bg:#edf3ef;--c10-shell-line:rgba(64,59,140,.13);--c10-shell-text:#303653}
+.c10-sidebar{background:linear-gradient(180deg,#edf6ef 0%,#f3f1fb 58%,#eeeafa 100%)!important;color:#28304c!important;box-shadow:7px 0 26px rgba(38,45,83,.08)!important;border-right:1px solid #dfe5e8}
+.c10-brand{border-bottom-color:rgba(64,59,140,.13)!important}.c10-brand-title{color:#25285a!important}.c10-brand-sub{color:#6e7090!important}.c10-nav-label{color:#68628f!important}
+.c10-sidebar a.c10-nav-link,.c10-sidebar a.c10-nav-link:visited{color:#3d4560!important}
+.c10-sidebar a.c10-nav-link:hover,.c10-sidebar a.c10-nav-link:focus-visible{background:rgba(255,255,255,.78)!important;border-color:rgba(64,59,140,.13)!important;color:#2e3268!important}
+.c10-sidebar a.c10-nav-link.active,.c10-sidebar a.c10-nav-link.active:visited{background:linear-gradient(100deg,#e6f3e9 0%,#eae5f8 100%)!important;border-color:#d5d0eb!important;color:#39347f!important;box-shadow:inset 3px 0 0 #6659b2}
+.c10-nav-divider{background:rgba(64,59,140,.13)!important}.c10-sidebar-bottom{color:#70738d!important}
+.c10-sidebar-top{background:linear-gradient(180deg,#edf6ef 0%,#f2effb 100%)!important}.c10-user-card{border-color:rgba(64,59,140,.15)!important;background:rgba(255,255,255,.68)!important}.c10-user-name{color:#2d3156!important}.c10-user-class{color:#6b6593!important}
+.c10-mobilebar{background:linear-gradient(100deg,#ece8fa,#f8f7fc 60%,#eaf4ed)!important;color:#292d58!important;border-bottom:1px solid #e0e2ed;box-shadow:0 5px 18px rgba(38,43,87,.08)!important}
+.c10-mobile-title{color:#292d58!important}.c10-mobile-sub{color:#6c6b8c!important}.c10-menu-toggle{border-color:rgba(64,59,140,.18)!important;background:rgba(255,255,255,.75)!important;color:#403b8c!important}.c10-nav-scrim.visible{background:rgba(34,35,69,.32)!important}
+.c10-sidebar{scrollbar-color:rgba(105,94,170,.35) transparent}.c10-sidebar::-webkit-scrollbar-thumb{background:rgba(105,94,170,.3);background-clip:padding-box}.c10-sidebar::-webkit-scrollbar-thumb:hover{background:rgba(105,94,170,.55);background-clip:padding-box}
+
+
+/* Persistent ExamGuru top bar: stays visible alongside the fixed sidebar. */
+body.c10-shell-ready{padding-top:64px}
+.c10-mobilebar{
+  position:fixed;inset:0 0 auto var(--c10-sidebar-width);height:64px;z-index:1001;
+  display:flex;align-items:center;gap:12px;padding:0 22px;
+  background:linear-gradient(100deg,#ece8fa,#f8f7fc 60%,#eaf4ed);
+  color:#292d58;border-bottom:1px solid #e0e2ed;
+  box-shadow:0 5px 18px rgba(38,43,87,.08);
+}
+.c10-menu-toggle{display:none}
+.c10-topbar-brand{display:inline-flex;align-items:center;justify-content:center;flex:none;width:36px;height:36px}
+.c10-topbar-brand img{display:block;width:100%;height:100%;object-fit:contain}
+.c10-topbar-copy{min-width:0;flex:1;display:flex;flex-direction:column}
+.c10-header-signout{
+  flex:none;min-height:38px;padding:8px 13px;border:1px solid rgba(64,59,140,.2);
+  border-radius:11px;background:rgba(255,255,255,.78);color:#403b8c;
+  font:inherit;font-size:.82rem;font-weight:850;cursor:pointer;
+}
+.c10-header-signout:hover,.c10-header-signout:focus-visible{background:#fff;border-color:rgba(64,59,140,.38)}
+.c10-header-signout:disabled{opacity:.6;cursor:wait}
+@media(max-width:1100px){
+  body.c10-shell-ready{padding-left:0;padding-top:64px}
+  .c10-mobilebar{left:0;padding:0 12px;gap:9px}
+  .c10-menu-toggle{display:inline-grid;place-items:center;height:40px;width:42px;border:1px solid rgba(64,59,140,.18);border-radius:12px;background:rgba(255,255,255,.75);color:#403b8c;font-size:1.3rem;cursor:pointer;flex:none}
+  .c10-topbar-brand{width:30px;height:30px}
+  .c10-mobile-title{font-size:.9rem}
+  .c10-mobile-sub{font-size:.64rem;max-width:42vw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .c10-header-signout{min-height:36px;padding:7px 10px;font-size:.75rem}
+}
+@media(max-width:380px){
+  .c10-topbar-brand{display:none}
+  .c10-header-signout{padding:6px 8px;font-size:.7rem}
+}
+
+
+/* Grouped, accessible sidebar navigation. */
+.c10-nav-list{gap:7px}
+.c10-nav-group{min-width:0}
+.c10-nav-group-trigger{
+  display:flex;align-items:center;gap:11px;width:100%;min-height:43px;padding:9px 11px;
+  border:1px solid transparent;border-radius:12px;background:transparent;color:#3d4560;
+  text-align:left;font:inherit;font-size:.87rem;font-weight:780;cursor:pointer;
+}
+.c10-nav-group-trigger:hover,.c10-nav-group-trigger:focus-visible{background:rgba(255,255,255,.78);border-color:rgba(64,59,140,.13);outline:none}
+.c10-nav-group.is-active>.c10-nav-group-trigger{background:rgba(255,255,255,.58);color:#39347f}
+.c10-nav-group-label{flex:1;min-width:0}
+.c10-nav-chevron{font-size:1.05rem;color:#77739a;transition:transform .16s ease}
+.c10-nav-group-trigger[aria-expanded="true"] .c10-nav-chevron{transform:rotate(180deg)}
+.c10-nav-submenu{display:grid;gap:3px;margin:3px 0 5px 17px;padding:3px 0 3px 10px;border-left:1px solid rgba(64,59,140,.16)}
+.c10-nav-submenu[hidden]{display:none}
+.c10-nav-submenu .c10-nav-link{min-height:37px;padding:7px 9px;font-size:.81rem;font-weight:650}
+.c10-nav-submenu .c10-nav-icon{width:19px;font-size:.94rem}
+.c10-nav-group-trigger:focus-visible,.c10-nav-submenu .c10-nav-link:focus-visible{outline:2px solid #796bc3;outline-offset:2px}
+.c10-nav-link-label{min-width:0}
+@media(max-width:1100px){.c10-nav-group-trigger{min-height:42px}}
+@media(prefers-reduced-motion:reduce){.c10-nav-chevron{transition:none}}
+/* Disabled entrance-exam entries are informational only until their paper libraries are released. */
+.c10-sidebar .c10-nav-link.is-disabled{color:#85899e!important;cursor:not-allowed;opacity:.9;background:transparent!important;border-color:transparent!important}
+.c10-nav-link-status{margin-left:auto;padding:3px 6px;border-radius:999px;background:#eeedf4;color:#777b91;font-size:.61rem;font-weight:850;line-height:1.2;white-space:nowrap}
+
+/* Local RBAC workspace selector, visible only during the browser-only test phase. */
+.c10-role-switcher{flex:none;max-width:190px;min-width:150px;min-height:38px;padding:7px 30px 7px 11px;border:1px solid rgba(64,59,140,.2);border-radius:11px;background:rgba(255,255,255,.82);color:#403b8c;font:inherit;font-size:.78rem;font-weight:800;cursor:pointer}
+.c10-role-switcher:focus-visible{outline:2px solid #796bc3;outline-offset:2px}
+body.eg-theme-dark.c10-shell-ready .c10-role-switcher{background:#354D61;color:#E8EEF4;border-color:#526578}
+@media(max-width:700px){.c10-role-switcher{max-width:145px;min-width:112px;padding:6px 22px 6px 8px;font-size:.7rem}}
+@media(max-width:380px){.c10-role-switcher{max-width:120px;min-width:100px}}
